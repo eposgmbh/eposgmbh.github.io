@@ -1,0 +1,1745 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Epos.CmdLine
+  name: Epos.CmdLine
+  href: bin/Metadata/Epos.CmdLine.html
+  commentId: N:Epos.CmdLine
+  fullName: Epos.CmdLine
+  nameWithType: Epos.CmdLine
+- uid: Epos.CmdLine.CmdLineConfiguration
+  name: CmdLineConfiguration
+  href: bin/Metadata/Epos.CmdLine.CmdLineConfiguration.html
+  commentId: T:Epos.CmdLine.CmdLineConfiguration
+  fullName: Epos.CmdLine.CmdLineConfiguration
+  nameWithType: CmdLineConfiguration
+- uid: Epos.CmdLine.CmdLineConfiguration.ErrorAction
+  name: ErrorAction
+  href: bin/Metadata/Epos.CmdLine.CmdLineConfiguration.html#Epos_CmdLine_CmdLineConfiguration_ErrorAction
+  commentId: P:Epos.CmdLine.CmdLineConfiguration.ErrorAction
+  fullName: Epos.CmdLine.CmdLineConfiguration.ErrorAction
+  nameWithType: CmdLineConfiguration.ErrorAction
+- uid: Epos.CmdLine.CmdLineConfiguration.ErrorAction*
+  name: ErrorAction
+  href: bin/Metadata/Epos.CmdLine.CmdLineConfiguration.html#Epos_CmdLine_CmdLineConfiguration_ErrorAction_
+  commentId: Overload:Epos.CmdLine.CmdLineConfiguration.ErrorAction
+  fullName: Epos.CmdLine.CmdLineConfiguration.ErrorAction
+  nameWithType: CmdLineConfiguration.ErrorAction
+- uid: Epos.CmdLine.CmdLineConfiguration.UsageTextWriter
+  name: UsageTextWriter
+  href: bin/Metadata/Epos.CmdLine.CmdLineConfiguration.html#Epos_CmdLine_CmdLineConfiguration_UsageTextWriter
+  commentId: P:Epos.CmdLine.CmdLineConfiguration.UsageTextWriter
+  fullName: Epos.CmdLine.CmdLineConfiguration.UsageTextWriter
+  nameWithType: CmdLineConfiguration.UsageTextWriter
+- uid: Epos.CmdLine.CmdLineConfiguration.UsageTextWriter*
+  name: UsageTextWriter
+  href: bin/Metadata/Epos.CmdLine.CmdLineConfiguration.html#Epos_CmdLine_CmdLineConfiguration_UsageTextWriter_
+  commentId: Overload:Epos.CmdLine.CmdLineConfiguration.UsageTextWriter
+  fullName: Epos.CmdLine.CmdLineConfiguration.UsageTextWriter
+  nameWithType: CmdLineConfiguration.UsageTextWriter
+- uid: Epos.CmdLine.CmdLineDefinition
+  name: CmdLineDefinition
+  href: bin/Metadata/Epos.CmdLine.CmdLineDefinition.html
+  commentId: T:Epos.CmdLine.CmdLineDefinition
+  fullName: Epos.CmdLine.CmdLineDefinition
+  nameWithType: CmdLineDefinition
+- uid: Epos.CmdLine.CmdLineDefinition.#ctor
+  name: CmdLineDefinition()
+  href: bin/Metadata/Epos.CmdLine.CmdLineDefinition.html#Epos_CmdLine_CmdLineDefinition__ctor
+  commentId: M:Epos.CmdLine.CmdLineDefinition.#ctor
+  fullName: Epos.CmdLine.CmdLineDefinition.CmdLineDefinition()
+  nameWithType: CmdLineDefinition.CmdLineDefinition()
+- uid: Epos.CmdLine.CmdLineDefinition.#ctor*
+  name: CmdLineDefinition
+  href: bin/Metadata/Epos.CmdLine.CmdLineDefinition.html#Epos_CmdLine_CmdLineDefinition__ctor_
+  commentId: Overload:Epos.CmdLine.CmdLineDefinition.#ctor
+  fullName: Epos.CmdLine.CmdLineDefinition.CmdLineDefinition
+  nameWithType: CmdLineDefinition.CmdLineDefinition
+- uid: Epos.CmdLine.CmdLineDefinition.Configuration
+  name: Configuration
+  href: bin/Metadata/Epos.CmdLine.CmdLineDefinition.html#Epos_CmdLine_CmdLineDefinition_Configuration
+  commentId: P:Epos.CmdLine.CmdLineDefinition.Configuration
+  fullName: Epos.CmdLine.CmdLineDefinition.Configuration
+  nameWithType: CmdLineDefinition.Configuration
+- uid: Epos.CmdLine.CmdLineDefinition.Configuration*
+  name: Configuration
+  href: bin/Metadata/Epos.CmdLine.CmdLineDefinition.html#Epos_CmdLine_CmdLineDefinition_Configuration_
+  commentId: Overload:Epos.CmdLine.CmdLineDefinition.Configuration
+  fullName: Epos.CmdLine.CmdLineDefinition.Configuration
+  nameWithType: CmdLineDefinition.Configuration
+- uid: Epos.CmdLine.CmdLineDefinition.HasDifferentiatedCommands
+  name: HasDifferentiatedCommands
+  href: bin/Metadata/Epos.CmdLine.CmdLineDefinition.html#Epos_CmdLine_CmdLineDefinition_HasDifferentiatedCommands
+  commentId: P:Epos.CmdLine.CmdLineDefinition.HasDifferentiatedCommands
+  fullName: Epos.CmdLine.CmdLineDefinition.HasDifferentiatedCommands
+  nameWithType: CmdLineDefinition.HasDifferentiatedCommands
+- uid: Epos.CmdLine.CmdLineDefinition.HasDifferentiatedCommands*
+  name: HasDifferentiatedCommands
+  href: bin/Metadata/Epos.CmdLine.CmdLineDefinition.html#Epos_CmdLine_CmdLineDefinition_HasDifferentiatedCommands_
+  commentId: Overload:Epos.CmdLine.CmdLineDefinition.HasDifferentiatedCommands
+  fullName: Epos.CmdLine.CmdLineDefinition.HasDifferentiatedCommands
+  nameWithType: CmdLineDefinition.HasDifferentiatedCommands
+- uid: Epos.CmdLine.CmdLineDefinition.Name
+  name: Name
+  href: bin/Metadata/Epos.CmdLine.CmdLineDefinition.html#Epos_CmdLine_CmdLineDefinition_Name
+  commentId: P:Epos.CmdLine.CmdLineDefinition.Name
+  fullName: Epos.CmdLine.CmdLineDefinition.Name
+  nameWithType: CmdLineDefinition.Name
+- uid: Epos.CmdLine.CmdLineDefinition.Name*
+  name: Name
+  href: bin/Metadata/Epos.CmdLine.CmdLineDefinition.html#Epos_CmdLine_CmdLineDefinition_Name_
+  commentId: Overload:Epos.CmdLine.CmdLineDefinition.Name
+  fullName: Epos.CmdLine.CmdLineDefinition.Name
+  nameWithType: CmdLineDefinition.Name
+- uid: Epos.CmdLine.CmdLineDefinition.ShowHelp
+  name: ShowHelp()
+  href: bin/Metadata/Epos.CmdLine.CmdLineDefinition.html#Epos_CmdLine_CmdLineDefinition_ShowHelp
+  commentId: M:Epos.CmdLine.CmdLineDefinition.ShowHelp
+  fullName: Epos.CmdLine.CmdLineDefinition.ShowHelp()
+  nameWithType: CmdLineDefinition.ShowHelp()
+- uid: Epos.CmdLine.CmdLineDefinition.ShowHelp(System.String)
+  name: ShowHelp(String)
+  href: bin/Metadata/Epos.CmdLine.CmdLineDefinition.html#Epos_CmdLine_CmdLineDefinition_ShowHelp_System_String_
+  commentId: M:Epos.CmdLine.CmdLineDefinition.ShowHelp(System.String)
+  fullName: Epos.CmdLine.CmdLineDefinition.ShowHelp(System.String)
+  nameWithType: CmdLineDefinition.ShowHelp(String)
+- uid: Epos.CmdLine.CmdLineDefinition.ShowHelp*
+  name: ShowHelp
+  href: bin/Metadata/Epos.CmdLine.CmdLineDefinition.html#Epos_CmdLine_CmdLineDefinition_ShowHelp_
+  commentId: Overload:Epos.CmdLine.CmdLineDefinition.ShowHelp
+  fullName: Epos.CmdLine.CmdLineDefinition.ShowHelp
+  nameWithType: CmdLineDefinition.ShowHelp
+- uid: Epos.CmdLine.CmdLineDefinition.Subcommands
+  name: Subcommands
+  href: bin/Metadata/Epos.CmdLine.CmdLineDefinition.html#Epos_CmdLine_CmdLineDefinition_Subcommands
+  commentId: P:Epos.CmdLine.CmdLineDefinition.Subcommands
+  fullName: Epos.CmdLine.CmdLineDefinition.Subcommands
+  nameWithType: CmdLineDefinition.Subcommands
+- uid: Epos.CmdLine.CmdLineDefinition.Subcommands*
+  name: Subcommands
+  href: bin/Metadata/Epos.CmdLine.CmdLineDefinition.html#Epos_CmdLine_CmdLineDefinition_Subcommands_
+  commentId: Overload:Epos.CmdLine.CmdLineDefinition.Subcommands
+  fullName: Epos.CmdLine.CmdLineDefinition.Subcommands
+  nameWithType: CmdLineDefinition.Subcommands
+- uid: Epos.CmdLine.CmdLineDefinition.Try(System.String[])
+  name: Try(String[])
+  href: bin/Metadata/Epos.CmdLine.CmdLineDefinition.html#Epos_CmdLine_CmdLineDefinition_Try_System_String___
+  commentId: M:Epos.CmdLine.CmdLineDefinition.Try(System.String[])
+  name.vb: Try(String())
+  fullName: Epos.CmdLine.CmdLineDefinition.Try(System.String[])
+  fullName.vb: Epos.CmdLine.CmdLineDefinition.Try(System.String())
+  nameWithType: CmdLineDefinition.Try(String[])
+  nameWithType.vb: CmdLineDefinition.Try(String())
+- uid: Epos.CmdLine.CmdLineDefinition.Try*
+  name: Try
+  href: bin/Metadata/Epos.CmdLine.CmdLineDefinition.html#Epos_CmdLine_CmdLineDefinition_Try_
+  commentId: Overload:Epos.CmdLine.CmdLineDefinition.Try
+  fullName: Epos.CmdLine.CmdLineDefinition.Try
+  nameWithType: CmdLineDefinition.Try
+- uid: Epos.CmdLine.CmdLineOption
+  name: CmdLineOption
+  href: bin/Metadata/Epos.CmdLine.CmdLineOption.html
+  commentId: T:Epos.CmdLine.CmdLineOption
+  fullName: Epos.CmdLine.CmdLineOption
+  nameWithType: CmdLineOption
+- uid: Epos.CmdLine.CmdLineOption.#ctor(System.Type,System.Char,System.String)
+  name: CmdLineOption(Type, Char, String)
+  href: bin/Metadata/Epos.CmdLine.CmdLineOption.html#Epos_CmdLine_CmdLineOption__ctor_System_Type_System_Char_System_String_
+  commentId: M:Epos.CmdLine.CmdLineOption.#ctor(System.Type,System.Char,System.String)
+  fullName: Epos.CmdLine.CmdLineOption.CmdLineOption(System.Type, System.Char, System.String)
+  nameWithType: CmdLineOption.CmdLineOption(Type, Char, String)
+- uid: Epos.CmdLine.CmdLineOption.#ctor*
+  name: CmdLineOption
+  href: bin/Metadata/Epos.CmdLine.CmdLineOption.html#Epos_CmdLine_CmdLineOption__ctor_
+  commentId: Overload:Epos.CmdLine.CmdLineOption.#ctor
+  fullName: Epos.CmdLine.CmdLineOption.CmdLineOption
+  nameWithType: CmdLineOption.CmdLineOption
+- uid: Epos.CmdLine.CmdLineOption.DataType
+  name: DataType
+  href: bin/Metadata/Epos.CmdLine.CmdLineOption.html#Epos_CmdLine_CmdLineOption_DataType
+  commentId: P:Epos.CmdLine.CmdLineOption.DataType
+  fullName: Epos.CmdLine.CmdLineOption.DataType
+  nameWithType: CmdLineOption.DataType
+- uid: Epos.CmdLine.CmdLineOption.DataType*
+  name: DataType
+  href: bin/Metadata/Epos.CmdLine.CmdLineOption.html#Epos_CmdLine_CmdLineOption_DataType_
+  commentId: Overload:Epos.CmdLine.CmdLineOption.DataType
+  fullName: Epos.CmdLine.CmdLineOption.DataType
+  nameWithType: CmdLineOption.DataType
+- uid: Epos.CmdLine.CmdLineOption.Description
+  name: Description
+  href: bin/Metadata/Epos.CmdLine.CmdLineOption.html#Epos_CmdLine_CmdLineOption_Description
+  commentId: P:Epos.CmdLine.CmdLineOption.Description
+  fullName: Epos.CmdLine.CmdLineOption.Description
+  nameWithType: CmdLineOption.Description
+- uid: Epos.CmdLine.CmdLineOption.Description*
+  name: Description
+  href: bin/Metadata/Epos.CmdLine.CmdLineOption.html#Epos_CmdLine_CmdLineOption_Description_
+  commentId: Overload:Epos.CmdLine.CmdLineOption.Description
+  fullName: Epos.CmdLine.CmdLineOption.Description
+  nameWithType: CmdLineOption.Description
+- uid: Epos.CmdLine.CmdLineOption.IsSwitch
+  name: IsSwitch
+  href: bin/Metadata/Epos.CmdLine.CmdLineOption.html#Epos_CmdLine_CmdLineOption_IsSwitch
+  commentId: P:Epos.CmdLine.CmdLineOption.IsSwitch
+  fullName: Epos.CmdLine.CmdLineOption.IsSwitch
+  nameWithType: CmdLineOption.IsSwitch
+- uid: Epos.CmdLine.CmdLineOption.IsSwitch*
+  name: IsSwitch
+  href: bin/Metadata/Epos.CmdLine.CmdLineOption.html#Epos_CmdLine_CmdLineOption_IsSwitch_
+  commentId: Overload:Epos.CmdLine.CmdLineOption.IsSwitch
+  fullName: Epos.CmdLine.CmdLineOption.IsSwitch
+  nameWithType: CmdLineOption.IsSwitch
+- uid: Epos.CmdLine.CmdLineOption.Letter
+  name: Letter
+  href: bin/Metadata/Epos.CmdLine.CmdLineOption.html#Epos_CmdLine_CmdLineOption_Letter
+  commentId: P:Epos.CmdLine.CmdLineOption.Letter
+  fullName: Epos.CmdLine.CmdLineOption.Letter
+  nameWithType: CmdLineOption.Letter
+- uid: Epos.CmdLine.CmdLineOption.Letter*
+  name: Letter
+  href: bin/Metadata/Epos.CmdLine.CmdLineOption.html#Epos_CmdLine_CmdLineOption_Letter_
+  commentId: Overload:Epos.CmdLine.CmdLineOption.Letter
+  fullName: Epos.CmdLine.CmdLineOption.Letter
+  nameWithType: CmdLineOption.Letter
+- uid: Epos.CmdLine.CmdLineOption.LongName
+  name: LongName
+  href: bin/Metadata/Epos.CmdLine.CmdLineOption.html#Epos_CmdLine_CmdLineOption_LongName
+  commentId: P:Epos.CmdLine.CmdLineOption.LongName
+  fullName: Epos.CmdLine.CmdLineOption.LongName
+  nameWithType: CmdLineOption.LongName
+- uid: Epos.CmdLine.CmdLineOption.LongName*
+  name: LongName
+  href: bin/Metadata/Epos.CmdLine.CmdLineOption.html#Epos_CmdLine_CmdLineOption_LongName_
+  commentId: Overload:Epos.CmdLine.CmdLineOption.LongName
+  fullName: Epos.CmdLine.CmdLineOption.LongName
+  nameWithType: CmdLineOption.LongName
+- uid: Epos.CmdLine.CmdLineOption.ToCmdLineString
+  name: ToCmdLineString()
+  href: bin/Metadata/Epos.CmdLine.CmdLineOption.html#Epos_CmdLine_CmdLineOption_ToCmdLineString
+  commentId: M:Epos.CmdLine.CmdLineOption.ToCmdLineString
+  fullName: Epos.CmdLine.CmdLineOption.ToCmdLineString()
+  nameWithType: CmdLineOption.ToCmdLineString()
+- uid: Epos.CmdLine.CmdLineOption.ToCmdLineString*
+  name: ToCmdLineString
+  href: bin/Metadata/Epos.CmdLine.CmdLineOption.html#Epos_CmdLine_CmdLineOption_ToCmdLineString_
+  commentId: Overload:Epos.CmdLine.CmdLineOption.ToCmdLineString
+  fullName: Epos.CmdLine.CmdLineOption.ToCmdLineString
+  nameWithType: CmdLineOption.ToCmdLineString
+- uid: Epos.CmdLine.CmdLineOption.ToString
+  name: ToString()
+  href: bin/Metadata/Epos.CmdLine.CmdLineOption.html#Epos_CmdLine_CmdLineOption_ToString
+  commentId: M:Epos.CmdLine.CmdLineOption.ToString
+  fullName: Epos.CmdLine.CmdLineOption.ToString()
+  nameWithType: CmdLineOption.ToString()
+- uid: Epos.CmdLine.CmdLineOption.ToString*
+  name: ToString
+  href: bin/Metadata/Epos.CmdLine.CmdLineOption.html#Epos_CmdLine_CmdLineOption_ToString_
+  commentId: Overload:Epos.CmdLine.CmdLineOption.ToString
+  fullName: Epos.CmdLine.CmdLineOption.ToString
+  nameWithType: CmdLineOption.ToString
+- uid: Epos.CmdLine.CmdLineOption`1
+  name: CmdLineOption<T>
+  href: bin/Metadata/Epos.CmdLine.CmdLineOption-1.html
+  commentId: T:Epos.CmdLine.CmdLineOption`1
+  name.vb: CmdLineOption(Of T)
+  fullName: Epos.CmdLine.CmdLineOption<T>
+  fullName.vb: Epos.CmdLine.CmdLineOption(Of T)
+  nameWithType: CmdLineOption<T>
+  nameWithType.vb: CmdLineOption(Of T)
+- uid: Epos.CmdLine.CmdLineOption`1.#ctor(System.Char,System.String)
+  name: CmdLineOption(Char, String)
+  href: bin/Metadata/Epos.CmdLine.CmdLineOption-1.html#Epos_CmdLine_CmdLineOption_1__ctor_System_Char_System_String_
+  commentId: M:Epos.CmdLine.CmdLineOption`1.#ctor(System.Char,System.String)
+  fullName: Epos.CmdLine.CmdLineOption<T>.CmdLineOption(System.Char, System.String)
+  fullName.vb: Epos.CmdLine.CmdLineOption(Of T).CmdLineOption(System.Char, System.String)
+  nameWithType: CmdLineOption<T>.CmdLineOption(Char, String)
+  nameWithType.vb: CmdLineOption(Of T).CmdLineOption(Char, String)
+- uid: Epos.CmdLine.CmdLineOption`1.#ctor*
+  name: CmdLineOption
+  href: bin/Metadata/Epos.CmdLine.CmdLineOption-1.html#Epos_CmdLine_CmdLineOption_1__ctor_
+  commentId: Overload:Epos.CmdLine.CmdLineOption`1.#ctor
+  fullName: Epos.CmdLine.CmdLineOption<T>.CmdLineOption
+  fullName.vb: Epos.CmdLine.CmdLineOption(Of T).CmdLineOption
+  nameWithType: CmdLineOption<T>.CmdLineOption
+  nameWithType.vb: CmdLineOption(Of T).CmdLineOption
+- uid: Epos.CmdLine.CmdLineOption`1.DefaultValue
+  name: DefaultValue
+  href: bin/Metadata/Epos.CmdLine.CmdLineOption-1.html#Epos_CmdLine_CmdLineOption_1_DefaultValue
+  commentId: P:Epos.CmdLine.CmdLineOption`1.DefaultValue
+  fullName: Epos.CmdLine.CmdLineOption<T>.DefaultValue
+  fullName.vb: Epos.CmdLine.CmdLineOption(Of T).DefaultValue
+  nameWithType: CmdLineOption<T>.DefaultValue
+  nameWithType.vb: CmdLineOption(Of T).DefaultValue
+- uid: Epos.CmdLine.CmdLineOption`1.DefaultValue*
+  name: DefaultValue
+  href: bin/Metadata/Epos.CmdLine.CmdLineOption-1.html#Epos_CmdLine_CmdLineOption_1_DefaultValue_
+  commentId: Overload:Epos.CmdLine.CmdLineOption`1.DefaultValue
+  fullName: Epos.CmdLine.CmdLineOption<T>.DefaultValue
+  fullName.vb: Epos.CmdLine.CmdLineOption(Of T).DefaultValue
+  nameWithType: CmdLineOption<T>.DefaultValue
+  nameWithType.vb: CmdLineOption(Of T).DefaultValue
+- uid: Epos.CmdLine.CmdLineOptionAttribute
+  name: CmdLineOptionAttribute
+  href: bin/Metadata/Epos.CmdLine.CmdLineOptionAttribute.html
+  commentId: T:Epos.CmdLine.CmdLineOptionAttribute
+  fullName: Epos.CmdLine.CmdLineOptionAttribute
+  nameWithType: CmdLineOptionAttribute
+- uid: Epos.CmdLine.CmdLineOptionAttribute.#ctor(System.Char)
+  name: CmdLineOptionAttribute(Char)
+  href: bin/Metadata/Epos.CmdLine.CmdLineOptionAttribute.html#Epos_CmdLine_CmdLineOptionAttribute__ctor_System_Char_
+  commentId: M:Epos.CmdLine.CmdLineOptionAttribute.#ctor(System.Char)
+  fullName: Epos.CmdLine.CmdLineOptionAttribute.CmdLineOptionAttribute(System.Char)
+  nameWithType: CmdLineOptionAttribute.CmdLineOptionAttribute(Char)
+- uid: Epos.CmdLine.CmdLineOptionAttribute.#ctor*
+  name: CmdLineOptionAttribute
+  href: bin/Metadata/Epos.CmdLine.CmdLineOptionAttribute.html#Epos_CmdLine_CmdLineOptionAttribute__ctor_
+  commentId: Overload:Epos.CmdLine.CmdLineOptionAttribute.#ctor
+  fullName: Epos.CmdLine.CmdLineOptionAttribute.CmdLineOptionAttribute
+  nameWithType: CmdLineOptionAttribute.CmdLineOptionAttribute
+- uid: Epos.CmdLine.CmdLineOptionAttribute.Letter
+  name: Letter
+  href: bin/Metadata/Epos.CmdLine.CmdLineOptionAttribute.html#Epos_CmdLine_CmdLineOptionAttribute_Letter
+  commentId: P:Epos.CmdLine.CmdLineOptionAttribute.Letter
+  fullName: Epos.CmdLine.CmdLineOptionAttribute.Letter
+  nameWithType: CmdLineOptionAttribute.Letter
+- uid: Epos.CmdLine.CmdLineOptionAttribute.Letter*
+  name: Letter
+  href: bin/Metadata/Epos.CmdLine.CmdLineOptionAttribute.html#Epos_CmdLine_CmdLineOptionAttribute_Letter_
+  commentId: Overload:Epos.CmdLine.CmdLineOptionAttribute.Letter
+  fullName: Epos.CmdLine.CmdLineOptionAttribute.Letter
+  nameWithType: CmdLineOptionAttribute.Letter
+- uid: Epos.CmdLine.CmdLineParameter
+  name: CmdLineParameter
+  href: bin/Metadata/Epos.CmdLine.CmdLineParameter.html
+  commentId: T:Epos.CmdLine.CmdLineParameter
+  fullName: Epos.CmdLine.CmdLineParameter
+  nameWithType: CmdLineParameter
+- uid: Epos.CmdLine.CmdLineParameter.#ctor(System.Type,System.String,System.String)
+  name: CmdLineParameter(Type, String, String)
+  href: bin/Metadata/Epos.CmdLine.CmdLineParameter.html#Epos_CmdLine_CmdLineParameter__ctor_System_Type_System_String_System_String_
+  commentId: M:Epos.CmdLine.CmdLineParameter.#ctor(System.Type,System.String,System.String)
+  fullName: Epos.CmdLine.CmdLineParameter.CmdLineParameter(System.Type, System.String, System.String)
+  nameWithType: CmdLineParameter.CmdLineParameter(Type, String, String)
+- uid: Epos.CmdLine.CmdLineParameter.#ctor*
+  name: CmdLineParameter
+  href: bin/Metadata/Epos.CmdLine.CmdLineParameter.html#Epos_CmdLine_CmdLineParameter__ctor_
+  commentId: Overload:Epos.CmdLine.CmdLineParameter.#ctor
+  fullName: Epos.CmdLine.CmdLineParameter.CmdLineParameter
+  nameWithType: CmdLineParameter.CmdLineParameter
+- uid: Epos.CmdLine.CmdLineParameter.DataType
+  name: DataType
+  href: bin/Metadata/Epos.CmdLine.CmdLineParameter.html#Epos_CmdLine_CmdLineParameter_DataType
+  commentId: P:Epos.CmdLine.CmdLineParameter.DataType
+  fullName: Epos.CmdLine.CmdLineParameter.DataType
+  nameWithType: CmdLineParameter.DataType
+- uid: Epos.CmdLine.CmdLineParameter.DataType*
+  name: DataType
+  href: bin/Metadata/Epos.CmdLine.CmdLineParameter.html#Epos_CmdLine_CmdLineParameter_DataType_
+  commentId: Overload:Epos.CmdLine.CmdLineParameter.DataType
+  fullName: Epos.CmdLine.CmdLineParameter.DataType
+  nameWithType: CmdLineParameter.DataType
+- uid: Epos.CmdLine.CmdLineParameter.Description
+  name: Description
+  href: bin/Metadata/Epos.CmdLine.CmdLineParameter.html#Epos_CmdLine_CmdLineParameter_Description
+  commentId: P:Epos.CmdLine.CmdLineParameter.Description
+  fullName: Epos.CmdLine.CmdLineParameter.Description
+  nameWithType: CmdLineParameter.Description
+- uid: Epos.CmdLine.CmdLineParameter.Description*
+  name: Description
+  href: bin/Metadata/Epos.CmdLine.CmdLineParameter.html#Epos_CmdLine_CmdLineParameter_Description_
+  commentId: Overload:Epos.CmdLine.CmdLineParameter.Description
+  fullName: Epos.CmdLine.CmdLineParameter.Description
+  nameWithType: CmdLineParameter.Description
+- uid: Epos.CmdLine.CmdLineParameter.IsOptional
+  name: IsOptional
+  href: bin/Metadata/Epos.CmdLine.CmdLineParameter.html#Epos_CmdLine_CmdLineParameter_IsOptional
+  commentId: P:Epos.CmdLine.CmdLineParameter.IsOptional
+  fullName: Epos.CmdLine.CmdLineParameter.IsOptional
+  nameWithType: CmdLineParameter.IsOptional
+- uid: Epos.CmdLine.CmdLineParameter.IsOptional*
+  name: IsOptional
+  href: bin/Metadata/Epos.CmdLine.CmdLineParameter.html#Epos_CmdLine_CmdLineParameter_IsOptional_
+  commentId: Overload:Epos.CmdLine.CmdLineParameter.IsOptional
+  fullName: Epos.CmdLine.CmdLineParameter.IsOptional
+  nameWithType: CmdLineParameter.IsOptional
+- uid: Epos.CmdLine.CmdLineParameter.Name
+  name: Name
+  href: bin/Metadata/Epos.CmdLine.CmdLineParameter.html#Epos_CmdLine_CmdLineParameter_Name
+  commentId: P:Epos.CmdLine.CmdLineParameter.Name
+  fullName: Epos.CmdLine.CmdLineParameter.Name
+  nameWithType: CmdLineParameter.Name
+- uid: Epos.CmdLine.CmdLineParameter.Name*
+  name: Name
+  href: bin/Metadata/Epos.CmdLine.CmdLineParameter.html#Epos_CmdLine_CmdLineParameter_Name_
+  commentId: Overload:Epos.CmdLine.CmdLineParameter.Name
+  fullName: Epos.CmdLine.CmdLineParameter.Name
+  nameWithType: CmdLineParameter.Name
+- uid: Epos.CmdLine.CmdLineParameter.ToCmdLineString
+  name: ToCmdLineString()
+  href: bin/Metadata/Epos.CmdLine.CmdLineParameter.html#Epos_CmdLine_CmdLineParameter_ToCmdLineString
+  commentId: M:Epos.CmdLine.CmdLineParameter.ToCmdLineString
+  fullName: Epos.CmdLine.CmdLineParameter.ToCmdLineString()
+  nameWithType: CmdLineParameter.ToCmdLineString()
+- uid: Epos.CmdLine.CmdLineParameter.ToCmdLineString*
+  name: ToCmdLineString
+  href: bin/Metadata/Epos.CmdLine.CmdLineParameter.html#Epos_CmdLine_CmdLineParameter_ToCmdLineString_
+  commentId: Overload:Epos.CmdLine.CmdLineParameter.ToCmdLineString
+  fullName: Epos.CmdLine.CmdLineParameter.ToCmdLineString
+  nameWithType: CmdLineParameter.ToCmdLineString
+- uid: Epos.CmdLine.CmdLineParameter`1
+  name: CmdLineParameter<T>
+  href: bin/Metadata/Epos.CmdLine.CmdLineParameter-1.html
+  commentId: T:Epos.CmdLine.CmdLineParameter`1
+  name.vb: CmdLineParameter(Of T)
+  fullName: Epos.CmdLine.CmdLineParameter<T>
+  fullName.vb: Epos.CmdLine.CmdLineParameter(Of T)
+  nameWithType: CmdLineParameter<T>
+  nameWithType.vb: CmdLineParameter(Of T)
+- uid: Epos.CmdLine.CmdLineParameter`1.#ctor(System.String,System.String)
+  name: CmdLineParameter(String, String)
+  href: bin/Metadata/Epos.CmdLine.CmdLineParameter-1.html#Epos_CmdLine_CmdLineParameter_1__ctor_System_String_System_String_
+  commentId: M:Epos.CmdLine.CmdLineParameter`1.#ctor(System.String,System.String)
+  fullName: Epos.CmdLine.CmdLineParameter<T>.CmdLineParameter(System.String, System.String)
+  fullName.vb: Epos.CmdLine.CmdLineParameter(Of T).CmdLineParameter(System.String, System.String)
+  nameWithType: CmdLineParameter<T>.CmdLineParameter(String, String)
+  nameWithType.vb: CmdLineParameter(Of T).CmdLineParameter(String, String)
+- uid: Epos.CmdLine.CmdLineParameter`1.#ctor*
+  name: CmdLineParameter
+  href: bin/Metadata/Epos.CmdLine.CmdLineParameter-1.html#Epos_CmdLine_CmdLineParameter_1__ctor_
+  commentId: Overload:Epos.CmdLine.CmdLineParameter`1.#ctor
+  fullName: Epos.CmdLine.CmdLineParameter<T>.CmdLineParameter
+  fullName.vb: Epos.CmdLine.CmdLineParameter(Of T).CmdLineParameter
+  nameWithType: CmdLineParameter<T>.CmdLineParameter
+  nameWithType.vb: CmdLineParameter(Of T).CmdLineParameter
+- uid: Epos.CmdLine.CmdLineParameter`1.DefaultValue
+  name: DefaultValue
+  href: bin/Metadata/Epos.CmdLine.CmdLineParameter-1.html#Epos_CmdLine_CmdLineParameter_1_DefaultValue
+  commentId: P:Epos.CmdLine.CmdLineParameter`1.DefaultValue
+  fullName: Epos.CmdLine.CmdLineParameter<T>.DefaultValue
+  fullName.vb: Epos.CmdLine.CmdLineParameter(Of T).DefaultValue
+  nameWithType: CmdLineParameter<T>.DefaultValue
+  nameWithType.vb: CmdLineParameter(Of T).DefaultValue
+- uid: Epos.CmdLine.CmdLineParameter`1.DefaultValue*
+  name: DefaultValue
+  href: bin/Metadata/Epos.CmdLine.CmdLineParameter-1.html#Epos_CmdLine_CmdLineParameter_1_DefaultValue_
+  commentId: Overload:Epos.CmdLine.CmdLineParameter`1.DefaultValue
+  fullName: Epos.CmdLine.CmdLineParameter<T>.DefaultValue
+  fullName.vb: Epos.CmdLine.CmdLineParameter(Of T).DefaultValue
+  nameWithType: CmdLineParameter<T>.DefaultValue
+  nameWithType.vb: CmdLineParameter(Of T).DefaultValue
+- uid: Epos.CmdLine.CmdLineParameterAttribute
+  name: CmdLineParameterAttribute
+  href: bin/Metadata/Epos.CmdLine.CmdLineParameterAttribute.html
+  commentId: T:Epos.CmdLine.CmdLineParameterAttribute
+  fullName: Epos.CmdLine.CmdLineParameterAttribute
+  nameWithType: CmdLineParameterAttribute
+- uid: Epos.CmdLine.CmdLineParameterAttribute.#ctor
+  name: CmdLineParameterAttribute()
+  href: bin/Metadata/Epos.CmdLine.CmdLineParameterAttribute.html#Epos_CmdLine_CmdLineParameterAttribute__ctor
+  commentId: M:Epos.CmdLine.CmdLineParameterAttribute.#ctor
+  fullName: Epos.CmdLine.CmdLineParameterAttribute.CmdLineParameterAttribute()
+  nameWithType: CmdLineParameterAttribute.CmdLineParameterAttribute()
+- uid: Epos.CmdLine.CmdLineParameterAttribute.#ctor(System.String)
+  name: CmdLineParameterAttribute(String)
+  href: bin/Metadata/Epos.CmdLine.CmdLineParameterAttribute.html#Epos_CmdLine_CmdLineParameterAttribute__ctor_System_String_
+  commentId: M:Epos.CmdLine.CmdLineParameterAttribute.#ctor(System.String)
+  fullName: Epos.CmdLine.CmdLineParameterAttribute.CmdLineParameterAttribute(System.String)
+  nameWithType: CmdLineParameterAttribute.CmdLineParameterAttribute(String)
+- uid: Epos.CmdLine.CmdLineParameterAttribute.#ctor*
+  name: CmdLineParameterAttribute
+  href: bin/Metadata/Epos.CmdLine.CmdLineParameterAttribute.html#Epos_CmdLine_CmdLineParameterAttribute__ctor_
+  commentId: Overload:Epos.CmdLine.CmdLineParameterAttribute.#ctor
+  fullName: Epos.CmdLine.CmdLineParameterAttribute.CmdLineParameterAttribute
+  nameWithType: CmdLineParameterAttribute.CmdLineParameterAttribute
+- uid: Epos.CmdLine.CmdLineParameterAttribute.Name
+  name: Name
+  href: bin/Metadata/Epos.CmdLine.CmdLineParameterAttribute.html#Epos_CmdLine_CmdLineParameterAttribute_Name
+  commentId: P:Epos.CmdLine.CmdLineParameterAttribute.Name
+  fullName: Epos.CmdLine.CmdLineParameterAttribute.Name
+  nameWithType: CmdLineParameterAttribute.Name
+- uid: Epos.CmdLine.CmdLineParameterAttribute.Name*
+  name: Name
+  href: bin/Metadata/Epos.CmdLine.CmdLineParameterAttribute.html#Epos_CmdLine_CmdLineParameterAttribute_Name_
+  commentId: Overload:Epos.CmdLine.CmdLineParameterAttribute.Name
+  fullName: Epos.CmdLine.CmdLineParameterAttribute.Name
+  nameWithType: CmdLineParameterAttribute.Name
+- uid: Epos.CmdLine.CmdLineSubcommand
+  name: CmdLineSubcommand
+  href: bin/Metadata/Epos.CmdLine.CmdLineSubcommand.html
+  commentId: T:Epos.CmdLine.CmdLineSubcommand
+  fullName: Epos.CmdLine.CmdLineSubcommand
+  nameWithType: CmdLineSubcommand
+- uid: Epos.CmdLine.CmdLineSubcommand.#ctor(System.String,System.String)
+  name: CmdLineSubcommand(String, String)
+  href: bin/Metadata/Epos.CmdLine.CmdLineSubcommand.html#Epos_CmdLine_CmdLineSubcommand__ctor_System_String_System_String_
+  commentId: M:Epos.CmdLine.CmdLineSubcommand.#ctor(System.String,System.String)
+  fullName: Epos.CmdLine.CmdLineSubcommand.CmdLineSubcommand(System.String, System.String)
+  nameWithType: CmdLineSubcommand.CmdLineSubcommand(String, String)
+- uid: Epos.CmdLine.CmdLineSubcommand.#ctor*
+  name: CmdLineSubcommand
+  href: bin/Metadata/Epos.CmdLine.CmdLineSubcommand.html#Epos_CmdLine_CmdLineSubcommand__ctor_
+  commentId: Overload:Epos.CmdLine.CmdLineSubcommand.#ctor
+  fullName: Epos.CmdLine.CmdLineSubcommand.CmdLineSubcommand
+  nameWithType: CmdLineSubcommand.CmdLineSubcommand
+- uid: Epos.CmdLine.CmdLineSubcommand.DefaultName
+  name: DefaultName
+  href: bin/Metadata/Epos.CmdLine.CmdLineSubcommand.html#Epos_CmdLine_CmdLineSubcommand_DefaultName
+  commentId: F:Epos.CmdLine.CmdLineSubcommand.DefaultName
+  fullName: Epos.CmdLine.CmdLineSubcommand.DefaultName
+  nameWithType: CmdLineSubcommand.DefaultName
+- uid: Epos.CmdLine.CmdLineSubcommand.Description
+  name: Description
+  href: bin/Metadata/Epos.CmdLine.CmdLineSubcommand.html#Epos_CmdLine_CmdLineSubcommand_Description
+  commentId: P:Epos.CmdLine.CmdLineSubcommand.Description
+  fullName: Epos.CmdLine.CmdLineSubcommand.Description
+  nameWithType: CmdLineSubcommand.Description
+- uid: Epos.CmdLine.CmdLineSubcommand.Description*
+  name: Description
+  href: bin/Metadata/Epos.CmdLine.CmdLineSubcommand.html#Epos_CmdLine_CmdLineSubcommand_Description_
+  commentId: Overload:Epos.CmdLine.CmdLineSubcommand.Description
+  fullName: Epos.CmdLine.CmdLineSubcommand.Description
+  nameWithType: CmdLineSubcommand.Description
+- uid: Epos.CmdLine.CmdLineSubcommand.Name
+  name: Name
+  href: bin/Metadata/Epos.CmdLine.CmdLineSubcommand.html#Epos_CmdLine_CmdLineSubcommand_Name
+  commentId: P:Epos.CmdLine.CmdLineSubcommand.Name
+  fullName: Epos.CmdLine.CmdLineSubcommand.Name
+  nameWithType: CmdLineSubcommand.Name
+- uid: Epos.CmdLine.CmdLineSubcommand.Name*
+  name: Name
+  href: bin/Metadata/Epos.CmdLine.CmdLineSubcommand.html#Epos_CmdLine_CmdLineSubcommand_Name_
+  commentId: Overload:Epos.CmdLine.CmdLineSubcommand.Name
+  fullName: Epos.CmdLine.CmdLineSubcommand.Name
+  nameWithType: CmdLineSubcommand.Name
+- uid: Epos.CmdLine.CmdLineSubcommand.Options
+  name: Options
+  href: bin/Metadata/Epos.CmdLine.CmdLineSubcommand.html#Epos_CmdLine_CmdLineSubcommand_Options
+  commentId: P:Epos.CmdLine.CmdLineSubcommand.Options
+  fullName: Epos.CmdLine.CmdLineSubcommand.Options
+  nameWithType: CmdLineSubcommand.Options
+- uid: Epos.CmdLine.CmdLineSubcommand.Options*
+  name: Options
+  href: bin/Metadata/Epos.CmdLine.CmdLineSubcommand.html#Epos_CmdLine_CmdLineSubcommand_Options_
+  commentId: Overload:Epos.CmdLine.CmdLineSubcommand.Options
+  fullName: Epos.CmdLine.CmdLineSubcommand.Options
+  nameWithType: CmdLineSubcommand.Options
+- uid: Epos.CmdLine.CmdLineSubcommand.Parameters
+  name: Parameters
+  href: bin/Metadata/Epos.CmdLine.CmdLineSubcommand.html#Epos_CmdLine_CmdLineSubcommand_Parameters
+  commentId: P:Epos.CmdLine.CmdLineSubcommand.Parameters
+  fullName: Epos.CmdLine.CmdLineSubcommand.Parameters
+  nameWithType: CmdLineSubcommand.Parameters
+- uid: Epos.CmdLine.CmdLineSubcommand.Parameters*
+  name: Parameters
+  href: bin/Metadata/Epos.CmdLine.CmdLineSubcommand.html#Epos_CmdLine_CmdLineSubcommand_Parameters_
+  commentId: Overload:Epos.CmdLine.CmdLineSubcommand.Parameters
+  fullName: Epos.CmdLine.CmdLineSubcommand.Parameters
+  nameWithType: CmdLineSubcommand.Parameters
+- uid: Epos.CmdLine.CmdLineSubcommand`1
+  name: CmdLineSubcommand<TOptions>
+  href: bin/Metadata/Epos.CmdLine.CmdLineSubcommand-1.html
+  commentId: T:Epos.CmdLine.CmdLineSubcommand`1
+  name.vb: CmdLineSubcommand(Of TOptions)
+  fullName: Epos.CmdLine.CmdLineSubcommand<TOptions>
+  fullName.vb: Epos.CmdLine.CmdLineSubcommand(Of TOptions)
+  nameWithType: CmdLineSubcommand<TOptions>
+  nameWithType.vb: CmdLineSubcommand(Of TOptions)
+- uid: Epos.CmdLine.CmdLineSubcommand`1.#ctor(System.String,System.String)
+  name: CmdLineSubcommand(String, String)
+  href: bin/Metadata/Epos.CmdLine.CmdLineSubcommand-1.html#Epos_CmdLine_CmdLineSubcommand_1__ctor_System_String_System_String_
+  commentId: M:Epos.CmdLine.CmdLineSubcommand`1.#ctor(System.String,System.String)
+  fullName: Epos.CmdLine.CmdLineSubcommand<TOptions>.CmdLineSubcommand(System.String, System.String)
+  fullName.vb: Epos.CmdLine.CmdLineSubcommand(Of TOptions).CmdLineSubcommand(System.String, System.String)
+  nameWithType: CmdLineSubcommand<TOptions>.CmdLineSubcommand(String, String)
+  nameWithType.vb: CmdLineSubcommand(Of TOptions).CmdLineSubcommand(String, String)
+- uid: Epos.CmdLine.CmdLineSubcommand`1.#ctor*
+  name: CmdLineSubcommand
+  href: bin/Metadata/Epos.CmdLine.CmdLineSubcommand-1.html#Epos_CmdLine_CmdLineSubcommand_1__ctor_
+  commentId: Overload:Epos.CmdLine.CmdLineSubcommand`1.#ctor
+  fullName: Epos.CmdLine.CmdLineSubcommand<TOptions>.CmdLineSubcommand
+  fullName.vb: Epos.CmdLine.CmdLineSubcommand(Of TOptions).CmdLineSubcommand
+  nameWithType: CmdLineSubcommand<TOptions>.CmdLineSubcommand
+  nameWithType.vb: CmdLineSubcommand(Of TOptions).CmdLineSubcommand
+- uid: Epos.CmdLine.CmdLineSubcommand`1.CmdLineFunc
+  name: CmdLineFunc
+  href: bin/Metadata/Epos.CmdLine.CmdLineSubcommand-1.html#Epos_CmdLine_CmdLineSubcommand_1_CmdLineFunc
+  commentId: P:Epos.CmdLine.CmdLineSubcommand`1.CmdLineFunc
+  fullName: Epos.CmdLine.CmdLineSubcommand<TOptions>.CmdLineFunc
+  fullName.vb: Epos.CmdLine.CmdLineSubcommand(Of TOptions).CmdLineFunc
+  nameWithType: CmdLineSubcommand<TOptions>.CmdLineFunc
+  nameWithType.vb: CmdLineSubcommand(Of TOptions).CmdLineFunc
+- uid: Epos.CmdLine.CmdLineSubcommand`1.CmdLineFunc*
+  name: CmdLineFunc
+  href: bin/Metadata/Epos.CmdLine.CmdLineSubcommand-1.html#Epos_CmdLine_CmdLineSubcommand_1_CmdLineFunc_
+  commentId: Overload:Epos.CmdLine.CmdLineSubcommand`1.CmdLineFunc
+  fullName: Epos.CmdLine.CmdLineSubcommand<TOptions>.CmdLineFunc
+  fullName.vb: Epos.CmdLine.CmdLineSubcommand(Of TOptions).CmdLineFunc
+  nameWithType: CmdLineSubcommand<TOptions>.CmdLineFunc
+  nameWithType.vb: CmdLineSubcommand(Of TOptions).CmdLineFunc
+- uid: Epos.CmdLine.CmdLineSwitch
+  name: CmdLineSwitch
+  href: bin/Metadata/Epos.CmdLine.CmdLineSwitch.html
+  commentId: T:Epos.CmdLine.CmdLineSwitch
+  fullName: Epos.CmdLine.CmdLineSwitch
+  nameWithType: CmdLineSwitch
+- uid: Epos.CmdLine.CmdLineSwitch.#ctor(System.Char,System.String)
+  name: CmdLineSwitch(Char, String)
+  href: bin/Metadata/Epos.CmdLine.CmdLineSwitch.html#Epos_CmdLine_CmdLineSwitch__ctor_System_Char_System_String_
+  commentId: M:Epos.CmdLine.CmdLineSwitch.#ctor(System.Char,System.String)
+  fullName: Epos.CmdLine.CmdLineSwitch.CmdLineSwitch(System.Char, System.String)
+  nameWithType: CmdLineSwitch.CmdLineSwitch(Char, String)
+- uid: Epos.CmdLine.CmdLineSwitch.#ctor*
+  name: CmdLineSwitch
+  href: bin/Metadata/Epos.CmdLine.CmdLineSwitch.html#Epos_CmdLine_CmdLineSwitch__ctor_
+  commentId: Overload:Epos.CmdLine.CmdLineSwitch.#ctor
+  fullName: Epos.CmdLine.CmdLineSwitch.CmdLineSwitch
+  nameWithType: CmdLineSwitch.CmdLineSwitch
+- uid: Epos.Utilities
+  name: Epos.Utilities
+  href: bin/Metadata/Epos.Utilities.html
+  commentId: N:Epos.Utilities
+  fullName: Epos.Utilities
+  nameWithType: Epos.Utilities
+- uid: Epos.Utilities.ArithmeticsFactory
+  name: ArithmeticsFactory
+  href: bin/Metadata/Epos.Utilities.ArithmeticsFactory.html
+  commentId: T:Epos.Utilities.ArithmeticsFactory
+  fullName: Epos.Utilities.ArithmeticsFactory
+  nameWithType: ArithmeticsFactory
+- uid: Epos.Utilities.ArithmeticsFactory.CreateAddOperation*
+  name: CreateAddOperation
+  href: bin/Metadata/Epos.Utilities.ArithmeticsFactory.html#Epos_Utilities_ArithmeticsFactory_CreateAddOperation_
+  commentId: Overload:Epos.Utilities.ArithmeticsFactory.CreateAddOperation
+  fullName: Epos.Utilities.ArithmeticsFactory.CreateAddOperation
+  nameWithType: ArithmeticsFactory.CreateAddOperation
+- uid: Epos.Utilities.ArithmeticsFactory.CreateAddOperation``1
+  name: CreateAddOperation<T>()
+  href: bin/Metadata/Epos.Utilities.ArithmeticsFactory.html#Epos_Utilities_ArithmeticsFactory_CreateAddOperation__1
+  commentId: M:Epos.Utilities.ArithmeticsFactory.CreateAddOperation``1
+  name.vb: CreateAddOperation(Of T)()
+  fullName: Epos.Utilities.ArithmeticsFactory.CreateAddOperation<T>()
+  fullName.vb: Epos.Utilities.ArithmeticsFactory.CreateAddOperation(Of T)()
+  nameWithType: ArithmeticsFactory.CreateAddOperation<T>()
+  nameWithType.vb: ArithmeticsFactory.CreateAddOperation(Of T)()
+- uid: Epos.Utilities.ArithmeticsFactory.CreateAddOperation``3
+  name: CreateAddOperation<T1, T2, TResult>()
+  href: bin/Metadata/Epos.Utilities.ArithmeticsFactory.html#Epos_Utilities_ArithmeticsFactory_CreateAddOperation__3
+  commentId: M:Epos.Utilities.ArithmeticsFactory.CreateAddOperation``3
+  name.vb: CreateAddOperation(Of T1, T2, TResult)()
+  fullName: Epos.Utilities.ArithmeticsFactory.CreateAddOperation<T1, T2, TResult>()
+  fullName.vb: Epos.Utilities.ArithmeticsFactory.CreateAddOperation(Of T1, T2, TResult)()
+  nameWithType: ArithmeticsFactory.CreateAddOperation<T1, T2, TResult>()
+  nameWithType.vb: ArithmeticsFactory.CreateAddOperation(Of T1, T2, TResult)()
+- uid: Epos.Utilities.ArithmeticsFactory.CreateDivideOperation*
+  name: CreateDivideOperation
+  href: bin/Metadata/Epos.Utilities.ArithmeticsFactory.html#Epos_Utilities_ArithmeticsFactory_CreateDivideOperation_
+  commentId: Overload:Epos.Utilities.ArithmeticsFactory.CreateDivideOperation
+  fullName: Epos.Utilities.ArithmeticsFactory.CreateDivideOperation
+  nameWithType: ArithmeticsFactory.CreateDivideOperation
+- uid: Epos.Utilities.ArithmeticsFactory.CreateDivideOperation``1
+  name: CreateDivideOperation<T>()
+  href: bin/Metadata/Epos.Utilities.ArithmeticsFactory.html#Epos_Utilities_ArithmeticsFactory_CreateDivideOperation__1
+  commentId: M:Epos.Utilities.ArithmeticsFactory.CreateDivideOperation``1
+  name.vb: CreateDivideOperation(Of T)()
+  fullName: Epos.Utilities.ArithmeticsFactory.CreateDivideOperation<T>()
+  fullName.vb: Epos.Utilities.ArithmeticsFactory.CreateDivideOperation(Of T)()
+  nameWithType: ArithmeticsFactory.CreateDivideOperation<T>()
+  nameWithType.vb: ArithmeticsFactory.CreateDivideOperation(Of T)()
+- uid: Epos.Utilities.ArithmeticsFactory.CreateDivideOperation``3
+  name: CreateDivideOperation<T1, T2, TResult>()
+  href: bin/Metadata/Epos.Utilities.ArithmeticsFactory.html#Epos_Utilities_ArithmeticsFactory_CreateDivideOperation__3
+  commentId: M:Epos.Utilities.ArithmeticsFactory.CreateDivideOperation``3
+  name.vb: CreateDivideOperation(Of T1, T2, TResult)()
+  fullName: Epos.Utilities.ArithmeticsFactory.CreateDivideOperation<T1, T2, TResult>()
+  fullName.vb: Epos.Utilities.ArithmeticsFactory.CreateDivideOperation(Of T1, T2, TResult)()
+  nameWithType: ArithmeticsFactory.CreateDivideOperation<T1, T2, TResult>()
+  nameWithType.vb: ArithmeticsFactory.CreateDivideOperation(Of T1, T2, TResult)()
+- uid: Epos.Utilities.ArithmeticsFactory.CreateMaxValue*
+  name: CreateMaxValue
+  href: bin/Metadata/Epos.Utilities.ArithmeticsFactory.html#Epos_Utilities_ArithmeticsFactory_CreateMaxValue_
+  commentId: Overload:Epos.Utilities.ArithmeticsFactory.CreateMaxValue
+  fullName: Epos.Utilities.ArithmeticsFactory.CreateMaxValue
+  nameWithType: ArithmeticsFactory.CreateMaxValue
+- uid: Epos.Utilities.ArithmeticsFactory.CreateMaxValue``1
+  name: CreateMaxValue<T>()
+  href: bin/Metadata/Epos.Utilities.ArithmeticsFactory.html#Epos_Utilities_ArithmeticsFactory_CreateMaxValue__1
+  commentId: M:Epos.Utilities.ArithmeticsFactory.CreateMaxValue``1
+  name.vb: CreateMaxValue(Of T)()
+  fullName: Epos.Utilities.ArithmeticsFactory.CreateMaxValue<T>()
+  fullName.vb: Epos.Utilities.ArithmeticsFactory.CreateMaxValue(Of T)()
+  nameWithType: ArithmeticsFactory.CreateMaxValue<T>()
+  nameWithType.vb: ArithmeticsFactory.CreateMaxValue(Of T)()
+- uid: Epos.Utilities.ArithmeticsFactory.CreateMinValue*
+  name: CreateMinValue
+  href: bin/Metadata/Epos.Utilities.ArithmeticsFactory.html#Epos_Utilities_ArithmeticsFactory_CreateMinValue_
+  commentId: Overload:Epos.Utilities.ArithmeticsFactory.CreateMinValue
+  fullName: Epos.Utilities.ArithmeticsFactory.CreateMinValue
+  nameWithType: ArithmeticsFactory.CreateMinValue
+- uid: Epos.Utilities.ArithmeticsFactory.CreateMinValue``1
+  name: CreateMinValue<T>()
+  href: bin/Metadata/Epos.Utilities.ArithmeticsFactory.html#Epos_Utilities_ArithmeticsFactory_CreateMinValue__1
+  commentId: M:Epos.Utilities.ArithmeticsFactory.CreateMinValue``1
+  name.vb: CreateMinValue(Of T)()
+  fullName: Epos.Utilities.ArithmeticsFactory.CreateMinValue<T>()
+  fullName.vb: Epos.Utilities.ArithmeticsFactory.CreateMinValue(Of T)()
+  nameWithType: ArithmeticsFactory.CreateMinValue<T>()
+  nameWithType.vb: ArithmeticsFactory.CreateMinValue(Of T)()
+- uid: Epos.Utilities.ArithmeticsFactory.CreateMultiplyOperation*
+  name: CreateMultiplyOperation
+  href: bin/Metadata/Epos.Utilities.ArithmeticsFactory.html#Epos_Utilities_ArithmeticsFactory_CreateMultiplyOperation_
+  commentId: Overload:Epos.Utilities.ArithmeticsFactory.CreateMultiplyOperation
+  fullName: Epos.Utilities.ArithmeticsFactory.CreateMultiplyOperation
+  nameWithType: ArithmeticsFactory.CreateMultiplyOperation
+- uid: Epos.Utilities.ArithmeticsFactory.CreateMultiplyOperation``1
+  name: CreateMultiplyOperation<T>()
+  href: bin/Metadata/Epos.Utilities.ArithmeticsFactory.html#Epos_Utilities_ArithmeticsFactory_CreateMultiplyOperation__1
+  commentId: M:Epos.Utilities.ArithmeticsFactory.CreateMultiplyOperation``1
+  name.vb: CreateMultiplyOperation(Of T)()
+  fullName: Epos.Utilities.ArithmeticsFactory.CreateMultiplyOperation<T>()
+  fullName.vb: Epos.Utilities.ArithmeticsFactory.CreateMultiplyOperation(Of T)()
+  nameWithType: ArithmeticsFactory.CreateMultiplyOperation<T>()
+  nameWithType.vb: ArithmeticsFactory.CreateMultiplyOperation(Of T)()
+- uid: Epos.Utilities.ArithmeticsFactory.CreateMultiplyOperation``3
+  name: CreateMultiplyOperation<T1, T2, TResult>()
+  href: bin/Metadata/Epos.Utilities.ArithmeticsFactory.html#Epos_Utilities_ArithmeticsFactory_CreateMultiplyOperation__3
+  commentId: M:Epos.Utilities.ArithmeticsFactory.CreateMultiplyOperation``3
+  name.vb: CreateMultiplyOperation(Of T1, T2, TResult)()
+  fullName: Epos.Utilities.ArithmeticsFactory.CreateMultiplyOperation<T1, T2, TResult>()
+  fullName.vb: Epos.Utilities.ArithmeticsFactory.CreateMultiplyOperation(Of T1, T2, TResult)()
+  nameWithType: ArithmeticsFactory.CreateMultiplyOperation<T1, T2, TResult>()
+  nameWithType.vb: ArithmeticsFactory.CreateMultiplyOperation(Of T1, T2, TResult)()
+- uid: Epos.Utilities.ArithmeticsFactory.CreateNegateOperation*
+  name: CreateNegateOperation
+  href: bin/Metadata/Epos.Utilities.ArithmeticsFactory.html#Epos_Utilities_ArithmeticsFactory_CreateNegateOperation_
+  commentId: Overload:Epos.Utilities.ArithmeticsFactory.CreateNegateOperation
+  fullName: Epos.Utilities.ArithmeticsFactory.CreateNegateOperation
+  nameWithType: ArithmeticsFactory.CreateNegateOperation
+- uid: Epos.Utilities.ArithmeticsFactory.CreateNegateOperation``1
+  name: CreateNegateOperation<T>()
+  href: bin/Metadata/Epos.Utilities.ArithmeticsFactory.html#Epos_Utilities_ArithmeticsFactory_CreateNegateOperation__1
+  commentId: M:Epos.Utilities.ArithmeticsFactory.CreateNegateOperation``1
+  name.vb: CreateNegateOperation(Of T)()
+  fullName: Epos.Utilities.ArithmeticsFactory.CreateNegateOperation<T>()
+  fullName.vb: Epos.Utilities.ArithmeticsFactory.CreateNegateOperation(Of T)()
+  nameWithType: ArithmeticsFactory.CreateNegateOperation<T>()
+  nameWithType.vb: ArithmeticsFactory.CreateNegateOperation(Of T)()
+- uid: Epos.Utilities.ArithmeticsFactory.CreateOne*
+  name: CreateOne
+  href: bin/Metadata/Epos.Utilities.ArithmeticsFactory.html#Epos_Utilities_ArithmeticsFactory_CreateOne_
+  commentId: Overload:Epos.Utilities.ArithmeticsFactory.CreateOne
+  fullName: Epos.Utilities.ArithmeticsFactory.CreateOne
+  nameWithType: ArithmeticsFactory.CreateOne
+- uid: Epos.Utilities.ArithmeticsFactory.CreateOne``1
+  name: CreateOne<T>()
+  href: bin/Metadata/Epos.Utilities.ArithmeticsFactory.html#Epos_Utilities_ArithmeticsFactory_CreateOne__1
+  commentId: M:Epos.Utilities.ArithmeticsFactory.CreateOne``1
+  name.vb: CreateOne(Of T)()
+  fullName: Epos.Utilities.ArithmeticsFactory.CreateOne<T>()
+  fullName.vb: Epos.Utilities.ArithmeticsFactory.CreateOne(Of T)()
+  nameWithType: ArithmeticsFactory.CreateOne<T>()
+  nameWithType.vb: ArithmeticsFactory.CreateOne(Of T)()
+- uid: Epos.Utilities.ArithmeticsFactory.CreateRoundOperation*
+  name: CreateRoundOperation
+  href: bin/Metadata/Epos.Utilities.ArithmeticsFactory.html#Epos_Utilities_ArithmeticsFactory_CreateRoundOperation_
+  commentId: Overload:Epos.Utilities.ArithmeticsFactory.CreateRoundOperation
+  fullName: Epos.Utilities.ArithmeticsFactory.CreateRoundOperation
+  nameWithType: ArithmeticsFactory.CreateRoundOperation
+- uid: Epos.Utilities.ArithmeticsFactory.CreateRoundOperation``1
+  name: CreateRoundOperation<T>()
+  href: bin/Metadata/Epos.Utilities.ArithmeticsFactory.html#Epos_Utilities_ArithmeticsFactory_CreateRoundOperation__1
+  commentId: M:Epos.Utilities.ArithmeticsFactory.CreateRoundOperation``1
+  name.vb: CreateRoundOperation(Of T)()
+  fullName: Epos.Utilities.ArithmeticsFactory.CreateRoundOperation<T>()
+  fullName.vb: Epos.Utilities.ArithmeticsFactory.CreateRoundOperation(Of T)()
+  nameWithType: ArithmeticsFactory.CreateRoundOperation<T>()
+  nameWithType.vb: ArithmeticsFactory.CreateRoundOperation(Of T)()
+- uid: Epos.Utilities.ArithmeticsFactory.CreateSubtractOperation*
+  name: CreateSubtractOperation
+  href: bin/Metadata/Epos.Utilities.ArithmeticsFactory.html#Epos_Utilities_ArithmeticsFactory_CreateSubtractOperation_
+  commentId: Overload:Epos.Utilities.ArithmeticsFactory.CreateSubtractOperation
+  fullName: Epos.Utilities.ArithmeticsFactory.CreateSubtractOperation
+  nameWithType: ArithmeticsFactory.CreateSubtractOperation
+- uid: Epos.Utilities.ArithmeticsFactory.CreateSubtractOperation``1
+  name: CreateSubtractOperation<T>()
+  href: bin/Metadata/Epos.Utilities.ArithmeticsFactory.html#Epos_Utilities_ArithmeticsFactory_CreateSubtractOperation__1
+  commentId: M:Epos.Utilities.ArithmeticsFactory.CreateSubtractOperation``1
+  name.vb: CreateSubtractOperation(Of T)()
+  fullName: Epos.Utilities.ArithmeticsFactory.CreateSubtractOperation<T>()
+  fullName.vb: Epos.Utilities.ArithmeticsFactory.CreateSubtractOperation(Of T)()
+  nameWithType: ArithmeticsFactory.CreateSubtractOperation<T>()
+  nameWithType.vb: ArithmeticsFactory.CreateSubtractOperation(Of T)()
+- uid: Epos.Utilities.ArithmeticsFactory.CreateSubtractOperation``3
+  name: CreateSubtractOperation<T1, T2, TResult>()
+  href: bin/Metadata/Epos.Utilities.ArithmeticsFactory.html#Epos_Utilities_ArithmeticsFactory_CreateSubtractOperation__3
+  commentId: M:Epos.Utilities.ArithmeticsFactory.CreateSubtractOperation``3
+  name.vb: CreateSubtractOperation(Of T1, T2, TResult)()
+  fullName: Epos.Utilities.ArithmeticsFactory.CreateSubtractOperation<T1, T2, TResult>()
+  fullName.vb: Epos.Utilities.ArithmeticsFactory.CreateSubtractOperation(Of T1, T2, TResult)()
+  nameWithType: ArithmeticsFactory.CreateSubtractOperation<T1, T2, TResult>()
+  nameWithType.vb: ArithmeticsFactory.CreateSubtractOperation(Of T1, T2, TResult)()
+- uid: Epos.Utilities.ArithmeticsFactory.CreateZero*
+  name: CreateZero
+  href: bin/Metadata/Epos.Utilities.ArithmeticsFactory.html#Epos_Utilities_ArithmeticsFactory_CreateZero_
+  commentId: Overload:Epos.Utilities.ArithmeticsFactory.CreateZero
+  fullName: Epos.Utilities.ArithmeticsFactory.CreateZero
+  nameWithType: ArithmeticsFactory.CreateZero
+- uid: Epos.Utilities.ArithmeticsFactory.CreateZero``1
+  name: CreateZero<T>()
+  href: bin/Metadata/Epos.Utilities.ArithmeticsFactory.html#Epos_Utilities_ArithmeticsFactory_CreateZero__1
+  commentId: M:Epos.Utilities.ArithmeticsFactory.CreateZero``1
+  name.vb: CreateZero(Of T)()
+  fullName: Epos.Utilities.ArithmeticsFactory.CreateZero<T>()
+  fullName.vb: Epos.Utilities.ArithmeticsFactory.CreateZero(Of T)()
+  nameWithType: ArithmeticsFactory.CreateZero<T>()
+  nameWithType.vb: ArithmeticsFactory.CreateZero(Of T)()
+- uid: Epos.Utilities.AssemblyExtensions
+  name: AssemblyExtensions
+  href: bin/Metadata/Epos.Utilities.AssemblyExtensions.html
+  commentId: T:Epos.Utilities.AssemblyExtensions
+  fullName: Epos.Utilities.AssemblyExtensions
+  nameWithType: AssemblyExtensions
+- uid: Epos.Utilities.AssemblyExtensions.GetAttribute*
+  name: GetAttribute
+  href: bin/Metadata/Epos.Utilities.AssemblyExtensions.html#Epos_Utilities_AssemblyExtensions_GetAttribute_
+  commentId: Overload:Epos.Utilities.AssemblyExtensions.GetAttribute
+  fullName: Epos.Utilities.AssemblyExtensions.GetAttribute
+  nameWithType: AssemblyExtensions.GetAttribute
+- uid: Epos.Utilities.AssemblyExtensions.GetAttribute``1(Assembly)
+  name: GetAttribute<TAttribute>(Assembly)
+  href: bin/Metadata/Epos.Utilities.AssemblyExtensions.html#Epos_Utilities_AssemblyExtensions_GetAttribute__1_Assembly_
+  commentId: M:Epos.Utilities.AssemblyExtensions.GetAttribute``1(Assembly)
+  name.vb: GetAttribute(Of TAttribute)(Assembly)
+  fullName: Epos.Utilities.AssemblyExtensions.GetAttribute<TAttribute>(Assembly)
+  fullName.vb: Epos.Utilities.AssemblyExtensions.GetAttribute(Of TAttribute)(Assembly)
+  nameWithType: AssemblyExtensions.GetAttribute<TAttribute>(Assembly)
+  nameWithType.vb: AssemblyExtensions.GetAttribute(Of TAttribute)(Assembly)
+- uid: Epos.Utilities.AssemblyExtensions.GetAttributes*
+  name: GetAttributes
+  href: bin/Metadata/Epos.Utilities.AssemblyExtensions.html#Epos_Utilities_AssemblyExtensions_GetAttributes_
+  commentId: Overload:Epos.Utilities.AssemblyExtensions.GetAttributes
+  fullName: Epos.Utilities.AssemblyExtensions.GetAttributes
+  nameWithType: AssemblyExtensions.GetAttributes
+- uid: Epos.Utilities.AssemblyExtensions.GetAttributes``1(Assembly)
+  name: GetAttributes<TAttribute>(Assembly)
+  href: bin/Metadata/Epos.Utilities.AssemblyExtensions.html#Epos_Utilities_AssemblyExtensions_GetAttributes__1_Assembly_
+  commentId: M:Epos.Utilities.AssemblyExtensions.GetAttributes``1(Assembly)
+  name.vb: GetAttributes(Of TAttribute)(Assembly)
+  fullName: Epos.Utilities.AssemblyExtensions.GetAttributes<TAttribute>(Assembly)
+  fullName.vb: Epos.Utilities.AssemblyExtensions.GetAttributes(Of TAttribute)(Assembly)
+  nameWithType: AssemblyExtensions.GetAttributes<TAttribute>(Assembly)
+  nameWithType.vb: AssemblyExtensions.GetAttributes(Of TAttribute)(Assembly)
+- uid: Epos.Utilities.AssemblyExtensions.HasAttribute*
+  name: HasAttribute
+  href: bin/Metadata/Epos.Utilities.AssemblyExtensions.html#Epos_Utilities_AssemblyExtensions_HasAttribute_
+  commentId: Overload:Epos.Utilities.AssemblyExtensions.HasAttribute
+  fullName: Epos.Utilities.AssemblyExtensions.HasAttribute
+  nameWithType: AssemblyExtensions.HasAttribute
+- uid: Epos.Utilities.AssemblyExtensions.HasAttribute``1(Assembly)
+  name: HasAttribute<TAttribute>(Assembly)
+  href: bin/Metadata/Epos.Utilities.AssemblyExtensions.html#Epos_Utilities_AssemblyExtensions_HasAttribute__1_Assembly_
+  commentId: M:Epos.Utilities.AssemblyExtensions.HasAttribute``1(Assembly)
+  name.vb: HasAttribute(Of TAttribute)(Assembly)
+  fullName: Epos.Utilities.AssemblyExtensions.HasAttribute<TAttribute>(Assembly)
+  fullName.vb: Epos.Utilities.AssemblyExtensions.HasAttribute(Of TAttribute)(Assembly)
+  nameWithType: AssemblyExtensions.HasAttribute<TAttribute>(Assembly)
+  nameWithType.vb: AssemblyExtensions.HasAttribute(Of TAttribute)(Assembly)
+- uid: Epos.Utilities.BinaryOperation`3
+  name: BinaryOperation<T1, T2, TResult>
+  href: bin/Metadata/Epos.Utilities.BinaryOperation-3.html
+  commentId: T:Epos.Utilities.BinaryOperation`3
+  name.vb: BinaryOperation(Of T1, T2, TResult)
+  fullName: Epos.Utilities.BinaryOperation<T1, T2, TResult>
+  fullName.vb: Epos.Utilities.BinaryOperation(Of T1, T2, TResult)
+  nameWithType: BinaryOperation<T1, T2, TResult>
+  nameWithType.vb: BinaryOperation(Of T1, T2, TResult)
+- uid: Epos.Utilities.Cache`2
+  name: Cache<TKey, TValue>
+  href: bin/Metadata/Epos.Utilities.Cache-2.html
+  commentId: T:Epos.Utilities.Cache`2
+  name.vb: Cache(Of TKey, TValue)
+  fullName: Epos.Utilities.Cache<TKey, TValue>
+  fullName.vb: Epos.Utilities.Cache(Of TKey, TValue)
+  nameWithType: Cache<TKey, TValue>
+  nameWithType.vb: Cache(Of TKey, TValue)
+- uid: Epos.Utilities.Cache`2.#ctor(System.Int32)
+  name: Cache(Int32)
+  href: bin/Metadata/Epos.Utilities.Cache-2.html#Epos_Utilities_Cache_2__ctor_System_Int32_
+  commentId: M:Epos.Utilities.Cache`2.#ctor(System.Int32)
+  fullName: Epos.Utilities.Cache<TKey, TValue>.Cache(System.Int32)
+  fullName.vb: Epos.Utilities.Cache(Of TKey, TValue).Cache(System.Int32)
+  nameWithType: Cache<TKey, TValue>.Cache(Int32)
+  nameWithType.vb: Cache(Of TKey, TValue).Cache(Int32)
+- uid: Epos.Utilities.Cache`2.#ctor*
+  name: Cache
+  href: bin/Metadata/Epos.Utilities.Cache-2.html#Epos_Utilities_Cache_2__ctor_
+  commentId: Overload:Epos.Utilities.Cache`2.#ctor
+  fullName: Epos.Utilities.Cache<TKey, TValue>.Cache
+  fullName.vb: Epos.Utilities.Cache(Of TKey, TValue).Cache
+  nameWithType: Cache<TKey, TValue>.Cache
+  nameWithType.vb: Cache(Of TKey, TValue).Cache
+- uid: Epos.Utilities.Cache`2.Capacity
+  name: Capacity
+  href: bin/Metadata/Epos.Utilities.Cache-2.html#Epos_Utilities_Cache_2_Capacity
+  commentId: P:Epos.Utilities.Cache`2.Capacity
+  fullName: Epos.Utilities.Cache<TKey, TValue>.Capacity
+  fullName.vb: Epos.Utilities.Cache(Of TKey, TValue).Capacity
+  nameWithType: Cache<TKey, TValue>.Capacity
+  nameWithType.vb: Cache(Of TKey, TValue).Capacity
+- uid: Epos.Utilities.Cache`2.Capacity*
+  name: Capacity
+  href: bin/Metadata/Epos.Utilities.Cache-2.html#Epos_Utilities_Cache_2_Capacity_
+  commentId: Overload:Epos.Utilities.Cache`2.Capacity
+  fullName: Epos.Utilities.Cache<TKey, TValue>.Capacity
+  fullName.vb: Epos.Utilities.Cache(Of TKey, TValue).Capacity
+  nameWithType: Cache<TKey, TValue>.Capacity
+  nameWithType.vb: Cache(Of TKey, TValue).Capacity
+- uid: Epos.Utilities.Cache`2.Count
+  name: Count
+  href: bin/Metadata/Epos.Utilities.Cache-2.html#Epos_Utilities_Cache_2_Count
+  commentId: P:Epos.Utilities.Cache`2.Count
+  fullName: Epos.Utilities.Cache<TKey, TValue>.Count
+  fullName.vb: Epos.Utilities.Cache(Of TKey, TValue).Count
+  nameWithType: Cache<TKey, TValue>.Count
+  nameWithType.vb: Cache(Of TKey, TValue).Count
+- uid: Epos.Utilities.Cache`2.Count*
+  name: Count
+  href: bin/Metadata/Epos.Utilities.Cache-2.html#Epos_Utilities_Cache_2_Count_
+  commentId: Overload:Epos.Utilities.Cache`2.Count
+  fullName: Epos.Utilities.Cache<TKey, TValue>.Count
+  fullName.vb: Epos.Utilities.Cache(Of TKey, TValue).Count
+  nameWithType: Cache<TKey, TValue>.Count
+  nameWithType.vb: Cache(Of TKey, TValue).Count
+- uid: Epos.Utilities.Cache`2.Item(`0)
+  name: Item[TKey]
+  href: bin/Metadata/Epos.Utilities.Cache-2.html#Epos_Utilities_Cache_2_Item__0_
+  commentId: P:Epos.Utilities.Cache`2.Item(`0)
+  name.vb: Item(TKey)
+  fullName: Epos.Utilities.Cache<TKey, TValue>.Item[TKey]
+  fullName.vb: Epos.Utilities.Cache(Of TKey, TValue).Item(TKey)
+  nameWithType: Cache<TKey, TValue>.Item[TKey]
+  nameWithType.vb: Cache(Of TKey, TValue).Item(TKey)
+- uid: Epos.Utilities.Cache`2.Item*
+  name: Item
+  href: bin/Metadata/Epos.Utilities.Cache-2.html#Epos_Utilities_Cache_2_Item_
+  commentId: Overload:Epos.Utilities.Cache`2.Item
+  fullName: Epos.Utilities.Cache<TKey, TValue>.Item
+  fullName.vb: Epos.Utilities.Cache(Of TKey, TValue).Item
+  nameWithType: Cache<TKey, TValue>.Item
+  nameWithType.vb: Cache(Of TKey, TValue).Item
+- uid: Epos.Utilities.Cache`2.ToString
+  name: ToString()
+  href: bin/Metadata/Epos.Utilities.Cache-2.html#Epos_Utilities_Cache_2_ToString
+  commentId: M:Epos.Utilities.Cache`2.ToString
+  fullName: Epos.Utilities.Cache<TKey, TValue>.ToString()
+  fullName.vb: Epos.Utilities.Cache(Of TKey, TValue).ToString()
+  nameWithType: Cache<TKey, TValue>.ToString()
+  nameWithType.vb: Cache(Of TKey, TValue).ToString()
+- uid: Epos.Utilities.Cache`2.ToString*
+  name: ToString
+  href: bin/Metadata/Epos.Utilities.Cache-2.html#Epos_Utilities_Cache_2_ToString_
+  commentId: Overload:Epos.Utilities.Cache`2.ToString
+  fullName: Epos.Utilities.Cache<TKey, TValue>.ToString
+  fullName.vb: Epos.Utilities.Cache(Of TKey, TValue).ToString
+  nameWithType: Cache<TKey, TValue>.ToString
+  nameWithType.vb: Cache(Of TKey, TValue).ToString
+- uid: Epos.Utilities.Characters
+  name: Characters
+  href: bin/Metadata/Epos.Utilities.Characters.html
+  commentId: T:Epos.Utilities.Characters
+  fullName: Epos.Utilities.Characters
+  nameWithType: Characters
+- uid: Epos.Utilities.Characters.DbLf
+  name: DbLf
+  href: bin/Metadata/Epos.Utilities.Characters.html#Epos_Utilities_Characters_DbLf
+  commentId: F:Epos.Utilities.Characters.DbLf
+  fullName: Epos.Utilities.Characters.DbLf
+  nameWithType: Characters.DbLf
+- uid: Epos.Utilities.Characters.Lf
+  name: Lf
+  href: bin/Metadata/Epos.Utilities.Characters.html#Epos_Utilities_Characters_Lf
+  commentId: F:Epos.Utilities.Characters.Lf
+  fullName: Epos.Utilities.Characters.Lf
+  nameWithType: Characters.Lf
+- uid: Epos.Utilities.Composition
+  name: Epos.Utilities.Composition
+  href: bin/Metadata/Epos.Utilities.Composition.html
+  commentId: N:Epos.Utilities.Composition
+  fullName: Epos.Utilities.Composition
+  nameWithType: Epos.Utilities.Composition
+- uid: Epos.Utilities.Composition.ComponentCreationStrategy
+  name: ComponentCreationStrategy
+  href: bin/Metadata/Epos.Utilities.Composition.ComponentCreationStrategy.html
+  commentId: T:Epos.Utilities.Composition.ComponentCreationStrategy
+  fullName: Epos.Utilities.Composition.ComponentCreationStrategy
+  nameWithType: ComponentCreationStrategy
+- uid: Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(ConstructorInfo,System.Object[])
+  name: GetInstance(ConstructorInfo, Object[])
+  href: bin/Metadata/Epos.Utilities.Composition.ComponentCreationStrategy.html#Epos_Utilities_Composition_ComponentCreationStrategy_GetInstance_ConstructorInfo_System_Object___
+  commentId: M:Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(ConstructorInfo,System.Object[])
+  name.vb: GetInstance(ConstructorInfo, Object())
+  fullName: Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(ConstructorInfo, System.Object[])
+  fullName.vb: Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(ConstructorInfo, System.Object())
+  nameWithType: ComponentCreationStrategy.GetInstance(ConstructorInfo, Object[])
+  nameWithType.vb: ComponentCreationStrategy.GetInstance(ConstructorInfo, Object())
+- uid: Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(System.Delegate)
+  name: GetInstance(Delegate)
+  href: bin/Metadata/Epos.Utilities.Composition.ComponentCreationStrategy.html#Epos_Utilities_Composition_ComponentCreationStrategy_GetInstance_System_Delegate_
+  commentId: M:Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(System.Delegate)
+  fullName: Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(System.Delegate)
+  nameWithType: ComponentCreationStrategy.GetInstance(Delegate)
+- uid: Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance*
+  name: GetInstance
+  href: bin/Metadata/Epos.Utilities.Composition.ComponentCreationStrategy.html#Epos_Utilities_Composition_ComponentCreationStrategy_GetInstance_
+  commentId: Overload:Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance
+  fullName: Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance
+  nameWithType: ComponentCreationStrategy.GetInstance
+- uid: Epos.Utilities.Composition.Container
+  name: Container
+  href: bin/Metadata/Epos.Utilities.Composition.Container.html
+  commentId: T:Epos.Utilities.Composition.Container
+  fullName: Epos.Utilities.Composition.Container
+  nameWithType: Container
+- uid: Epos.Utilities.Composition.Container.#ctor
+  name: Container()
+  href: bin/Metadata/Epos.Utilities.Composition.Container.html#Epos_Utilities_Composition_Container__ctor
+  commentId: M:Epos.Utilities.Composition.Container.#ctor
+  fullName: Epos.Utilities.Composition.Container.Container()
+  nameWithType: Container.Container()
+- uid: Epos.Utilities.Composition.Container.#ctor(Epos.Utilities.Composition.ContainerInstaller)
+  name: Container(ContainerInstaller)
+  href: bin/Metadata/Epos.Utilities.Composition.Container.html#Epos_Utilities_Composition_Container__ctor_Epos_Utilities_Composition_ContainerInstaller_
+  commentId: M:Epos.Utilities.Composition.Container.#ctor(Epos.Utilities.Composition.ContainerInstaller)
+  fullName: Epos.Utilities.Composition.Container.Container(Epos.Utilities.Composition.ContainerInstaller)
+  nameWithType: Container.Container(ContainerInstaller)
+- uid: Epos.Utilities.Composition.Container.#ctor*
+  name: Container
+  href: bin/Metadata/Epos.Utilities.Composition.Container.html#Epos_Utilities_Composition_Container__ctor_
+  commentId: Overload:Epos.Utilities.Composition.Container.#ctor
+  fullName: Epos.Utilities.Composition.Container.Container
+  nameWithType: Container.Container
+- uid: Epos.Utilities.Composition.Container.Register*
+  name: Register
+  href: bin/Metadata/Epos.Utilities.Composition.Container.html#Epos_Utilities_Composition_Container_Register_
+  commentId: Overload:Epos.Utilities.Composition.Container.Register
+  fullName: Epos.Utilities.Composition.Container.Register
+  nameWithType: Container.Register
+- uid: Epos.Utilities.Composition.Container.Register``1
+  name: Register<T>()
+  href: bin/Metadata/Epos.Utilities.Composition.Container.html#Epos_Utilities_Composition_Container_Register__1
+  commentId: M:Epos.Utilities.Composition.Container.Register``1
+  name.vb: Register(Of T)()
+  fullName: Epos.Utilities.Composition.Container.Register<T>()
+  fullName.vb: Epos.Utilities.Composition.Container.Register(Of T)()
+  nameWithType: Container.Register<T>()
+  nameWithType.vb: Container.Register(Of T)()
+- uid: Epos.Utilities.Composition.Container.Resolve(System.Type)
+  name: Resolve(Type)
+  href: bin/Metadata/Epos.Utilities.Composition.Container.html#Epos_Utilities_Composition_Container_Resolve_System_Type_
+  commentId: M:Epos.Utilities.Composition.Container.Resolve(System.Type)
+  fullName: Epos.Utilities.Composition.Container.Resolve(System.Type)
+  nameWithType: Container.Resolve(Type)
+- uid: Epos.Utilities.Composition.Container.Resolve*
+  name: Resolve
+  href: bin/Metadata/Epos.Utilities.Composition.Container.html#Epos_Utilities_Composition_Container_Resolve_
+  commentId: Overload:Epos.Utilities.Composition.Container.Resolve
+  fullName: Epos.Utilities.Composition.Container.Resolve
+  nameWithType: Container.Resolve
+- uid: Epos.Utilities.Composition.Container.Resolve``1
+  name: Resolve<T>()
+  href: bin/Metadata/Epos.Utilities.Composition.Container.html#Epos_Utilities_Composition_Container_Resolve__1
+  commentId: M:Epos.Utilities.Composition.Container.Resolve``1
+  name.vb: Resolve(Of T)()
+  fullName: Epos.Utilities.Composition.Container.Resolve<T>()
+  fullName.vb: Epos.Utilities.Composition.Container.Resolve(Of T)()
+  nameWithType: Container.Resolve<T>()
+  nameWithType.vb: Container.Resolve(Of T)()
+- uid: Epos.Utilities.Composition.Container.UnregisterAll
+  name: UnregisterAll()
+  href: bin/Metadata/Epos.Utilities.Composition.Container.html#Epos_Utilities_Composition_Container_UnregisterAll
+  commentId: M:Epos.Utilities.Composition.Container.UnregisterAll
+  fullName: Epos.Utilities.Composition.Container.UnregisterAll()
+  nameWithType: Container.UnregisterAll()
+- uid: Epos.Utilities.Composition.Container.UnregisterAll*
+  name: UnregisterAll
+  href: bin/Metadata/Epos.Utilities.Composition.Container.html#Epos_Utilities_Composition_Container_UnregisterAll_
+  commentId: Overload:Epos.Utilities.Composition.Container.UnregisterAll
+  fullName: Epos.Utilities.Composition.Container.UnregisterAll
+  nameWithType: Container.UnregisterAll
+- uid: Epos.Utilities.Composition.ContainerInstaller
+  name: ContainerInstaller
+  href: bin/Metadata/Epos.Utilities.Composition.ContainerInstaller.html
+  commentId: T:Epos.Utilities.Composition.ContainerInstaller
+  fullName: Epos.Utilities.Composition.ContainerInstaller
+  nameWithType: ContainerInstaller
+- uid: Epos.Utilities.Composition.ContainerInstaller.Empty
+  name: Empty
+  href: bin/Metadata/Epos.Utilities.Composition.ContainerInstaller.html#Epos_Utilities_Composition_ContainerInstaller_Empty
+  commentId: F:Epos.Utilities.Composition.ContainerInstaller.Empty
+  fullName: Epos.Utilities.Composition.ContainerInstaller.Empty
+  nameWithType: ContainerInstaller.Empty
+- uid: Epos.Utilities.Composition.ContainerInstaller.Install(Epos.Utilities.Composition.Container)
+  name: Install(Container)
+  href: bin/Metadata/Epos.Utilities.Composition.ContainerInstaller.html#Epos_Utilities_Composition_ContainerInstaller_Install_Epos_Utilities_Composition_Container_
+  commentId: M:Epos.Utilities.Composition.ContainerInstaller.Install(Epos.Utilities.Composition.Container)
+  fullName: Epos.Utilities.Composition.ContainerInstaller.Install(Epos.Utilities.Composition.Container)
+  nameWithType: ContainerInstaller.Install(Container)
+- uid: Epos.Utilities.Composition.ContainerInstaller.Install*
+  name: Install
+  href: bin/Metadata/Epos.Utilities.Composition.ContainerInstaller.html#Epos_Utilities_Composition_ContainerInstaller_Install_
+  commentId: Overload:Epos.Utilities.Composition.ContainerInstaller.Install
+  fullName: Epos.Utilities.Composition.ContainerInstaller.Install
+  nameWithType: ContainerInstaller.Install
+- uid: Epos.Utilities.Composition.ImplementedByOptions`2
+  name: ImplementedByOptions<TAbstract, TConcrete>
+  href: bin/Metadata/Epos.Utilities.Composition.ImplementedByOptions-2.html
+  commentId: T:Epos.Utilities.Composition.ImplementedByOptions`2
+  name.vb: ImplementedByOptions(Of TAbstract, TConcrete)
+  fullName: Epos.Utilities.Composition.ImplementedByOptions<TAbstract, TConcrete>
+  fullName.vb: Epos.Utilities.Composition.ImplementedByOptions(Of TAbstract, TConcrete)
+  nameWithType: ImplementedByOptions<TAbstract, TConcrete>
+  nameWithType.vb: ImplementedByOptions(Of TAbstract, TConcrete)
+- uid: Epos.Utilities.Composition.ImplementedByOptions`2.WithParameter(System.String,System.Object)
+  name: WithParameter(String, Object)
+  href: bin/Metadata/Epos.Utilities.Composition.ImplementedByOptions-2.html#Epos_Utilities_Composition_ImplementedByOptions_2_WithParameter_System_String_System_Object_
+  commentId: M:Epos.Utilities.Composition.ImplementedByOptions`2.WithParameter(System.String,System.Object)
+  fullName: Epos.Utilities.Composition.ImplementedByOptions<TAbstract, TConcrete>.WithParameter(System.String, System.Object)
+  fullName.vb: Epos.Utilities.Composition.ImplementedByOptions(Of TAbstract, TConcrete).WithParameter(System.String, System.Object)
+  nameWithType: ImplementedByOptions<TAbstract, TConcrete>.WithParameter(String, Object)
+  nameWithType.vb: ImplementedByOptions(Of TAbstract, TConcrete).WithParameter(String, Object)
+- uid: Epos.Utilities.Composition.ImplementedByOptions`2.WithParameter*
+  name: WithParameter
+  href: bin/Metadata/Epos.Utilities.Composition.ImplementedByOptions-2.html#Epos_Utilities_Composition_ImplementedByOptions_2_WithParameter_
+  commentId: Overload:Epos.Utilities.Composition.ImplementedByOptions`2.WithParameter
+  fullName: Epos.Utilities.Composition.ImplementedByOptions<TAbstract, TConcrete>.WithParameter
+  fullName.vb: Epos.Utilities.Composition.ImplementedByOptions(Of TAbstract, TConcrete).WithParameter
+  nameWithType: ImplementedByOptions<TAbstract, TConcrete>.WithParameter
+  nameWithType.vb: ImplementedByOptions(Of TAbstract, TConcrete).WithParameter
+- uid: Epos.Utilities.Composition.Lifetime
+  name: Lifetime
+  href: bin/Metadata/Epos.Utilities.Composition.Lifetime.html
+  commentId: T:Epos.Utilities.Composition.Lifetime
+  fullName: Epos.Utilities.Composition.Lifetime
+  nameWithType: Lifetime
+- uid: Epos.Utilities.Composition.Lifetime.Singleton
+  name: Singleton
+  href: bin/Metadata/Epos.Utilities.Composition.Lifetime.html#Epos_Utilities_Composition_Lifetime_Singleton
+  commentId: F:Epos.Utilities.Composition.Lifetime.Singleton
+  fullName: Epos.Utilities.Composition.Lifetime.Singleton
+  nameWithType: Lifetime.Singleton
+- uid: Epos.Utilities.Composition.Lifetime.Transient
+  name: Transient
+  href: bin/Metadata/Epos.Utilities.Composition.Lifetime.html#Epos_Utilities_Composition_Lifetime_Transient
+  commentId: F:Epos.Utilities.Composition.Lifetime.Transient
+  fullName: Epos.Utilities.Composition.Lifetime.Transient
+  nameWithType: Lifetime.Transient
+- uid: Epos.Utilities.Composition.LifetimeOptions
+  name: LifetimeOptions
+  href: bin/Metadata/Epos.Utilities.Composition.LifetimeOptions.html
+  commentId: T:Epos.Utilities.Composition.LifetimeOptions
+  fullName: Epos.Utilities.Composition.LifetimeOptions
+  nameWithType: LifetimeOptions
+- uid: Epos.Utilities.Composition.LifetimeOptions.WithLifetime(Epos.Utilities.Composition.Lifetime)
+  name: WithLifetime(Lifetime)
+  href: bin/Metadata/Epos.Utilities.Composition.LifetimeOptions.html#Epos_Utilities_Composition_LifetimeOptions_WithLifetime_Epos_Utilities_Composition_Lifetime_
+  commentId: M:Epos.Utilities.Composition.LifetimeOptions.WithLifetime(Epos.Utilities.Composition.Lifetime)
+  fullName: Epos.Utilities.Composition.LifetimeOptions.WithLifetime(Epos.Utilities.Composition.Lifetime)
+  nameWithType: LifetimeOptions.WithLifetime(Lifetime)
+- uid: Epos.Utilities.Composition.LifetimeOptions.WithLifetime*
+  name: WithLifetime
+  href: bin/Metadata/Epos.Utilities.Composition.LifetimeOptions.html#Epos_Utilities_Composition_LifetimeOptions_WithLifetime_
+  commentId: Overload:Epos.Utilities.Composition.LifetimeOptions.WithLifetime
+  fullName: Epos.Utilities.Composition.LifetimeOptions.WithLifetime
+  nameWithType: LifetimeOptions.WithLifetime
+- uid: Epos.Utilities.Composition.RegisterOptions`1
+  name: RegisterOptions<TAbstract>
+  href: bin/Metadata/Epos.Utilities.Composition.RegisterOptions-1.html
+  commentId: T:Epos.Utilities.Composition.RegisterOptions`1
+  name.vb: RegisterOptions(Of TAbstract)
+  fullName: Epos.Utilities.Composition.RegisterOptions<TAbstract>
+  fullName.vb: Epos.Utilities.Composition.RegisterOptions(Of TAbstract)
+  nameWithType: RegisterOptions<TAbstract>
+  nameWithType.vb: RegisterOptions(Of TAbstract)
+- uid: Epos.Utilities.Composition.RegisterOptions`1.ImplementedBy*
+  name: ImplementedBy
+  href: bin/Metadata/Epos.Utilities.Composition.RegisterOptions-1.html#Epos_Utilities_Composition_RegisterOptions_1_ImplementedBy_
+  commentId: Overload:Epos.Utilities.Composition.RegisterOptions`1.ImplementedBy
+  fullName: Epos.Utilities.Composition.RegisterOptions<TAbstract>.ImplementedBy
+  fullName.vb: Epos.Utilities.Composition.RegisterOptions(Of TAbstract).ImplementedBy
+  nameWithType: RegisterOptions<TAbstract>.ImplementedBy
+  nameWithType.vb: RegisterOptions(Of TAbstract).ImplementedBy
+- uid: Epos.Utilities.Composition.RegisterOptions`1.ImplementedBy``1
+  name: ImplementedBy<TConcrete>()
+  href: bin/Metadata/Epos.Utilities.Composition.RegisterOptions-1.html#Epos_Utilities_Composition_RegisterOptions_1_ImplementedBy__1
+  commentId: M:Epos.Utilities.Composition.RegisterOptions`1.ImplementedBy``1
+  name.vb: ImplementedBy(Of TConcrete)()
+  fullName: Epos.Utilities.Composition.RegisterOptions<TAbstract>.ImplementedBy<TConcrete>()
+  fullName.vb: Epos.Utilities.Composition.RegisterOptions(Of TAbstract).ImplementedBy(Of TConcrete)()
+  nameWithType: RegisterOptions<TAbstract>.ImplementedBy<TConcrete>()
+  nameWithType.vb: RegisterOptions(Of TAbstract).ImplementedBy(Of TConcrete)()
+- uid: Epos.Utilities.Composition.RegisterOptions`1.WithFactoryMethod*
+  name: WithFactoryMethod
+  href: bin/Metadata/Epos.Utilities.Composition.RegisterOptions-1.html#Epos_Utilities_Composition_RegisterOptions_1_WithFactoryMethod_
+  commentId: Overload:Epos.Utilities.Composition.RegisterOptions`1.WithFactoryMethod
+  fullName: Epos.Utilities.Composition.RegisterOptions<TAbstract>.WithFactoryMethod
+  fullName.vb: Epos.Utilities.Composition.RegisterOptions(Of TAbstract).WithFactoryMethod
+  nameWithType: RegisterOptions<TAbstract>.WithFactoryMethod
+  nameWithType.vb: RegisterOptions(Of TAbstract).WithFactoryMethod
+- uid: Epos.Utilities.Composition.RegisterOptions`1.WithFactoryMethod``1(System.Func{``0})
+  name: WithFactoryMethod<TConcrete>(Func<TConcrete>)
+  href: bin/Metadata/Epos.Utilities.Composition.RegisterOptions-1.html#Epos_Utilities_Composition_RegisterOptions_1_WithFactoryMethod__1_System_Func___0__
+  commentId: M:Epos.Utilities.Composition.RegisterOptions`1.WithFactoryMethod``1(System.Func{``0})
+  name.vb: WithFactoryMethod(Of TConcrete)(Func(Of TConcrete))
+  fullName: Epos.Utilities.Composition.RegisterOptions<TAbstract>.WithFactoryMethod<TConcrete>(System.Func<TConcrete>)
+  fullName.vb: Epos.Utilities.Composition.RegisterOptions(Of TAbstract).WithFactoryMethod(Of TConcrete)(System.Func(Of TConcrete))
+  nameWithType: RegisterOptions<TAbstract>.WithFactoryMethod<TConcrete>(Func<TConcrete>)
+  nameWithType.vb: RegisterOptions(Of TAbstract).WithFactoryMethod(Of TConcrete)(Func(Of TConcrete))
+- uid: Epos.Utilities.Composition.RegistrationStep
+  name: RegistrationStep
+  href: bin/Metadata/Epos.Utilities.Composition.RegistrationStep.html
+  commentId: T:Epos.Utilities.Composition.RegistrationStep
+  fullName: Epos.Utilities.Composition.RegistrationStep
+  nameWithType: RegistrationStep
+- uid: Epos.Utilities.Composition.WithFactoryMethodOptions`2
+  name: WithFactoryMethodOptions<TAbstract, TConcrete>
+  href: bin/Metadata/Epos.Utilities.Composition.WithFactoryMethodOptions-2.html
+  commentId: T:Epos.Utilities.Composition.WithFactoryMethodOptions`2
+  name.vb: WithFactoryMethodOptions(Of TAbstract, TConcrete)
+  fullName: Epos.Utilities.Composition.WithFactoryMethodOptions<TAbstract, TConcrete>
+  fullName.vb: Epos.Utilities.Composition.WithFactoryMethodOptions(Of TAbstract, TConcrete)
+  nameWithType: WithFactoryMethodOptions<TAbstract, TConcrete>
+  nameWithType.vb: WithFactoryMethodOptions(Of TAbstract, TConcrete)
+- uid: Epos.Utilities.Composition.WithParameterOptions
+  name: WithParameterOptions
+  href: bin/Metadata/Epos.Utilities.Composition.WithParameterOptions.html
+  commentId: T:Epos.Utilities.Composition.WithParameterOptions
+  fullName: Epos.Utilities.Composition.WithParameterOptions
+  nameWithType: WithParameterOptions
+- uid: Epos.Utilities.Composition.WithParameterOptions.AndParameter(System.String,System.Object)
+  name: AndParameter(String, Object)
+  href: bin/Metadata/Epos.Utilities.Composition.WithParameterOptions.html#Epos_Utilities_Composition_WithParameterOptions_AndParameter_System_String_System_Object_
+  commentId: M:Epos.Utilities.Composition.WithParameterOptions.AndParameter(System.String,System.Object)
+  fullName: Epos.Utilities.Composition.WithParameterOptions.AndParameter(System.String, System.Object)
+  nameWithType: WithParameterOptions.AndParameter(String, Object)
+- uid: Epos.Utilities.Composition.WithParameterOptions.AndParameter*
+  name: AndParameter
+  href: bin/Metadata/Epos.Utilities.Composition.WithParameterOptions.html#Epos_Utilities_Composition_WithParameterOptions_AndParameter_
+  commentId: Overload:Epos.Utilities.Composition.WithParameterOptions.AndParameter
+  fullName: Epos.Utilities.Composition.WithParameterOptions.AndParameter
+  nameWithType: WithParameterOptions.AndParameter
+- uid: Epos.Utilities.DebugThrow
+  name: DebugThrow
+  href: bin/Metadata/Epos.Utilities.DebugThrow.html
+  commentId: T:Epos.Utilities.DebugThrow
+  fullName: Epos.Utilities.DebugThrow
+  nameWithType: DebugThrow
+- uid: Epos.Utilities.DebugThrow.If(System.Boolean,System.String,System.String)
+  name: If(Boolean, String, String)
+  href: bin/Metadata/Epos.Utilities.DebugThrow.html#Epos_Utilities_DebugThrow_If_System_Boolean_System_String_System_String_
+  commentId: M:Epos.Utilities.DebugThrow.If(System.Boolean,System.String,System.String)
+  fullName: Epos.Utilities.DebugThrow.If(System.Boolean, System.String, System.String)
+  nameWithType: DebugThrow.If(Boolean, String, String)
+- uid: Epos.Utilities.DebugThrow.If*
+  name: If
+  href: bin/Metadata/Epos.Utilities.DebugThrow.html#Epos_Utilities_DebugThrow_If_
+  commentId: Overload:Epos.Utilities.DebugThrow.If
+  fullName: Epos.Utilities.DebugThrow.If
+  nameWithType: DebugThrow.If
+- uid: Epos.Utilities.DebugThrow.IfInvalidEnum(System.Enum,System.String)
+  name: IfInvalidEnum(Enum, String)
+  href: bin/Metadata/Epos.Utilities.DebugThrow.html#Epos_Utilities_DebugThrow_IfInvalidEnum_System_Enum_System_String_
+  commentId: M:Epos.Utilities.DebugThrow.IfInvalidEnum(System.Enum,System.String)
+  fullName: Epos.Utilities.DebugThrow.IfInvalidEnum(System.Enum, System.String)
+  nameWithType: DebugThrow.IfInvalidEnum(Enum, String)
+- uid: Epos.Utilities.DebugThrow.IfInvalidEnum*
+  name: IfInvalidEnum
+  href: bin/Metadata/Epos.Utilities.DebugThrow.html#Epos_Utilities_DebugThrow_IfInvalidEnum_
+  commentId: Overload:Epos.Utilities.DebugThrow.IfInvalidEnum
+  fullName: Epos.Utilities.DebugThrow.IfInvalidEnum
+  nameWithType: DebugThrow.IfInvalidEnum
+- uid: Epos.Utilities.DebugThrow.IfNull*
+  name: IfNull
+  href: bin/Metadata/Epos.Utilities.DebugThrow.html#Epos_Utilities_DebugThrow_IfNull_
+  commentId: Overload:Epos.Utilities.DebugThrow.IfNull
+  fullName: Epos.Utilities.DebugThrow.IfNull
+  nameWithType: DebugThrow.IfNull
+- uid: Epos.Utilities.DebugThrow.IfNull``1(``0,System.String)
+  name: IfNull<T>(T, String)
+  href: bin/Metadata/Epos.Utilities.DebugThrow.html#Epos_Utilities_DebugThrow_IfNull__1___0_System_String_
+  commentId: M:Epos.Utilities.DebugThrow.IfNull``1(``0,System.String)
+  name.vb: IfNull(Of T)(T, String)
+  fullName: Epos.Utilities.DebugThrow.IfNull<T>(T, System.String)
+  fullName.vb: Epos.Utilities.DebugThrow.IfNull(Of T)(T, System.String)
+  nameWithType: DebugThrow.IfNull<T>(T, String)
+  nameWithType.vb: DebugThrow.IfNull(Of T)(T, String)
+- uid: Epos.Utilities.DumpExtensions
+  name: DumpExtensions
+  href: bin/Metadata/Epos.Utilities.DumpExtensions.html
+  commentId: T:Epos.Utilities.DumpExtensions
+  fullName: Epos.Utilities.DumpExtensions
+  nameWithType: DumpExtensions
+- uid: Epos.Utilities.DumpExtensions.Dump(System.Object)
+  name: Dump(Object)
+  href: bin/Metadata/Epos.Utilities.DumpExtensions.html#Epos_Utilities_DumpExtensions_Dump_System_Object_
+  commentId: M:Epos.Utilities.DumpExtensions.Dump(System.Object)
+  fullName: Epos.Utilities.DumpExtensions.Dump(System.Object)
+  nameWithType: DumpExtensions.Dump(Object)
+- uid: Epos.Utilities.DumpExtensions.Dump*
+  name: Dump
+  href: bin/Metadata/Epos.Utilities.DumpExtensions.html#Epos_Utilities_DumpExtensions_Dump_
+  commentId: Overload:Epos.Utilities.DumpExtensions.Dump
+  fullName: Epos.Utilities.DumpExtensions.Dump
+  nameWithType: DumpExtensions.Dump
+- uid: Epos.Utilities.EnumerableExtensions
+  name: EnumerableExtensions
+  href: bin/Metadata/Epos.Utilities.EnumerableExtensions.html
+  commentId: T:Epos.Utilities.EnumerableExtensions
+  fullName: Epos.Utilities.EnumerableExtensions
+  nameWithType: EnumerableExtensions
+- uid: Epos.Utilities.EnumerableExtensions.DisposeAll(IEnumerable{System.IDisposable})
+  name: DisposeAll(IEnumerable<IDisposable>)
+  href: bin/Metadata/Epos.Utilities.EnumerableExtensions.html#Epos_Utilities_EnumerableExtensions_DisposeAll_IEnumerable_System_IDisposable__
+  commentId: M:Epos.Utilities.EnumerableExtensions.DisposeAll(IEnumerable{System.IDisposable})
+  name.vb: DisposeAll(IEnumerable(Of IDisposable))
+  fullName: Epos.Utilities.EnumerableExtensions.DisposeAll(IEnumerable<System.IDisposable>)
+  fullName.vb: Epos.Utilities.EnumerableExtensions.DisposeAll(IEnumerable(Of System.IDisposable))
+  nameWithType: EnumerableExtensions.DisposeAll(IEnumerable<IDisposable>)
+  nameWithType.vb: EnumerableExtensions.DisposeAll(IEnumerable(Of IDisposable))
+- uid: Epos.Utilities.EnumerableExtensions.DisposeAll*
+  name: DisposeAll
+  href: bin/Metadata/Epos.Utilities.EnumerableExtensions.html#Epos_Utilities_EnumerableExtensions_DisposeAll_
+  commentId: Overload:Epos.Utilities.EnumerableExtensions.DisposeAll
+  fullName: Epos.Utilities.EnumerableExtensions.DisposeAll
+  nameWithType: EnumerableExtensions.DisposeAll
+- uid: Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy*
+  name: FlattenRecursiveHierarchy
+  href: bin/Metadata/Epos.Utilities.EnumerableExtensions.html#Epos_Utilities_EnumerableExtensions_FlattenRecursiveHierarchy_
+  commentId: Overload:Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy
+  fullName: Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy
+  nameWithType: EnumerableExtensions.FlattenRecursiveHierarchy
+- uid: Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy``1(IEnumerable{``0},System.Func{``0,IEnumerable{``0}})
+  name: FlattenRecursiveHierarchy<T>(IEnumerable<T>, Func<T, IEnumerable<T>>)
+  href: bin/Metadata/Epos.Utilities.EnumerableExtensions.html#Epos_Utilities_EnumerableExtensions_FlattenRecursiveHierarchy__1_IEnumerable___0__System_Func___0_IEnumerable___0___
+  commentId: M:Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy``1(IEnumerable{``0},System.Func{``0,IEnumerable{``0}})
+  name.vb: FlattenRecursiveHierarchy(Of T)(IEnumerable(Of T), Func(Of T, IEnumerable(Of T)))
+  fullName: Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy<T>(IEnumerable<T>, System.Func<T, IEnumerable<T>>)
+  fullName.vb: Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy(Of T)(IEnumerable(Of T), System.Func(Of T, IEnumerable(Of T)))
+  nameWithType: EnumerableExtensions.FlattenRecursiveHierarchy<T>(IEnumerable<T>, Func<T, IEnumerable<T>>)
+  nameWithType.vb: EnumerableExtensions.FlattenRecursiveHierarchy(Of T)(IEnumerable(Of T), Func(Of T, IEnumerable(Of T)))
+- uid: Epos.Utilities.EnumerableExtensions.ForEach*
+  name: ForEach
+  href: bin/Metadata/Epos.Utilities.EnumerableExtensions.html#Epos_Utilities_EnumerableExtensions_ForEach_
+  commentId: Overload:Epos.Utilities.EnumerableExtensions.ForEach
+  fullName: Epos.Utilities.EnumerableExtensions.ForEach
+  nameWithType: EnumerableExtensions.ForEach
+- uid: Epos.Utilities.EnumerableExtensions.ForEach``1(IEnumerable{``0},System.Action{``0})
+  name: ForEach<T>(IEnumerable<T>, Action<T>)
+  href: bin/Metadata/Epos.Utilities.EnumerableExtensions.html#Epos_Utilities_EnumerableExtensions_ForEach__1_IEnumerable___0__System_Action___0__
+  commentId: M:Epos.Utilities.EnumerableExtensions.ForEach``1(IEnumerable{``0},System.Action{``0})
+  name.vb: ForEach(Of T)(IEnumerable(Of T), Action(Of T))
+  fullName: Epos.Utilities.EnumerableExtensions.ForEach<T>(IEnumerable<T>, System.Action<T>)
+  fullName.vb: Epos.Utilities.EnumerableExtensions.ForEach(Of T)(IEnumerable(Of T), System.Action(Of T))
+  nameWithType: EnumerableExtensions.ForEach<T>(IEnumerable<T>, Action<T>)
+  nameWithType.vb: EnumerableExtensions.ForEach(Of T)(IEnumerable(Of T), Action(Of T))
+- uid: Epos.Utilities.EnumerableExtensions.ToEnumerable*
+  name: ToEnumerable
+  href: bin/Metadata/Epos.Utilities.EnumerableExtensions.html#Epos_Utilities_EnumerableExtensions_ToEnumerable_
+  commentId: Overload:Epos.Utilities.EnumerableExtensions.ToEnumerable
+  fullName: Epos.Utilities.EnumerableExtensions.ToEnumerable
+  nameWithType: EnumerableExtensions.ToEnumerable
+- uid: Epos.Utilities.EnumerableExtensions.ToEnumerable``1(``0)
+  name: ToEnumerable<T>(T)
+  href: bin/Metadata/Epos.Utilities.EnumerableExtensions.html#Epos_Utilities_EnumerableExtensions_ToEnumerable__1___0_
+  commentId: M:Epos.Utilities.EnumerableExtensions.ToEnumerable``1(``0)
+  name.vb: ToEnumerable(Of T)(T)
+  fullName: Epos.Utilities.EnumerableExtensions.ToEnumerable<T>(T)
+  fullName.vb: Epos.Utilities.EnumerableExtensions.ToEnumerable(Of T)(T)
+  nameWithType: EnumerableExtensions.ToEnumerable<T>(T)
+  nameWithType.vb: EnumerableExtensions.ToEnumerable(Of T)(T)
+- uid: Epos.Utilities.EventExtensions
+  name: EventExtensions
+  href: bin/Metadata/Epos.Utilities.EventExtensions.html
+  commentId: T:Epos.Utilities.EventExtensions
+  fullName: Epos.Utilities.EventExtensions
+  nameWithType: EventExtensions
+- uid: Epos.Utilities.EventExtensions.Raise(PropertyChangedEventHandler,System.Object,System.String)
+  name: Raise(PropertyChangedEventHandler, Object, String)
+  href: bin/Metadata/Epos.Utilities.EventExtensions.html#Epos_Utilities_EventExtensions_Raise_PropertyChangedEventHandler_System_Object_System_String_
+  commentId: M:Epos.Utilities.EventExtensions.Raise(PropertyChangedEventHandler,System.Object,System.String)
+  fullName: Epos.Utilities.EventExtensions.Raise(PropertyChangedEventHandler, System.Object, System.String)
+  nameWithType: EventExtensions.Raise(PropertyChangedEventHandler, Object, String)
+- uid: Epos.Utilities.EventExtensions.Raise(System.EventHandler,System.Object)
+  name: Raise(EventHandler, Object)
+  href: bin/Metadata/Epos.Utilities.EventExtensions.html#Epos_Utilities_EventExtensions_Raise_System_EventHandler_System_Object_
+  commentId: M:Epos.Utilities.EventExtensions.Raise(System.EventHandler,System.Object)
+  fullName: Epos.Utilities.EventExtensions.Raise(System.EventHandler, System.Object)
+  nameWithType: EventExtensions.Raise(EventHandler, Object)
+- uid: Epos.Utilities.EventExtensions.Raise(System.EventHandler,System.Object,System.EventArgs)
+  name: Raise(EventHandler, Object, EventArgs)
+  href: bin/Metadata/Epos.Utilities.EventExtensions.html#Epos_Utilities_EventExtensions_Raise_System_EventHandler_System_Object_System_EventArgs_
+  commentId: M:Epos.Utilities.EventExtensions.Raise(System.EventHandler,System.Object,System.EventArgs)
+  fullName: Epos.Utilities.EventExtensions.Raise(System.EventHandler, System.Object, System.EventArgs)
+  nameWithType: EventExtensions.Raise(EventHandler, Object, EventArgs)
+- uid: Epos.Utilities.EventExtensions.Raise*
+  name: Raise
+  href: bin/Metadata/Epos.Utilities.EventExtensions.html#Epos_Utilities_EventExtensions_Raise_
+  commentId: Overload:Epos.Utilities.EventExtensions.Raise
+  fullName: Epos.Utilities.EventExtensions.Raise
+  nameWithType: EventExtensions.Raise
+- uid: Epos.Utilities.EventExtensions.Raise``1(System.EventHandler{``0},System.Object,``0)
+  name: Raise<TEventArgs>(EventHandler<TEventArgs>, Object, TEventArgs)
+  href: bin/Metadata/Epos.Utilities.EventExtensions.html#Epos_Utilities_EventExtensions_Raise__1_System_EventHandler___0__System_Object___0_
+  commentId: M:Epos.Utilities.EventExtensions.Raise``1(System.EventHandler{``0},System.Object,``0)
+  name.vb: Raise(Of TEventArgs)(EventHandler(Of TEventArgs), Object, TEventArgs)
+  fullName: Epos.Utilities.EventExtensions.Raise<TEventArgs>(System.EventHandler<TEventArgs>, System.Object, TEventArgs)
+  fullName.vb: Epos.Utilities.EventExtensions.Raise(Of TEventArgs)(System.EventHandler(Of TEventArgs), System.Object, TEventArgs)
+  nameWithType: EventExtensions.Raise<TEventArgs>(EventHandler<TEventArgs>, Object, TEventArgs)
+  nameWithType.vb: EventExtensions.Raise(Of TEventArgs)(EventHandler(Of TEventArgs), Object, TEventArgs)
+- uid: Epos.Utilities.ListExtensions
+  name: ListExtensions
+  href: bin/Metadata/Epos.Utilities.ListExtensions.html
+  commentId: T:Epos.Utilities.ListExtensions
+  fullName: Epos.Utilities.ListExtensions
+  nameWithType: ListExtensions
+- uid: Epos.Utilities.ListExtensions.EqualsList*
+  name: EqualsList
+  href: bin/Metadata/Epos.Utilities.ListExtensions.html#Epos_Utilities_ListExtensions_EqualsList_
+  commentId: Overload:Epos.Utilities.ListExtensions.EqualsList
+  fullName: Epos.Utilities.ListExtensions.EqualsList
+  nameWithType: ListExtensions.EqualsList
+- uid: Epos.Utilities.ListExtensions.EqualsList``1(IList{``0},IList{``0})
+  name: EqualsList<T>(IList<T>, IList<T>)
+  href: bin/Metadata/Epos.Utilities.ListExtensions.html#Epos_Utilities_ListExtensions_EqualsList__1_IList___0__IList___0__
+  commentId: M:Epos.Utilities.ListExtensions.EqualsList``1(IList{``0},IList{``0})
+  name.vb: EqualsList(Of T)(IList(Of T), IList(Of T))
+  fullName: Epos.Utilities.ListExtensions.EqualsList<T>(IList<T>, IList<T>)
+  fullName.vb: Epos.Utilities.ListExtensions.EqualsList(Of T)(IList(Of T), IList(Of T))
+  nameWithType: ListExtensions.EqualsList<T>(IList<T>, IList<T>)
+  nameWithType.vb: ListExtensions.EqualsList(Of T)(IList(Of T), IList(Of T))
+- uid: Epos.Utilities.ListExtensions.GetListHashCode*
+  name: GetListHashCode
+  href: bin/Metadata/Epos.Utilities.ListExtensions.html#Epos_Utilities_ListExtensions_GetListHashCode_
+  commentId: Overload:Epos.Utilities.ListExtensions.GetListHashCode
+  fullName: Epos.Utilities.ListExtensions.GetListHashCode
+  nameWithType: ListExtensions.GetListHashCode
+- uid: Epos.Utilities.ListExtensions.GetListHashCode``1(IList{``0})
+  name: GetListHashCode<T>(IList<T>)
+  href: bin/Metadata/Epos.Utilities.ListExtensions.html#Epos_Utilities_ListExtensions_GetListHashCode__1_IList___0__
+  commentId: M:Epos.Utilities.ListExtensions.GetListHashCode``1(IList{``0})
+  name.vb: GetListHashCode(Of T)(IList(Of T))
+  fullName: Epos.Utilities.ListExtensions.GetListHashCode<T>(IList<T>)
+  fullName.vb: Epos.Utilities.ListExtensions.GetListHashCode(Of T)(IList(Of T))
+  nameWithType: ListExtensions.GetListHashCode<T>(IList<T>)
+  nameWithType.vb: ListExtensions.GetListHashCode(Of T)(IList(Of T))
+- uid: Epos.Utilities.Logger
+  name: Logger
+  href: bin/Metadata/Epos.Utilities.Logger.html
+  commentId: T:Epos.Utilities.Logger
+  fullName: Epos.Utilities.Logger
+  nameWithType: Logger
+- uid: Epos.Utilities.Logger.ConsoleOutputAction
+  name: ConsoleOutputAction
+  href: bin/Metadata/Epos.Utilities.Logger.html#Epos_Utilities_Logger_ConsoleOutputAction
+  commentId: F:Epos.Utilities.Logger.ConsoleOutputAction
+  fullName: Epos.Utilities.Logger.ConsoleOutputAction
+  nameWithType: Logger.ConsoleOutputAction
+- uid: Epos.Utilities.Logger.Log(System.String)
+  name: Log(String)
+  href: bin/Metadata/Epos.Utilities.Logger.html#Epos_Utilities_Logger_Log_System_String_
+  commentId: M:Epos.Utilities.Logger.Log(System.String)
+  fullName: Epos.Utilities.Logger.Log(System.String)
+  nameWithType: Logger.Log(String)
+- uid: Epos.Utilities.Logger.Log*
+  name: Log
+  href: bin/Metadata/Epos.Utilities.Logger.html#Epos_Utilities_Logger_Log_
+  commentId: Overload:Epos.Utilities.Logger.Log
+  fullName: Epos.Utilities.Logger.Log
+  nameWithType: Logger.Log
+- uid: Epos.Utilities.Logger.LogLine(System.String)
+  name: LogLine(String)
+  href: bin/Metadata/Epos.Utilities.Logger.html#Epos_Utilities_Logger_LogLine_System_String_
+  commentId: M:Epos.Utilities.Logger.LogLine(System.String)
+  fullName: Epos.Utilities.Logger.LogLine(System.String)
+  nameWithType: Logger.LogLine(String)
+- uid: Epos.Utilities.Logger.LogLine*
+  name: LogLine
+  href: bin/Metadata/Epos.Utilities.Logger.html#Epos_Utilities_Logger_LogLine_
+  commentId: Overload:Epos.Utilities.Logger.LogLine
+  fullName: Epos.Utilities.Logger.LogLine
+  nameWithType: Logger.LogLine
+- uid: Epos.Utilities.Logger.SetLogAction(System.Action{System.String})
+  name: SetLogAction(Action<String>)
+  href: bin/Metadata/Epos.Utilities.Logger.html#Epos_Utilities_Logger_SetLogAction_System_Action_System_String__
+  commentId: M:Epos.Utilities.Logger.SetLogAction(System.Action{System.String})
+  name.vb: SetLogAction(Action(Of String))
+  fullName: Epos.Utilities.Logger.SetLogAction(System.Action<System.String>)
+  fullName.vb: Epos.Utilities.Logger.SetLogAction(System.Action(Of System.String))
+  nameWithType: Logger.SetLogAction(Action<String>)
+  nameWithType.vb: Logger.SetLogAction(Action(Of String))
+- uid: Epos.Utilities.Logger.SetLogAction*
+  name: SetLogAction
+  href: bin/Metadata/Epos.Utilities.Logger.html#Epos_Utilities_Logger_SetLogAction_
+  commentId: Overload:Epos.Utilities.Logger.SetLogAction
+  fullName: Epos.Utilities.Logger.SetLogAction
+  nameWithType: Logger.SetLogAction
+- uid: Epos.Utilities.ObjectExtensions
+  name: ObjectExtensions
+  href: bin/Metadata/Epos.Utilities.ObjectExtensions.html
+  commentId: T:Epos.Utilities.ObjectExtensions
+  fullName: Epos.Utilities.ObjectExtensions
+  nameWithType: ObjectExtensions
+- uid: Epos.Utilities.ObjectExtensions.GetAttribute*
+  name: GetAttribute
+  href: bin/Metadata/Epos.Utilities.ObjectExtensions.html#Epos_Utilities_ObjectExtensions_GetAttribute_
+  commentId: Overload:Epos.Utilities.ObjectExtensions.GetAttribute
+  fullName: Epos.Utilities.ObjectExtensions.GetAttribute
+  nameWithType: ObjectExtensions.GetAttribute
+- uid: Epos.Utilities.ObjectExtensions.GetAttribute``1(System.Object)
+  name: GetAttribute<TAttribute>(Object)
+  href: bin/Metadata/Epos.Utilities.ObjectExtensions.html#Epos_Utilities_ObjectExtensions_GetAttribute__1_System_Object_
+  commentId: M:Epos.Utilities.ObjectExtensions.GetAttribute``1(System.Object)
+  name.vb: GetAttribute(Of TAttribute)(Object)
+  fullName: Epos.Utilities.ObjectExtensions.GetAttribute<TAttribute>(System.Object)
+  fullName.vb: Epos.Utilities.ObjectExtensions.GetAttribute(Of TAttribute)(System.Object)
+  nameWithType: ObjectExtensions.GetAttribute<TAttribute>(Object)
+  nameWithType.vb: ObjectExtensions.GetAttribute(Of TAttribute)(Object)
+- uid: Epos.Utilities.ObjectExtensions.HasAttribute*
+  name: HasAttribute
+  href: bin/Metadata/Epos.Utilities.ObjectExtensions.html#Epos_Utilities_ObjectExtensions_HasAttribute_
+  commentId: Overload:Epos.Utilities.ObjectExtensions.HasAttribute
+  fullName: Epos.Utilities.ObjectExtensions.HasAttribute
+  nameWithType: ObjectExtensions.HasAttribute
+- uid: Epos.Utilities.ObjectExtensions.HasAttribute``1(System.Object)
+  name: HasAttribute<TAttribute>(Object)
+  href: bin/Metadata/Epos.Utilities.ObjectExtensions.html#Epos_Utilities_ObjectExtensions_HasAttribute__1_System_Object_
+  commentId: M:Epos.Utilities.ObjectExtensions.HasAttribute``1(System.Object)
+  name.vb: HasAttribute(Of TAttribute)(Object)
+  fullName: Epos.Utilities.ObjectExtensions.HasAttribute<TAttribute>(System.Object)
+  fullName.vb: Epos.Utilities.ObjectExtensions.HasAttribute(Of TAttribute)(System.Object)
+  nameWithType: ObjectExtensions.HasAttribute<TAttribute>(Object)
+  nameWithType.vb: ObjectExtensions.HasAttribute(Of TAttribute)(Object)
+- uid: Epos.Utilities.Password
+  name: Password
+  href: bin/Metadata/Epos.Utilities.Password.html
+  commentId: T:Epos.Utilities.Password
+  fullName: Epos.Utilities.Password
+  nameWithType: Password
+- uid: Epos.Utilities.Password.Decrypt(System.String)
+  name: Decrypt(String)
+  href: bin/Metadata/Epos.Utilities.Password.html#Epos_Utilities_Password_Decrypt_System_String_
+  commentId: M:Epos.Utilities.Password.Decrypt(System.String)
+  fullName: Epos.Utilities.Password.Decrypt(System.String)
+  nameWithType: Password.Decrypt(String)
+- uid: Epos.Utilities.Password.Decrypt*
+  name: Decrypt
+  href: bin/Metadata/Epos.Utilities.Password.html#Epos_Utilities_Password_Decrypt_
+  commentId: Overload:Epos.Utilities.Password.Decrypt
+  fullName: Epos.Utilities.Password.Decrypt
+  nameWithType: Password.Decrypt
+- uid: Epos.Utilities.Password.Encrypt(System.String)
+  name: Encrypt(String)
+  href: bin/Metadata/Epos.Utilities.Password.html#Epos_Utilities_Password_Encrypt_System_String_
+  commentId: M:Epos.Utilities.Password.Encrypt(System.String)
+  fullName: Epos.Utilities.Password.Encrypt(System.String)
+  nameWithType: Password.Encrypt(String)
+- uid: Epos.Utilities.Password.Encrypt*
+  name: Encrypt
+  href: bin/Metadata/Epos.Utilities.Password.html#Epos_Utilities_Password_Encrypt_
+  commentId: Overload:Epos.Utilities.Password.Encrypt
+  fullName: Epos.Utilities.Password.Encrypt
+  nameWithType: Password.Encrypt
+- uid: Epos.Utilities.RoundOperation`1
+  name: RoundOperation<T>
+  href: bin/Metadata/Epos.Utilities.RoundOperation-1.html
+  commentId: T:Epos.Utilities.RoundOperation`1
+  name.vb: RoundOperation(Of T)
+  fullName: Epos.Utilities.RoundOperation<T>
+  fullName.vb: Epos.Utilities.RoundOperation(Of T)
+  nameWithType: RoundOperation<T>
+  nameWithType.vb: RoundOperation(Of T)
+- uid: Epos.Utilities.StopwatchHelper
+  name: StopwatchHelper
+  href: bin/Metadata/Epos.Utilities.StopwatchHelper.html
+  commentId: T:Epos.Utilities.StopwatchHelper
+  fullName: Epos.Utilities.StopwatchHelper
+  nameWithType: StopwatchHelper
+- uid: Epos.Utilities.StopwatchHelper.GetMilliseconds(System.Action)
+  name: GetMilliseconds(Action)
+  href: bin/Metadata/Epos.Utilities.StopwatchHelper.html#Epos_Utilities_StopwatchHelper_GetMilliseconds_System_Action_
+  commentId: M:Epos.Utilities.StopwatchHelper.GetMilliseconds(System.Action)
+  fullName: Epos.Utilities.StopwatchHelper.GetMilliseconds(System.Action)
+  nameWithType: StopwatchHelper.GetMilliseconds(Action)
+- uid: Epos.Utilities.StopwatchHelper.GetMilliseconds*
+  name: GetMilliseconds
+  href: bin/Metadata/Epos.Utilities.StopwatchHelper.html#Epos_Utilities_StopwatchHelper_GetMilliseconds_
+  commentId: Overload:Epos.Utilities.StopwatchHelper.GetMilliseconds
+  fullName: Epos.Utilities.StopwatchHelper.GetMilliseconds
+  nameWithType: StopwatchHelper.GetMilliseconds
+- uid: Epos.Utilities.StringExtensions
+  name: StringExtensions
+  href: bin/Metadata/Epos.Utilities.StringExtensions.html
+  commentId: T:Epos.Utilities.StringExtensions
+  fullName: Epos.Utilities.StringExtensions
+  nameWithType: StringExtensions
+- uid: Epos.Utilities.StringExtensions.Extract(System.String,System.String,System.String)
+  name: Extract(String, String, String)
+  href: bin/Metadata/Epos.Utilities.StringExtensions.html#Epos_Utilities_StringExtensions_Extract_System_String_System_String_System_String_
+  commentId: M:Epos.Utilities.StringExtensions.Extract(System.String,System.String,System.String)
+  fullName: Epos.Utilities.StringExtensions.Extract(System.String, System.String, System.String)
+  nameWithType: StringExtensions.Extract(String, String, String)
+- uid: Epos.Utilities.StringExtensions.Extract*
+  name: Extract
+  href: bin/Metadata/Epos.Utilities.StringExtensions.html#Epos_Utilities_StringExtensions_Extract_
+  commentId: Overload:Epos.Utilities.StringExtensions.Extract
+  fullName: Epos.Utilities.StringExtensions.Extract
+  nameWithType: StringExtensions.Extract
+- uid: Epos.Utilities.StringExtensions.IsValidEmailAddress(System.String)
+  name: IsValidEmailAddress(String)
+  href: bin/Metadata/Epos.Utilities.StringExtensions.html#Epos_Utilities_StringExtensions_IsValidEmailAddress_System_String_
+  commentId: M:Epos.Utilities.StringExtensions.IsValidEmailAddress(System.String)
+  fullName: Epos.Utilities.StringExtensions.IsValidEmailAddress(System.String)
+  nameWithType: StringExtensions.IsValidEmailAddress(String)
+- uid: Epos.Utilities.StringExtensions.IsValidEmailAddress*
+  name: IsValidEmailAddress
+  href: bin/Metadata/Epos.Utilities.StringExtensions.html#Epos_Utilities_StringExtensions_IsValidEmailAddress_
+  commentId: Overload:Epos.Utilities.StringExtensions.IsValidEmailAddress
+  fullName: Epos.Utilities.StringExtensions.IsValidEmailAddress
+  nameWithType: StringExtensions.IsValidEmailAddress
+- uid: Epos.Utilities.StringExtensions.Matches(System.String,System.String)
+  name: Matches(String, String)
+  href: bin/Metadata/Epos.Utilities.StringExtensions.html#Epos_Utilities_StringExtensions_Matches_System_String_System_String_
+  commentId: M:Epos.Utilities.StringExtensions.Matches(System.String,System.String)
+  fullName: Epos.Utilities.StringExtensions.Matches(System.String, System.String)
+  nameWithType: StringExtensions.Matches(String, String)
+- uid: Epos.Utilities.StringExtensions.Matches*
+  name: Matches
+  href: bin/Metadata/Epos.Utilities.StringExtensions.html#Epos_Utilities_StringExtensions_Matches_
+  commentId: Overload:Epos.Utilities.StringExtensions.Matches
+  fullName: Epos.Utilities.StringExtensions.Matches
+  nameWithType: StringExtensions.Matches
+- uid: Epos.Utilities.TaskExtensions
+  name: TaskExtensions
+  href: bin/Metadata/Epos.Utilities.TaskExtensions.html
+  commentId: T:Epos.Utilities.TaskExtensions
+  fullName: Epos.Utilities.TaskExtensions
+  nameWithType: TaskExtensions
+- uid: Epos.Utilities.TaskExtensions.FireAndForget(Task)
+  name: FireAndForget(Task)
+  href: bin/Metadata/Epos.Utilities.TaskExtensions.html#Epos_Utilities_TaskExtensions_FireAndForget_Task_
+  commentId: M:Epos.Utilities.TaskExtensions.FireAndForget(Task)
+  fullName: Epos.Utilities.TaskExtensions.FireAndForget(Task)
+  nameWithType: TaskExtensions.FireAndForget(Task)
+- uid: Epos.Utilities.TaskExtensions.FireAndForget*
+  name: FireAndForget
+  href: bin/Metadata/Epos.Utilities.TaskExtensions.html#Epos_Utilities_TaskExtensions_FireAndForget_
+  commentId: Overload:Epos.Utilities.TaskExtensions.FireAndForget
+  fullName: Epos.Utilities.TaskExtensions.FireAndForget
+  nameWithType: TaskExtensions.FireAndForget
+- uid: Epos.Utilities.TypeExtensions
+  name: TypeExtensions
+  href: bin/Metadata/Epos.Utilities.TypeExtensions.html
+  commentId: T:Epos.Utilities.TypeExtensions
+  fullName: Epos.Utilities.TypeExtensions
+  nameWithType: TypeExtensions
+- uid: Epos.Utilities.TypeExtensions.GetAttribute*
+  name: GetAttribute
+  href: bin/Metadata/Epos.Utilities.TypeExtensions.html#Epos_Utilities_TypeExtensions_GetAttribute_
+  commentId: Overload:Epos.Utilities.TypeExtensions.GetAttribute
+  fullName: Epos.Utilities.TypeExtensions.GetAttribute
+  nameWithType: TypeExtensions.GetAttribute
+- uid: Epos.Utilities.TypeExtensions.GetAttribute``1(System.Type)
+  name: GetAttribute<TAttribute>(Type)
+  href: bin/Metadata/Epos.Utilities.TypeExtensions.html#Epos_Utilities_TypeExtensions_GetAttribute__1_System_Type_
+  commentId: M:Epos.Utilities.TypeExtensions.GetAttribute``1(System.Type)
+  name.vb: GetAttribute(Of TAttribute)(Type)
+  fullName: Epos.Utilities.TypeExtensions.GetAttribute<TAttribute>(System.Type)
+  fullName.vb: Epos.Utilities.TypeExtensions.GetAttribute(Of TAttribute)(System.Type)
+  nameWithType: TypeExtensions.GetAttribute<TAttribute>(Type)
+  nameWithType.vb: TypeExtensions.GetAttribute(Of TAttribute)(Type)
+- uid: Epos.Utilities.TypeExtensions.GetGenericMethod(System.Type,System.String,BindingFlags,System.Type[],System.Type[])
+  name: GetGenericMethod(Type, String, BindingFlags, Type[], Type[])
+  href: bin/Metadata/Epos.Utilities.TypeExtensions.html#Epos_Utilities_TypeExtensions_GetGenericMethod_System_Type_System_String_BindingFlags_System_Type___System_Type___
+  commentId: M:Epos.Utilities.TypeExtensions.GetGenericMethod(System.Type,System.String,BindingFlags,System.Type[],System.Type[])
+  name.vb: GetGenericMethod(Type, String, BindingFlags, Type(), Type())
+  fullName: Epos.Utilities.TypeExtensions.GetGenericMethod(System.Type, System.String, BindingFlags, System.Type[], System.Type[])
+  fullName.vb: Epos.Utilities.TypeExtensions.GetGenericMethod(System.Type, System.String, BindingFlags, System.Type(), System.Type())
+  nameWithType: TypeExtensions.GetGenericMethod(Type, String, BindingFlags, Type[], Type[])
+  nameWithType.vb: TypeExtensions.GetGenericMethod(Type, String, BindingFlags, Type(), Type())
+- uid: Epos.Utilities.TypeExtensions.GetGenericMethod*
+  name: GetGenericMethod
+  href: bin/Metadata/Epos.Utilities.TypeExtensions.html#Epos_Utilities_TypeExtensions_GetGenericMethod_
+  commentId: Overload:Epos.Utilities.TypeExtensions.GetGenericMethod
+  fullName: Epos.Utilities.TypeExtensions.GetGenericMethod
+  nameWithType: TypeExtensions.GetGenericMethod
+- uid: Epos.Utilities.TypeExtensions.HasAttribute*
+  name: HasAttribute
+  href: bin/Metadata/Epos.Utilities.TypeExtensions.html#Epos_Utilities_TypeExtensions_HasAttribute_
+  commentId: Overload:Epos.Utilities.TypeExtensions.HasAttribute
+  fullName: Epos.Utilities.TypeExtensions.HasAttribute
+  nameWithType: TypeExtensions.HasAttribute
+- uid: Epos.Utilities.TypeExtensions.HasAttribute``1(System.Type)
+  name: HasAttribute<TAttribute>(Type)
+  href: bin/Metadata/Epos.Utilities.TypeExtensions.html#Epos_Utilities_TypeExtensions_HasAttribute__1_System_Type_
+  commentId: M:Epos.Utilities.TypeExtensions.HasAttribute``1(System.Type)
+  name.vb: HasAttribute(Of TAttribute)(Type)
+  fullName: Epos.Utilities.TypeExtensions.HasAttribute<TAttribute>(System.Type)
+  fullName.vb: Epos.Utilities.TypeExtensions.HasAttribute(Of TAttribute)(System.Type)
+  nameWithType: TypeExtensions.HasAttribute<TAttribute>(Type)
+  nameWithType.vb: TypeExtensions.HasAttribute(Of TAttribute)(Type)
+- uid: Epos.Utilities.UnaryOperation`1
+  name: UnaryOperation<T>
+  href: bin/Metadata/Epos.Utilities.UnaryOperation-1.html
+  commentId: T:Epos.Utilities.UnaryOperation`1
+  name.vb: UnaryOperation(Of T)
+  fullName: Epos.Utilities.UnaryOperation<T>
+  fullName.vb: Epos.Utilities.UnaryOperation(Of T)
+  nameWithType: UnaryOperation<T>
+  nameWithType.vb: UnaryOperation(Of T)
+- uid: Epos.Utilities.ValueConversionExtensions
+  name: ValueConversionExtensions
+  href: bin/Metadata/Epos.Utilities.ValueConversionExtensions.html
+  commentId: T:Epos.Utilities.ValueConversionExtensions
+  fullName: Epos.Utilities.ValueConversionExtensions
+  nameWithType: ValueConversionExtensions
+- uid: Epos.Utilities.ValueConversionExtensions.TryConvert(System.String,System.Type,CultureInfo,System.Object@)
+  name: TryConvert(String, Type, CultureInfo, out Object)
+  href: bin/Metadata/Epos.Utilities.ValueConversionExtensions.html#Epos_Utilities_ValueConversionExtensions_TryConvert_System_String_System_Type_CultureInfo_System_Object__
+  commentId: M:Epos.Utilities.ValueConversionExtensions.TryConvert(System.String,System.Type,CultureInfo,System.Object@)
+  name.vb: TryConvert(String, Type, CultureInfo, ByRef Object)
+  fullName: Epos.Utilities.ValueConversionExtensions.TryConvert(System.String, System.Type, CultureInfo, out System.Object)
+  fullName.vb: Epos.Utilities.ValueConversionExtensions.TryConvert(System.String, System.Type, CultureInfo, ByRef System.Object)
+  nameWithType: ValueConversionExtensions.TryConvert(String, Type, CultureInfo, out Object)
+  nameWithType.vb: ValueConversionExtensions.TryConvert(String, Type, CultureInfo, ByRef Object)
+- uid: Epos.Utilities.ValueConversionExtensions.TryConvert(System.String,System.Type,System.Object@)
+  name: TryConvert(String, Type, out Object)
+  href: bin/Metadata/Epos.Utilities.ValueConversionExtensions.html#Epos_Utilities_ValueConversionExtensions_TryConvert_System_String_System_Type_System_Object__
+  commentId: M:Epos.Utilities.ValueConversionExtensions.TryConvert(System.String,System.Type,System.Object@)
+  name.vb: TryConvert(String, Type, ByRef Object)
+  fullName: Epos.Utilities.ValueConversionExtensions.TryConvert(System.String, System.Type, out System.Object)
+  fullName.vb: Epos.Utilities.ValueConversionExtensions.TryConvert(System.String, System.Type, ByRef System.Object)
+  nameWithType: ValueConversionExtensions.TryConvert(String, Type, out Object)
+  nameWithType.vb: ValueConversionExtensions.TryConvert(String, Type, ByRef Object)
+- uid: Epos.Utilities.ValueConversionExtensions.TryConvert*
+  name: TryConvert
+  href: bin/Metadata/Epos.Utilities.ValueConversionExtensions.html#Epos_Utilities_ValueConversionExtensions_TryConvert_
+  commentId: Overload:Epos.Utilities.ValueConversionExtensions.TryConvert
+  fullName: Epos.Utilities.ValueConversionExtensions.TryConvert
+  nameWithType: ValueConversionExtensions.TryConvert
+- uid: Epos.Utilities.ValueConversionExtensions.TryConvert``1(System.String,``0@)
+  name: TryConvert<TDestinationType>(String, out TDestinationType)
+  href: bin/Metadata/Epos.Utilities.ValueConversionExtensions.html#Epos_Utilities_ValueConversionExtensions_TryConvert__1_System_String___0__
+  commentId: M:Epos.Utilities.ValueConversionExtensions.TryConvert``1(System.String,``0@)
+  name.vb: TryConvert(Of TDestinationType)(String, ByRef TDestinationType)
+  fullName: Epos.Utilities.ValueConversionExtensions.TryConvert<TDestinationType>(System.String, out TDestinationType)
+  fullName.vb: Epos.Utilities.ValueConversionExtensions.TryConvert(Of TDestinationType)(System.String, ByRef TDestinationType)
+  nameWithType: ValueConversionExtensions.TryConvert<TDestinationType>(String, out TDestinationType)
+  nameWithType.vb: ValueConversionExtensions.TryConvert(Of TDestinationType)(String, ByRef TDestinationType)
+- uid: Epos.Utilities.ValueConversionExtensions.TryConvert``1(System.String,CultureInfo,``0@)
+  name: TryConvert<TDestinationType>(String, CultureInfo, out TDestinationType)
+  href: bin/Metadata/Epos.Utilities.ValueConversionExtensions.html#Epos_Utilities_ValueConversionExtensions_TryConvert__1_System_String_CultureInfo___0__
+  commentId: M:Epos.Utilities.ValueConversionExtensions.TryConvert``1(System.String,CultureInfo,``0@)
+  name.vb: TryConvert(Of TDestinationType)(String, CultureInfo, ByRef TDestinationType)
+  fullName: Epos.Utilities.ValueConversionExtensions.TryConvert<TDestinationType>(System.String, CultureInfo, out TDestinationType)
+  fullName.vb: Epos.Utilities.ValueConversionExtensions.TryConvert(Of TDestinationType)(System.String, CultureInfo, ByRef TDestinationType)
+  nameWithType: ValueConversionExtensions.TryConvert<TDestinationType>(String, CultureInfo, out TDestinationType)
+  nameWithType.vb: ValueConversionExtensions.TryConvert(Of TDestinationType)(String, CultureInfo, ByRef TDestinationType)

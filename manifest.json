@@ -1,0 +1,619 @@
+{
+  "homepages": [],
+  "source_base_path": "d:/a/1/s/Epos.Foundation.Docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.CmdLine.CmdLineConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.CmdLine.CmdLineConfiguration.html",
+          "hash": "W4Vhtkqxmm8nwraEQRWKfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.CmdLine.CmdLineDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.CmdLine.CmdLineDefinition.html",
+          "hash": "SNsdhfKdDAqx2zDF2DSrbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.CmdLine.CmdLineOption-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.CmdLine.CmdLineOption-1.html",
+          "hash": "nc6DVdFM5r9ur3+SXLkeQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.CmdLine.CmdLineOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.CmdLine.CmdLineOption.html",
+          "hash": "0FYBxORjMkmH3GsIphQb0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.CmdLine.CmdLineOptionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.CmdLine.CmdLineOptionAttribute.html",
+          "hash": "umJ5kz//hp6bVj6dSVX7iQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.CmdLine.CmdLineParameter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.CmdLine.CmdLineParameter-1.html",
+          "hash": "Qm6SeK7DPHZjqsUyKssYLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.CmdLine.CmdLineParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.CmdLine.CmdLineParameter.html",
+          "hash": "HlUPPBYbplP1Dt6hUKVZNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.CmdLine.CmdLineParameterAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.CmdLine.CmdLineParameterAttribute.html",
+          "hash": "6cJZ3lmtiPFjlsDFQbzn2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.CmdLine.CmdLineSubcommand-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.CmdLine.CmdLineSubcommand-1.html",
+          "hash": "/TziZqW5DnZpilb5qVf3kg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.CmdLine.CmdLineSubcommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.CmdLine.CmdLineSubcommand.html",
+          "hash": "ur6xXLeQVBJexBEQtWoagQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.CmdLine.CmdLineSwitch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.CmdLine.CmdLineSwitch.html",
+          "hash": "VCpkVOzVy7Lq11Q0tq42IQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.CmdLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.CmdLine.html",
+          "hash": "2FIDIOf0U4a7TRi75gO7sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.ArithmeticsFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.ArithmeticsFactory.html",
+          "hash": "knfuxMClqhVhWuJxmwbz8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.AssemblyExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.AssemblyExtensions.html",
+          "hash": "0fgFzBXfjnPgbEgYqEbYzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.BinaryOperation-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.BinaryOperation-3.html",
+          "hash": "B4t5ZG3zC1nRhJeCKoj0Jg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.Cache-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.Cache-2.html",
+          "hash": "cH42vvU7BPZuENOmTpj+Og=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.Characters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.Characters.html",
+          "hash": "mdrszwybEO0bguT6nt4Z9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.Composition.ComponentCreationStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.Composition.ComponentCreationStrategy.html",
+          "hash": "Kg7bvnziDMumup6TVyG8MA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.Composition.Container.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.Composition.Container.html",
+          "hash": "RZuF8nfg3C5hk/vBIW4lQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.Composition.ContainerInstaller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.Composition.ContainerInstaller.html",
+          "hash": "ApxQM77CLEi0JaW52MRO0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.Composition.ImplementedByOptions-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.Composition.ImplementedByOptions-2.html",
+          "hash": "YuF5bMdoFm8ZDdw5UM7pIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.Composition.Lifetime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.Composition.Lifetime.html",
+          "hash": "Sn7/Tc7Zqy96ggmAVuLrDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.Composition.LifetimeOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.Composition.LifetimeOptions.html",
+          "hash": "2XAPcfiX3x8eMVGcBpndCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.Composition.RegisterOptions-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.Composition.RegisterOptions-1.html",
+          "hash": "kAaDUJfbVHiQnhqadKaTKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.Composition.RegistrationStep.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.Composition.RegistrationStep.html",
+          "hash": "WYynyMeTIbmeiT7tP8rA5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.Composition.WithFactoryMethodOptions-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.Composition.WithFactoryMethodOptions-2.html",
+          "hash": "+8nG6WgeLWtL0bZqVo3U4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.Composition.WithParameterOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.Composition.WithParameterOptions.html",
+          "hash": "yO8uu62j91txEhN7iNfp1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.Composition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.Composition.html",
+          "hash": "vcYW5N4kxkesOKtlTh89PA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.DebugThrow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.DebugThrow.html",
+          "hash": "zaa5QdtrHF6BTGk3TJD03g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.DumpExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.DumpExtensions.html",
+          "hash": "7i3fEnYgvq/UqcOG+a2+Wg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.EnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.EnumerableExtensions.html",
+          "hash": "Kx2XpuD1z4h4M21TXu3PVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.EventExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.EventExtensions.html",
+          "hash": "WARXtFZ7nff1u2RkjkDzqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.ListExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.ListExtensions.html",
+          "hash": "A831ImtUCitUwrWcV4CAgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.Logger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.Logger.html",
+          "hash": "8GPShmnCpLEIosJUV/i5dw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.ObjectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.ObjectExtensions.html",
+          "hash": "JOLPw/dvCb8+NIiUT/tMzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.Password.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.Password.html",
+          "hash": "PU2WmjHGR5IWP3Tbfwuuhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.RoundOperation-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.RoundOperation-1.html",
+          "hash": "FHfuOt2Igl5Z4ORCkCr+9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.StopwatchHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.StopwatchHelper.html",
+          "hash": "NcrUuXH3zDTc7wZRCwylqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.StringExtensions.html",
+          "hash": "QAueG+8AbC97UChnq66NVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.TaskExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.TaskExtensions.html",
+          "hash": "eLD7RnSLw2nXMyHhVSNsdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.TypeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.TypeExtensions.html",
+          "hash": "QEt9AGErxc2OO1g2drDp3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.UnaryOperation-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.UnaryOperation-1.html",
+          "hash": "JQLdCWHZ0yaGegQ5JTRAcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.ValueConversionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.ValueConversionExtensions.html",
+          "hash": "fwzexMEE8rka4HbgjdS6mg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "bin/Metadata/Epos.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/Epos.Utilities.html",
+          "hash": "5zAV8288U2Nbt9/+B6mXZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "bin/Metadata/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "bin/Metadata/toc.html",
+          "hash": "h8/6NNlvcNHgVi2Yu1xslw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "UvVufaHPeclau1DM3ZwT6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "dxy2kPcF2eJ4XRevCXX7Mw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "RestApiDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor RestApiDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
