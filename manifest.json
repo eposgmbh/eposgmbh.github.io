@@ -5,11 +5,11 @@
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.CmdLine.CmdLineConfiguration.yml",
+      "source_relative_path": "Api/Epos.CmdLine.CmdLineConfiguration.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.CmdLine.CmdLineConfiguration.html",
-          "hash": "W4Vhtkqxmm8nwraEQRWKfQ=="
+          "relative_path": "Api/Epos.CmdLine.CmdLineConfiguration.html",
+          "hash": "J/bxB5qnJlZTssueQvN7FQ=="
         }
       },
       "is_incremental": false,
@@ -17,11 +17,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.CmdLine.CmdLineDefinition.yml",
+      "source_relative_path": "Api/Epos.CmdLine.CmdLineDefinition.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.CmdLine.CmdLineDefinition.html",
-          "hash": "SNsdhfKdDAqx2zDF2DSrbA=="
+          "relative_path": "Api/Epos.CmdLine.CmdLineDefinition.html",
+          "hash": "XhgfA9yB8JoNk3jNSVNlIg=="
         }
       },
       "is_incremental": false,
@@ -29,11 +29,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.CmdLine.CmdLineOption-1.yml",
+      "source_relative_path": "Api/Epos.CmdLine.CmdLineOption-1.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.CmdLine.CmdLineOption-1.html",
-          "hash": "nc6DVdFM5r9ur3+SXLkeQA=="
+          "relative_path": "Api/Epos.CmdLine.CmdLineOption-1.html",
+          "hash": "8d71swOV5zqRi4Gx11P0HA=="
         }
       },
       "is_incremental": false,
@@ -41,11 +41,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.CmdLine.CmdLineOption.yml",
+      "source_relative_path": "Api/Epos.CmdLine.CmdLineOption.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.CmdLine.CmdLineOption.html",
-          "hash": "0FYBxORjMkmH3GsIphQb0w=="
+          "relative_path": "Api/Epos.CmdLine.CmdLineOption.html",
+          "hash": "qukvT+mUC/QfPlGczOjkXQ=="
         }
       },
       "is_incremental": false,
@@ -53,11 +53,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.CmdLine.CmdLineOptionAttribute.yml",
+      "source_relative_path": "Api/Epos.CmdLine.CmdLineOptionAttribute.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.CmdLine.CmdLineOptionAttribute.html",
-          "hash": "umJ5kz//hp6bVj6dSVX7iQ=="
+          "relative_path": "Api/Epos.CmdLine.CmdLineOptionAttribute.html",
+          "hash": "ZE9qsOUjQ1gFzlHDCBlWRg=="
         }
       },
       "is_incremental": false,
@@ -65,11 +65,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.CmdLine.CmdLineParameter-1.yml",
+      "source_relative_path": "Api/Epos.CmdLine.CmdLineParameter-1.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.CmdLine.CmdLineParameter-1.html",
-          "hash": "Qm6SeK7DPHZjqsUyKssYLw=="
+          "relative_path": "Api/Epos.CmdLine.CmdLineParameter-1.html",
+          "hash": "6xJNYx5SOIUfU3iDvSlmfQ=="
         }
       },
       "is_incremental": false,
@@ -77,11 +77,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.CmdLine.CmdLineParameter.yml",
+      "source_relative_path": "Api/Epos.CmdLine.CmdLineParameter.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.CmdLine.CmdLineParameter.html",
-          "hash": "HlUPPBYbplP1Dt6hUKVZNQ=="
+          "relative_path": "Api/Epos.CmdLine.CmdLineParameter.html",
+          "hash": "3gQowOgw6Px7RuJeWGX+Lw=="
         }
       },
       "is_incremental": false,
@@ -89,11 +89,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.CmdLine.CmdLineParameterAttribute.yml",
+      "source_relative_path": "Api/Epos.CmdLine.CmdLineParameterAttribute.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.CmdLine.CmdLineParameterAttribute.html",
-          "hash": "6cJZ3lmtiPFjlsDFQbzn2Q=="
+          "relative_path": "Api/Epos.CmdLine.CmdLineParameterAttribute.html",
+          "hash": "EpNmrQF+60LJFSmf1RNItg=="
         }
       },
       "is_incremental": false,
@@ -101,11 +101,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.CmdLine.CmdLineSubcommand-1.yml",
+      "source_relative_path": "Api/Epos.CmdLine.CmdLineSubcommand-1.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.CmdLine.CmdLineSubcommand-1.html",
-          "hash": "/TziZqW5DnZpilb5qVf3kg=="
+          "relative_path": "Api/Epos.CmdLine.CmdLineSubcommand-1.html",
+          "hash": "JSQUhcgyJNFObuhPoF6T8Q=="
         }
       },
       "is_incremental": false,
@@ -113,11 +113,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.CmdLine.CmdLineSubcommand.yml",
+      "source_relative_path": "Api/Epos.CmdLine.CmdLineSubcommand.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.CmdLine.CmdLineSubcommand.html",
-          "hash": "ur6xXLeQVBJexBEQtWoagQ=="
+          "relative_path": "Api/Epos.CmdLine.CmdLineSubcommand.html",
+          "hash": "P+O0j588XpOIbCtjx/Nd+g=="
         }
       },
       "is_incremental": false,
@@ -125,11 +125,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.CmdLine.CmdLineSwitch.yml",
+      "source_relative_path": "Api/Epos.CmdLine.CmdLineSwitch.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.CmdLine.CmdLineSwitch.html",
-          "hash": "VCpkVOzVy7Lq11Q0tq42IQ=="
+          "relative_path": "Api/Epos.CmdLine.CmdLineSwitch.html",
+          "hash": "BhVTsmYbmqsqHRr/UlimkA=="
         }
       },
       "is_incremental": false,
@@ -137,11 +137,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.CmdLine.yml",
+      "source_relative_path": "Api/Epos.CmdLine.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.CmdLine.html",
-          "hash": "2FIDIOf0U4a7TRi75gO7sg=="
+          "relative_path": "Api/Epos.CmdLine.html",
+          "hash": "Vde9GtzTasrU+uJllGi3Hg=="
         }
       },
       "is_incremental": false,
@@ -149,11 +149,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.ArithmeticsFactory.yml",
+      "source_relative_path": "Api/Epos.Utilities.ArithmeticsFactory.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.ArithmeticsFactory.html",
-          "hash": "knfuxMClqhVhWuJxmwbz8A=="
+          "relative_path": "Api/Epos.Utilities.ArithmeticsFactory.html",
+          "hash": "4Qc6Jgx22gT1mFPCY+leLw=="
         }
       },
       "is_incremental": false,
@@ -161,11 +161,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.AssemblyExtensions.yml",
+      "source_relative_path": "Api/Epos.Utilities.AssemblyExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.AssemblyExtensions.html",
-          "hash": "0fgFzBXfjnPgbEgYqEbYzA=="
+          "relative_path": "Api/Epos.Utilities.AssemblyExtensions.html",
+          "hash": "PRJKse6rfbUCnYFGLoaoQA=="
         }
       },
       "is_incremental": false,
@@ -173,11 +173,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.BinaryOperation-3.yml",
+      "source_relative_path": "Api/Epos.Utilities.BinaryOperation-3.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.BinaryOperation-3.html",
-          "hash": "B4t5ZG3zC1nRhJeCKoj0Jg=="
+          "relative_path": "Api/Epos.Utilities.BinaryOperation-3.html",
+          "hash": "+Y1kgkes1zMBuOrtQGjrHg=="
         }
       },
       "is_incremental": false,
@@ -185,11 +185,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.Cache-2.yml",
+      "source_relative_path": "Api/Epos.Utilities.Cache-2.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.Cache-2.html",
-          "hash": "cH42vvU7BPZuENOmTpj+Og=="
+          "relative_path": "Api/Epos.Utilities.Cache-2.html",
+          "hash": "ovN2PuKXT64I3/vAKdYj9Q=="
         }
       },
       "is_incremental": false,
@@ -197,11 +197,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.Characters.yml",
+      "source_relative_path": "Api/Epos.Utilities.Characters.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.Characters.html",
-          "hash": "mdrszwybEO0bguT6nt4Z9g=="
+          "relative_path": "Api/Epos.Utilities.Characters.html",
+          "hash": "NWL+uJDBrKnl4OSJ+UrZ1A=="
         }
       },
       "is_incremental": false,
@@ -209,11 +209,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.Composition.ComponentCreationStrategy.yml",
+      "source_relative_path": "Api/Epos.Utilities.Composition.ComponentCreationStrategy.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.Composition.ComponentCreationStrategy.html",
-          "hash": "Kg7bvnziDMumup6TVyG8MA=="
+          "relative_path": "Api/Epos.Utilities.Composition.ComponentCreationStrategy.html",
+          "hash": "Rrh2th1YfF7e/dQae1SQLA=="
         }
       },
       "is_incremental": false,
@@ -221,11 +221,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.Composition.Container.yml",
+      "source_relative_path": "Api/Epos.Utilities.Composition.Container.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.Composition.Container.html",
-          "hash": "RZuF8nfg3C5hk/vBIW4lQw=="
+          "relative_path": "Api/Epos.Utilities.Composition.Container.html",
+          "hash": "F4PpApaEBulIz2JaZTJqrw=="
         }
       },
       "is_incremental": false,
@@ -233,11 +233,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.Composition.ContainerInstaller.yml",
+      "source_relative_path": "Api/Epos.Utilities.Composition.ContainerInstaller.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.Composition.ContainerInstaller.html",
-          "hash": "ApxQM77CLEi0JaW52MRO0w=="
+          "relative_path": "Api/Epos.Utilities.Composition.ContainerInstaller.html",
+          "hash": "6wiKXVw7Q1X/riGewHa+aQ=="
         }
       },
       "is_incremental": false,
@@ -245,11 +245,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.Composition.ImplementedByOptions-2.yml",
+      "source_relative_path": "Api/Epos.Utilities.Composition.ImplementedByOptions-2.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.Composition.ImplementedByOptions-2.html",
-          "hash": "YuF5bMdoFm8ZDdw5UM7pIg=="
+          "relative_path": "Api/Epos.Utilities.Composition.ImplementedByOptions-2.html",
+          "hash": "8oiT9Z09MDp+Lfa4ifGXGQ=="
         }
       },
       "is_incremental": false,
@@ -257,11 +257,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.Composition.Lifetime.yml",
+      "source_relative_path": "Api/Epos.Utilities.Composition.Lifetime.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.Composition.Lifetime.html",
-          "hash": "Sn7/Tc7Zqy96ggmAVuLrDQ=="
+          "relative_path": "Api/Epos.Utilities.Composition.Lifetime.html",
+          "hash": "w00jQWWxu0DLjiXyt/Daaw=="
         }
       },
       "is_incremental": false,
@@ -269,11 +269,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.Composition.LifetimeOptions.yml",
+      "source_relative_path": "Api/Epos.Utilities.Composition.LifetimeOptions.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.Composition.LifetimeOptions.html",
-          "hash": "2XAPcfiX3x8eMVGcBpndCg=="
+          "relative_path": "Api/Epos.Utilities.Composition.LifetimeOptions.html",
+          "hash": "3iJW17qKj6el2vRzgcVbfw=="
         }
       },
       "is_incremental": false,
@@ -281,11 +281,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.Composition.RegisterOptions-1.yml",
+      "source_relative_path": "Api/Epos.Utilities.Composition.RegisterOptions-1.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.Composition.RegisterOptions-1.html",
-          "hash": "kAaDUJfbVHiQnhqadKaTKQ=="
+          "relative_path": "Api/Epos.Utilities.Composition.RegisterOptions-1.html",
+          "hash": "w41owInn2mgQbKMlQPJo6A=="
         }
       },
       "is_incremental": false,
@@ -293,11 +293,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.Composition.RegistrationStep.yml",
+      "source_relative_path": "Api/Epos.Utilities.Composition.RegistrationStep.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.Composition.RegistrationStep.html",
-          "hash": "WYynyMeTIbmeiT7tP8rA5Q=="
+          "relative_path": "Api/Epos.Utilities.Composition.RegistrationStep.html",
+          "hash": "Dx2IbJ0/8UeDiXPwGYfj3w=="
         }
       },
       "is_incremental": false,
@@ -305,11 +305,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.Composition.WithFactoryMethodOptions-2.yml",
+      "source_relative_path": "Api/Epos.Utilities.Composition.WithFactoryMethodOptions-2.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.Composition.WithFactoryMethodOptions-2.html",
-          "hash": "+8nG6WgeLWtL0bZqVo3U4w=="
+          "relative_path": "Api/Epos.Utilities.Composition.WithFactoryMethodOptions-2.html",
+          "hash": "n+5fYImcs5l6TuAMIAI6dQ=="
         }
       },
       "is_incremental": false,
@@ -317,11 +317,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.Composition.WithParameterOptions.yml",
+      "source_relative_path": "Api/Epos.Utilities.Composition.WithParameterOptions.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.Composition.WithParameterOptions.html",
-          "hash": "yO8uu62j91txEhN7iNfp1Q=="
+          "relative_path": "Api/Epos.Utilities.Composition.WithParameterOptions.html",
+          "hash": "yyUvbm9G+r2S3LOKoxpOmQ=="
         }
       },
       "is_incremental": false,
@@ -329,11 +329,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.Composition.yml",
+      "source_relative_path": "Api/Epos.Utilities.Composition.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.Composition.html",
-          "hash": "vcYW5N4kxkesOKtlTh89PA=="
+          "relative_path": "Api/Epos.Utilities.Composition.html",
+          "hash": "SWB21dq+vTIYO+rO72tGzw=="
         }
       },
       "is_incremental": false,
@@ -341,11 +341,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.DebugThrow.yml",
+      "source_relative_path": "Api/Epos.Utilities.DebugThrow.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.DebugThrow.html",
-          "hash": "zaa5QdtrHF6BTGk3TJD03g=="
+          "relative_path": "Api/Epos.Utilities.DebugThrow.html",
+          "hash": "Xs738xjXD7Gn2+KoyUhG7w=="
         }
       },
       "is_incremental": false,
@@ -353,11 +353,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.DumpExtensions.yml",
+      "source_relative_path": "Api/Epos.Utilities.DumpExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.DumpExtensions.html",
-          "hash": "7i3fEnYgvq/UqcOG+a2+Wg=="
+          "relative_path": "Api/Epos.Utilities.DumpExtensions.html",
+          "hash": "GyNg6w5m9dr4l1cwaC4bbw=="
         }
       },
       "is_incremental": false,
@@ -365,11 +365,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.EnumerableExtensions.yml",
+      "source_relative_path": "Api/Epos.Utilities.EnumerableExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.EnumerableExtensions.html",
-          "hash": "Kx2XpuD1z4h4M21TXu3PVA=="
+          "relative_path": "Api/Epos.Utilities.EnumerableExtensions.html",
+          "hash": "oK/p1qVrISWm6FBSn06mCw=="
         }
       },
       "is_incremental": false,
@@ -377,11 +377,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.EventExtensions.yml",
+      "source_relative_path": "Api/Epos.Utilities.EventExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.EventExtensions.html",
-          "hash": "WARXtFZ7nff1u2RkjkDzqA=="
+          "relative_path": "Api/Epos.Utilities.EventExtensions.html",
+          "hash": "tfj2VVTvBr8bNWZtH/fD5w=="
         }
       },
       "is_incremental": false,
@@ -389,11 +389,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.ListExtensions.yml",
+      "source_relative_path": "Api/Epos.Utilities.ListExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.ListExtensions.html",
-          "hash": "A831ImtUCitUwrWcV4CAgg=="
+          "relative_path": "Api/Epos.Utilities.ListExtensions.html",
+          "hash": "iQha13+a2NERPeeUFVgl9w=="
         }
       },
       "is_incremental": false,
@@ -401,11 +401,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.Logger.yml",
+      "source_relative_path": "Api/Epos.Utilities.Logger.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.Logger.html",
-          "hash": "8GPShmnCpLEIosJUV/i5dw=="
+          "relative_path": "Api/Epos.Utilities.Logger.html",
+          "hash": "0c7BWeBJv0AyrckN0OhIkw=="
         }
       },
       "is_incremental": false,
@@ -413,11 +413,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.ObjectExtensions.yml",
+      "source_relative_path": "Api/Epos.Utilities.ObjectExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.ObjectExtensions.html",
-          "hash": "JOLPw/dvCb8+NIiUT/tMzg=="
+          "relative_path": "Api/Epos.Utilities.ObjectExtensions.html",
+          "hash": "LgPQ/+S0aZqFVj4sYMiMgw=="
         }
       },
       "is_incremental": false,
@@ -425,11 +425,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.Password.yml",
+      "source_relative_path": "Api/Epos.Utilities.Password.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.Password.html",
-          "hash": "PU2WmjHGR5IWP3Tbfwuuhw=="
+          "relative_path": "Api/Epos.Utilities.Password.html",
+          "hash": "b+iQTZANAILmdkS0Uz8cgQ=="
         }
       },
       "is_incremental": false,
@@ -437,11 +437,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.RoundOperation-1.yml",
+      "source_relative_path": "Api/Epos.Utilities.RoundOperation-1.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.RoundOperation-1.html",
-          "hash": "FHfuOt2Igl5Z4ORCkCr+9g=="
+          "relative_path": "Api/Epos.Utilities.RoundOperation-1.html",
+          "hash": "jEZEt3gdf9bWYPTiWKdSJA=="
         }
       },
       "is_incremental": false,
@@ -449,11 +449,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.StopwatchHelper.yml",
+      "source_relative_path": "Api/Epos.Utilities.StopwatchHelper.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.StopwatchHelper.html",
-          "hash": "NcrUuXH3zDTc7wZRCwylqg=="
+          "relative_path": "Api/Epos.Utilities.StopwatchHelper.html",
+          "hash": "cmb/hcewIZkfQIla1SJ1/g=="
         }
       },
       "is_incremental": false,
@@ -461,11 +461,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.StringExtensions.yml",
+      "source_relative_path": "Api/Epos.Utilities.StringExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.StringExtensions.html",
-          "hash": "QAueG+8AbC97UChnq66NVA=="
+          "relative_path": "Api/Epos.Utilities.StringExtensions.html",
+          "hash": "7QINruWs8nJB3E5UWeVZyA=="
         }
       },
       "is_incremental": false,
@@ -473,11 +473,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.TaskExtensions.yml",
+      "source_relative_path": "Api/Epos.Utilities.TaskExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.TaskExtensions.html",
-          "hash": "eLD7RnSLw2nXMyHhVSNsdQ=="
+          "relative_path": "Api/Epos.Utilities.TaskExtensions.html",
+          "hash": "KNCAfxjQUZ6OvhYdfmVlwA=="
         }
       },
       "is_incremental": false,
@@ -485,11 +485,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.TypeExtensions.yml",
+      "source_relative_path": "Api/Epos.Utilities.TypeExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.TypeExtensions.html",
-          "hash": "QEt9AGErxc2OO1g2drDp3A=="
+          "relative_path": "Api/Epos.Utilities.TypeExtensions.html",
+          "hash": "8feeoTKTfwRdkdZYxUWcig=="
         }
       },
       "is_incremental": false,
@@ -497,11 +497,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.UnaryOperation-1.yml",
+      "source_relative_path": "Api/Epos.Utilities.UnaryOperation-1.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.UnaryOperation-1.html",
-          "hash": "JQLdCWHZ0yaGegQ5JTRAcA=="
+          "relative_path": "Api/Epos.Utilities.UnaryOperation-1.html",
+          "hash": "IWo+Lgw2y7pJhIVVfDVYJA=="
         }
       },
       "is_incremental": false,
@@ -509,11 +509,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.ValueConversionExtensions.yml",
+      "source_relative_path": "Api/Epos.Utilities.ValueConversionExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.ValueConversionExtensions.html",
-          "hash": "fwzexMEE8rka4HbgjdS6mg=="
+          "relative_path": "Api/Epos.Utilities.ValueConversionExtensions.html",
+          "hash": "UmJOsVZThoui0uEx5kjCEQ=="
         }
       },
       "is_incremental": false,
@@ -521,11 +521,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "bin/Metadata/Epos.Utilities.yml",
+      "source_relative_path": "Api/Epos.Utilities.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/Epos.Utilities.html",
-          "hash": "5zAV8288U2Nbt9/+B6mXZA=="
+          "relative_path": "Api/Epos.Utilities.html",
+          "hash": "Cw8jjrnRqLlHjYvHs2mpGA=="
         }
       },
       "is_incremental": false,
@@ -533,10 +533,10 @@
     },
     {
       "type": "Toc",
-      "source_relative_path": "bin/Metadata/toc.yml",
+      "source_relative_path": "Api/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "bin/Metadata/toc.html",
+          "relative_path": "Api/toc.html",
           "hash": "h8/6NNlvcNHgVi2Yu1xslw=="
         }
       },
@@ -545,11 +545,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "index.md",
+      "source_relative_path": "getting-started.md",
       "output": {
         ".html": {
-          "relative_path": "index.html",
-          "hash": "UvVufaHPeclau1DM3ZwT6g=="
+          "relative_path": "getting-started.html",
+          "hash": "pGFlOJSO3WUPIwPApbJe8Q=="
         }
       },
       "is_incremental": false,
@@ -561,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "dxy2kPcF2eJ4XRevCXX7Mw=="
+          "hash": "jRYxfW9Lml12+B7orKRNOg=="
         }
       },
       "is_incremental": false,
@@ -586,11 +586,11 @@
           "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
-        "ManagedReferenceDocumentProcessor": {
+        "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build"
         },
-        "ConceptualDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build"
         },

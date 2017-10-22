@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Epos.Foundation | Epos.Foundation Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Epos.Foundation | Epos.Foundation Docs ">
+    <meta name="generator" content="docfx 2.25.1.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                  </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="eposfoundation">Epos.Foundation</h1>
+
+<p><img src="https://eposgmbh.visualstudio.com/_apis/public/build/definitions/30ebff28-f13c-44d2-b6db-7739d6cf4ab1/5/badge" alt="Build Status"></p>
+<p>(Build and Release deployment to <a href="https://www.nuget.org/">NuGet</a> is automated with
+<a href="https://www.visualstudio.com/team-services">Visual Studio Team Services</a>.)</p>
+<h2 id="description">Description</h2>
+<p>Epos.Foundation is the Github Repo for foundational utilities like String or Dictionary extension methods
+(NuGet package <strong>Epos.Utilities</strong>) and a powerful and simple command line parser (NuGet package <strong>Epos.CmdLine</strong>).</p>
+<p>The packages are implemented using .NET Standard (2.0+). Therefore you can use them cross-platform on any supported platform and
+also with the full .NET Framework (4.6.1+).</p>
+<h2 id="installation">Installation</h2>
+<p>Via NuGet you can install the NuGet packages <strong>Epos.Utilities</strong> and <strong>Epos.CmdLine</strong>.</p>
+<pre><code>PM&gt; Install-Package Epos.Utilities
+PM&gt; Install-Package Epos.CmdLine
+</code></pre><p>You can install them separately, the packages are independent from each other.</p>
+<h2 id="usage">Usage</h2>
+<p><strong>Epos.Utilities</strong> are more or less self-documenting simple utility classes. You can take a look at the corresponding
+unit tests in <a href="https://github.com/eposgmbh/Epos.Foundation/tree/master/Epos.Utilities.Tests">this Github Repo</a>.</p>
+<p><strong>Epos.CmdLine</strong> is a full fledged yet simple command line parser. Source code for a demo console app can be found in
+<a href="https://github.com/eposgmbh/Epos.Foundation/tree/master/Epos.CmdLine.Sample">this Github Repo</a>. It&#39;s as simple as
+this:</p>
+<pre><code class="lang-csharp">public static int Main(string[] args) {
+    var theCmdLineDefinition = new CmdLineDefinition {
+        Name = &quot;sample&quot;, // &lt;- if null, .exe-Filename is taken
+        Subcommands = {
+            new CmdLineSubcommand&lt;BuildOptions&gt;(&quot;build&quot;, &quot;Builds something.&quot;) {
+                Options = {
+                    new CmdLineOption&lt;int&gt;(&#39;p&#39;, &quot;Sets the project number.&quot;) { LongName = &quot;project-number&quot; },
+                    new CmdLineOption&lt;string&gt;(&#39;m&#39;, &quot;Sets the used memory.&quot;) {
+                        LongName = &quot;memory&quot;,
+                        DefaultValue = &quot;1 GB&quot;
+                    },
+                    new CmdLineSwitch(&#39;d&#39;, &quot;Disables the command.&quot;),
+                    new CmdLineSwitch(&#39;z&#39;, &quot;Zzzz...&quot;)
+                },
+                Parameters = {
+                    new CmdLineParameter&lt;string&gt;(&quot;filename&quot;, &quot;Sets the filename.&quot;)
+                },
+                CmdLineFunc = (options, definition) =&gt; {
+                    // Do something for the build subcommand
+                    // ...
+
+                    Console.WriteLine(&quot;sample command line application&quot; + Lf);
+                    Console.WriteLine(options.Dump() + Lf);
+
+                    return 0; // &lt;- your error code or 0, if successful
+                }
+            }
+        },
+        // further subcommands...
+    };
+
+    return theCmdLineDefinition.Try(args);
+}
+</code></pre><p>This definition automatically produces help and usage console output like this:</p>
+<pre><code>Usage: sample build [-p, --project-number &lt;int&gt;] [-m, --memory &lt;string=&quot;1 GB&quot;&gt;] [-d] [-z] &lt;filename:string&gt;
+
+Error: Missing parameter: filename
+
+Options
+  -p, --project-number   Sets the project number.
+  -m, --memory           Sets the used memory. &gt;&gt;&gt; defaults to &quot;1 GB&quot;
+  -d                     Disables the command.
+  -z                     Zzzz...
+
+Parameters
+  filename               Sets the filename.
+</code></pre><p>Long option chains and description texts are properly line breaked.</p>
+<h2 id="contributing">Contributing</h2>
+<p>You can enter an issue on Github <a href="https://github.com/eposgmbh/Epos.Foundation/issues">here</a>. I will work on
+your issue when I have time. Pull Requests are possible too.</p>
+<h2 id="license">License</h2>
+<p>MIT License</p>
+<p>Copyright (c) 2017 eposgmbh</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/Epos.Foundation.Docs/getting-started.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2017 Epos<br>Generated by DocFX</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>
