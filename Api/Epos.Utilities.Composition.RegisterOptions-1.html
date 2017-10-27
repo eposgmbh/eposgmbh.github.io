@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class RegisterOptions&lt;TAbstract&gt;
+    <title>Class RegisterOptions&lt;TAbstraction&gt;
    | Epos.Foundation Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class RegisterOptions&lt;TAbstract&gt;
+    <meta name="title" content="Class RegisterOptions&lt;TAbstraction&gt;
    | Epos.Foundation Docs ">
     <meta name="generator" content="docfx 2.25.1.0">
     
@@ -67,16 +67,19 @@
             <article class="content wrap" id="_content" data-uid="Epos.Utilities.Composition.RegisterOptions`1">
   
   
-  <h1 id="Epos_Utilities_Composition_RegisterOptions_1" data-uid="Epos.Utilities.Composition.RegisterOptions`1" class="text-break">Class RegisterOptions&lt;TAbstract&gt;
+  <h1 id="Epos_Utilities_Composition_RegisterOptions_1" data-uid="Epos.Utilities.Composition.RegisterOptions`1" class="text-break">Class RegisterOptions&lt;TAbstraction&gt;
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Options following the <a class="xref" href="Epos.Utilities.Composition.Container.html#Epos_Utilities_Composition_Container_Register__1">Register&lt;T&gt;()</a> fluent
+interface step.
+<ul><li><a class="xref" href="Epos.Utilities.Composition.RegisterOptions-1.html#Epos_Utilities_Composition_RegisterOptions_1_ImplementedBy__1">ImplementedBy&lt;TImplementation&gt;()</a></li><li><a class="xref" href="Epos.Utilities.Composition.RegisterOptions-1.html#Epos_Utilities_Composition_RegisterOptions_1_WithFactoryMethod__1_System_Func___0__">WithFactoryMethod&lt;TImplementation&gt;(Func&lt;TImplementation&gt;)</a></li></ul></p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level0"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
     <div class="level1"><a class="xref" href="Epos.Utilities.Composition.RegistrationStep.html">RegistrationStep</a></div>
     <div class="level2"><a class="xref" href="Epos.Utilities.Composition.LifetimeOptions.html">LifetimeOptions</a></div>
-    <div class="level3"><span class="xref">RegisterOptions&lt;TAbstract&gt;</span></div>
+    <div class="level3"><span class="xref">RegisterOptions&lt;TAbstraction&gt;</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -84,31 +87,34 @@
       <a class="xref" href="Epos.Utilities.Composition.LifetimeOptions.html#Epos_Utilities_Composition_LifetimeOptions_WithLifetime_Epos_Utilities_Composition_Lifetime_">LifetimeOptions.WithLifetime(Lifetime)</a>
     </div>
     <div>
-      <span class="xref">System.Object.ToString()</span>
+      <a class="xref" href="Epos.Utilities.Composition.LifetimeOptions.html#Epos_Utilities_Composition_LifetimeOptions_WithLifetime_Epos_Utilities_Composition_ComponentCreationStrategy_">LifetimeOptions.WithLifetime(ComponentCreationStrategy)</a>
     </div>
     <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
+      <a class="xref" href="https://msdn.microsoft.com/en-us/library/7bxwbwt2(v=vs.110).aspx">Object.ToString()</a>
     </div>
     <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+      <a class="xref" href="https://msdn.microsoft.com/en-us/library/bsc2ak47(v=vs.110).aspx">Object.Equals(Object)</a>
     </div>
     <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+      <a class="xref" href="https://msdn.microsoft.com/en-us/library/w4hkze5k(v=vs.110).aspx">Object.Equals(Object, Object)</a>
     </div>
     <div>
-      <span class="xref">System.Object.GetHashCode()</span>
+      <a class="xref" href="https://msdn.microsoft.com/en-us/library/hz2a0b8x(v=vs.110).aspx">Object.ReferenceEquals(Object, Object)</a>
     </div>
     <div>
-      <span class="xref">System.Object.GetType()</span>
+      <a class="xref" href="https://msdn.microsoft.com/en-us/library/zdee4b3y(v=vs.110).aspx">Object.GetHashCode()</a>
     </div>
     <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
+      <a class="xref" href="https://msdn.microsoft.com/en-us/library/dfwy45w9(v=vs.110).aspx">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://msdn.microsoft.com/en-us/library/57ctke0a(v=vs.110).aspx">Object.MemberwiseClone()</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Epos.Utilities.Composition.html">Epos.Utilities.Composition</a></h6>
   <h5 id="Epos_Utilities_Composition_RegisterOptions_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class RegisterOptions&lt;TAbstract&gt; : LifetimeOptions</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class RegisterOptions&lt;TAbstraction&gt; : LifetimeOptions</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -120,8 +126,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TAbstract</span></td>
-        <td></td>
+        <td><span class="parametername">TAbstraction</span></td>
+        <td><p>Abstraction</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -130,12 +137,13 @@
   
   
   <a id="Epos_Utilities_Composition_RegisterOptions_1_ImplementedBy_" data-uid="Epos.Utilities.Composition.RegisterOptions`1.ImplementedBy*"></a>
-  <h4 id="Epos_Utilities_Composition_RegisterOptions_1_ImplementedBy__1" data-uid="Epos.Utilities.Composition.RegisterOptions`1.ImplementedBy``1">ImplementedBy&lt;TConcrete&gt;()</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="Epos_Utilities_Composition_RegisterOptions_1_ImplementedBy__1" data-uid="Epos.Utilities.Composition.RegisterOptions`1.ImplementedBy``1">ImplementedBy&lt;TImplementation&gt;()</h4>
+  <div class="markdown level1 summary"><p>Specifies the implementation type of the registered container component.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ImplementedByOptions&lt;TAbstract, TConcrete&gt; ImplementedBy&lt;TConcrete&gt;()where TConcrete : TAbstract</code></pre>
+    <pre><code class="lang-csharp hljs">public ImplementedByOptions&lt;TAbstraction, TImplementation&gt; ImplementedBy&lt;TImplementation&gt;()where TImplementation : TAbstraction</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -147,8 +155,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Epos.Utilities.Composition.ImplementedByOptions-2.html">ImplementedByOptions</a>&lt;TAbstract, TConcrete&gt;</td>
-        <td></td>
+        <td><a class="xref" href="Epos.Utilities.Composition.ImplementedByOptions-2.html">ImplementedByOptions</a>&lt;TAbstraction, TImplementation&gt;</td>
+        <td><p>Options following this fluent interface step</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -162,20 +171,23 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TConcrete</span></td>
-        <td></td>
+        <td><span class="parametername">TImplementation</span></td>
+        <td><p>Implementation</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
   <a id="Epos_Utilities_Composition_RegisterOptions_1_WithFactoryMethod_" data-uid="Epos.Utilities.Composition.RegisterOptions`1.WithFactoryMethod*"></a>
-  <h4 id="Epos_Utilities_Composition_RegisterOptions_1_WithFactoryMethod__1_System_Func___0__" data-uid="Epos.Utilities.Composition.RegisterOptions`1.WithFactoryMethod``1(System.Func{``0})">WithFactoryMethod&lt;TConcrete&gt;(Func&lt;TConcrete&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="Epos_Utilities_Composition_RegisterOptions_1_WithFactoryMethod__1_System_Func___0__" data-uid="Epos.Utilities.Composition.RegisterOptions`1.WithFactoryMethod``1(System.Func{``0})">WithFactoryMethod&lt;TImplementation&gt;(Func&lt;TImplementation&gt;)</h4>
+  <div class="markdown level1 summary"><p>Specifies the factory method that creates instances of the registered
+container component.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public WithFactoryMethodOptions&lt;TAbstract, TConcrete&gt; WithFactoryMethod&lt;TConcrete&gt;(Func&lt;TConcrete&gt; factoryMethod)where TConcrete : TAbstract</code></pre>
+    <pre><code class="lang-csharp hljs">public WithFactoryMethodOptions&lt;TAbstraction, TImplementation&gt; WithFactoryMethod&lt;TImplementation&gt;(Func&lt;TImplementation&gt; factoryMethod)where TImplementation : TAbstraction</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -188,9 +200,10 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Func</span>&lt;TConcrete&gt;</td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/bb534960(v=vs.110).aspx">Func</a>&lt;TImplementation&gt;</td>
         <td><span class="parametername">factoryMethod</span></td>
-        <td></td>
+        <td><p>Factory method</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -204,7 +217,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Epos.Utilities.Composition.WithFactoryMethodOptions-2.html">WithFactoryMethodOptions</a>&lt;TAbstract, TConcrete&gt;</td>
+        <td><a class="xref" href="Epos.Utilities.Composition.WithFactoryMethodOptions-2.html">WithFactoryMethodOptions</a>&lt;TAbstraction, TImplementation&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -219,8 +232,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TConcrete</span></td>
-        <td></td>
+        <td><span class="parametername">TImplementation</span></td>
+        <td><p>Implementation</p>
+</td>
       </tr>
     </tbody>
   </table>

@@ -69,35 +69,37 @@
   
   <h1 id="Epos_Utilities_EnumerableExtensions" data-uid="Epos.Utilities.EnumerableExtensions" class="text-break">Class EnumerableExtensions
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Collection of extension methods for the
+<a class="xref" href="https://msdn.microsoft.com/en-us/library/9eekhta0(v=vs.110).aspx">IEnumerable&lt;T&gt;</a> type.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level0"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
     <div class="level1"><span class="xref">EnumerableExtensions</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">System.Object.ToString()</span>
+      <a class="xref" href="https://msdn.microsoft.com/en-us/library/7bxwbwt2(v=vs.110).aspx">Object.ToString()</a>
     </div>
     <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
+      <a class="xref" href="https://msdn.microsoft.com/en-us/library/bsc2ak47(v=vs.110).aspx">Object.Equals(Object)</a>
     </div>
     <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+      <a class="xref" href="https://msdn.microsoft.com/en-us/library/w4hkze5k(v=vs.110).aspx">Object.Equals(Object, Object)</a>
     </div>
     <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+      <a class="xref" href="https://msdn.microsoft.com/en-us/library/hz2a0b8x(v=vs.110).aspx">Object.ReferenceEquals(Object, Object)</a>
     </div>
     <div>
-      <span class="xref">System.Object.GetHashCode()</span>
+      <a class="xref" href="https://msdn.microsoft.com/en-us/library/zdee4b3y(v=vs.110).aspx">Object.GetHashCode()</a>
     </div>
     <div>
-      <span class="xref">System.Object.GetType()</span>
+      <a class="xref" href="https://msdn.microsoft.com/en-us/library/dfwy45w9(v=vs.110).aspx">Object.GetType()</a>
     </div>
     <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
+      <a class="xref" href="https://msdn.microsoft.com/en-us/library/57ctke0a(v=vs.110).aspx">Object.MemberwiseClone()</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Epos.Utilities.html">Epos.Utilities</a></h6>
@@ -109,36 +111,12 @@
   </h3>
   
   
-  <a id="Epos_Utilities_EnumerableExtensions_DisposeAll_" data-uid="Epos.Utilities.EnumerableExtensions.DisposeAll*"></a>
-  <h4 id="Epos_Utilities_EnumerableExtensions_DisposeAll_IEnumerable_System_IDisposable__" data-uid="Epos.Utilities.EnumerableExtensions.DisposeAll(IEnumerable{System.IDisposable})">DisposeAll(IEnumerable&lt;IDisposable&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DisposeAll(this IEnumerable&lt;IDisposable&gt; source)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.IDisposable</span>&gt;</td>
-        <td><span class="parametername">source</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="Epos_Utilities_EnumerableExtensions_FlattenRecursiveHierarchy_" data-uid="Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy*"></a>
   <h4 id="Epos_Utilities_EnumerableExtensions_FlattenRecursiveHierarchy__1_IEnumerable___0__System_Func___0_IEnumerable___0___" data-uid="Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy``1(IEnumerable{``0},System.Func{``0,IEnumerable{``0}})">FlattenRecursiveHierarchy&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, IEnumerable&lt;T&gt;&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Flattens a recursive hierarchy of the specified <code data-dev-comment-type="paramref" class="paramref">source</code>.
+The <code data-dev-comment-type="paramref" class="paramref">recurseFunc</code> is used to access the children of the current
+element.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -157,12 +135,14 @@
       <tr>
         <td><span class="xref">IEnumerable</span>&lt;T&gt;</td>
         <td><span class="parametername">source</span></td>
-        <td></td>
+        <td><p>Sequence</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Func</span>&lt;T, <span class="xref">IEnumerable</span>&lt;T&gt;&gt;</td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/bb549151(v=vs.110).aspx">Func</a>&lt;T, <span class="xref">IEnumerable</span>&lt;T&gt;&gt;</td>
         <td><span class="parametername">recurseFunc</span></td>
-        <td></td>
+        <td><p>Used to access the children of the current element</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -177,7 +157,8 @@
     <tbody>
       <tr>
         <td><span class="xref">IEnumerable</span>&lt;T&gt;</td>
-        <td></td>
+        <td><p>Flattened sequence</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -192,15 +173,31 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>Type</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Epos_Utilities_EnumerableExtensions_FlattenRecursiveHierarchy__1_IEnumerable___0__System_Func___0_IEnumerable___0____examples">Examples</h5>
+  <pre><code>     var theRoot = new Child(&quot;Father&quot;) {
+         Children = {
+             new Child(&quot;Son&quot;) {
+                 Children = {
+                     new Child(&quot;Grandson 1&quot;),
+                     new Child(&quot;Grandson 2&quot;)
+                 }
+             }
+         }
+     };
+
+     var theFlattenedSeq = theRoot.ToEnumerable().FlattenRecursiveHierarchy(c => c.Children);</code></pre>
   
   
   <a id="Epos_Utilities_EnumerableExtensions_ForEach_" data-uid="Epos.Utilities.EnumerableExtensions.ForEach*"></a>
   <h4 id="Epos_Utilities_EnumerableExtensions_ForEach__1_IEnumerable___0__System_Action___0__" data-uid="Epos.Utilities.EnumerableExtensions.ForEach``1(IEnumerable{``0},System.Action{``0})">ForEach&lt;T&gt;(IEnumerable&lt;T&gt;, Action&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Calls an <code data-dev-comment-type="paramref" class="paramref">action</code> for each element of the
+specified <a class="xref" href="https://msdn.microsoft.com/en-us/library/9eekhta0(v=vs.110).aspx">IEnumerable&lt;T&gt;</a>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -219,12 +216,14 @@
       <tr>
         <td><span class="xref">IEnumerable</span>&lt;T&gt;</td>
         <td><span class="parametername">source</span></td>
-        <td></td>
+        <td><p>Sequence</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/018hxwa8(v=vs.110).aspx">Action</a>&lt;T&gt;</td>
         <td><span class="parametername">action</span></td>
-        <td></td>
+        <td><p>Action</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -239,7 +238,8 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>Type</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -247,7 +247,9 @@
   
   <a id="Epos_Utilities_EnumerableExtensions_ToEnumerable_" data-uid="Epos.Utilities.EnumerableExtensions.ToEnumerable*"></a>
   <h4 id="Epos_Utilities_EnumerableExtensions_ToEnumerable__1___0_" data-uid="Epos.Utilities.EnumerableExtensions.ToEnumerable``1(``0)">ToEnumerable&lt;T&gt;(T)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Converts a single value into an <a class="xref" href="https://msdn.microsoft.com/en-us/library/9eekhta0(v=vs.110).aspx">IEnumerable&lt;T&gt;</a>
+instance.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -266,7 +268,8 @@
       <tr>
         <td><span class="xref">T</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>Value</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -281,7 +284,8 @@
     <tbody>
       <tr>
         <td><span class="xref">IEnumerable</span>&lt;T&gt;</td>
-        <td></td>
+        <td><p><a class="xref" href="https://msdn.microsoft.com/en-us/library/9eekhta0(v=vs.110).aspx">IEnumerable&lt;T&gt;</a> instance</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -296,7 +300,8 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>Type</p>
+</td>
       </tr>
     </tbody>
   </table>

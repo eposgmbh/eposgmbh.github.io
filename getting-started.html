@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Getting started | Epos.Foundation Docs </title>
+    <title>Epos.Foundation | Epos.Foundation Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Getting started | Epos.Foundation Docs ">
+    <meta name="title" content="Epos.Foundation | Epos.Foundation Docs ">
     <meta name="generator" content="docfx 2.25.1.0">
     
     <link rel="shortcut icon" href="favicon.ico">
@@ -56,14 +56,20 @@
         <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="getting-started">Getting started</h1>
+<h1 id="eposfoundation">Epos.Foundation</h1>
 
-<p>This is the Epos.Foundation Docs Website.</p>
-<h2 id="description">Description</h2>
+<p><img src="https://eposgmbh.visualstudio.com/_apis/public/build/definitions/30ebff28-f13c-44d2-b6db-7739d6cf4ab1/5/badge" alt="Build Status">
+<a href="https://www.nuget.org/packages/Epos.Utilities/"><img src="https://img.shields.io/nuget/v/Epos.Utilities.svg" alt="NuGet"></a>
+<img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
+<img src="https://img.shields.io/nuget/dt/Epos.Utilities.svg" alt="Downloads"></p>
+<p>Build and Release deployment (Docs Website and <a href="https://www.nuget.org/">NuGet</a>) is automated with
+<a href="https://www.visualstudio.com/team-services">Visual Studio Team Services</a>. Try it, it&#39;s free and powerful.</p>
+<h2 id="docs">Docs</h2>
 <p>Epos.Foundation is the Github Repo for foundational utilities like String or Dictionary extension methods
 (NuGet package <strong>Epos.Utilities</strong>) and a powerful and simple command line parser (NuGet package <strong>Epos.CmdLine</strong>).</p>
 <p>The packages are implemented using .NET Standard (2.0+). Therefore you can use them cross-platform on any supported platform and
 also with the full .NET Framework (4.6.1+).</p>
+<p><a href="https://eposgmbh.github.io/getting-started.html">See the Docs Website.</a></p>
 <h2 id="installation">Installation</h2>
 <p>Via NuGet you can install the NuGet packages <strong>Epos.Utilities</strong> and <strong>Epos.CmdLine</strong>.</p>
 <pre><code>PM&gt; Install-Package Epos.Utilities
@@ -73,11 +79,85 @@ PM&gt; Install-Package Epos.CmdLine
 <p><strong>Epos.Utilities</strong> are more or less self-documenting simple utility classes. You can take a look at the corresponding
 unit tests in <a href="https://github.com/eposgmbh/Epos.Foundation/tree/master/Epos.Utilities.Tests">this Github Repo</a>.</p>
 <p><strong>Epos.CmdLine</strong> is a full fledged yet simple command line parser. Source code for a demo console app can be found in
-<a href="https://github.com/eposgmbh/Epos.Foundation/tree/master/Epos.CmdLine.Sample">this Github Repo</a>. It&#39;s as simple as
-this:</p>
+<a href="https://github.com/eposgmbh/Epos.Foundation/tree/master/Epos.CmdLine.Sample">this Github Repo</a>.</p>
+<h3 id="eposutilities">Epos.Utilities</h3>
+<p>Highlights of the <strong>Epos.Utilities</strong> package are:</p>
+<h4 id="arithmetics">Arithmetics</h4>
+<p>Use the <code>Arithmetics</code> class to do generic calculations for different data types like
+<code>int</code> or <code>double</code>:</p>
+<pre><code class="lang-csharp">double double = Arithmetics.GetZeroValue&lt;double&gt;(); // 0.0
+int integer = Arithmetics.GetOneValue&lt;int&gt;(); // 1
+
+var addIntegers = Arithmetics.CreateAddOperation&lt;int&gt;();
+int sum = addIntegers(integer, 33); // 34
+
+var multiplyDoubles = Arithmetics.CreateMultiplyOperation&lt;double&gt;();
+double theProduct = multiplyDoubles(11.0, 6.5); // 71.5
+</code></pre><h4 id="stringextensions">StringExtensions</h4>
+<p>Use the <code>StringExtensions</code> class to do (among other things) generic type conversions
+from a string. You can convert to any type with an attached <code>TypeConverterAttribute</code>.</p>
+<pre><code class="lang-csharp">bool isSuccess = &quot;33&quot;.TryConvert(CultureInfo.InvariantCulture, out int theInteger);
+Assert.That(theInteger, Is.EqualTo(33));
+Assert.That(isSuccess, Is.True);
+
+// or equivalent:
+
+isSuccess = &quot;33&quot;.TryConvert(typeof(int), CultureInfo.InvariantCulture, out object theObject);
+Assert.That(theObject, Is.EqualTo(33));
+Assert.That(isSuccess, Is.True);
+
+// Failure case:
+
+isSuccess = &quot;ABC&quot;.TryConvert(CultureInfo.InvariantCulture, out double theDouble);
+Assert.That(theDouble, Is.EqualTo(0.0));
+Assert.That(isSuccess, Is.False);
+</code></pre><h4 id="dumpextensions">DumpExtensions</h4>
+<p>Use the <code>DumpExtensions</code> class to pretty-print any kind of object.</p>
+<pre><code class="lang-csharp">// null values
+object obj = null;
+Console.WriteLine(obj.Dump()); // Null
+
+// Types
+Console.WriteLine(typeof(int).Dump()); // int
+Console.WriteLine(typeof(double).Dump()); // double
+Console.WriteLine(typeof(double?).Dump()); // double?
+Console.WriteLine(typeof(Cache&lt;,&gt;).Dump()); // Epos.Utilities.Cache&lt;TKey, TValue&gt;
+
+double dbl = 33.99;
+Console.WriteLine(dbl.Dump()); // 33.99 (Dump always uses the invariant culture)
+
+// Complex type instances:
+Console.WriteLine(new[] { 1, 2, 3 }.Dump()); // {1, 2, 3}
+Console.WriteLine(new { Integer = 1, String = &quot;Hello&quot; }.Dump()); // [Integer = 1, String = Hello]
+</code></pre><h4 id="container">Container</h4>
+<p>Use the <code>Container</code> class as a simple lightweight DI Container.</p>
+<pre><code class="lang-csharp">var theContainer = new Container();
+theContainer
+    .Register&lt;ITestService&gt;()
+    .ImplementedBy&lt;TestService&gt;()
+    .WithParameter(&quot;connectionString&quot;, &quot;Hello World!&quot;) // Constructor params
+    .AndParameter(&quot;maxCount&quot;, 10)
+    .WithLifetime(Lifetime.Singleton);
+
+// ...
+
+var theTestService = theContainer.Resolve&lt;ITestService&gt;();
+</code></pre><h3 id="eposcmdline">Epos.CmdLine</h3>
+<p><code>BuildOptions</code> class for strongly typed access of the command line parameters:</p>
+<pre><code class="lang-csharp">public class BuildOptions
+{
+    [CmdLineOption(&#39;p&#39;)]
+    public int ProjectNumber { get; set; }
+
+    [CmdLineOption(&#39;m&#39;)]
+    public string Memory { get; set; }
+
+    // ...
+}
+</code></pre><p>Sample Main method that uses the <code>BuildOptions</code> class for the subcommand <code>build</code>:</p>
 <pre><code class="lang-csharp">public static int Main(string[] args) {
     var theCmdLineDefinition = new CmdLineDefinition {
-        Name = &quot;sample&quot;, // &lt;- if null, .exe-Filename is taken
+        Name = &quot;sample&quot;, // &lt;- if not specified, .exe-Filename is used
         Subcommands = {
             new CmdLineSubcommand&lt;BuildOptions&gt;(&quot;build&quot;, &quot;Builds something.&quot;) {
                 Options = {
@@ -104,11 +184,15 @@ this:</p>
             }
         },
         // further subcommands...
+        //
+        // If you don&#39;t want to specify subcommands, register one subcommand with the name &quot;default&quot;
+        // (or use the constant CmdLineSubcommand.DefaultName) and set the HasDifferentiatedSubcommands
+        // property of the CmdLineDefinition to false.
     };
 
     return theCmdLineDefinition.Try(args);
 }
-</code></pre><p>This definition automatically produces help and usage console output like this:</p>
+</code></pre><p>This simple definition automatically produces help and usage console output like this:</p>
 <pre><code>Usage: sample build [-p, --project-number &lt;int&gt;] [-m, --memory &lt;string=&quot;1 GB&quot;&gt;] [-d] [-z] &lt;filename:string&gt;
 
 Error: Missing parameter: filename
@@ -121,7 +205,28 @@ Options
 
 Parameters
   filename               Sets the filename.
-</code></pre><p>Long option chains and description texts are properly line breaked.</p>
+</code></pre><p>Long option chains and description texts are properly line breaked regarding the console window width.</p>
+<h2 id="contributing">Contributing</h2>
+<p>You can enter an issue on Github <a href="https://github.com/eposgmbh/Epos.Foundation/issues">here</a>. I will work on
+your issue when I have time. Pull Requests are possible too.</p>
+<h2 id="license">License</h2>
+<p>MIT License</p>
+<p>Copyright (c) 2017 eposgmbh</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</p>
 </article>
           </div>
           

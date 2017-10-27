@@ -68,33 +68,52 @@
   
   <h1 id="Epos_Utilities_Composition" data-uid="Epos.Utilities.Composition" class="text-break">Namespace Epos.Utilities.Composition
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>For examples on using the types in this namespace see the <a href="../getting-started.html">Getting started</a> page.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="markdown level0 remarks"></div>
     <h3 id="classes">Classes
   </h3>
       <h4><a class="xref" href="Epos.Utilities.Composition.ComponentCreationStrategy.html">ComponentCreationStrategy</a></h4>
-      <section></section>
+      <section><p>Provides the base class for a component creation strategy.</p>
+</section>
       <h4><a class="xref" href="Epos.Utilities.Composition.Container.html">Container</a></h4>
-      <section></section>
+      <section><p>Provides a simple lightweight DI (Dependency Injection) Container.</p>
+</section>
       <h4><a class="xref" href="Epos.Utilities.Composition.ContainerInstaller.html">ContainerInstaller</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Epos.Utilities.Composition.ImplementedByOptions-2.html">ImplementedByOptions&lt;TAbstract, TConcrete&gt;</a></h4>
-      <section></section>
+      <section><p>Provides the base class for a container installer.</p>
+</section>
+      <h4><a class="xref" href="Epos.Utilities.Composition.ImplementedByOptions-2.html">ImplementedByOptions&lt;TAbstraction, TImplementation&gt;</a></h4>
+      <section><p>Options following the <a class="xref" href="Epos.Utilities.Composition.RegisterOptions-1.html#Epos_Utilities_Composition_RegisterOptions_1_ImplementedBy__1">ImplementedBy&lt;TImplementation&gt;()</a>
+fluent interface step.
+<ul><li><a class="xref" href="Epos.Utilities.Composition.ImplementedByOptions-2.html#Epos_Utilities_Composition_ImplementedByOptions_2_WithParameter_System_String_System_Object_">WithParameter(String, Object)</a></li></ul></p>
+</section>
       <h4><a class="xref" href="Epos.Utilities.Composition.LifetimeOptions.html">LifetimeOptions</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Epos.Utilities.Composition.RegisterOptions-1.html">RegisterOptions&lt;TAbstract&gt;</a></h4>
-      <section></section>
+      <section><p>Lifetime options following several fluent interface steps.
+<ul><li><a class="xref" href="Epos.Utilities.Composition.LifetimeOptions.html#Epos_Utilities_Composition_LifetimeOptions_WithLifetime_Epos_Utilities_Composition_ComponentCreationStrategy_">WithLifetime(ComponentCreationStrategy)</a></li><li><a class="xref" href="Epos.Utilities.Composition.LifetimeOptions.html#Epos_Utilities_Composition_LifetimeOptions_WithLifetime_Epos_Utilities_Composition_Lifetime_">WithLifetime(Lifetime)</a></li></ul></p>
+</section>
+      <h4><a class="xref" href="Epos.Utilities.Composition.RegisterOptions-1.html">RegisterOptions&lt;TAbstraction&gt;</a></h4>
+      <section><p>Options following the <a class="xref" href="Epos.Utilities.Composition.Container.html#Epos_Utilities_Composition_Container_Register__1">Register&lt;T&gt;()</a> fluent
+interface step.
+<ul><li><a class="xref" href="Epos.Utilities.Composition.RegisterOptions-1.html#Epos_Utilities_Composition_RegisterOptions_1_ImplementedBy__1">ImplementedBy&lt;TImplementation&gt;()</a></li><li><a class="xref" href="Epos.Utilities.Composition.RegisterOptions-1.html#Epos_Utilities_Composition_RegisterOptions_1_WithFactoryMethod__1_System_Func___0__">WithFactoryMethod&lt;TImplementation&gt;(Func&lt;TImplementation&gt;)</a></li></ul></p>
+</section>
       <h4><a class="xref" href="Epos.Utilities.Composition.RegistrationStep.html">RegistrationStep</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Epos.Utilities.Composition.WithFactoryMethodOptions-2.html">WithFactoryMethodOptions&lt;TAbstract, TConcrete&gt;</a></h4>
-      <section></section>
+      <section><p>Registration fluent interface step helper class.</p>
+</section>
+      <h4><a class="xref" href="Epos.Utilities.Composition.WithFactoryMethodOptions-2.html">WithFactoryMethodOptions&lt;TAbstraction, TImplementation&gt;</a></h4>
+      <section><p>Options following the <a class="xref" href="Epos.Utilities.Composition.RegisterOptions-1.html#Epos_Utilities_Composition_RegisterOptions_1_WithFactoryMethod__1_System_Func___0__">WithFactoryMethod&lt;TImplementation&gt;(Func&lt;TImplementation&gt;)</a>
+fluent interface step.</p>
+</section>
       <h4><a class="xref" href="Epos.Utilities.Composition.WithParameterOptions.html">WithParameterOptions</a></h4>
-      <section></section>
+      <section><p>Options following the <a class="xref" href="Epos.Utilities.Composition.ImplementedByOptions-2.html#Epos_Utilities_Composition_ImplementedByOptions_2_WithParameter_System_String_System_Object_">WithParameter(String, Object)</a>
+fluent interface step.
+<ul><li><a class="xref" href="Epos.Utilities.Composition.WithParameterOptions.html#Epos_Utilities_Composition_WithParameterOptions_AndParameter_System_String_System_Object_">AndParameter(String, Object)</a></li></ul></p>
+</section>
     <h3 id="enums">Enums
   </h3>
       <h4><a class="xref" href="Epos.Utilities.Composition.Lifetime.html">Lifetime</a></h4>
-      <section></section>
+      <section><p>See <a class="xref" href="Epos.Utilities.Composition.LifetimeOptions.html#Epos_Utilities_Composition_LifetimeOptions_WithLifetime_Epos_Utilities_Composition_Lifetime_">WithLifetime(Lifetime)</a>.</p>
+</section>
 </article>
           </div>
           
@@ -102,6 +121,9 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/Epos.Foundation.Docs/Overwrite/Epos.Utilities.Composition.md/#L2" class="contribution-link">Improve this Doc</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

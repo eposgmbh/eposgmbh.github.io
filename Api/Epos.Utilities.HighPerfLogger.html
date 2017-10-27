@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class WithFactoryMethodOptions&lt;TAbstraction, TImplementation&gt;
+    <title>Class HighPerfLogger
    | Epos.Foundation Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class WithFactoryMethodOptions&lt;TAbstraction, TImplementation&gt;
+    <meta name="title" content="Class HighPerfLogger
    | Epos.Foundation Docs ">
     <meta name="generator" content="docfx 2.25.1.0">
     
@@ -64,30 +64,20 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Epos.Utilities.Composition.WithFactoryMethodOptions`2">
+            <article class="content wrap" id="_content" data-uid="Epos.Utilities.HighPerfLogger">
   
   
-  <h1 id="Epos_Utilities_Composition_WithFactoryMethodOptions_2" data-uid="Epos.Utilities.Composition.WithFactoryMethodOptions`2" class="text-break">Class WithFactoryMethodOptions&lt;TAbstraction, TImplementation&gt;
+  <h1 id="Epos_Utilities_HighPerfLogger" data-uid="Epos.Utilities.HighPerfLogger" class="text-break">Class HighPerfLogger
   </h1>
-  <div class="markdown level0 summary"><p>Options following the <a class="xref" href="Epos.Utilities.Composition.RegisterOptions-1.html#Epos_Utilities_Composition_RegisterOptions_1_WithFactoryMethod__1_System_Func___0__">WithFactoryMethod&lt;TImplementation&gt;(Func&lt;TImplementation&gt;)</a>
-fluent interface step.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
-    <div class="level1"><a class="xref" href="Epos.Utilities.Composition.RegistrationStep.html">RegistrationStep</a></div>
-    <div class="level2"><a class="xref" href="Epos.Utilities.Composition.LifetimeOptions.html">LifetimeOptions</a></div>
-    <div class="level3"><span class="xref">WithFactoryMethodOptions&lt;TAbstraction, TImplementation&gt;</span></div>
+    <div class="level1"><span class="xref">HighPerfLogger</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="Epos.Utilities.Composition.LifetimeOptions.html#Epos_Utilities_Composition_LifetimeOptions_WithLifetime_Epos_Utilities_Composition_Lifetime_">LifetimeOptions.WithLifetime(Lifetime)</a>
-    </div>
-    <div>
-      <a class="xref" href="Epos.Utilities.Composition.LifetimeOptions.html#Epos_Utilities_Composition_LifetimeOptions_WithLifetime_Epos_Utilities_Composition_ComponentCreationStrategy_">LifetimeOptions.WithLifetime(ComponentCreationStrategy)</a>
-    </div>
     <div>
       <a class="xref" href="https://msdn.microsoft.com/en-us/library/7bxwbwt2(v=vs.110).aspx">Object.ToString()</a>
     </div>
@@ -110,30 +100,113 @@ fluent interface step.</p>
       <a class="xref" href="https://msdn.microsoft.com/en-us/library/57ctke0a(v=vs.110).aspx">Object.MemberwiseClone()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Epos.Utilities.Composition.html">Epos.Utilities.Composition</a></h6>
-  <h5 id="Epos_Utilities_Composition_WithFactoryMethodOptions_2_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Epos.Utilities.html">Epos.Utilities</a></h6>
+  <h5 id="Epos_Utilities_HighPerfLogger_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class WithFactoryMethodOptions&lt;TAbstraction, TImplementation&gt; : LifetimeOptions where TImplementation : TAbstraction</code></pre>
+    <pre><code class="lang-csharp hljs">public static class HighPerfLogger</code></pre>
   </div>
-  <h5 class="typeParameters">Type Parameters</h5>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Epos_Utilities_HighPerfLogger_Log_" data-uid="Epos.Utilities.HighPerfLogger.Log*"></a>
+  <h4 id="Epos_Utilities_HighPerfLogger_Log_System_String_" data-uid="Epos.Utilities.HighPerfLogger.Log(System.String)">Log(String)</h4>
+  <div class="markdown level1 summary"><p>Logs the specified <code data-dev-comment-type="paramref" class="paramref">message</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Log(string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
+        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TAbstraction</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TImplementation</span></td>
-        <td></td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>Log message</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Epos_Utilities_HighPerfLogger_Log_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Calls to this method are only compiled, if the compilation
+symbol <strong>LOGGING</strong> is defined. This method is thread-safe.</p>
+</div>
+  
+  
+  <a id="Epos_Utilities_HighPerfLogger_LogLine_" data-uid="Epos.Utilities.HighPerfLogger.LogLine*"></a>
+  <h4 id="Epos_Utilities_HighPerfLogger_LogLine_System_String_" data-uid="Epos.Utilities.HighPerfLogger.LogLine(System.String)">LogLine(String)</h4>
+  <div class="markdown level1 summary"><p>Logs the specified <code data-dev-comment-type="paramref" class="paramref">message</code> and appends
+<a class="xref" href="https://msdn.microsoft.com/en-us/library/68ah771x(v=vs.110).aspx">NewLine</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void LogLine(string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>Log message</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Epos_Utilities_HighPerfLogger_LogLine_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Calls to this method are only compiled, if the compilation
+symbol <strong>LOGGING</strong> is defined. This method is thread-safe.</p>
+</div>
+  
+  
+  <a id="Epos_Utilities_HighPerfLogger_SetLogAction_" data-uid="Epos.Utilities.HighPerfLogger.SetLogAction*"></a>
+  <h4 id="Epos_Utilities_HighPerfLogger_SetLogAction_System_Action_System_String__" data-uid="Epos.Utilities.HighPerfLogger.SetLogAction(System.Action{System.String})">SetLogAction(Action&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sets the log action on the current thread.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetLogAction(Action&lt;string&gt; logAction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/018hxwa8(v=vs.110).aspx">Action</a>&lt;<a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a>&gt;</td>
+        <td><span class="parametername">logAction</span></td>
+        <td><p>Log action, for example <a class="xref" href="https://msdn.microsoft.com/en-us/library/zcwe8sfx(v=vs.110).aspx">Write(Object)</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Epos_Utilities_HighPerfLogger_SetLogAction_System_Action_System_String___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Calls to this method are only compiled, if the compilation
+symbol <strong>LOGGING</strong> is defined. This method is thread-safe.</p>
+</div>
 </article>
           </div>
           

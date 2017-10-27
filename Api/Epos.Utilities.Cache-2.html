@@ -69,33 +69,33 @@
   
   <h1 id="Epos_Utilities_Cache_2" data-uid="Epos.Utilities.Cache`2" class="text-break">Class Cache&lt;TKey, TValue&gt;
   </h1>
-  <div class="markdown level0 summary"><p>Allgemeine Cache-Klasse </p>
+  <div class="markdown level0 summary"><p>Provides a general in-memory Cache.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level0"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
     <div class="level1"><span class="xref">Cache&lt;TKey, TValue&gt;</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
+      <a class="xref" href="https://msdn.microsoft.com/en-us/library/bsc2ak47(v=vs.110).aspx">Object.Equals(Object)</a>
     </div>
     <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+      <a class="xref" href="https://msdn.microsoft.com/en-us/library/w4hkze5k(v=vs.110).aspx">Object.Equals(Object, Object)</a>
     </div>
     <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+      <a class="xref" href="https://msdn.microsoft.com/en-us/library/hz2a0b8x(v=vs.110).aspx">Object.ReferenceEquals(Object, Object)</a>
     </div>
     <div>
-      <span class="xref">System.Object.GetHashCode()</span>
+      <a class="xref" href="https://msdn.microsoft.com/en-us/library/zdee4b3y(v=vs.110).aspx">Object.GetHashCode()</a>
     </div>
     <div>
-      <span class="xref">System.Object.GetType()</span>
+      <a class="xref" href="https://msdn.microsoft.com/en-us/library/dfwy45w9(v=vs.110).aspx">Object.GetType()</a>
     </div>
     <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
+      <a class="xref" href="https://msdn.microsoft.com/en-us/library/57ctke0a(v=vs.110).aspx">Object.MemberwiseClone()</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Epos.Utilities.html">Epos.Utilities</a></h6>
@@ -115,12 +115,12 @@
     <tbody>
       <tr>
         <td><span class="parametername">TKey</span></td>
-        <td><p>Typ des Cache-Schlüssels</p>
+        <td><p>Cache key type</p>
 </td>
       </tr>
       <tr>
         <td><span class="parametername">TValue</span></td>
-        <td><p>Typ des Cache-Werts</p>
+        <td><p>Cache value type (must be a <strong>class</strong>)</p>
 </td>
       </tr>
     </tbody>
@@ -131,7 +131,7 @@
   
   <a id="Epos_Utilities_Cache_2__ctor_" data-uid="Epos.Utilities.Cache`2.#ctor*"></a>
   <h4 id="Epos_Utilities_Cache_2__ctor_System_Int32_" data-uid="Epos.Utilities.Cache`2.#ctor(System.Int32)">Cache(Int32)</h4>
-  <div class="markdown level1 summary"><p>Erzeugt eine Instanz der Klasse <strong>Cache</strong>. </p>
+  <div class="markdown level1 summary"><p>Initializes an instance of the <a class="xref" href="Epos.Utilities.Cache-2.html">Cache&lt;TKey, TValue&gt;</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -149,25 +149,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
         <td><span class="parametername">capacity</span></td>
-        <td><p>Kapazität des Caches</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">capacity</code> ist kleiner als 2.</p>
+        <td><p>Cache capacity</p>
 </td>
       </tr>
     </tbody>
@@ -178,7 +162,7 @@
   
   <a id="Epos_Utilities_Cache_2_Capacity_" data-uid="Epos.Utilities.Cache`2.Capacity*"></a>
   <h4 id="Epos_Utilities_Cache_2_Capacity" data-uid="Epos.Utilities.Cache`2.Capacity">Capacity</h4>
-  <div class="markdown level1 summary"><p>Liefert die Kapazität des Caches zurück. </p>
+  <div class="markdown level1 summary"><p>Gets the cache capacity. </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -195,8 +179,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><p>Cache capacity</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -204,7 +189,7 @@
   
   <a id="Epos_Utilities_Cache_2_Count_" data-uid="Epos.Utilities.Cache`2.Count*"></a>
   <h4 id="Epos_Utilities_Cache_2_Count" data-uid="Epos.Utilities.Cache`2.Count">Count</h4>
-  <div class="markdown level1 summary"><p>Liefert die Anzahl der Elemente im Cache zurück. </p>
+  <div class="markdown level1 summary"><p>Gets the value count of the cache.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -221,8 +206,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><p>Cache value count</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -230,7 +216,7 @@
   
   <a id="Epos_Utilities_Cache_2_Item_" data-uid="Epos.Utilities.Cache`2.Item*"></a>
   <h4 id="Epos_Utilities_Cache_2_Item__0_" data-uid="Epos.Utilities.Cache`2.Item(`0)">Item[TKey]</h4>
-  <div class="markdown level1 summary"><p>Setzt oder liefert einen Wert aus dem Cache zurück. </p>
+  <div class="markdown level1 summary"><p>Sets or returns a cache value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -250,7 +236,7 @@
       <tr>
         <td><span class="xref">TKey</span></td>
         <td><span class="parametername">key</span></td>
-        <td><p>Schlüssel</p>
+        <td><p>Cache key</p>
 </td>
       </tr>
     </tbody>
@@ -266,23 +252,7 @@
     <tbody>
       <tr>
         <td><span class="xref">TValue</span></td>
-        <td><p>Wert oder <strong>null</strong> (Nothing in VB), falls zu dem Schlüssel kein Wert existiert</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">key</code> ist <strong>null</strong> (Nothing in VB).</p>
+        <td><p>Value or <strong>null</strong>, if no value is found</p>
 </td>
       </tr>
     </tbody>
@@ -293,7 +263,7 @@
   
   <a id="Epos_Utilities_Cache_2_ToString_" data-uid="Epos.Utilities.Cache`2.ToString*"></a>
   <h4 id="Epos_Utilities_Cache_2_ToString" data-uid="Epos.Utilities.Cache`2.ToString">ToString()</h4>
-  <div class="markdown level1 summary"><p>Liefert eine String-Repräsentation des Caches zurück. </p>
+  <div class="markdown level1 summary"><p>Returns a string that represents the cache.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -310,14 +280,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>String-Repräsentation des Caches</p>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><p>String representation of the cache</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Object.ToString()</span></div>
+  <div><a class="xref" href="https://msdn.microsoft.com/en-us/library/7bxwbwt2(v=vs.110).aspx">Object.ToString()</a></div>
 </article>
           </div>
           

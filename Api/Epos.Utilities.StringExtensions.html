@@ -69,35 +69,37 @@
   
   <h1 id="Epos_Utilities_StringExtensions" data-uid="Epos.Utilities.StringExtensions" class="text-break">Class StringExtensions
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Collection of extension methods for the
+<a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a> type.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level0"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
     <div class="level1"><span class="xref">StringExtensions</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">System.Object.ToString()</span>
+      <a class="xref" href="https://msdn.microsoft.com/en-us/library/7bxwbwt2(v=vs.110).aspx">Object.ToString()</a>
     </div>
     <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
+      <a class="xref" href="https://msdn.microsoft.com/en-us/library/bsc2ak47(v=vs.110).aspx">Object.Equals(Object)</a>
     </div>
     <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+      <a class="xref" href="https://msdn.microsoft.com/en-us/library/w4hkze5k(v=vs.110).aspx">Object.Equals(Object, Object)</a>
     </div>
     <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+      <a class="xref" href="https://msdn.microsoft.com/en-us/library/hz2a0b8x(v=vs.110).aspx">Object.ReferenceEquals(Object, Object)</a>
     </div>
     <div>
-      <span class="xref">System.Object.GetHashCode()</span>
+      <a class="xref" href="https://msdn.microsoft.com/en-us/library/zdee4b3y(v=vs.110).aspx">Object.GetHashCode()</a>
     </div>
     <div>
-      <span class="xref">System.Object.GetType()</span>
+      <a class="xref" href="https://msdn.microsoft.com/en-us/library/dfwy45w9(v=vs.110).aspx">Object.GetType()</a>
     </div>
     <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
+      <a class="xref" href="https://msdn.microsoft.com/en-us/library/57ctke0a(v=vs.110).aspx">Object.MemberwiseClone()</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Epos.Utilities.html">Epos.Utilities</a></h6>
@@ -111,7 +113,8 @@
   
   <a id="Epos_Utilities_StringExtensions_Extract_" data-uid="Epos.Utilities.StringExtensions.Extract*"></a>
   <h4 id="Epos_Utilities_StringExtensions_Extract_System_String_System_String_System_String_" data-uid="Epos.Utilities.StringExtensions.Extract(System.String,System.String,System.String)">Extract(String, String, String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Extracts a substring between specified delimiter strings.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -128,19 +131,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>String</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
         <td><span class="parametername">between</span></td>
-        <td></td>
+        <td><p>Left delimiter</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
         <td><span class="parametername">and</span></td>
-        <td></td>
+        <td><p>Right delimiter</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -154,16 +160,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><p>Extracted string</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Epos_Utilities_StringExtensions_Extract_System_String_System_String_System_String__examples">Examples</h5>
+  <pre><code>    var theExtractedString = &quot;Hallo (Welt)!&quot;.Extract(between: &quot;(&quot;, and: &quot;)&quot;); // Welt</code></pre>
   
   
   <a id="Epos_Utilities_StringExtensions_IsValidEmailAddress_" data-uid="Epos.Utilities.StringExtensions.IsValidEmailAddress*"></a>
   <h4 id="Epos_Utilities_StringExtensions_IsValidEmailAddress_System_String_" data-uid="Epos.Utilities.StringExtensions.IsValidEmailAddress(System.String)">IsValidEmailAddress(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Determines whether the specified string is a valid email address.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -180,9 +190,10 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>String</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -196,8 +207,10 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a></td>
+        <td><p><strong>true</strong>, if the specified string is a valid email address;
+    otherwise <strong>false</strong></p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -205,7 +218,9 @@
   
   <a id="Epos_Utilities_StringExtensions_Matches_" data-uid="Epos.Utilities.StringExtensions.Matches*"></a>
   <h4 id="Epos_Utilities_StringExtensions_Matches_System_String_System_String_" data-uid="Epos.Utilities.StringExtensions.Matches(System.String,System.String)">Matches(String, String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Determines whether the specified string matches the specified
+<code data-dev-comment-type="paramref" class="paramref">regexPattern</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -222,14 +237,16 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>String</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
         <td><span class="parametername">regexPattern</span></td>
-        <td></td>
+        <td><p>Regex pattern</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -243,8 +260,279 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a></td>
+        <td><p><strong>true</strong>, if the pattern matches the string; otherwise <strong>false</strong></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Epos_Utilities_StringExtensions_TryConvert_" data-uid="Epos.Utilities.StringExtensions.TryConvert*"></a>
+  <h4 id="Epos_Utilities_StringExtensions_TryConvert_System_String_System_Type_CultureInfo_System_Object__" data-uid="Epos.Utilities.StringExtensions.TryConvert(System.String,System.Type,CultureInfo,System.Object@)">TryConvert(String, Type, CultureInfo, out Object)</h4>
+  <div class="markdown level1 summary"><p>Tries to convert a string into an instance of <code data-dev-comment-type="paramref" class="paramref">destinationType</code>
+with the specified <code data-dev-comment-type="paramref" class="paramref">cultureInfo</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryConvert(this string value, Type destinationType, CultureInfo cultureInfo, out object convertedValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>String</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.type(v=vs.110).aspx">Type</a></td>
+        <td><span class="parametername">destinationType</span></td>
+        <td><p>Destination type</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CultureInfo</span></td>
+        <td><span class="parametername">cultureInfo</span></td>
+        <td><p>Culture info</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></td>
+        <td><span class="parametername">convertedValue</span></td>
+        <td><p>Converted value result</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a></td>
+        <td><p><strong>true</strong>, if the conversion succeeds; otherwise <strong>false</strong></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Epos_Utilities_StringExtensions_TryConvert_" data-uid="Epos.Utilities.StringExtensions.TryConvert*"></a>
+  <h4 id="Epos_Utilities_StringExtensions_TryConvert_System_String_System_Type_System_Object__" data-uid="Epos.Utilities.StringExtensions.TryConvert(System.String,System.Type,System.Object@)">TryConvert(String, Type, out Object)</h4>
+  <div class="markdown level1 summary"><p>Tries to convert a string into an instance of <code data-dev-comment-type="paramref" class="paramref">destinationType</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryConvert(this string value, Type destinationType, out object convertedValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>String</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.type(v=vs.110).aspx">Type</a></td>
+        <td><span class="parametername">destinationType</span></td>
+        <td><p>Destination type</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></td>
+        <td><span class="parametername">convertedValue</span></td>
+        <td><p>Converted value result</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a></td>
+        <td><p><strong>true</strong>, if the conversion succeeds; otherwise <strong>false</strong></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Epos_Utilities_StringExtensions_TryConvert_System_String_System_Type_System_Object___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The <a class="xref" href="https://msdn.microsoft.com/en-us/library/s2x52wh6(v=vs.110).aspx">CurrentCulture</a> is used for
+conversion.</p>
+</div>
+  
+  
+  <a id="Epos_Utilities_StringExtensions_TryConvert_" data-uid="Epos.Utilities.StringExtensions.TryConvert*"></a>
+  <h4 id="Epos_Utilities_StringExtensions_TryConvert__1_System_String___0__" data-uid="Epos.Utilities.StringExtensions.TryConvert``1(System.String,``0@)">TryConvert&lt;TDestinationType&gt;(String, out TDestinationType)</h4>
+  <div class="markdown level1 summary"><p>Tries to convert a string into an instance of <code data-dev-comment-type="typeparamref" class="typeparamref">TDestinationType</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryConvert&lt;TDestinationType&gt;(this string value, out TDestinationType convertedValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>String</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TDestinationType</span></td>
+        <td><span class="parametername">convertedValue</span></td>
+        <td><p>Converted value result</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a></td>
+        <td><p><strong>true</strong>, if the conversion succeeds; otherwise <strong>false</strong></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TDestinationType</span></td>
+        <td><p>Destination type</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Epos_Utilities_StringExtensions_TryConvert__1_System_String___0___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The <a class="xref" href="https://msdn.microsoft.com/en-us/library/s2x52wh6(v=vs.110).aspx">CurrentCulture</a> is used for
+conversion.</p>
+</div>
+  
+  
+  <a id="Epos_Utilities_StringExtensions_TryConvert_" data-uid="Epos.Utilities.StringExtensions.TryConvert*"></a>
+  <h4 id="Epos_Utilities_StringExtensions_TryConvert__1_System_String_CultureInfo___0__" data-uid="Epos.Utilities.StringExtensions.TryConvert``1(System.String,CultureInfo,``0@)">TryConvert&lt;TDestinationType&gt;(String, CultureInfo, out TDestinationType)</h4>
+  <div class="markdown level1 summary"><p>Tries to convert a string into an instance of <code data-dev-comment-type="typeparamref" class="typeparamref">TDestinationType</code>.
+with the specified <code data-dev-comment-type="paramref" class="paramref">cultureInfo</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryConvert&lt;TDestinationType&gt;(this string value, CultureInfo cultureInfo, out TDestinationType convertedValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>String</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CultureInfo</span></td>
+        <td><span class="parametername">cultureInfo</span></td>
+        <td><p>Culture info</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TDestinationType</span></td>
+        <td><span class="parametername">convertedValue</span></td>
+        <td><p>Converted value result</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a></td>
+        <td><p><strong>true</strong>, if the conversion succeeds; otherwise <strong>false</strong></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TDestinationType</span></td>
+        <td><p>Destination type</p>
+</td>
       </tr>
     </tbody>
   </table>
