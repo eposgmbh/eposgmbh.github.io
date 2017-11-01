@@ -1380,6 +1380,81 @@ references:
   commentId: Overload:Epos.Utilities.HighPerfLogger.SetLogAction
   fullName: Epos.Utilities.HighPerfLogger.SetLogAction
   nameWithType: HighPerfLogger.SetLogAction
+- uid: Epos.Utilities.JsonServiceClient
+  name: JsonServiceClient
+  href: Api/Epos.Utilities.JsonServiceClient.html
+  commentId: T:Epos.Utilities.JsonServiceClient
+  fullName: Epos.Utilities.JsonServiceClient
+  nameWithType: JsonServiceClient
+- uid: Epos.Utilities.JsonServiceClient.#ctor(System.String)
+  name: JsonServiceClient(String)
+  href: Api/Epos.Utilities.JsonServiceClient.html#Epos_Utilities_JsonServiceClient__ctor_System_String_
+  commentId: M:Epos.Utilities.JsonServiceClient.#ctor(System.String)
+  fullName: Epos.Utilities.JsonServiceClient.JsonServiceClient(System.String)
+  nameWithType: JsonServiceClient.JsonServiceClient(String)
+- uid: Epos.Utilities.JsonServiceClient.#ctor*
+  name: JsonServiceClient
+  href: Api/Epos.Utilities.JsonServiceClient.html#Epos_Utilities_JsonServiceClient__ctor_
+  commentId: Overload:Epos.Utilities.JsonServiceClient.#ctor
+  fullName: Epos.Utilities.JsonServiceClient.JsonServiceClient
+  nameWithType: JsonServiceClient.JsonServiceClient
+- uid: Epos.Utilities.JsonServiceClient.GetManyAsync*
+  name: GetManyAsync
+  href: Api/Epos.Utilities.JsonServiceClient.html#Epos_Utilities_JsonServiceClient_GetManyAsync_
+  commentId: Overload:Epos.Utilities.JsonServiceClient.GetManyAsync
+  fullName: Epos.Utilities.JsonServiceClient.GetManyAsync
+  nameWithType: JsonServiceClient.GetManyAsync
+- uid: Epos.Utilities.JsonServiceClient.GetManyAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
+  name: GetManyAsync<TResponse>(String, [])
+  href: Api/Epos.Utilities.JsonServiceClient.html#Epos_Utilities_JsonServiceClient_GetManyAsync__1_System_String_System_ValueTuple_System_String_System_Object____
+  commentId: M:Epos.Utilities.JsonServiceClient.GetManyAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
+  name.vb: GetManyAsync(Of TResponse)(String, ())
+  fullName: Epos.Utilities.JsonServiceClient.GetManyAsync<TResponse>(System.String, System.[])
+  fullName.vb: Epos.Utilities.JsonServiceClient.GetManyAsync(Of TResponse)(System.String, System.())
+  nameWithType: JsonServiceClient.GetManyAsync<TResponse>(String, [])
+  nameWithType.vb: JsonServiceClient.GetManyAsync(Of TResponse)(String, ())
+- uid: Epos.Utilities.JsonServiceClient.GetOneAsync*
+  name: GetOneAsync
+  href: Api/Epos.Utilities.JsonServiceClient.html#Epos_Utilities_JsonServiceClient_GetOneAsync_
+  commentId: Overload:Epos.Utilities.JsonServiceClient.GetOneAsync
+  fullName: Epos.Utilities.JsonServiceClient.GetOneAsync
+  nameWithType: JsonServiceClient.GetOneAsync
+- uid: Epos.Utilities.JsonServiceClient.GetOneAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
+  name: GetOneAsync<TResponse>(String, [])
+  href: Api/Epos.Utilities.JsonServiceClient.html#Epos_Utilities_JsonServiceClient_GetOneAsync__1_System_String_System_ValueTuple_System_String_System_Object____
+  commentId: M:Epos.Utilities.JsonServiceClient.GetOneAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
+  name.vb: GetOneAsync(Of TResponse)(String, ())
+  fullName: Epos.Utilities.JsonServiceClient.GetOneAsync<TResponse>(System.String, System.[])
+  fullName.vb: Epos.Utilities.JsonServiceClient.GetOneAsync(Of TResponse)(System.String, System.())
+  nameWithType: JsonServiceClient.GetOneAsync<TResponse>(String, [])
+  nameWithType.vb: JsonServiceClient.GetOneAsync(Of TResponse)(String, ())
+- uid: Epos.Utilities.JsonServiceClient.PostAsync*
+  name: PostAsync
+  href: Api/Epos.Utilities.JsonServiceClient.html#Epos_Utilities_JsonServiceClient_PostAsync_
+  commentId: Overload:Epos.Utilities.JsonServiceClient.PostAsync
+  fullName: Epos.Utilities.JsonServiceClient.PostAsync
+  nameWithType: JsonServiceClient.PostAsync
+- uid: Epos.Utilities.JsonServiceClient.PostAsync``1(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])
+  name: PostAsync<TResponse>(String, Object, [])
+  href: Api/Epos.Utilities.JsonServiceClient.html#Epos_Utilities_JsonServiceClient_PostAsync__1_System_String_System_Object_System_ValueTuple_System_String_System_Object____
+  commentId: M:Epos.Utilities.JsonServiceClient.PostAsync``1(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])
+  name.vb: PostAsync(Of TResponse)(String, Object, ())
+  fullName: Epos.Utilities.JsonServiceClient.PostAsync<TResponse>(System.String, System.Object, System.[])
+  fullName.vb: Epos.Utilities.JsonServiceClient.PostAsync(Of TResponse)(System.String, System.Object, System.())
+  nameWithType: JsonServiceClient.PostAsync<TResponse>(String, Object, [])
+  nameWithType.vb: JsonServiceClient.PostAsync(Of TResponse)(String, Object, ())
+- uid: Epos.Utilities.JsonServiceClient.RootUrl
+  name: RootUrl
+  href: Api/Epos.Utilities.JsonServiceClient.html#Epos_Utilities_JsonServiceClient_RootUrl
+  commentId: P:Epos.Utilities.JsonServiceClient.RootUrl
+  fullName: Epos.Utilities.JsonServiceClient.RootUrl
+  nameWithType: JsonServiceClient.RootUrl
+- uid: Epos.Utilities.JsonServiceClient.RootUrl*
+  name: RootUrl
+  href: Api/Epos.Utilities.JsonServiceClient.html#Epos_Utilities_JsonServiceClient_RootUrl_
+  commentId: Overload:Epos.Utilities.JsonServiceClient.RootUrl
+  fullName: Epos.Utilities.JsonServiceClient.RootUrl
+  nameWithType: JsonServiceClient.RootUrl
 - uid: Epos.Utilities.ListExtensions
   name: ListExtensions
   href: Api/Epos.Utilities.ListExtensions.html

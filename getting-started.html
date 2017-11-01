@@ -85,14 +85,14 @@ unit tests in <a href="https://github.com/eposgmbh/Epos.Foundation/tree/master/E
 <h4 id="arithmetics">Arithmetics</h4>
 <p>Use the <code>Arithmetics</code> class to do generic calculations for different data types like
 <code>int</code> or <code>double</code>:</p>
-<pre><code class="lang-csharp">double double = Arithmetics.GetZeroValue&lt;double&gt;(); // 0.0
-int integer = Arithmetics.GetOneValue&lt;int&gt;(); // 1
+<pre><code class="lang-csharp">double theDouble = Arithmetics.GetZeroValue&lt;double&gt;(); // 0.0
+int theInteger = Arithmetics.GetOneValue&lt;int&gt;(); // 1
 
-var addIntegers = Arithmetics.CreateAddOperation&lt;int&gt;();
-int sum = addIntegers(integer, 33); // 34
+var theAddIntegers = Arithmetics.CreateAddOperation&lt;int&gt;();
+int theSum = theAddIntegers(theInteger, 33); // 34
 
-var multiplyDoubles = Arithmetics.CreateMultiplyOperation&lt;double&gt;();
-double theProduct = multiplyDoubles(11.0, 6.5); // 71.5
+var theMultiplyDoubles = Arithmetics.CreateMultiplyOperation&lt;double&gt;();
+double theProduct = theMultiplyDoubles(11.0, 6.5); // 71.5
 </code></pre><h4 id="stringextensions">StringExtensions</h4>
 <p>Use the <code>StringExtensions</code> class to do (among other things) generic type conversions
 from a string. You can convert to any type with an attached <code>TypeConverterAttribute</code>.</p>
@@ -154,7 +154,7 @@ var theTestService = theContainer.Resolve&lt;ITestService&gt;();
 
     // ...
 }
-</code></pre><p>Sample Main method that uses the <code>BuildOptions</code> class for the subcommand <code>build</code>:</p>
+</code></pre><p>Sample <code>Main</code> method that uses the <code>BuildOptions</code> class for the subcommand <code>build</code>:</p>
 <pre><code class="lang-csharp">public static int Main(string[] args) {
     var theCmdLineDefinition = new CmdLineDefinition {
         Name = &quot;sample&quot;, // &lt;- if not specified, .exe-Filename is used
