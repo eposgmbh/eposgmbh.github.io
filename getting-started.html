@@ -93,6 +93,24 @@ int theSum = theAddIntegers(theInteger, 33); // 34
 
 var theMultiplyDoubles = Arithmetics.CreateMultiplyOperation&lt;double&gt;();
 double theProduct = theMultiplyDoubles(11.0, 6.5); // 71.5
+</code></pre><h4 id="jsonserviceclient">JsonServiceClient</h4>
+<p>Use the <code>JsonServiceClient</code> to initiate JSON Web API calls (see
+<a href="https://jsonplaceholder.typicode.com/">JSONPlaceholder Fake REST API</a>):</p>
+<pre><code class="lang-csharp">public class Post
+{
+    public int    UserId { get; set; }
+    public int    Id     { get; set; }
+    public string Title  { get; set; }
+    public string Body   { get; set; }
+}
+
+// ...
+
+var theClient = new JsonServiceClient(&quot;https://jsonplaceholder.typicode.com/&quot;);
+
+var theGetManyResult = await theClient.GetManyAsync&lt;Post&gt;(
+    apiUrl: &quot;posts&quot;, queryParams: (&quot;userId&quot;, 1)
+);
 </code></pre><h4 id="stringextensions">StringExtensions</h4>
 <p>Use the <code>StringExtensions</code> class to do (among other things) generic type conversions
 from a string. You can convert to any type with an attached <code>TypeConverterAttribute</code>.</p>
@@ -127,8 +145,8 @@ double dbl = 33.99;
 Console.WriteLine(dbl.Dump()); // 33.99 (Dump always uses the invariant culture)
 
 // Complex type instances:
-Console.WriteLine(new[] { 1, 2, 3 }.Dump()); // {1, 2, 3}
-Console.WriteLine(new { Integer = 1, String = &quot;Hello&quot; }.Dump()); // [Integer = 1, String = Hello]
+Console.WriteLine(new[] { 1, 2, 3 }.Dump()); // [1, 2, 3]
+Console.WriteLine(new { Integer = 1, String = &quot;Hello&quot; }.Dump()); // { Integer = 1, String = Hello }
 </code></pre><h4 id="container">Container</h4>
 <p>Use the <code>Container</code> class as a simple lightweight DI Container.</p>
 <pre><code class="lang-csharp">var theContainer = new Container();
