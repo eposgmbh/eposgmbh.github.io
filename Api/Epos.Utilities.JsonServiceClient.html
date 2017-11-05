@@ -170,6 +170,56 @@ class. </p>
   </h3>
   
   
+  <a id="Epos_Utilities_JsonServiceClient_DeleteAsync_" data-uid="Epos.Utilities.JsonServiceClient.DeleteAsync*"></a>
+  <h4 id="Epos_Utilities_JsonServiceClient_DeleteAsync_System_String_System_ValueTuple_System_String_System_Object____" data-uid="Epos.Utilities.JsonServiceClient.DeleteAsync(System.String,System.ValueTuple{System.String,System.Object}[])">DeleteAsync(String, [])</h4>
+  <div class="markdown level1 summary"><p>Executes a DELETE request. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task DeleteAsync(string apiUrl, params[] queryParams)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="parametername">apiUrl</span></td>
+        <td><p>API URL</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.</span>[]</td>
+        <td><span class="parametername">queryParams</span></td>
+        <td><p>Query parameters</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Epos_Utilities_JsonServiceClient_GetManyAsync_" data-uid="Epos.Utilities.JsonServiceClient.GetManyAsync*"></a>
   <h4 id="Epos_Utilities_JsonServiceClient_GetManyAsync__1_System_String_System_ValueTuple_System_String_System_Object____" data-uid="Epos.Utilities.JsonServiceClient.GetManyAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])">GetManyAsync&lt;TResponse&gt;(String, [])</h4>
   <div class="markdown level1 summary"><p>Executes a GET request and expects back a JSON
@@ -312,7 +362,7 @@ instance. </p>
   
   <a id="Epos_Utilities_JsonServiceClient_PostAsync_" data-uid="Epos.Utilities.JsonServiceClient.PostAsync*"></a>
   <h4 id="Epos_Utilities_JsonServiceClient_PostAsync__1_System_String_System_Object_System_ValueTuple_System_String_System_Object____" data-uid="Epos.Utilities.JsonServiceClient.PostAsync``1(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])">PostAsync&lt;TResponse&gt;(String, Object, [])</h4>
-  <div class="markdown level1 summary"><p>Executes a GET request and expects back a JSON
+  <div class="markdown level1 summary"><p>Executes a POST request and expects back a JSON
 response that can be deserialized to a <code data-dev-comment-type="typeparamref" class="typeparamref">TResponse</code>
 instance. </p>
 </div>
@@ -320,6 +370,81 @@ instance. </p>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Task&lt;TResponse&gt; PostAsync&lt;TResponse&gt;(string apiUrl, object body, params[] queryParams)where TResponse : class</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="parametername">apiUrl</span></td>
+        <td><p>API URL</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></td>
+        <td><span class="parametername">body</span></td>
+        <td><p>Message body (is converted to JSON)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.</span>[]</td>
+        <td><span class="parametername">queryParams</span></td>
+        <td><p>Query parameters</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;TResponse&gt;</td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">TResponse</code> instance</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TResponse</span></td>
+        <td><p>Response type</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Epos_Utilities_JsonServiceClient_PutAsync_" data-uid="Epos.Utilities.JsonServiceClient.PutAsync*"></a>
+  <h4 id="Epos_Utilities_JsonServiceClient_PutAsync__1_System_String_System_Object_System_ValueTuple_System_String_System_Object____" data-uid="Epos.Utilities.JsonServiceClient.PutAsync``1(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])">PutAsync&lt;TResponse&gt;(String, Object, [])</h4>
+  <div class="markdown level1 summary"><p>Executes a PUT request and expects back a JSON
+response that can be deserialized to a <code data-dev-comment-type="typeparamref" class="typeparamref">TResponse</code>
+instance. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;TResponse&gt; PutAsync&lt;TResponse&gt;(string apiUrl, object body, params[] queryParams)where TResponse : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
