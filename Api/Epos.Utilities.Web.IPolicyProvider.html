@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Delegate UnaryOperation&lt;T&gt;
+    <title>Interface IPolicyProvider
    | Epos.Foundation Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Delegate UnaryOperation&lt;T&gt;
+    <meta name="title" content="Interface IPolicyProvider
    | Epos.Foundation Docs ">
     <meta name="generator" content="docfx 2.32.2.0">
     
@@ -64,19 +64,36 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Epos.Utilities.UnaryOperation`1">
+            <article class="content wrap" id="_content" data-uid="Epos.Utilities.Web.IPolicyProvider">
   
   
-  <h1 id="Epos_Utilities_UnaryOperation_1" data-uid="Epos.Utilities.UnaryOperation`1" class="text-break">Delegate UnaryOperation&lt;T&gt;
+  <h1 id="Epos_Utilities_Web_IPolicyProvider" data-uid="Epos.Utilities.Web.IPolicyProvider" class="text-break">Interface IPolicyProvider
   </h1>
-  <div class="markdown level0 summary"><p>Encapsulates a unary operation like negating on type
-<code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+  <div class="markdown level0 summary"><p>Provides Polly policies for resilient Web API calls.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Epos.Utilities.html">Epos.Utilities</a></h6>
-  <h5 id="Epos_Utilities_UnaryOperation_1_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Epos.Utilities.Web.html">Epos.Utilities.Web</a></h6>
+  <h5 id="Epos_Utilities_Web_IPolicyProvider_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate T UnaryOperation&lt;T&gt;(T arg);</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IPolicyProvider</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_Utilities_Web_IPolicyProvider_ProvidePolicy_System_String_.md&amp;value=---%0Auid%3A%20Epos.Utilities.Web.IPolicyProvider.ProvidePolicy(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities.Web/IPolicyProvider.cs/#L12">View Source</a>
+  </span>
+  <a id="Epos_Utilities_Web_IPolicyProvider_ProvidePolicy_" data-uid="Epos.Utilities.Web.IPolicyProvider.ProvidePolicy*"></a>
+  <h4 id="Epos_Utilities_Web_IPolicyProvider_ProvidePolicy_System_String_" data-uid="Epos.Utilities.Web.IPolicyProvider.ProvidePolicy(System.String)">ProvidePolicy(String)</h4>
+  <div class="markdown level1 summary"><p>Provides a Polly policy. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">PolicyWrap ProvidePolicy(string url)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -89,9 +106,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">arg</span></td>
-        <td><p>Operand</p>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">url</span></td>
+        <td><p>URL for caching</p>
 </td>
       </tr>
     </tbody>
@@ -106,24 +123,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>Return value</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type</p>
+        <td><span class="xref">Polly.Wrap.PolicyWrap</span></td>
+        <td><p><span class="xref">Polly.Wrap.PolicyWrap</span> instance</p>
 </td>
       </tr>
     </tbody>
@@ -149,10 +150,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_Utilities_UnaryOperation_1.md&amp;value=---%0Auid%3A%20Epos.Utilities.UnaryOperation%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_Utilities_Web_IPolicyProvider.md&amp;value=---%0Auid%3A%20Epos.Utilities.Web.IPolicyProvider%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/Arithmetics.cs/#L15" class="contribution-link">View Source</a>
+                    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities.Web/IPolicyProvider.cs/#L7" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

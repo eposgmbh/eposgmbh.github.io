@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class DebugThrow
    | Epos.Foundation Docs ">
-    <meta name="generator" content="docfx 2.25.1.0">
+    <meta name="generator" content="docfx 2.32.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -75,31 +75,31 @@ will not be compiled into release builds for optimal performance.</p>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">DebugThrow</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="https://msdn.microsoft.com/en-us/library/7bxwbwt2(v=vs.110).aspx">Object.ToString()</a>
+      <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
     <div>
-      <a class="xref" href="https://msdn.microsoft.com/en-us/library/bsc2ak47(v=vs.110).aspx">Object.Equals(Object)</a>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
     </div>
     <div>
-      <a class="xref" href="https://msdn.microsoft.com/en-us/library/w4hkze5k(v=vs.110).aspx">Object.Equals(Object, Object)</a>
+      <span class="xref">System.Object.GetHashCode()</span>
     </div>
     <div>
-      <a class="xref" href="https://msdn.microsoft.com/en-us/library/hz2a0b8x(v=vs.110).aspx">Object.ReferenceEquals(Object, Object)</a>
+      <span class="xref">System.Object.GetType()</span>
     </div>
     <div>
-      <a class="xref" href="https://msdn.microsoft.com/en-us/library/zdee4b3y(v=vs.110).aspx">Object.GetHashCode()</a>
+      <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
     <div>
-      <a class="xref" href="https://msdn.microsoft.com/en-us/library/dfwy45w9(v=vs.110).aspx">Object.GetType()</a>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
     <div>
-      <a class="xref" href="https://msdn.microsoft.com/en-us/library/57ctke0a(v=vs.110).aspx">Object.MemberwiseClone()</a>
+      <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Epos.Utilities.html">Epos.Utilities</a></h6>
@@ -109,17 +109,23 @@ will not be compiled into release builds for optimal performance.</p>
   </div>
   <h3 id="methods">Methods
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_Utilities_DebugThrow_If_System_Boolean_System_String_System_String_.md&amp;value=---%0Auid%3A%20Epos.Utilities.DebugThrow.If(System.Boolean%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/DebugThrow.cs/#L43">View Source</a>
+  </span>
   <a id="Epos_Utilities_DebugThrow_If_" data-uid="Epos.Utilities.DebugThrow.If*"></a>
   <h4 id="Epos_Utilities_DebugThrow_If_System_Boolean_System_String_System_String_" data-uid="Epos.Utilities.DebugThrow.If(System.Boolean,System.String,System.String)">If(Boolean, String, String)</h4>
-  <div class="markdown level1 summary"><p>Throws an <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.argumentexception(v=vs.110).aspx">ArgumentException</a>, if the specified
+  <div class="markdown level1 summary"><p>Throws an <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a>, if the specified
 <code data-dev-comment-type="paramref" class="paramref">predicate</code> is <strong>true</strong>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void If(bool predicate, string message, string paramName)</code></pre>
+    <pre><code class="lang-csharp hljs">[Conditional(&quot;DEBUG&quot;)]
+public static void If(bool predicate, string message, string paramName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -132,27 +138,32 @@ will not be compiled into release builds for optimal performance.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td><span class="parametername">predicate</span></td>
         <td><p>Predicate</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">message</span></td>
         <td><p>Exception message</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">paramName</span></td>
         <td><p>Param name</p>
 </td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_Utilities_DebugThrow_IfInvalidEnum_System_Enum_System_String_.md&amp;value=---%0Auid%3A%20Epos.Utilities.DebugThrow.IfInvalidEnum(System.Enum%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/DebugThrow.cs/#L30">View Source</a>
+  </span>
   <a id="Epos_Utilities_DebugThrow_IfInvalidEnum_" data-uid="Epos.Utilities.DebugThrow.IfInvalidEnum*"></a>
   <h4 id="Epos_Utilities_DebugThrow_IfInvalidEnum_System_Enum_System_String_" data-uid="Epos.Utilities.DebugThrow.IfInvalidEnum(System.Enum,System.String)">IfInvalidEnum(Enum, String)</h4>
   <div class="markdown level1 summary"><p>Throws an <strong>InvalidEnumArgumentException</strong>, if the
@@ -161,7 +172,8 @@ specified <code data-dev-comment-type="paramref" class="paramref">value</code> i
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void IfInvalidEnum(Enum value, string paramName)</code></pre>
+    <pre><code class="lang-csharp hljs">[Conditional(&quot;DEBUG&quot;)]
+public static void IfInvalidEnum(Enum value, string paramName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -174,30 +186,36 @@ specified <code data-dev-comment-type="paramref" class="paramref">value</code> i
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.enum(v=vs.110).aspx">Enum</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.enum">Enum</a></td>
         <td><span class="parametername">value</span></td>
         <td><p>Value to check</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">paramName</span></td>
         <td><p>Param name</p>
 </td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_Utilities_DebugThrow_IfNull__1___0_System_String_.md&amp;value=---%0Auid%3A%20Epos.Utilities.DebugThrow.IfNull%60%601(%60%600%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/DebugThrow.cs/#L17">View Source</a>
+  </span>
   <a id="Epos_Utilities_DebugThrow_IfNull_" data-uid="Epos.Utilities.DebugThrow.IfNull*"></a>
   <h4 id="Epos_Utilities_DebugThrow_IfNull__1___0_System_String_" data-uid="Epos.Utilities.DebugThrow.IfNull``1(``0,System.String)">IfNull&lt;T&gt;(T, String)</h4>
-  <div class="markdown level1 summary"><p>Throws an <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.argumentnullexception(v=vs.110).aspx">ArgumentNullException</a>, if the specified
+  <div class="markdown level1 summary"><p>Throws an <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a>, if the specified
 <code data-dev-comment-type="paramref" class="paramref">value</code> is <strong>null</strong>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void IfNull&lt;T&gt;(T value, string paramName)where T : class</code></pre>
+    <pre><code class="lang-csharp hljs">[Conditional(&quot;DEBUG&quot;)]
+public static void IfNull&lt;T&gt;(T value, string paramName)where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -216,7 +234,7 @@ specified <code data-dev-comment-type="paramref" class="paramref">value</code> i
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">paramName</span></td>
         <td><p>Param name</p>
 </td>
@@ -246,6 +264,12 @@ specified <code data-dev-comment-type="paramref" class="paramref">value</code> i
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_Utilities_DebugThrow.md&amp;value=---%0Auid%3A%20Epos.Utilities.DebugThrow%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/DebugThrow.cs/#L10" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

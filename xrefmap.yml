@@ -739,13 +739,13 @@ references:
   commentId: Overload:Epos.Utilities.AssemblyExtensions.GetAttribute
   fullName: Epos.Utilities.AssemblyExtensions.GetAttribute
   nameWithType: AssemblyExtensions.GetAttribute
-- uid: Epos.Utilities.AssemblyExtensions.GetAttribute``1(Assembly)
+- uid: Epos.Utilities.AssemblyExtensions.GetAttribute``1(System.Reflection.Assembly)
   name: GetAttribute<TAttribute>(Assembly)
-  href: Api/Epos.Utilities.AssemblyExtensions.html#Epos_Utilities_AssemblyExtensions_GetAttribute__1_Assembly_
-  commentId: M:Epos.Utilities.AssemblyExtensions.GetAttribute``1(Assembly)
+  href: Api/Epos.Utilities.AssemblyExtensions.html#Epos_Utilities_AssemblyExtensions_GetAttribute__1_System_Reflection_Assembly_
+  commentId: M:Epos.Utilities.AssemblyExtensions.GetAttribute``1(System.Reflection.Assembly)
   name.vb: GetAttribute(Of TAttribute)(Assembly)
-  fullName: Epos.Utilities.AssemblyExtensions.GetAttribute<TAttribute>(Assembly)
-  fullName.vb: Epos.Utilities.AssemblyExtensions.GetAttribute(Of TAttribute)(Assembly)
+  fullName: Epos.Utilities.AssemblyExtensions.GetAttribute<TAttribute>(System.Reflection.Assembly)
+  fullName.vb: Epos.Utilities.AssemblyExtensions.GetAttribute(Of TAttribute)(System.Reflection.Assembly)
   nameWithType: AssemblyExtensions.GetAttribute<TAttribute>(Assembly)
   nameWithType.vb: AssemblyExtensions.GetAttribute(Of TAttribute)(Assembly)
 - uid: Epos.Utilities.AssemblyExtensions.GetAttributes*
@@ -754,13 +754,13 @@ references:
   commentId: Overload:Epos.Utilities.AssemblyExtensions.GetAttributes
   fullName: Epos.Utilities.AssemblyExtensions.GetAttributes
   nameWithType: AssemblyExtensions.GetAttributes
-- uid: Epos.Utilities.AssemblyExtensions.GetAttributes``1(Assembly)
+- uid: Epos.Utilities.AssemblyExtensions.GetAttributes``1(System.Reflection.Assembly)
   name: GetAttributes<TAttribute>(Assembly)
-  href: Api/Epos.Utilities.AssemblyExtensions.html#Epos_Utilities_AssemblyExtensions_GetAttributes__1_Assembly_
-  commentId: M:Epos.Utilities.AssemblyExtensions.GetAttributes``1(Assembly)
+  href: Api/Epos.Utilities.AssemblyExtensions.html#Epos_Utilities_AssemblyExtensions_GetAttributes__1_System_Reflection_Assembly_
+  commentId: M:Epos.Utilities.AssemblyExtensions.GetAttributes``1(System.Reflection.Assembly)
   name.vb: GetAttributes(Of TAttribute)(Assembly)
-  fullName: Epos.Utilities.AssemblyExtensions.GetAttributes<TAttribute>(Assembly)
-  fullName.vb: Epos.Utilities.AssemblyExtensions.GetAttributes(Of TAttribute)(Assembly)
+  fullName: Epos.Utilities.AssemblyExtensions.GetAttributes<TAttribute>(System.Reflection.Assembly)
+  fullName.vb: Epos.Utilities.AssemblyExtensions.GetAttributes(Of TAttribute)(System.Reflection.Assembly)
   nameWithType: AssemblyExtensions.GetAttributes<TAttribute>(Assembly)
   nameWithType.vb: AssemblyExtensions.GetAttributes(Of TAttribute)(Assembly)
 - uid: Epos.Utilities.AssemblyExtensions.HasAttribute*
@@ -769,13 +769,13 @@ references:
   commentId: Overload:Epos.Utilities.AssemblyExtensions.HasAttribute
   fullName: Epos.Utilities.AssemblyExtensions.HasAttribute
   nameWithType: AssemblyExtensions.HasAttribute
-- uid: Epos.Utilities.AssemblyExtensions.HasAttribute``1(Assembly)
+- uid: Epos.Utilities.AssemblyExtensions.HasAttribute``1(System.Reflection.Assembly)
   name: HasAttribute<TAttribute>(Assembly)
-  href: Api/Epos.Utilities.AssemblyExtensions.html#Epos_Utilities_AssemblyExtensions_HasAttribute__1_Assembly_
-  commentId: M:Epos.Utilities.AssemblyExtensions.HasAttribute``1(Assembly)
+  href: Api/Epos.Utilities.AssemblyExtensions.html#Epos_Utilities_AssemblyExtensions_HasAttribute__1_System_Reflection_Assembly_
+  commentId: M:Epos.Utilities.AssemblyExtensions.HasAttribute``1(System.Reflection.Assembly)
   name.vb: HasAttribute(Of TAttribute)(Assembly)
-  fullName: Epos.Utilities.AssemblyExtensions.HasAttribute<TAttribute>(Assembly)
-  fullName.vb: Epos.Utilities.AssemblyExtensions.HasAttribute(Of TAttribute)(Assembly)
+  fullName: Epos.Utilities.AssemblyExtensions.HasAttribute<TAttribute>(System.Reflection.Assembly)
+  fullName.vb: Epos.Utilities.AssemblyExtensions.HasAttribute(Of TAttribute)(System.Reflection.Assembly)
   nameWithType: AssemblyExtensions.HasAttribute<TAttribute>(Assembly)
   nameWithType.vb: AssemblyExtensions.HasAttribute(Of TAttribute)(Assembly)
 - uid: Epos.Utilities.BinaryOperation`3
@@ -913,21 +913,21 @@ references:
   commentId: T:Epos.Utilities.Composition.ComponentCreationStrategy
   fullName: Epos.Utilities.Composition.ComponentCreationStrategy
   nameWithType: ComponentCreationStrategy
-- uid: Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(ConstructorInfo,System.Object[])
-  name: GetInstance(ConstructorInfo, Object[])
-  href: Api/Epos.Utilities.Composition.ComponentCreationStrategy.html#Epos_Utilities_Composition_ComponentCreationStrategy_GetInstance_ConstructorInfo_System_Object___
-  commentId: M:Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(ConstructorInfo,System.Object[])
-  name.vb: GetInstance(ConstructorInfo, Object())
-  fullName: Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(ConstructorInfo, System.Object[])
-  fullName.vb: Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(ConstructorInfo, System.Object())
-  nameWithType: ComponentCreationStrategy.GetInstance(ConstructorInfo, Object[])
-  nameWithType.vb: ComponentCreationStrategy.GetInstance(ConstructorInfo, Object())
 - uid: Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(System.Delegate)
   name: GetInstance(Delegate)
   href: Api/Epos.Utilities.Composition.ComponentCreationStrategy.html#Epos_Utilities_Composition_ComponentCreationStrategy_GetInstance_System_Delegate_
   commentId: M:Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(System.Delegate)
   fullName: Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(System.Delegate)
   nameWithType: ComponentCreationStrategy.GetInstance(Delegate)
+- uid: Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(System.Reflection.ConstructorInfo,System.Object[])
+  name: GetInstance(ConstructorInfo, Object[])
+  href: Api/Epos.Utilities.Composition.ComponentCreationStrategy.html#Epos_Utilities_Composition_ComponentCreationStrategy_GetInstance_System_Reflection_ConstructorInfo_System_Object___
+  commentId: M:Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(System.Reflection.ConstructorInfo,System.Object[])
+  name.vb: GetInstance(ConstructorInfo, Object())
+  fullName: Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(System.Reflection.ConstructorInfo, System.Object[])
+  fullName.vb: Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(System.Reflection.ConstructorInfo, System.Object())
+  nameWithType: ComponentCreationStrategy.GetInstance(ConstructorInfo, Object[])
+  nameWithType.vb: ComponentCreationStrategy.GetInstance(ConstructorInfo, Object())
 - uid: Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance*
   name: GetInstance
   href: Api/Epos.Utilities.Composition.ComponentCreationStrategy.html#Epos_Utilities_Composition_ComponentCreationStrategy_GetInstance_
@@ -1218,13 +1218,13 @@ references:
   commentId: Overload:Epos.Utilities.DictionaryExtensions.Get
   fullName: Epos.Utilities.DictionaryExtensions.Get
   nameWithType: DictionaryExtensions.Get
-- uid: Epos.Utilities.DictionaryExtensions.Get``2(IDictionary{``0,``1},``0)
+- uid: Epos.Utilities.DictionaryExtensions.Get``2(System.Collections.Generic.IDictionary{``0,``1},``0)
   name: Get<TKey, TValue>(IDictionary<TKey, TValue>, TKey)
-  href: Api/Epos.Utilities.DictionaryExtensions.html#Epos_Utilities_DictionaryExtensions_Get__2_IDictionary___0___1____0_
-  commentId: M:Epos.Utilities.DictionaryExtensions.Get``2(IDictionary{``0,``1},``0)
+  href: Api/Epos.Utilities.DictionaryExtensions.html#Epos_Utilities_DictionaryExtensions_Get__2_System_Collections_Generic_IDictionary___0___1____0_
+  commentId: M:Epos.Utilities.DictionaryExtensions.Get``2(System.Collections.Generic.IDictionary{``0,``1},``0)
   name.vb: Get(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey)
-  fullName: Epos.Utilities.DictionaryExtensions.Get<TKey, TValue>(IDictionary<TKey, TValue>, TKey)
-  fullName.vb: Epos.Utilities.DictionaryExtensions.Get(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey)
+  fullName: Epos.Utilities.DictionaryExtensions.Get<TKey, TValue>(System.Collections.Generic.IDictionary<TKey, TValue>, TKey)
+  fullName.vb: Epos.Utilities.DictionaryExtensions.Get(Of TKey, TValue)(System.Collections.Generic.IDictionary(Of TKey, TValue), TKey)
   nameWithType: DictionaryExtensions.Get<TKey, TValue>(IDictionary<TKey, TValue>, TKey)
   nameWithType.vb: DictionaryExtensions.Get(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey)
 - uid: Epos.Utilities.DumpExtensions
@@ -1257,13 +1257,13 @@ references:
   commentId: Overload:Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy
   fullName: Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy
   nameWithType: EnumerableExtensions.FlattenRecursiveHierarchy
-- uid: Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy``1(IEnumerable{``0},System.Func{``0,IEnumerable{``0}})
+- uid: Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``0}})
   name: FlattenRecursiveHierarchy<T>(IEnumerable<T>, Func<T, IEnumerable<T>>)
-  href: Api/Epos.Utilities.EnumerableExtensions.html#Epos_Utilities_EnumerableExtensions_FlattenRecursiveHierarchy__1_IEnumerable___0__System_Func___0_IEnumerable___0___
-  commentId: M:Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy``1(IEnumerable{``0},System.Func{``0,IEnumerable{``0}})
+  href: Api/Epos.Utilities.EnumerableExtensions.html#Epos_Utilities_EnumerableExtensions_FlattenRecursiveHierarchy__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Collections_Generic_IEnumerable___0___
+  commentId: M:Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``0}})
   name.vb: FlattenRecursiveHierarchy(Of T)(IEnumerable(Of T), Func(Of T, IEnumerable(Of T)))
-  fullName: Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy<T>(IEnumerable<T>, System.Func<T, IEnumerable<T>>)
-  fullName.vb: Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy(Of T)(IEnumerable(Of T), System.Func(Of T, IEnumerable(Of T)))
+  fullName: Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy<T>(System.Collections.Generic.IEnumerable<T>, System.Func<T, System.Collections.Generic.IEnumerable<T>>)
+  fullName.vb: Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, System.Collections.Generic.IEnumerable(Of T)))
   nameWithType: EnumerableExtensions.FlattenRecursiveHierarchy<T>(IEnumerable<T>, Func<T, IEnumerable<T>>)
   nameWithType.vb: EnumerableExtensions.FlattenRecursiveHierarchy(Of T)(IEnumerable(Of T), Func(Of T, IEnumerable(Of T)))
 - uid: Epos.Utilities.EnumerableExtensions.ForEach*
@@ -1272,13 +1272,13 @@ references:
   commentId: Overload:Epos.Utilities.EnumerableExtensions.ForEach
   fullName: Epos.Utilities.EnumerableExtensions.ForEach
   nameWithType: EnumerableExtensions.ForEach
-- uid: Epos.Utilities.EnumerableExtensions.ForEach``1(IEnumerable{``0},System.Action{``0})
+- uid: Epos.Utilities.EnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
   name: ForEach<T>(IEnumerable<T>, Action<T>)
-  href: Api/Epos.Utilities.EnumerableExtensions.html#Epos_Utilities_EnumerableExtensions_ForEach__1_IEnumerable___0__System_Action___0__
-  commentId: M:Epos.Utilities.EnumerableExtensions.ForEach``1(IEnumerable{``0},System.Action{``0})
+  href: Api/Epos.Utilities.EnumerableExtensions.html#Epos_Utilities_EnumerableExtensions_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__
+  commentId: M:Epos.Utilities.EnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
   name.vb: ForEach(Of T)(IEnumerable(Of T), Action(Of T))
-  fullName: Epos.Utilities.EnumerableExtensions.ForEach<T>(IEnumerable<T>, System.Action<T>)
-  fullName.vb: Epos.Utilities.EnumerableExtensions.ForEach(Of T)(IEnumerable(Of T), System.Action(Of T))
+  fullName: Epos.Utilities.EnumerableExtensions.ForEach<T>(System.Collections.Generic.IEnumerable<T>, System.Action<T>)
+  fullName.vb: Epos.Utilities.EnumerableExtensions.ForEach(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Action(Of T))
   nameWithType: EnumerableExtensions.ForEach<T>(IEnumerable<T>, Action<T>)
   nameWithType.vb: EnumerableExtensions.ForEach(Of T)(IEnumerable(Of T), Action(Of T))
 - uid: Epos.Utilities.EnumerableExtensions.ToEnumerable*
@@ -1302,11 +1302,11 @@ references:
   commentId: T:Epos.Utilities.EventExtensions
   fullName: Epos.Utilities.EventExtensions
   nameWithType: EventExtensions
-- uid: Epos.Utilities.EventExtensions.Raise(PropertyChangedEventHandler,System.Object,System.String)
+- uid: Epos.Utilities.EventExtensions.Raise(System.ComponentModel.PropertyChangedEventHandler,System.Object,System.String)
   name: Raise(PropertyChangedEventHandler, Object, String)
-  href: Api/Epos.Utilities.EventExtensions.html#Epos_Utilities_EventExtensions_Raise_PropertyChangedEventHandler_System_Object_System_String_
-  commentId: M:Epos.Utilities.EventExtensions.Raise(PropertyChangedEventHandler,System.Object,System.String)
-  fullName: Epos.Utilities.EventExtensions.Raise(PropertyChangedEventHandler, System.Object, System.String)
+  href: Api/Epos.Utilities.EventExtensions.html#Epos_Utilities_EventExtensions_Raise_System_ComponentModel_PropertyChangedEventHandler_System_Object_System_String_
+  commentId: M:Epos.Utilities.EventExtensions.Raise(System.ComponentModel.PropertyChangedEventHandler,System.Object,System.String)
+  fullName: Epos.Utilities.EventExtensions.Raise(System.ComponentModel.PropertyChangedEventHandler, System.Object, System.String)
   nameWithType: EventExtensions.Raise(PropertyChangedEventHandler, Object, String)
 - uid: Epos.Utilities.EventExtensions.Raise(System.EventHandler,System.Object)
   name: Raise(EventHandler, Object)
@@ -1380,111 +1380,6 @@ references:
   commentId: Overload:Epos.Utilities.HighPerfLogger.SetLogAction
   fullName: Epos.Utilities.HighPerfLogger.SetLogAction
   nameWithType: HighPerfLogger.SetLogAction
-- uid: Epos.Utilities.JsonServiceClient
-  name: JsonServiceClient
-  href: Api/Epos.Utilities.JsonServiceClient.html
-  commentId: T:Epos.Utilities.JsonServiceClient
-  fullName: Epos.Utilities.JsonServiceClient
-  nameWithType: JsonServiceClient
-- uid: Epos.Utilities.JsonServiceClient.#ctor(System.String)
-  name: JsonServiceClient(String)
-  href: Api/Epos.Utilities.JsonServiceClient.html#Epos_Utilities_JsonServiceClient__ctor_System_String_
-  commentId: M:Epos.Utilities.JsonServiceClient.#ctor(System.String)
-  fullName: Epos.Utilities.JsonServiceClient.JsonServiceClient(System.String)
-  nameWithType: JsonServiceClient.JsonServiceClient(String)
-- uid: Epos.Utilities.JsonServiceClient.#ctor*
-  name: JsonServiceClient
-  href: Api/Epos.Utilities.JsonServiceClient.html#Epos_Utilities_JsonServiceClient__ctor_
-  commentId: Overload:Epos.Utilities.JsonServiceClient.#ctor
-  fullName: Epos.Utilities.JsonServiceClient.JsonServiceClient
-  nameWithType: JsonServiceClient.JsonServiceClient
-- uid: Epos.Utilities.JsonServiceClient.DeleteAsync(System.String,System.ValueTuple{System.String,System.Object}[])
-  name: DeleteAsync(String, [])
-  href: Api/Epos.Utilities.JsonServiceClient.html#Epos_Utilities_JsonServiceClient_DeleteAsync_System_String_System_ValueTuple_System_String_System_Object____
-  commentId: M:Epos.Utilities.JsonServiceClient.DeleteAsync(System.String,System.ValueTuple{System.String,System.Object}[])
-  name.vb: DeleteAsync(String, ())
-  fullName: Epos.Utilities.JsonServiceClient.DeleteAsync(System.String, System.[])
-  fullName.vb: Epos.Utilities.JsonServiceClient.DeleteAsync(System.String, System.())
-  nameWithType: JsonServiceClient.DeleteAsync(String, [])
-  nameWithType.vb: JsonServiceClient.DeleteAsync(String, ())
-- uid: Epos.Utilities.JsonServiceClient.DeleteAsync*
-  name: DeleteAsync
-  href: Api/Epos.Utilities.JsonServiceClient.html#Epos_Utilities_JsonServiceClient_DeleteAsync_
-  commentId: Overload:Epos.Utilities.JsonServiceClient.DeleteAsync
-  fullName: Epos.Utilities.JsonServiceClient.DeleteAsync
-  nameWithType: JsonServiceClient.DeleteAsync
-- uid: Epos.Utilities.JsonServiceClient.GetManyAsync*
-  name: GetManyAsync
-  href: Api/Epos.Utilities.JsonServiceClient.html#Epos_Utilities_JsonServiceClient_GetManyAsync_
-  commentId: Overload:Epos.Utilities.JsonServiceClient.GetManyAsync
-  fullName: Epos.Utilities.JsonServiceClient.GetManyAsync
-  nameWithType: JsonServiceClient.GetManyAsync
-- uid: Epos.Utilities.JsonServiceClient.GetManyAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
-  name: GetManyAsync<TResponse>(String, [])
-  href: Api/Epos.Utilities.JsonServiceClient.html#Epos_Utilities_JsonServiceClient_GetManyAsync__1_System_String_System_ValueTuple_System_String_System_Object____
-  commentId: M:Epos.Utilities.JsonServiceClient.GetManyAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
-  name.vb: GetManyAsync(Of TResponse)(String, ())
-  fullName: Epos.Utilities.JsonServiceClient.GetManyAsync<TResponse>(System.String, System.[])
-  fullName.vb: Epos.Utilities.JsonServiceClient.GetManyAsync(Of TResponse)(System.String, System.())
-  nameWithType: JsonServiceClient.GetManyAsync<TResponse>(String, [])
-  nameWithType.vb: JsonServiceClient.GetManyAsync(Of TResponse)(String, ())
-- uid: Epos.Utilities.JsonServiceClient.GetOneAsync*
-  name: GetOneAsync
-  href: Api/Epos.Utilities.JsonServiceClient.html#Epos_Utilities_JsonServiceClient_GetOneAsync_
-  commentId: Overload:Epos.Utilities.JsonServiceClient.GetOneAsync
-  fullName: Epos.Utilities.JsonServiceClient.GetOneAsync
-  nameWithType: JsonServiceClient.GetOneAsync
-- uid: Epos.Utilities.JsonServiceClient.GetOneAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
-  name: GetOneAsync<TResponse>(String, [])
-  href: Api/Epos.Utilities.JsonServiceClient.html#Epos_Utilities_JsonServiceClient_GetOneAsync__1_System_String_System_ValueTuple_System_String_System_Object____
-  commentId: M:Epos.Utilities.JsonServiceClient.GetOneAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
-  name.vb: GetOneAsync(Of TResponse)(String, ())
-  fullName: Epos.Utilities.JsonServiceClient.GetOneAsync<TResponse>(System.String, System.[])
-  fullName.vb: Epos.Utilities.JsonServiceClient.GetOneAsync(Of TResponse)(System.String, System.())
-  nameWithType: JsonServiceClient.GetOneAsync<TResponse>(String, [])
-  nameWithType.vb: JsonServiceClient.GetOneAsync(Of TResponse)(String, ())
-- uid: Epos.Utilities.JsonServiceClient.PostAsync*
-  name: PostAsync
-  href: Api/Epos.Utilities.JsonServiceClient.html#Epos_Utilities_JsonServiceClient_PostAsync_
-  commentId: Overload:Epos.Utilities.JsonServiceClient.PostAsync
-  fullName: Epos.Utilities.JsonServiceClient.PostAsync
-  nameWithType: JsonServiceClient.PostAsync
-- uid: Epos.Utilities.JsonServiceClient.PostAsync``1(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])
-  name: PostAsync<TResponse>(String, Object, [])
-  href: Api/Epos.Utilities.JsonServiceClient.html#Epos_Utilities_JsonServiceClient_PostAsync__1_System_String_System_Object_System_ValueTuple_System_String_System_Object____
-  commentId: M:Epos.Utilities.JsonServiceClient.PostAsync``1(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])
-  name.vb: PostAsync(Of TResponse)(String, Object, ())
-  fullName: Epos.Utilities.JsonServiceClient.PostAsync<TResponse>(System.String, System.Object, System.[])
-  fullName.vb: Epos.Utilities.JsonServiceClient.PostAsync(Of TResponse)(System.String, System.Object, System.())
-  nameWithType: JsonServiceClient.PostAsync<TResponse>(String, Object, [])
-  nameWithType.vb: JsonServiceClient.PostAsync(Of TResponse)(String, Object, ())
-- uid: Epos.Utilities.JsonServiceClient.PutAsync*
-  name: PutAsync
-  href: Api/Epos.Utilities.JsonServiceClient.html#Epos_Utilities_JsonServiceClient_PutAsync_
-  commentId: Overload:Epos.Utilities.JsonServiceClient.PutAsync
-  fullName: Epos.Utilities.JsonServiceClient.PutAsync
-  nameWithType: JsonServiceClient.PutAsync
-- uid: Epos.Utilities.JsonServiceClient.PutAsync``1(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])
-  name: PutAsync<TResponse>(String, Object, [])
-  href: Api/Epos.Utilities.JsonServiceClient.html#Epos_Utilities_JsonServiceClient_PutAsync__1_System_String_System_Object_System_ValueTuple_System_String_System_Object____
-  commentId: M:Epos.Utilities.JsonServiceClient.PutAsync``1(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])
-  name.vb: PutAsync(Of TResponse)(String, Object, ())
-  fullName: Epos.Utilities.JsonServiceClient.PutAsync<TResponse>(System.String, System.Object, System.[])
-  fullName.vb: Epos.Utilities.JsonServiceClient.PutAsync(Of TResponse)(System.String, System.Object, System.())
-  nameWithType: JsonServiceClient.PutAsync<TResponse>(String, Object, [])
-  nameWithType.vb: JsonServiceClient.PutAsync(Of TResponse)(String, Object, ())
-- uid: Epos.Utilities.JsonServiceClient.RootUrl
-  name: RootUrl
-  href: Api/Epos.Utilities.JsonServiceClient.html#Epos_Utilities_JsonServiceClient_RootUrl
-  commentId: P:Epos.Utilities.JsonServiceClient.RootUrl
-  fullName: Epos.Utilities.JsonServiceClient.RootUrl
-  nameWithType: JsonServiceClient.RootUrl
-- uid: Epos.Utilities.JsonServiceClient.RootUrl*
-  name: RootUrl
-  href: Api/Epos.Utilities.JsonServiceClient.html#Epos_Utilities_JsonServiceClient_RootUrl_
-  commentId: Overload:Epos.Utilities.JsonServiceClient.RootUrl
-  fullName: Epos.Utilities.JsonServiceClient.RootUrl
-  nameWithType: JsonServiceClient.RootUrl
 - uid: Epos.Utilities.ListExtensions
   name: ListExtensions
   href: Api/Epos.Utilities.ListExtensions.html
@@ -1497,13 +1392,13 @@ references:
   commentId: Overload:Epos.Utilities.ListExtensions.EqualsList
   fullName: Epos.Utilities.ListExtensions.EqualsList
   nameWithType: ListExtensions.EqualsList
-- uid: Epos.Utilities.ListExtensions.EqualsList``1(IList{``0},IList{``0})
+- uid: Epos.Utilities.ListExtensions.EqualsList``1(System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0})
   name: EqualsList<T>(IList<T>, IList<T>)
-  href: Api/Epos.Utilities.ListExtensions.html#Epos_Utilities_ListExtensions_EqualsList__1_IList___0__IList___0__
-  commentId: M:Epos.Utilities.ListExtensions.EqualsList``1(IList{``0},IList{``0})
+  href: Api/Epos.Utilities.ListExtensions.html#Epos_Utilities_ListExtensions_EqualsList__1_System_Collections_Generic_IList___0__System_Collections_Generic_IList___0__
+  commentId: M:Epos.Utilities.ListExtensions.EqualsList``1(System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0})
   name.vb: EqualsList(Of T)(IList(Of T), IList(Of T))
-  fullName: Epos.Utilities.ListExtensions.EqualsList<T>(IList<T>, IList<T>)
-  fullName.vb: Epos.Utilities.ListExtensions.EqualsList(Of T)(IList(Of T), IList(Of T))
+  fullName: Epos.Utilities.ListExtensions.EqualsList<T>(System.Collections.Generic.IList<T>, System.Collections.Generic.IList<T>)
+  fullName.vb: Epos.Utilities.ListExtensions.EqualsList(Of T)(System.Collections.Generic.IList(Of T), System.Collections.Generic.IList(Of T))
   nameWithType: ListExtensions.EqualsList<T>(IList<T>, IList<T>)
   nameWithType.vb: ListExtensions.EqualsList(Of T)(IList(Of T), IList(Of T))
 - uid: Epos.Utilities.ListExtensions.GetListHashCode*
@@ -1512,13 +1407,13 @@ references:
   commentId: Overload:Epos.Utilities.ListExtensions.GetListHashCode
   fullName: Epos.Utilities.ListExtensions.GetListHashCode
   nameWithType: ListExtensions.GetListHashCode
-- uid: Epos.Utilities.ListExtensions.GetListHashCode``1(IList{``0})
+- uid: Epos.Utilities.ListExtensions.GetListHashCode``1(System.Collections.Generic.IList{``0})
   name: GetListHashCode<T>(IList<T>)
-  href: Api/Epos.Utilities.ListExtensions.html#Epos_Utilities_ListExtensions_GetListHashCode__1_IList___0__
-  commentId: M:Epos.Utilities.ListExtensions.GetListHashCode``1(IList{``0})
+  href: Api/Epos.Utilities.ListExtensions.html#Epos_Utilities_ListExtensions_GetListHashCode__1_System_Collections_Generic_IList___0__
+  commentId: M:Epos.Utilities.ListExtensions.GetListHashCode``1(System.Collections.Generic.IList{``0})
   name.vb: GetListHashCode(Of T)(IList(Of T))
-  fullName: Epos.Utilities.ListExtensions.GetListHashCode<T>(IList<T>)
-  fullName.vb: Epos.Utilities.ListExtensions.GetListHashCode(Of T)(IList(Of T))
+  fullName: Epos.Utilities.ListExtensions.GetListHashCode<T>(System.Collections.Generic.IList<T>)
+  fullName.vb: Epos.Utilities.ListExtensions.GetListHashCode(Of T)(System.Collections.Generic.IList(Of T))
   nameWithType: ListExtensions.GetListHashCode<T>(IList<T>)
   nameWithType.vb: ListExtensions.GetListHashCode(Of T)(IList(Of T))
 - uid: Epos.Utilities.ObjectExtensions
@@ -1644,13 +1539,13 @@ references:
   commentId: Overload:Epos.Utilities.StringExtensions.Matches
   fullName: Epos.Utilities.StringExtensions.Matches
   nameWithType: StringExtensions.Matches
-- uid: Epos.Utilities.StringExtensions.TryConvert(System.String,System.Type,CultureInfo,System.Object@)
+- uid: Epos.Utilities.StringExtensions.TryConvert(System.String,System.Type,System.Globalization.CultureInfo,System.Object@)
   name: TryConvert(String, Type, CultureInfo, out Object)
-  href: Api/Epos.Utilities.StringExtensions.html#Epos_Utilities_StringExtensions_TryConvert_System_String_System_Type_CultureInfo_System_Object__
-  commentId: M:Epos.Utilities.StringExtensions.TryConvert(System.String,System.Type,CultureInfo,System.Object@)
+  href: Api/Epos.Utilities.StringExtensions.html#Epos_Utilities_StringExtensions_TryConvert_System_String_System_Type_System_Globalization_CultureInfo_System_Object__
+  commentId: M:Epos.Utilities.StringExtensions.TryConvert(System.String,System.Type,System.Globalization.CultureInfo,System.Object@)
   name.vb: TryConvert(String, Type, CultureInfo, ByRef Object)
-  fullName: Epos.Utilities.StringExtensions.TryConvert(System.String, System.Type, CultureInfo, out System.Object)
-  fullName.vb: Epos.Utilities.StringExtensions.TryConvert(System.String, System.Type, CultureInfo, ByRef System.Object)
+  fullName: Epos.Utilities.StringExtensions.TryConvert(System.String, System.Type, System.Globalization.CultureInfo, out System.Object)
+  fullName.vb: Epos.Utilities.StringExtensions.TryConvert(System.String, System.Type, System.Globalization.CultureInfo, ByRef System.Object)
   nameWithType: StringExtensions.TryConvert(String, Type, CultureInfo, out Object)
   nameWithType.vb: StringExtensions.TryConvert(String, Type, CultureInfo, ByRef Object)
 - uid: Epos.Utilities.StringExtensions.TryConvert(System.String,System.Type,System.Object@)
@@ -1677,13 +1572,13 @@ references:
   fullName.vb: Epos.Utilities.StringExtensions.TryConvert(Of TDestinationType)(System.String, ByRef TDestinationType)
   nameWithType: StringExtensions.TryConvert<TDestinationType>(String, out TDestinationType)
   nameWithType.vb: StringExtensions.TryConvert(Of TDestinationType)(String, ByRef TDestinationType)
-- uid: Epos.Utilities.StringExtensions.TryConvert``1(System.String,CultureInfo,``0@)
+- uid: Epos.Utilities.StringExtensions.TryConvert``1(System.String,System.Globalization.CultureInfo,``0@)
   name: TryConvert<TDestinationType>(String, CultureInfo, out TDestinationType)
-  href: Api/Epos.Utilities.StringExtensions.html#Epos_Utilities_StringExtensions_TryConvert__1_System_String_CultureInfo___0__
-  commentId: M:Epos.Utilities.StringExtensions.TryConvert``1(System.String,CultureInfo,``0@)
+  href: Api/Epos.Utilities.StringExtensions.html#Epos_Utilities_StringExtensions_TryConvert__1_System_String_System_Globalization_CultureInfo___0__
+  commentId: M:Epos.Utilities.StringExtensions.TryConvert``1(System.String,System.Globalization.CultureInfo,``0@)
   name.vb: TryConvert(Of TDestinationType)(String, CultureInfo, ByRef TDestinationType)
-  fullName: Epos.Utilities.StringExtensions.TryConvert<TDestinationType>(System.String, CultureInfo, out TDestinationType)
-  fullName.vb: Epos.Utilities.StringExtensions.TryConvert(Of TDestinationType)(System.String, CultureInfo, ByRef TDestinationType)
+  fullName: Epos.Utilities.StringExtensions.TryConvert<TDestinationType>(System.String, System.Globalization.CultureInfo, out TDestinationType)
+  fullName.vb: Epos.Utilities.StringExtensions.TryConvert(Of TDestinationType)(System.String, System.Globalization.CultureInfo, ByRef TDestinationType)
   nameWithType: StringExtensions.TryConvert<TDestinationType>(String, CultureInfo, out TDestinationType)
   nameWithType.vb: StringExtensions.TryConvert(Of TDestinationType)(String, CultureInfo, ByRef TDestinationType)
 - uid: Epos.Utilities.TaskExtensions
@@ -1692,11 +1587,11 @@ references:
   commentId: T:Epos.Utilities.TaskExtensions
   fullName: Epos.Utilities.TaskExtensions
   nameWithType: TaskExtensions
-- uid: Epos.Utilities.TaskExtensions.FireAndForget(Task)
+- uid: Epos.Utilities.TaskExtensions.FireAndForget(System.Threading.Tasks.Task)
   name: FireAndForget(Task)
-  href: Api/Epos.Utilities.TaskExtensions.html#Epos_Utilities_TaskExtensions_FireAndForget_Task_
-  commentId: M:Epos.Utilities.TaskExtensions.FireAndForget(Task)
-  fullName: Epos.Utilities.TaskExtensions.FireAndForget(Task)
+  href: Api/Epos.Utilities.TaskExtensions.html#Epos_Utilities_TaskExtensions_FireAndForget_System_Threading_Tasks_Task_
+  commentId: M:Epos.Utilities.TaskExtensions.FireAndForget(System.Threading.Tasks.Task)
+  fullName: Epos.Utilities.TaskExtensions.FireAndForget(System.Threading.Tasks.Task)
   nameWithType: TaskExtensions.FireAndForget(Task)
 - uid: Epos.Utilities.TaskExtensions.FireAndForget*
   name: FireAndForget
@@ -1725,13 +1620,13 @@ references:
   fullName.vb: Epos.Utilities.TypeExtensions.GetAttribute(Of TAttribute)(System.Type)
   nameWithType: TypeExtensions.GetAttribute<TAttribute>(Type)
   nameWithType.vb: TypeExtensions.GetAttribute(Of TAttribute)(Type)
-- uid: Epos.Utilities.TypeExtensions.GetGenericMethod(System.Type,System.String,BindingFlags,System.Type[],System.Type[])
+- uid: Epos.Utilities.TypeExtensions.GetGenericMethod(System.Type,System.String,System.Reflection.BindingFlags,System.Type[],System.Type[])
   name: GetGenericMethod(Type, String, BindingFlags, Type[], Type[])
-  href: Api/Epos.Utilities.TypeExtensions.html#Epos_Utilities_TypeExtensions_GetGenericMethod_System_Type_System_String_BindingFlags_System_Type___System_Type___
-  commentId: M:Epos.Utilities.TypeExtensions.GetGenericMethod(System.Type,System.String,BindingFlags,System.Type[],System.Type[])
+  href: Api/Epos.Utilities.TypeExtensions.html#Epos_Utilities_TypeExtensions_GetGenericMethod_System_Type_System_String_System_Reflection_BindingFlags_System_Type___System_Type___
+  commentId: M:Epos.Utilities.TypeExtensions.GetGenericMethod(System.Type,System.String,System.Reflection.BindingFlags,System.Type[],System.Type[])
   name.vb: GetGenericMethod(Type, String, BindingFlags, Type(), Type())
-  fullName: Epos.Utilities.TypeExtensions.GetGenericMethod(System.Type, System.String, BindingFlags, System.Type[], System.Type[])
-  fullName.vb: Epos.Utilities.TypeExtensions.GetGenericMethod(System.Type, System.String, BindingFlags, System.Type(), System.Type())
+  fullName: Epos.Utilities.TypeExtensions.GetGenericMethod(System.Type, System.String, System.Reflection.BindingFlags, System.Type[], System.Type[])
+  fullName.vb: Epos.Utilities.TypeExtensions.GetGenericMethod(System.Type, System.String, System.Reflection.BindingFlags, System.Type(), System.Type())
   nameWithType: TypeExtensions.GetGenericMethod(Type, String, BindingFlags, Type[], Type[])
   nameWithType.vb: TypeExtensions.GetGenericMethod(Type, String, BindingFlags, Type(), Type())
 - uid: Epos.Utilities.TypeExtensions.GetGenericMethod*
@@ -1764,3 +1659,363 @@ references:
   fullName.vb: Epos.Utilities.UnaryOperation(Of T)
   nameWithType: UnaryOperation<T>
   nameWithType.vb: UnaryOperation(Of T)
+- uid: Epos.Utilities.Web
+  name: Epos.Utilities.Web
+  href: Api/Epos.Utilities.Web.html
+  commentId: N:Epos.Utilities.Web
+  fullName: Epos.Utilities.Web
+  nameWithType: Epos.Utilities.Web
+- uid: Epos.Utilities.Web.IJsonRestClient
+  name: IJsonRestClient
+  href: Api/Epos.Utilities.Web.IJsonRestClient.html
+  commentId: T:Epos.Utilities.Web.IJsonRestClient
+  fullName: Epos.Utilities.Web.IJsonRestClient
+  nameWithType: IJsonRestClient
+- uid: Epos.Utilities.Web.IJsonRestClient.DeleteAsync(System.String,System.ValueTuple{System.String,System.Object}[])
+  name: DeleteAsync(String, [])
+  href: Api/Epos.Utilities.Web.IJsonRestClient.html#Epos_Utilities_Web_IJsonRestClient_DeleteAsync_System_String_System_ValueTuple_System_String_System_Object____
+  commentId: M:Epos.Utilities.Web.IJsonRestClient.DeleteAsync(System.String,System.ValueTuple{System.String,System.Object}[])
+  name.vb: DeleteAsync(String, ())
+  fullName: Epos.Utilities.Web.IJsonRestClient.DeleteAsync(System.String, System.[])
+  fullName.vb: Epos.Utilities.Web.IJsonRestClient.DeleteAsync(System.String, System.())
+  nameWithType: IJsonRestClient.DeleteAsync(String, [])
+  nameWithType.vb: IJsonRestClient.DeleteAsync(String, ())
+- uid: Epos.Utilities.Web.IJsonRestClient.DeleteAsync*
+  name: DeleteAsync
+  href: Api/Epos.Utilities.Web.IJsonRestClient.html#Epos_Utilities_Web_IJsonRestClient_DeleteAsync_
+  commentId: Overload:Epos.Utilities.Web.IJsonRestClient.DeleteAsync
+  fullName: Epos.Utilities.Web.IJsonRestClient.DeleteAsync
+  nameWithType: IJsonRestClient.DeleteAsync
+- uid: Epos.Utilities.Web.IJsonRestClient.GetAsync*
+  name: GetAsync
+  href: Api/Epos.Utilities.Web.IJsonRestClient.html#Epos_Utilities_Web_IJsonRestClient_GetAsync_
+  commentId: Overload:Epos.Utilities.Web.IJsonRestClient.GetAsync
+  fullName: Epos.Utilities.Web.IJsonRestClient.GetAsync
+  nameWithType: IJsonRestClient.GetAsync
+- uid: Epos.Utilities.Web.IJsonRestClient.GetAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
+  name: GetAsync<TResponse>(String, [])
+  href: Api/Epos.Utilities.Web.IJsonRestClient.html#Epos_Utilities_Web_IJsonRestClient_GetAsync__1_System_String_System_ValueTuple_System_String_System_Object____
+  commentId: M:Epos.Utilities.Web.IJsonRestClient.GetAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
+  name.vb: GetAsync(Of TResponse)(String, ())
+  fullName: Epos.Utilities.Web.IJsonRestClient.GetAsync<TResponse>(System.String, System.[])
+  fullName.vb: Epos.Utilities.Web.IJsonRestClient.GetAsync(Of TResponse)(System.String, System.())
+  nameWithType: IJsonRestClient.GetAsync<TResponse>(String, [])
+  nameWithType.vb: IJsonRestClient.GetAsync(Of TResponse)(String, ())
+- uid: Epos.Utilities.Web.IJsonRestClient.GetManyAsync*
+  name: GetManyAsync
+  href: Api/Epos.Utilities.Web.IJsonRestClient.html#Epos_Utilities_Web_IJsonRestClient_GetManyAsync_
+  commentId: Overload:Epos.Utilities.Web.IJsonRestClient.GetManyAsync
+  fullName: Epos.Utilities.Web.IJsonRestClient.GetManyAsync
+  nameWithType: IJsonRestClient.GetManyAsync
+- uid: Epos.Utilities.Web.IJsonRestClient.GetManyAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
+  name: GetManyAsync<TResponse>(String, [])
+  href: Api/Epos.Utilities.Web.IJsonRestClient.html#Epos_Utilities_Web_IJsonRestClient_GetManyAsync__1_System_String_System_ValueTuple_System_String_System_Object____
+  commentId: M:Epos.Utilities.Web.IJsonRestClient.GetManyAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
+  name.vb: GetManyAsync(Of TResponse)(String, ())
+  fullName: Epos.Utilities.Web.IJsonRestClient.GetManyAsync<TResponse>(System.String, System.[])
+  fullName.vb: Epos.Utilities.Web.IJsonRestClient.GetManyAsync(Of TResponse)(System.String, System.())
+  nameWithType: IJsonRestClient.GetManyAsync<TResponse>(String, [])
+  nameWithType.vb: IJsonRestClient.GetManyAsync(Of TResponse)(String, ())
+- uid: Epos.Utilities.Web.IJsonRestClient.PostAsync(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])
+  name: PostAsync(String, Object, [])
+  href: Api/Epos.Utilities.Web.IJsonRestClient.html#Epos_Utilities_Web_IJsonRestClient_PostAsync_System_String_System_Object_System_ValueTuple_System_String_System_Object____
+  commentId: M:Epos.Utilities.Web.IJsonRestClient.PostAsync(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])
+  name.vb: PostAsync(String, Object, ())
+  fullName: Epos.Utilities.Web.IJsonRestClient.PostAsync(System.String, System.Object, System.[])
+  fullName.vb: Epos.Utilities.Web.IJsonRestClient.PostAsync(System.String, System.Object, System.())
+  nameWithType: IJsonRestClient.PostAsync(String, Object, [])
+  nameWithType.vb: IJsonRestClient.PostAsync(String, Object, ())
+- uid: Epos.Utilities.Web.IJsonRestClient.PostAsync*
+  name: PostAsync
+  href: Api/Epos.Utilities.Web.IJsonRestClient.html#Epos_Utilities_Web_IJsonRestClient_PostAsync_
+  commentId: Overload:Epos.Utilities.Web.IJsonRestClient.PostAsync
+  fullName: Epos.Utilities.Web.IJsonRestClient.PostAsync
+  nameWithType: IJsonRestClient.PostAsync
+- uid: Epos.Utilities.Web.IJsonRestClient.PutAsync(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])
+  name: PutAsync(String, Object, [])
+  href: Api/Epos.Utilities.Web.IJsonRestClient.html#Epos_Utilities_Web_IJsonRestClient_PutAsync_System_String_System_Object_System_ValueTuple_System_String_System_Object____
+  commentId: M:Epos.Utilities.Web.IJsonRestClient.PutAsync(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])
+  name.vb: PutAsync(String, Object, ())
+  fullName: Epos.Utilities.Web.IJsonRestClient.PutAsync(System.String, System.Object, System.[])
+  fullName.vb: Epos.Utilities.Web.IJsonRestClient.PutAsync(System.String, System.Object, System.())
+  nameWithType: IJsonRestClient.PutAsync(String, Object, [])
+  nameWithType.vb: IJsonRestClient.PutAsync(String, Object, ())
+- uid: Epos.Utilities.Web.IJsonRestClient.PutAsync*
+  name: PutAsync
+  href: Api/Epos.Utilities.Web.IJsonRestClient.html#Epos_Utilities_Web_IJsonRestClient_PutAsync_
+  commentId: Overload:Epos.Utilities.Web.IJsonRestClient.PutAsync
+  fullName: Epos.Utilities.Web.IJsonRestClient.PutAsync
+  nameWithType: IJsonRestClient.PutAsync
+- uid: Epos.Utilities.Web.IJsonRestClient.RootUri
+  name: RootUri
+  href: Api/Epos.Utilities.Web.IJsonRestClient.html#Epos_Utilities_Web_IJsonRestClient_RootUri
+  commentId: P:Epos.Utilities.Web.IJsonRestClient.RootUri
+  fullName: Epos.Utilities.Web.IJsonRestClient.RootUri
+  nameWithType: IJsonRestClient.RootUri
+- uid: Epos.Utilities.Web.IJsonRestClient.RootUri*
+  name: RootUri
+  href: Api/Epos.Utilities.Web.IJsonRestClient.html#Epos_Utilities_Web_IJsonRestClient_RootUri_
+  commentId: Overload:Epos.Utilities.Web.IJsonRestClient.RootUri
+  fullName: Epos.Utilities.Web.IJsonRestClient.RootUri
+  nameWithType: IJsonRestClient.RootUri
+- uid: Epos.Utilities.Web.IPolicyProvider
+  name: IPolicyProvider
+  href: Api/Epos.Utilities.Web.IPolicyProvider.html
+  commentId: T:Epos.Utilities.Web.IPolicyProvider
+  fullName: Epos.Utilities.Web.IPolicyProvider
+  nameWithType: IPolicyProvider
+- uid: Epos.Utilities.Web.IPolicyProvider.ProvidePolicy(System.String)
+  name: ProvidePolicy(String)
+  href: Api/Epos.Utilities.Web.IPolicyProvider.html#Epos_Utilities_Web_IPolicyProvider_ProvidePolicy_System_String_
+  commentId: M:Epos.Utilities.Web.IPolicyProvider.ProvidePolicy(System.String)
+  fullName: Epos.Utilities.Web.IPolicyProvider.ProvidePolicy(System.String)
+  nameWithType: IPolicyProvider.ProvidePolicy(String)
+- uid: Epos.Utilities.Web.IPolicyProvider.ProvidePolicy*
+  name: ProvidePolicy
+  href: Api/Epos.Utilities.Web.IPolicyProvider.html#Epos_Utilities_Web_IPolicyProvider_ProvidePolicy_
+  commentId: Overload:Epos.Utilities.Web.IPolicyProvider.ProvidePolicy
+  fullName: Epos.Utilities.Web.IPolicyProvider.ProvidePolicy
+  nameWithType: IPolicyProvider.ProvidePolicy
+- uid: Epos.Utilities.Web.JsonRestClient
+  name: JsonRestClient
+  href: Api/Epos.Utilities.Web.JsonRestClient.html
+  commentId: T:Epos.Utilities.Web.JsonRestClient
+  fullName: Epos.Utilities.Web.JsonRestClient
+  nameWithType: JsonRestClient
+- uid: Epos.Utilities.Web.JsonRestClient.#ctor(System.String)
+  name: JsonRestClient(String)
+  href: Api/Epos.Utilities.Web.JsonRestClient.html#Epos_Utilities_Web_JsonRestClient__ctor_System_String_
+  commentId: M:Epos.Utilities.Web.JsonRestClient.#ctor(System.String)
+  fullName: Epos.Utilities.Web.JsonRestClient.JsonRestClient(System.String)
+  nameWithType: JsonRestClient.JsonRestClient(String)
+- uid: Epos.Utilities.Web.JsonRestClient.#ctor*
+  name: JsonRestClient
+  href: Api/Epos.Utilities.Web.JsonRestClient.html#Epos_Utilities_Web_JsonRestClient__ctor_
+  commentId: Overload:Epos.Utilities.Web.JsonRestClient.#ctor
+  fullName: Epos.Utilities.Web.JsonRestClient.JsonRestClient
+  nameWithType: JsonRestClient.JsonRestClient
+- uid: Epos.Utilities.Web.JsonRestClient.DeleteAsync(System.String,System.ValueTuple{System.String,System.Object}[])
+  name: DeleteAsync(String, [])
+  href: Api/Epos.Utilities.Web.JsonRestClient.html#Epos_Utilities_Web_JsonRestClient_DeleteAsync_System_String_System_ValueTuple_System_String_System_Object____
+  commentId: M:Epos.Utilities.Web.JsonRestClient.DeleteAsync(System.String,System.ValueTuple{System.String,System.Object}[])
+  name.vb: DeleteAsync(String, ())
+  fullName: Epos.Utilities.Web.JsonRestClient.DeleteAsync(System.String, System.[])
+  fullName.vb: Epos.Utilities.Web.JsonRestClient.DeleteAsync(System.String, System.())
+  nameWithType: JsonRestClient.DeleteAsync(String, [])
+  nameWithType.vb: JsonRestClient.DeleteAsync(String, ())
+- uid: Epos.Utilities.Web.JsonRestClient.DeleteAsync*
+  name: DeleteAsync
+  href: Api/Epos.Utilities.Web.JsonRestClient.html#Epos_Utilities_Web_JsonRestClient_DeleteAsync_
+  commentId: Overload:Epos.Utilities.Web.JsonRestClient.DeleteAsync
+  fullName: Epos.Utilities.Web.JsonRestClient.DeleteAsync
+  nameWithType: JsonRestClient.DeleteAsync
+- uid: Epos.Utilities.Web.JsonRestClient.GetAsync*
+  name: GetAsync
+  href: Api/Epos.Utilities.Web.JsonRestClient.html#Epos_Utilities_Web_JsonRestClient_GetAsync_
+  commentId: Overload:Epos.Utilities.Web.JsonRestClient.GetAsync
+  fullName: Epos.Utilities.Web.JsonRestClient.GetAsync
+  nameWithType: JsonRestClient.GetAsync
+- uid: Epos.Utilities.Web.JsonRestClient.GetAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
+  name: GetAsync<TResponse>(String, [])
+  href: Api/Epos.Utilities.Web.JsonRestClient.html#Epos_Utilities_Web_JsonRestClient_GetAsync__1_System_String_System_ValueTuple_System_String_System_Object____
+  commentId: M:Epos.Utilities.Web.JsonRestClient.GetAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
+  name.vb: GetAsync(Of TResponse)(String, ())
+  fullName: Epos.Utilities.Web.JsonRestClient.GetAsync<TResponse>(System.String, System.[])
+  fullName.vb: Epos.Utilities.Web.JsonRestClient.GetAsync(Of TResponse)(System.String, System.())
+  nameWithType: JsonRestClient.GetAsync<TResponse>(String, [])
+  nameWithType.vb: JsonRestClient.GetAsync(Of TResponse)(String, ())
+- uid: Epos.Utilities.Web.JsonRestClient.GetManyAsync*
+  name: GetManyAsync
+  href: Api/Epos.Utilities.Web.JsonRestClient.html#Epos_Utilities_Web_JsonRestClient_GetManyAsync_
+  commentId: Overload:Epos.Utilities.Web.JsonRestClient.GetManyAsync
+  fullName: Epos.Utilities.Web.JsonRestClient.GetManyAsync
+  nameWithType: JsonRestClient.GetManyAsync
+- uid: Epos.Utilities.Web.JsonRestClient.GetManyAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
+  name: GetManyAsync<TResponse>(String, [])
+  href: Api/Epos.Utilities.Web.JsonRestClient.html#Epos_Utilities_Web_JsonRestClient_GetManyAsync__1_System_String_System_ValueTuple_System_String_System_Object____
+  commentId: M:Epos.Utilities.Web.JsonRestClient.GetManyAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
+  name.vb: GetManyAsync(Of TResponse)(String, ())
+  fullName: Epos.Utilities.Web.JsonRestClient.GetManyAsync<TResponse>(System.String, System.[])
+  fullName.vb: Epos.Utilities.Web.JsonRestClient.GetManyAsync(Of TResponse)(System.String, System.())
+  nameWithType: JsonRestClient.GetManyAsync<TResponse>(String, [])
+  nameWithType.vb: JsonRestClient.GetManyAsync(Of TResponse)(String, ())
+- uid: Epos.Utilities.Web.JsonRestClient.PostAsync(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])
+  name: PostAsync(String, Object, [])
+  href: Api/Epos.Utilities.Web.JsonRestClient.html#Epos_Utilities_Web_JsonRestClient_PostAsync_System_String_System_Object_System_ValueTuple_System_String_System_Object____
+  commentId: M:Epos.Utilities.Web.JsonRestClient.PostAsync(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])
+  name.vb: PostAsync(String, Object, ())
+  fullName: Epos.Utilities.Web.JsonRestClient.PostAsync(System.String, System.Object, System.[])
+  fullName.vb: Epos.Utilities.Web.JsonRestClient.PostAsync(System.String, System.Object, System.())
+  nameWithType: JsonRestClient.PostAsync(String, Object, [])
+  nameWithType.vb: JsonRestClient.PostAsync(String, Object, ())
+- uid: Epos.Utilities.Web.JsonRestClient.PostAsync*
+  name: PostAsync
+  href: Api/Epos.Utilities.Web.JsonRestClient.html#Epos_Utilities_Web_JsonRestClient_PostAsync_
+  commentId: Overload:Epos.Utilities.Web.JsonRestClient.PostAsync
+  fullName: Epos.Utilities.Web.JsonRestClient.PostAsync
+  nameWithType: JsonRestClient.PostAsync
+- uid: Epos.Utilities.Web.JsonRestClient.PutAsync(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])
+  name: PutAsync(String, Object, [])
+  href: Api/Epos.Utilities.Web.JsonRestClient.html#Epos_Utilities_Web_JsonRestClient_PutAsync_System_String_System_Object_System_ValueTuple_System_String_System_Object____
+  commentId: M:Epos.Utilities.Web.JsonRestClient.PutAsync(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])
+  name.vb: PutAsync(String, Object, ())
+  fullName: Epos.Utilities.Web.JsonRestClient.PutAsync(System.String, System.Object, System.[])
+  fullName.vb: Epos.Utilities.Web.JsonRestClient.PutAsync(System.String, System.Object, System.())
+  nameWithType: JsonRestClient.PutAsync(String, Object, [])
+  nameWithType.vb: JsonRestClient.PutAsync(String, Object, ())
+- uid: Epos.Utilities.Web.JsonRestClient.PutAsync*
+  name: PutAsync
+  href: Api/Epos.Utilities.Web.JsonRestClient.html#Epos_Utilities_Web_JsonRestClient_PutAsync_
+  commentId: Overload:Epos.Utilities.Web.JsonRestClient.PutAsync
+  fullName: Epos.Utilities.Web.JsonRestClient.PutAsync
+  nameWithType: JsonRestClient.PutAsync
+- uid: Epos.Utilities.Web.JsonRestClient.RootUri
+  name: RootUri
+  href: Api/Epos.Utilities.Web.JsonRestClient.html#Epos_Utilities_Web_JsonRestClient_RootUri
+  commentId: P:Epos.Utilities.Web.JsonRestClient.RootUri
+  fullName: Epos.Utilities.Web.JsonRestClient.RootUri
+  nameWithType: JsonRestClient.RootUri
+- uid: Epos.Utilities.Web.JsonRestClient.RootUri*
+  name: RootUri
+  href: Api/Epos.Utilities.Web.JsonRestClient.html#Epos_Utilities_Web_JsonRestClient_RootUri_
+  commentId: Overload:Epos.Utilities.Web.JsonRestClient.RootUri
+  fullName: Epos.Utilities.Web.JsonRestClient.RootUri
+  nameWithType: JsonRestClient.RootUri
+- uid: Epos.Utilities.Web.PolicyProvider
+  name: PolicyProvider
+  href: Api/Epos.Utilities.Web.PolicyProvider.html
+  commentId: T:Epos.Utilities.Web.PolicyProvider
+  fullName: Epos.Utilities.Web.PolicyProvider
+  nameWithType: PolicyProvider
+- uid: Epos.Utilities.Web.PolicyProvider.#ctor(Microsoft.Extensions.Logging.ILogger{Epos.Utilities.Web.PolicyProvider})
+  name: PolicyProvider(ILogger<PolicyProvider>)
+  href: Api/Epos.Utilities.Web.PolicyProvider.html#Epos_Utilities_Web_PolicyProvider__ctor_Microsoft_Extensions_Logging_ILogger_Epos_Utilities_Web_PolicyProvider__
+  commentId: M:Epos.Utilities.Web.PolicyProvider.#ctor(Microsoft.Extensions.Logging.ILogger{Epos.Utilities.Web.PolicyProvider})
+  name.vb: PolicyProvider(ILogger(Of PolicyProvider))
+  fullName: Epos.Utilities.Web.PolicyProvider.PolicyProvider(Microsoft.Extensions.Logging.ILogger<Epos.Utilities.Web.PolicyProvider>)
+  fullName.vb: Epos.Utilities.Web.PolicyProvider.PolicyProvider(Microsoft.Extensions.Logging.ILogger(Of Epos.Utilities.Web.PolicyProvider))
+  nameWithType: PolicyProvider.PolicyProvider(ILogger<PolicyProvider>)
+  nameWithType.vb: PolicyProvider.PolicyProvider(ILogger(Of PolicyProvider))
+- uid: Epos.Utilities.Web.PolicyProvider.#ctor*
+  name: PolicyProvider
+  href: Api/Epos.Utilities.Web.PolicyProvider.html#Epos_Utilities_Web_PolicyProvider__ctor_
+  commentId: Overload:Epos.Utilities.Web.PolicyProvider.#ctor
+  fullName: Epos.Utilities.Web.PolicyProvider.PolicyProvider
+  nameWithType: PolicyProvider.PolicyProvider
+- uid: Epos.Utilities.Web.PolicyProvider.ProvidePolicy(System.String)
+  name: ProvidePolicy(String)
+  href: Api/Epos.Utilities.Web.PolicyProvider.html#Epos_Utilities_Web_PolicyProvider_ProvidePolicy_System_String_
+  commentId: M:Epos.Utilities.Web.PolicyProvider.ProvidePolicy(System.String)
+  fullName: Epos.Utilities.Web.PolicyProvider.ProvidePolicy(System.String)
+  nameWithType: PolicyProvider.ProvidePolicy(String)
+- uid: Epos.Utilities.Web.PolicyProvider.ProvidePolicy*
+  name: ProvidePolicy
+  href: Api/Epos.Utilities.Web.PolicyProvider.html#Epos_Utilities_Web_PolicyProvider_ProvidePolicy_
+  commentId: Overload:Epos.Utilities.Web.PolicyProvider.ProvidePolicy
+  fullName: Epos.Utilities.Web.PolicyProvider.ProvidePolicy
+  nameWithType: PolicyProvider.ProvidePolicy
+- uid: Epos.Utilities.Web.ResilientJsonRestClient
+  name: ResilientJsonRestClient
+  href: Api/Epos.Utilities.Web.ResilientJsonRestClient.html
+  commentId: T:Epos.Utilities.Web.ResilientJsonRestClient
+  fullName: Epos.Utilities.Web.ResilientJsonRestClient
+  nameWithType: ResilientJsonRestClient
+- uid: Epos.Utilities.Web.ResilientJsonRestClient.#ctor(Epos.Utilities.Web.IPolicyProvider,System.String)
+  name: ResilientJsonRestClient(IPolicyProvider, String)
+  href: Api/Epos.Utilities.Web.ResilientJsonRestClient.html#Epos_Utilities_Web_ResilientJsonRestClient__ctor_Epos_Utilities_Web_IPolicyProvider_System_String_
+  commentId: M:Epos.Utilities.Web.ResilientJsonRestClient.#ctor(Epos.Utilities.Web.IPolicyProvider,System.String)
+  fullName: Epos.Utilities.Web.ResilientJsonRestClient.ResilientJsonRestClient(Epos.Utilities.Web.IPolicyProvider, System.String)
+  nameWithType: ResilientJsonRestClient.ResilientJsonRestClient(IPolicyProvider, String)
+- uid: Epos.Utilities.Web.ResilientJsonRestClient.#ctor*
+  name: ResilientJsonRestClient
+  href: Api/Epos.Utilities.Web.ResilientJsonRestClient.html#Epos_Utilities_Web_ResilientJsonRestClient__ctor_
+  commentId: Overload:Epos.Utilities.Web.ResilientJsonRestClient.#ctor
+  fullName: Epos.Utilities.Web.ResilientJsonRestClient.ResilientJsonRestClient
+  nameWithType: ResilientJsonRestClient.ResilientJsonRestClient
+- uid: Epos.Utilities.Web.ResilientJsonRestClient.DeleteAsync(System.String,System.ValueTuple{System.String,System.Object}[])
+  name: DeleteAsync(String, [])
+  href: Api/Epos.Utilities.Web.ResilientJsonRestClient.html#Epos_Utilities_Web_ResilientJsonRestClient_DeleteAsync_System_String_System_ValueTuple_System_String_System_Object____
+  commentId: M:Epos.Utilities.Web.ResilientJsonRestClient.DeleteAsync(System.String,System.ValueTuple{System.String,System.Object}[])
+  name.vb: DeleteAsync(String, ())
+  fullName: Epos.Utilities.Web.ResilientJsonRestClient.DeleteAsync(System.String, System.[])
+  fullName.vb: Epos.Utilities.Web.ResilientJsonRestClient.DeleteAsync(System.String, System.())
+  nameWithType: ResilientJsonRestClient.DeleteAsync(String, [])
+  nameWithType.vb: ResilientJsonRestClient.DeleteAsync(String, ())
+- uid: Epos.Utilities.Web.ResilientJsonRestClient.DeleteAsync*
+  name: DeleteAsync
+  href: Api/Epos.Utilities.Web.ResilientJsonRestClient.html#Epos_Utilities_Web_ResilientJsonRestClient_DeleteAsync_
+  commentId: Overload:Epos.Utilities.Web.ResilientJsonRestClient.DeleteAsync
+  fullName: Epos.Utilities.Web.ResilientJsonRestClient.DeleteAsync
+  nameWithType: ResilientJsonRestClient.DeleteAsync
+- uid: Epos.Utilities.Web.ResilientJsonRestClient.GetAsync*
+  name: GetAsync
+  href: Api/Epos.Utilities.Web.ResilientJsonRestClient.html#Epos_Utilities_Web_ResilientJsonRestClient_GetAsync_
+  commentId: Overload:Epos.Utilities.Web.ResilientJsonRestClient.GetAsync
+  fullName: Epos.Utilities.Web.ResilientJsonRestClient.GetAsync
+  nameWithType: ResilientJsonRestClient.GetAsync
+- uid: Epos.Utilities.Web.ResilientJsonRestClient.GetAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
+  name: GetAsync<TResponse>(String, [])
+  href: Api/Epos.Utilities.Web.ResilientJsonRestClient.html#Epos_Utilities_Web_ResilientJsonRestClient_GetAsync__1_System_String_System_ValueTuple_System_String_System_Object____
+  commentId: M:Epos.Utilities.Web.ResilientJsonRestClient.GetAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
+  name.vb: GetAsync(Of TResponse)(String, ())
+  fullName: Epos.Utilities.Web.ResilientJsonRestClient.GetAsync<TResponse>(System.String, System.[])
+  fullName.vb: Epos.Utilities.Web.ResilientJsonRestClient.GetAsync(Of TResponse)(System.String, System.())
+  nameWithType: ResilientJsonRestClient.GetAsync<TResponse>(String, [])
+  nameWithType.vb: ResilientJsonRestClient.GetAsync(Of TResponse)(String, ())
+- uid: Epos.Utilities.Web.ResilientJsonRestClient.GetManyAsync*
+  name: GetManyAsync
+  href: Api/Epos.Utilities.Web.ResilientJsonRestClient.html#Epos_Utilities_Web_ResilientJsonRestClient_GetManyAsync_
+  commentId: Overload:Epos.Utilities.Web.ResilientJsonRestClient.GetManyAsync
+  fullName: Epos.Utilities.Web.ResilientJsonRestClient.GetManyAsync
+  nameWithType: ResilientJsonRestClient.GetManyAsync
+- uid: Epos.Utilities.Web.ResilientJsonRestClient.GetManyAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
+  name: GetManyAsync<TResponse>(String, [])
+  href: Api/Epos.Utilities.Web.ResilientJsonRestClient.html#Epos_Utilities_Web_ResilientJsonRestClient_GetManyAsync__1_System_String_System_ValueTuple_System_String_System_Object____
+  commentId: M:Epos.Utilities.Web.ResilientJsonRestClient.GetManyAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
+  name.vb: GetManyAsync(Of TResponse)(String, ())
+  fullName: Epos.Utilities.Web.ResilientJsonRestClient.GetManyAsync<TResponse>(System.String, System.[])
+  fullName.vb: Epos.Utilities.Web.ResilientJsonRestClient.GetManyAsync(Of TResponse)(System.String, System.())
+  nameWithType: ResilientJsonRestClient.GetManyAsync<TResponse>(String, [])
+  nameWithType.vb: ResilientJsonRestClient.GetManyAsync(Of TResponse)(String, ())
+- uid: Epos.Utilities.Web.ResilientJsonRestClient.PostAsync(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])
+  name: PostAsync(String, Object, [])
+  href: Api/Epos.Utilities.Web.ResilientJsonRestClient.html#Epos_Utilities_Web_ResilientJsonRestClient_PostAsync_System_String_System_Object_System_ValueTuple_System_String_System_Object____
+  commentId: M:Epos.Utilities.Web.ResilientJsonRestClient.PostAsync(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])
+  name.vb: PostAsync(String, Object, ())
+  fullName: Epos.Utilities.Web.ResilientJsonRestClient.PostAsync(System.String, System.Object, System.[])
+  fullName.vb: Epos.Utilities.Web.ResilientJsonRestClient.PostAsync(System.String, System.Object, System.())
+  nameWithType: ResilientJsonRestClient.PostAsync(String, Object, [])
+  nameWithType.vb: ResilientJsonRestClient.PostAsync(String, Object, ())
+- uid: Epos.Utilities.Web.ResilientJsonRestClient.PostAsync*
+  name: PostAsync
+  href: Api/Epos.Utilities.Web.ResilientJsonRestClient.html#Epos_Utilities_Web_ResilientJsonRestClient_PostAsync_
+  commentId: Overload:Epos.Utilities.Web.ResilientJsonRestClient.PostAsync
+  fullName: Epos.Utilities.Web.ResilientJsonRestClient.PostAsync
+  nameWithType: ResilientJsonRestClient.PostAsync
+- uid: Epos.Utilities.Web.ResilientJsonRestClient.PutAsync(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])
+  name: PutAsync(String, Object, [])
+  href: Api/Epos.Utilities.Web.ResilientJsonRestClient.html#Epos_Utilities_Web_ResilientJsonRestClient_PutAsync_System_String_System_Object_System_ValueTuple_System_String_System_Object____
+  commentId: M:Epos.Utilities.Web.ResilientJsonRestClient.PutAsync(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])
+  name.vb: PutAsync(String, Object, ())
+  fullName: Epos.Utilities.Web.ResilientJsonRestClient.PutAsync(System.String, System.Object, System.[])
+  fullName.vb: Epos.Utilities.Web.ResilientJsonRestClient.PutAsync(System.String, System.Object, System.())
+  nameWithType: ResilientJsonRestClient.PutAsync(String, Object, [])
+  nameWithType.vb: ResilientJsonRestClient.PutAsync(String, Object, ())
+- uid: Epos.Utilities.Web.ResilientJsonRestClient.PutAsync*
+  name: PutAsync
+  href: Api/Epos.Utilities.Web.ResilientJsonRestClient.html#Epos_Utilities_Web_ResilientJsonRestClient_PutAsync_
+  commentId: Overload:Epos.Utilities.Web.ResilientJsonRestClient.PutAsync
+  fullName: Epos.Utilities.Web.ResilientJsonRestClient.PutAsync
+  nameWithType: ResilientJsonRestClient.PutAsync
+- uid: Epos.Utilities.Web.ResilientJsonRestClient.RootUri
+  name: RootUri
+  href: Api/Epos.Utilities.Web.ResilientJsonRestClient.html#Epos_Utilities_Web_ResilientJsonRestClient_RootUri
+  commentId: P:Epos.Utilities.Web.ResilientJsonRestClient.RootUri
+  fullName: Epos.Utilities.Web.ResilientJsonRestClient.RootUri
+  nameWithType: ResilientJsonRestClient.RootUri
+- uid: Epos.Utilities.Web.ResilientJsonRestClient.RootUri*
+  name: RootUri
+  href: Api/Epos.Utilities.Web.ResilientJsonRestClient.html#Epos_Utilities_Web_ResilientJsonRestClient_RootUri_
+  commentId: Overload:Epos.Utilities.Web.ResilientJsonRestClient.RootUri
+  fullName: Epos.Utilities.Web.ResilientJsonRestClient.RootUri
+  nameWithType: ResilientJsonRestClient.RootUri
