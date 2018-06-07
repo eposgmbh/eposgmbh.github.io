@@ -77,60 +77,36 @@
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">ComponentCreationStrategy</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Epos.Utilities.Composition.html">Epos.Utilities.Composition</a></h6>
   <h5 id="Epos_Utilities_Composition_ComponentCreationStrategy_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class ComponentCreationStrategy</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class ComponentCreationStrategy : object</code></pre>
   </div>
   <h5 id="Epos_Utilities_Composition_ComponentCreationStrategy_remarks"><strong>Remarks</strong></h5>
   <div class="markdown level0 remarks"><p>Components can be created either by a factory method (see
-<a class="xref" href="Epos.Utilities.Composition.RegisterOptions-1.html#Epos_Utilities_Composition_RegisterOptions_1_WithFactoryMethod__1_System_Func___0__">WithFactoryMethod&lt;TImplementation&gt;(Func&lt;TImplementation&gt;)</a>) or
+<a class="xref" href="Epos.Utilities.Composition.RegisterOptions-1.html#Epos_Utilities_Composition_RegisterOptions_1_WithFactoryMethod__1_Func___0__">WithFactoryMethod&lt;TImplementation&gt;(Func&lt;TImplementation&gt;)</a>) or
 by invoking a constructor with parameters (see
 <a class="xref" href="Epos.Utilities.Composition.ImplementedByOptions-2.html#Epos_Utilities_Composition_ImplementedByOptions_2_WithParameter_System_String_System_Object_">WithParameter(String, Object)</a>).
-Therefore the methods <a class="xref" href="Epos.Utilities.Composition.ComponentCreationStrategy.html#Epos_Utilities_Composition_ComponentCreationStrategy_GetInstance_System_Delegate_">GetInstance(Delegate)</a> and
-<a class="xref" href="Epos.Utilities.Composition.ComponentCreationStrategy.html#Epos_Utilities_Composition_ComponentCreationStrategy_GetInstance_System_Reflection_ConstructorInfo_System_Object___">GetInstance(ConstructorInfo, Object[])</a> must be implemented.</p>
+Therefore the methods <see cref="!:GetInstance(System.Delegate)"></see> and
+<a class="xref" href="Epos.Utilities.Composition.ComponentCreationStrategy.html#Epos_Utilities_Composition_ComponentCreationStrategy_GetInstance_ConstructorInfo_System_Object___">GetInstance(ConstructorInfo, Object[])</a> must be implemented.</p>
 </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_Utilities_Composition_ComponentCreationStrategy_GetInstance_System_Delegate_.md&amp;value=---%0Auid%3A%20Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(System.Delegate)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_Utilities_Composition_ComponentCreationStrategy_GetInstance_ConstructorInfo_System_Object___.md&amp;value=---%0Auid%3A%20Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(ConstructorInfo%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/Composition/Creation/ComponentCreationStrategy.cs/#L39">View Source</a>
+    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/Composition/Creation/ComponentCreationStrategy.cs/#L34">View Source</a>
   </span>
   <a id="Epos_Utilities_Composition_ComponentCreationStrategy_GetInstance_" data-uid="Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance*"></a>
-  <h4 id="Epos_Utilities_Composition_ComponentCreationStrategy_GetInstance_System_Delegate_" data-uid="Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(System.Delegate)">GetInstance(Delegate)</h4>
+  <h4 id="Epos_Utilities_Composition_ComponentCreationStrategy_GetInstance_ConstructorInfo_System_Object___" data-uid="Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(ConstructorInfo,System.Object[])">GetInstance(ConstructorInfo, Object[])</h4>
   <div class="markdown level1 summary"><p>Creates an instance. </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected abstract object GetInstance(Delegate factoryMethod)</code></pre>
+    <pre><code class="lang-csharp hljs">protected abstract object GetInstance(ConstructorInfo constructorInfo, object[] parameterValues)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -143,9 +119,15 @@ Therefore the methods <a class="xref" href="Epos.Utilities.Composition.Component
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.delegate">Delegate</a></td>
-        <td><span class="parametername">factoryMethod</span></td>
-        <td><p>Factory method</p>
+        <td><span class="xref">ConstructorInfo</span></td>
+        <td><span class="parametername">constructorInfo</span></td>
+        <td><p>Constructor info</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="parametername">parameterValues</span></td>
+        <td><p>Parmeter values</p>
 </td>
       </tr>
     </tbody>
@@ -168,19 +150,19 @@ Therefore the methods <a class="xref" href="Epos.Utilities.Composition.Component
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_Utilities_Composition_ComponentCreationStrategy_GetInstance_System_Reflection_ConstructorInfo_System_Object___.md&amp;value=---%0Auid%3A%20Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(System.Reflection.ConstructorInfo%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_Utilities_Composition_ComponentCreationStrategy_GetInstance_Delegate_.md&amp;value=---%0Auid%3A%20Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(Delegate)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/Composition/Creation/ComponentCreationStrategy.cs/#L34">View Source</a>
+    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/Composition/Creation/ComponentCreationStrategy.cs/#L39">View Source</a>
   </span>
   <a id="Epos_Utilities_Composition_ComponentCreationStrategy_GetInstance_" data-uid="Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance*"></a>
-  <h4 id="Epos_Utilities_Composition_ComponentCreationStrategy_GetInstance_System_Reflection_ConstructorInfo_System_Object___" data-uid="Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(System.Reflection.ConstructorInfo,System.Object[])">GetInstance(ConstructorInfo, Object[])</h4>
+  <h4 id="Epos_Utilities_Composition_ComponentCreationStrategy_GetInstance_Delegate_" data-uid="Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(Delegate)">GetInstance(Delegate)</h4>
   <div class="markdown level1 summary"><p>Creates an instance. </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected abstract object GetInstance(ConstructorInfo constructorInfo, object[] parameterValues)</code></pre>
+    <pre><code class="lang-csharp hljs">protected abstract object GetInstance(Delegate factoryMethod)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -193,15 +175,9 @@ Therefore the methods <a class="xref" href="Epos.Utilities.Composition.Component
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.constructorinfo">ConstructorInfo</a></td>
-        <td><span class="parametername">constructorInfo</span></td>
-        <td><p>Constructor info</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
-        <td><span class="parametername">parameterValues</span></td>
-        <td><p>Parmeter values</p>
+        <td><span class="xref">Delegate</span></td>
+        <td><span class="parametername">factoryMethod</span></td>
+        <td><p>Factory method</p>
 </td>
       </tr>
     </tbody>

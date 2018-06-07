@@ -78,9 +78,9 @@ $ dotnet add package Epos.CmdLine
 </code></pre><p>You can install them separately, the packages are independent from each other.</p>
 <h2 id="usage">Usage</h2>
 <p><strong>Epos.Utilities</strong> and <strong>Epos.Utilities.Web</strong> are more or less self-documenting simple utility classes. You can take a
-look at the corresponding unit tests in <a href="https://github.com/eposgmbh/Epos.Foundation/tree/master/Epos.Utilities.Tests">this Github Repo</a>.</p>
+look at the corresponding unit tests in <a href="https://github.com/eposgmbh/Epos.Foundation/tree/master/src/Epos.Utilities.Tests">this Github Repo</a>.</p>
 <p><strong>Epos.CmdLine</strong> is a full fledged yet simple command line parser. Source code for a demo console app can be found in
-<a href="https://github.com/eposgmbh/Epos.Foundation/tree/master/Epos.CmdLine.Sample">this Github Repo</a>.</p>
+<a href="https://github.com/eposgmbh/Epos.Foundation/tree/master/src/Epos.CmdLine.Sample">this Github Repo</a>.</p>
 <h3 id="eposutilities">Epos.Utilities</h3>
 <p>Highlights of the <strong>Epos.Utilities</strong> package are:</p>
 <h4 id="arithmetics">Arithmetics</h4>
@@ -148,7 +148,7 @@ var theTestService = theContainer.Resolve&lt;ITestService&gt;();
 <h4 id="jsonrestclient">JsonRestClient</h4>
 <p>Use the <code>JsonRestClient</code> or <code>ResilientJsonRestClient</code> to initiate JSON Web API calls (see
 <a href="https://jsonplaceholder.typicode.com/">JSONPlaceholder Fake REST API</a> for the following example).</p>
-<p>The <code>ResilientJsonRestClient</code> uses the <code>IPolicyProvider</code> interface. The default implementation <code>PolicyProvider</code> has a Polly retry policy of 5, exponential back-off and a circuit breaker allowing 5 <code>HttpRequestException</code>s.</p>
+<p>The <code>ResilientJsonRestClient</code> uses the <code>IPolicyProvider</code> interface. The default implementation <code>PolicyProvider</code> has a Polly retry policy of 5, exponential back-off and a circuit breaker allowing 5 <code>HttpRequestException</code> exceptions.</p>
 <pre><code class="lang-csharp">public class Post
 {
     public int    UserId { get; set; }
@@ -173,7 +173,7 @@ if (theStatusCode == HttpStatusCode.OK) {
     }
 }
 </code></pre><h3 id="eposcmdline">Epos.CmdLine</h3>
-<p><code>BuildOptions</code> class for strongly typed access of the command line parameters:</p>
+<p>Sample <code>BuildOptions</code> class for strongly typed access of the command line parameters:</p>
 <pre><code class="lang-csharp">public class BuildOptions
 {
     [CmdLineOption(&#39;p&#39;)]

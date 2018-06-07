@@ -142,11 +142,11 @@ references:
   commentId: T:Epos.CmdLine.CmdLineOption
   fullName: Epos.CmdLine.CmdLineOption
   nameWithType: CmdLineOption
-- uid: Epos.CmdLine.CmdLineOption.#ctor(System.Type,System.Char,System.String)
+- uid: Epos.CmdLine.CmdLineOption.#ctor(Type,System.Char,System.String)
   name: CmdLineOption(Type, Char, String)
-  href: Api/Epos.CmdLine.CmdLineOption.html#Epos_CmdLine_CmdLineOption__ctor_System_Type_System_Char_System_String_
-  commentId: M:Epos.CmdLine.CmdLineOption.#ctor(System.Type,System.Char,System.String)
-  fullName: Epos.CmdLine.CmdLineOption.CmdLineOption(System.Type, System.Char, System.String)
+  href: Api/Epos.CmdLine.CmdLineOption.html#Epos_CmdLine_CmdLineOption__ctor_Type_System_Char_System_String_
+  commentId: M:Epos.CmdLine.CmdLineOption.#ctor(Type,System.Char,System.String)
+  fullName: Epos.CmdLine.CmdLineOption.CmdLineOption(Type, System.Char, System.String)
   nameWithType: CmdLineOption.CmdLineOption(Type, Char, String)
 - uid: Epos.CmdLine.CmdLineOption.#ctor*
   name: CmdLineOption
@@ -279,11 +279,11 @@ references:
   commentId: T:Epos.CmdLine.CmdLineParameter
   fullName: Epos.CmdLine.CmdLineParameter
   nameWithType: CmdLineParameter
-- uid: Epos.CmdLine.CmdLineParameter.#ctor(System.Type,System.String,System.String)
+- uid: Epos.CmdLine.CmdLineParameter.#ctor(Type,System.String,System.String)
   name: CmdLineParameter(Type, String, String)
-  href: Api/Epos.CmdLine.CmdLineParameter.html#Epos_CmdLine_CmdLineParameter__ctor_System_Type_System_String_System_String_
-  commentId: M:Epos.CmdLine.CmdLineParameter.#ctor(System.Type,System.String,System.String)
-  fullName: Epos.CmdLine.CmdLineParameter.CmdLineParameter(System.Type, System.String, System.String)
+  href: Api/Epos.CmdLine.CmdLineParameter.html#Epos_CmdLine_CmdLineParameter__ctor_Type_System_String_System_String_
+  commentId: M:Epos.CmdLine.CmdLineParameter.#ctor(Type,System.String,System.String)
+  fullName: Epos.CmdLine.CmdLineParameter.CmdLineParameter(Type, System.String, System.String)
   nameWithType: CmdLineParameter.CmdLineParameter(Type, String, String)
 - uid: Epos.CmdLine.CmdLineParameter.#ctor*
   name: CmdLineParameter
@@ -739,13 +739,13 @@ references:
   commentId: Overload:Epos.Utilities.AssemblyExtensions.GetAttribute
   fullName: Epos.Utilities.AssemblyExtensions.GetAttribute
   nameWithType: AssemblyExtensions.GetAttribute
-- uid: Epos.Utilities.AssemblyExtensions.GetAttribute``1(System.Reflection.Assembly)
+- uid: Epos.Utilities.AssemblyExtensions.GetAttribute``1(Assembly)
   name: GetAttribute<TAttribute>(Assembly)
-  href: Api/Epos.Utilities.AssemblyExtensions.html#Epos_Utilities_AssemblyExtensions_GetAttribute__1_System_Reflection_Assembly_
-  commentId: M:Epos.Utilities.AssemblyExtensions.GetAttribute``1(System.Reflection.Assembly)
+  href: Api/Epos.Utilities.AssemblyExtensions.html#Epos_Utilities_AssemblyExtensions_GetAttribute__1_Assembly_
+  commentId: M:Epos.Utilities.AssemblyExtensions.GetAttribute``1(Assembly)
   name.vb: GetAttribute(Of TAttribute)(Assembly)
-  fullName: Epos.Utilities.AssemblyExtensions.GetAttribute<TAttribute>(System.Reflection.Assembly)
-  fullName.vb: Epos.Utilities.AssemblyExtensions.GetAttribute(Of TAttribute)(System.Reflection.Assembly)
+  fullName: Epos.Utilities.AssemblyExtensions.GetAttribute<TAttribute>(Assembly)
+  fullName.vb: Epos.Utilities.AssemblyExtensions.GetAttribute(Of TAttribute)(Assembly)
   nameWithType: AssemblyExtensions.GetAttribute<TAttribute>(Assembly)
   nameWithType.vb: AssemblyExtensions.GetAttribute(Of TAttribute)(Assembly)
 - uid: Epos.Utilities.AssemblyExtensions.GetAttributes*
@@ -754,13 +754,13 @@ references:
   commentId: Overload:Epos.Utilities.AssemblyExtensions.GetAttributes
   fullName: Epos.Utilities.AssemblyExtensions.GetAttributes
   nameWithType: AssemblyExtensions.GetAttributes
-- uid: Epos.Utilities.AssemblyExtensions.GetAttributes``1(System.Reflection.Assembly)
+- uid: Epos.Utilities.AssemblyExtensions.GetAttributes``1(Assembly)
   name: GetAttributes<TAttribute>(Assembly)
-  href: Api/Epos.Utilities.AssemblyExtensions.html#Epos_Utilities_AssemblyExtensions_GetAttributes__1_System_Reflection_Assembly_
-  commentId: M:Epos.Utilities.AssemblyExtensions.GetAttributes``1(System.Reflection.Assembly)
+  href: Api/Epos.Utilities.AssemblyExtensions.html#Epos_Utilities_AssemblyExtensions_GetAttributes__1_Assembly_
+  commentId: M:Epos.Utilities.AssemblyExtensions.GetAttributes``1(Assembly)
   name.vb: GetAttributes(Of TAttribute)(Assembly)
-  fullName: Epos.Utilities.AssemblyExtensions.GetAttributes<TAttribute>(System.Reflection.Assembly)
-  fullName.vb: Epos.Utilities.AssemblyExtensions.GetAttributes(Of TAttribute)(System.Reflection.Assembly)
+  fullName: Epos.Utilities.AssemblyExtensions.GetAttributes<TAttribute>(Assembly)
+  fullName.vb: Epos.Utilities.AssemblyExtensions.GetAttributes(Of TAttribute)(Assembly)
   nameWithType: AssemblyExtensions.GetAttributes<TAttribute>(Assembly)
   nameWithType.vb: AssemblyExtensions.GetAttributes(Of TAttribute)(Assembly)
 - uid: Epos.Utilities.AssemblyExtensions.HasAttribute*
@@ -769,13 +769,13 @@ references:
   commentId: Overload:Epos.Utilities.AssemblyExtensions.HasAttribute
   fullName: Epos.Utilities.AssemblyExtensions.HasAttribute
   nameWithType: AssemblyExtensions.HasAttribute
-- uid: Epos.Utilities.AssemblyExtensions.HasAttribute``1(System.Reflection.Assembly)
+- uid: Epos.Utilities.AssemblyExtensions.HasAttribute``1(Assembly)
   name: HasAttribute<TAttribute>(Assembly)
-  href: Api/Epos.Utilities.AssemblyExtensions.html#Epos_Utilities_AssemblyExtensions_HasAttribute__1_System_Reflection_Assembly_
-  commentId: M:Epos.Utilities.AssemblyExtensions.HasAttribute``1(System.Reflection.Assembly)
+  href: Api/Epos.Utilities.AssemblyExtensions.html#Epos_Utilities_AssemblyExtensions_HasAttribute__1_Assembly_
+  commentId: M:Epos.Utilities.AssemblyExtensions.HasAttribute``1(Assembly)
   name.vb: HasAttribute(Of TAttribute)(Assembly)
-  fullName: Epos.Utilities.AssemblyExtensions.HasAttribute<TAttribute>(System.Reflection.Assembly)
-  fullName.vb: Epos.Utilities.AssemblyExtensions.HasAttribute(Of TAttribute)(System.Reflection.Assembly)
+  fullName: Epos.Utilities.AssemblyExtensions.HasAttribute<TAttribute>(Assembly)
+  fullName.vb: Epos.Utilities.AssemblyExtensions.HasAttribute(Of TAttribute)(Assembly)
   nameWithType: AssemblyExtensions.HasAttribute<TAttribute>(Assembly)
   nameWithType.vb: AssemblyExtensions.HasAttribute(Of TAttribute)(Assembly)
 - uid: Epos.Utilities.BinaryOperation`3
@@ -913,21 +913,21 @@ references:
   commentId: T:Epos.Utilities.Composition.ComponentCreationStrategy
   fullName: Epos.Utilities.Composition.ComponentCreationStrategy
   nameWithType: ComponentCreationStrategy
-- uid: Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(System.Delegate)
-  name: GetInstance(Delegate)
-  href: Api/Epos.Utilities.Composition.ComponentCreationStrategy.html#Epos_Utilities_Composition_ComponentCreationStrategy_GetInstance_System_Delegate_
-  commentId: M:Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(System.Delegate)
-  fullName: Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(System.Delegate)
-  nameWithType: ComponentCreationStrategy.GetInstance(Delegate)
-- uid: Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(System.Reflection.ConstructorInfo,System.Object[])
+- uid: Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(ConstructorInfo,System.Object[])
   name: GetInstance(ConstructorInfo, Object[])
-  href: Api/Epos.Utilities.Composition.ComponentCreationStrategy.html#Epos_Utilities_Composition_ComponentCreationStrategy_GetInstance_System_Reflection_ConstructorInfo_System_Object___
-  commentId: M:Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(System.Reflection.ConstructorInfo,System.Object[])
+  href: Api/Epos.Utilities.Composition.ComponentCreationStrategy.html#Epos_Utilities_Composition_ComponentCreationStrategy_GetInstance_ConstructorInfo_System_Object___
+  commentId: M:Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(ConstructorInfo,System.Object[])
   name.vb: GetInstance(ConstructorInfo, Object())
-  fullName: Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(System.Reflection.ConstructorInfo, System.Object[])
-  fullName.vb: Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(System.Reflection.ConstructorInfo, System.Object())
+  fullName: Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(ConstructorInfo, System.Object[])
+  fullName.vb: Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(ConstructorInfo, System.Object())
   nameWithType: ComponentCreationStrategy.GetInstance(ConstructorInfo, Object[])
   nameWithType.vb: ComponentCreationStrategy.GetInstance(ConstructorInfo, Object())
+- uid: Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(Delegate)
+  name: GetInstance(Delegate)
+  href: Api/Epos.Utilities.Composition.ComponentCreationStrategy.html#Epos_Utilities_Composition_ComponentCreationStrategy_GetInstance_Delegate_
+  commentId: M:Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(Delegate)
+  fullName: Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance(Delegate)
+  nameWithType: ComponentCreationStrategy.GetInstance(Delegate)
 - uid: Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance*
   name: GetInstance
   href: Api/Epos.Utilities.Composition.ComponentCreationStrategy.html#Epos_Utilities_Composition_ComponentCreationStrategy_GetInstance_
@@ -973,11 +973,11 @@ references:
   fullName.vb: Epos.Utilities.Composition.Container.Register(Of T)()
   nameWithType: Container.Register<T>()
   nameWithType.vb: Container.Register(Of T)()
-- uid: Epos.Utilities.Composition.Container.Resolve(System.Type)
+- uid: Epos.Utilities.Composition.Container.Resolve(Type)
   name: Resolve(Type)
-  href: Api/Epos.Utilities.Composition.Container.html#Epos_Utilities_Composition_Container_Resolve_System_Type_
-  commentId: M:Epos.Utilities.Composition.Container.Resolve(System.Type)
-  fullName: Epos.Utilities.Composition.Container.Resolve(System.Type)
+  href: Api/Epos.Utilities.Composition.Container.html#Epos_Utilities_Composition_Container_Resolve_Type_
+  commentId: M:Epos.Utilities.Composition.Container.Resolve(Type)
+  fullName: Epos.Utilities.Composition.Container.Resolve(Type)
   nameWithType: Container.Resolve(Type)
 - uid: Epos.Utilities.Composition.Container.Resolve*
   name: Resolve
@@ -1119,13 +1119,13 @@ references:
   fullName.vb: Epos.Utilities.Composition.RegisterOptions(Of TAbstraction).WithFactoryMethod
   nameWithType: RegisterOptions<TAbstraction>.WithFactoryMethod
   nameWithType.vb: RegisterOptions(Of TAbstraction).WithFactoryMethod
-- uid: Epos.Utilities.Composition.RegisterOptions`1.WithFactoryMethod``1(System.Func{``0})
+- uid: Epos.Utilities.Composition.RegisterOptions`1.WithFactoryMethod``1(Func{``0})
   name: WithFactoryMethod<TImplementation>(Func<TImplementation>)
-  href: Api/Epos.Utilities.Composition.RegisterOptions-1.html#Epos_Utilities_Composition_RegisterOptions_1_WithFactoryMethod__1_System_Func___0__
-  commentId: M:Epos.Utilities.Composition.RegisterOptions`1.WithFactoryMethod``1(System.Func{``0})
+  href: Api/Epos.Utilities.Composition.RegisterOptions-1.html#Epos_Utilities_Composition_RegisterOptions_1_WithFactoryMethod__1_Func___0__
+  commentId: M:Epos.Utilities.Composition.RegisterOptions`1.WithFactoryMethod``1(Func{``0})
   name.vb: WithFactoryMethod(Of TImplementation)(Func(Of TImplementation))
-  fullName: Epos.Utilities.Composition.RegisterOptions<TAbstraction>.WithFactoryMethod<TImplementation>(System.Func<TImplementation>)
-  fullName.vb: Epos.Utilities.Composition.RegisterOptions(Of TAbstraction).WithFactoryMethod(Of TImplementation)(System.Func(Of TImplementation))
+  fullName: Epos.Utilities.Composition.RegisterOptions<TAbstraction>.WithFactoryMethod<TImplementation>(Func<TImplementation>)
+  fullName.vb: Epos.Utilities.Composition.RegisterOptions(Of TAbstraction).WithFactoryMethod(Of TImplementation)(Func(Of TImplementation))
   nameWithType: RegisterOptions<TAbstraction>.WithFactoryMethod<TImplementation>(Func<TImplementation>)
   nameWithType.vb: RegisterOptions(Of TAbstraction).WithFactoryMethod(Of TImplementation)(Func(Of TImplementation))
 - uid: Epos.Utilities.Composition.RegistrationStep
@@ -1179,11 +1179,11 @@ references:
   commentId: Overload:Epos.Utilities.DebugThrow.If
   fullName: Epos.Utilities.DebugThrow.If
   nameWithType: DebugThrow.If
-- uid: Epos.Utilities.DebugThrow.IfInvalidEnum(System.Enum,System.String)
+- uid: Epos.Utilities.DebugThrow.IfInvalidEnum(Enum,System.String)
   name: IfInvalidEnum(Enum, String)
-  href: Api/Epos.Utilities.DebugThrow.html#Epos_Utilities_DebugThrow_IfInvalidEnum_System_Enum_System_String_
-  commentId: M:Epos.Utilities.DebugThrow.IfInvalidEnum(System.Enum,System.String)
-  fullName: Epos.Utilities.DebugThrow.IfInvalidEnum(System.Enum, System.String)
+  href: Api/Epos.Utilities.DebugThrow.html#Epos_Utilities_DebugThrow_IfInvalidEnum_Enum_System_String_
+  commentId: M:Epos.Utilities.DebugThrow.IfInvalidEnum(Enum,System.String)
+  fullName: Epos.Utilities.DebugThrow.IfInvalidEnum(Enum, System.String)
   nameWithType: DebugThrow.IfInvalidEnum(Enum, String)
 - uid: Epos.Utilities.DebugThrow.IfInvalidEnum*
   name: IfInvalidEnum
@@ -1218,13 +1218,13 @@ references:
   commentId: Overload:Epos.Utilities.DictionaryExtensions.Get
   fullName: Epos.Utilities.DictionaryExtensions.Get
   nameWithType: DictionaryExtensions.Get
-- uid: Epos.Utilities.DictionaryExtensions.Get``2(System.Collections.Generic.IDictionary{``0,``1},``0)
+- uid: Epos.Utilities.DictionaryExtensions.Get``2(IDictionary{``0,``1},``0)
   name: Get<TKey, TValue>(IDictionary<TKey, TValue>, TKey)
-  href: Api/Epos.Utilities.DictionaryExtensions.html#Epos_Utilities_DictionaryExtensions_Get__2_System_Collections_Generic_IDictionary___0___1____0_
-  commentId: M:Epos.Utilities.DictionaryExtensions.Get``2(System.Collections.Generic.IDictionary{``0,``1},``0)
+  href: Api/Epos.Utilities.DictionaryExtensions.html#Epos_Utilities_DictionaryExtensions_Get__2_IDictionary___0___1____0_
+  commentId: M:Epos.Utilities.DictionaryExtensions.Get``2(IDictionary{``0,``1},``0)
   name.vb: Get(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey)
-  fullName: Epos.Utilities.DictionaryExtensions.Get<TKey, TValue>(System.Collections.Generic.IDictionary<TKey, TValue>, TKey)
-  fullName.vb: Epos.Utilities.DictionaryExtensions.Get(Of TKey, TValue)(System.Collections.Generic.IDictionary(Of TKey, TValue), TKey)
+  fullName: Epos.Utilities.DictionaryExtensions.Get<TKey, TValue>(IDictionary<TKey, TValue>, TKey)
+  fullName.vb: Epos.Utilities.DictionaryExtensions.Get(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey)
   nameWithType: DictionaryExtensions.Get<TKey, TValue>(IDictionary<TKey, TValue>, TKey)
   nameWithType.vb: DictionaryExtensions.Get(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey)
 - uid: Epos.Utilities.DumpExtensions
@@ -1257,13 +1257,13 @@ references:
   commentId: Overload:Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy
   fullName: Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy
   nameWithType: EnumerableExtensions.FlattenRecursiveHierarchy
-- uid: Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``0}})
+- uid: Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy``1(IEnumerable{``0},Func{``0,IEnumerable{``0}})
   name: FlattenRecursiveHierarchy<T>(IEnumerable<T>, Func<T, IEnumerable<T>>)
-  href: Api/Epos.Utilities.EnumerableExtensions.html#Epos_Utilities_EnumerableExtensions_FlattenRecursiveHierarchy__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Collections_Generic_IEnumerable___0___
-  commentId: M:Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``0}})
+  href: Api/Epos.Utilities.EnumerableExtensions.html#Epos_Utilities_EnumerableExtensions_FlattenRecursiveHierarchy__1_IEnumerable___0__Func___0_IEnumerable___0___
+  commentId: M:Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy``1(IEnumerable{``0},Func{``0,IEnumerable{``0}})
   name.vb: FlattenRecursiveHierarchy(Of T)(IEnumerable(Of T), Func(Of T, IEnumerable(Of T)))
-  fullName: Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy<T>(System.Collections.Generic.IEnumerable<T>, System.Func<T, System.Collections.Generic.IEnumerable<T>>)
-  fullName.vb: Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, System.Collections.Generic.IEnumerable(Of T)))
+  fullName: Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy<T>(IEnumerable<T>, Func<T, IEnumerable<T>>)
+  fullName.vb: Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy(Of T)(IEnumerable(Of T), Func(Of T, IEnumerable(Of T)))
   nameWithType: EnumerableExtensions.FlattenRecursiveHierarchy<T>(IEnumerable<T>, Func<T, IEnumerable<T>>)
   nameWithType.vb: EnumerableExtensions.FlattenRecursiveHierarchy(Of T)(IEnumerable(Of T), Func(Of T, IEnumerable(Of T)))
 - uid: Epos.Utilities.EnumerableExtensions.ForEach*
@@ -1272,13 +1272,13 @@ references:
   commentId: Overload:Epos.Utilities.EnumerableExtensions.ForEach
   fullName: Epos.Utilities.EnumerableExtensions.ForEach
   nameWithType: EnumerableExtensions.ForEach
-- uid: Epos.Utilities.EnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+- uid: Epos.Utilities.EnumerableExtensions.ForEach``1(IEnumerable{``0},Action{``0})
   name: ForEach<T>(IEnumerable<T>, Action<T>)
-  href: Api/Epos.Utilities.EnumerableExtensions.html#Epos_Utilities_EnumerableExtensions_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__
-  commentId: M:Epos.Utilities.EnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  href: Api/Epos.Utilities.EnumerableExtensions.html#Epos_Utilities_EnumerableExtensions_ForEach__1_IEnumerable___0__Action___0__
+  commentId: M:Epos.Utilities.EnumerableExtensions.ForEach``1(IEnumerable{``0},Action{``0})
   name.vb: ForEach(Of T)(IEnumerable(Of T), Action(Of T))
-  fullName: Epos.Utilities.EnumerableExtensions.ForEach<T>(System.Collections.Generic.IEnumerable<T>, System.Action<T>)
-  fullName.vb: Epos.Utilities.EnumerableExtensions.ForEach(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Action(Of T))
+  fullName: Epos.Utilities.EnumerableExtensions.ForEach<T>(IEnumerable<T>, Action<T>)
+  fullName.vb: Epos.Utilities.EnumerableExtensions.ForEach(Of T)(IEnumerable(Of T), Action(Of T))
   nameWithType: EnumerableExtensions.ForEach<T>(IEnumerable<T>, Action<T>)
   nameWithType.vb: EnumerableExtensions.ForEach(Of T)(IEnumerable(Of T), Action(Of T))
 - uid: Epos.Utilities.EnumerableExtensions.ToEnumerable*
@@ -1302,37 +1302,37 @@ references:
   commentId: T:Epos.Utilities.EventExtensions
   fullName: Epos.Utilities.EventExtensions
   nameWithType: EventExtensions
-- uid: Epos.Utilities.EventExtensions.Raise(System.ComponentModel.PropertyChangedEventHandler,System.Object,System.String)
-  name: Raise(PropertyChangedEventHandler, Object, String)
-  href: Api/Epos.Utilities.EventExtensions.html#Epos_Utilities_EventExtensions_Raise_System_ComponentModel_PropertyChangedEventHandler_System_Object_System_String_
-  commentId: M:Epos.Utilities.EventExtensions.Raise(System.ComponentModel.PropertyChangedEventHandler,System.Object,System.String)
-  fullName: Epos.Utilities.EventExtensions.Raise(System.ComponentModel.PropertyChangedEventHandler, System.Object, System.String)
-  nameWithType: EventExtensions.Raise(PropertyChangedEventHandler, Object, String)
-- uid: Epos.Utilities.EventExtensions.Raise(System.EventHandler,System.Object)
+- uid: Epos.Utilities.EventExtensions.Raise(EventHandler,System.Object)
   name: Raise(EventHandler, Object)
-  href: Api/Epos.Utilities.EventExtensions.html#Epos_Utilities_EventExtensions_Raise_System_EventHandler_System_Object_
-  commentId: M:Epos.Utilities.EventExtensions.Raise(System.EventHandler,System.Object)
-  fullName: Epos.Utilities.EventExtensions.Raise(System.EventHandler, System.Object)
+  href: Api/Epos.Utilities.EventExtensions.html#Epos_Utilities_EventExtensions_Raise_EventHandler_System_Object_
+  commentId: M:Epos.Utilities.EventExtensions.Raise(EventHandler,System.Object)
+  fullName: Epos.Utilities.EventExtensions.Raise(EventHandler, System.Object)
   nameWithType: EventExtensions.Raise(EventHandler, Object)
-- uid: Epos.Utilities.EventExtensions.Raise(System.EventHandler,System.Object,System.EventArgs)
+- uid: Epos.Utilities.EventExtensions.Raise(EventHandler,System.Object,EventArgs)
   name: Raise(EventHandler, Object, EventArgs)
-  href: Api/Epos.Utilities.EventExtensions.html#Epos_Utilities_EventExtensions_Raise_System_EventHandler_System_Object_System_EventArgs_
-  commentId: M:Epos.Utilities.EventExtensions.Raise(System.EventHandler,System.Object,System.EventArgs)
-  fullName: Epos.Utilities.EventExtensions.Raise(System.EventHandler, System.Object, System.EventArgs)
+  href: Api/Epos.Utilities.EventExtensions.html#Epos_Utilities_EventExtensions_Raise_EventHandler_System_Object_EventArgs_
+  commentId: M:Epos.Utilities.EventExtensions.Raise(EventHandler,System.Object,EventArgs)
+  fullName: Epos.Utilities.EventExtensions.Raise(EventHandler, System.Object, EventArgs)
   nameWithType: EventExtensions.Raise(EventHandler, Object, EventArgs)
+- uid: Epos.Utilities.EventExtensions.Raise(PropertyChangedEventHandler,System.Object,System.String)
+  name: Raise(PropertyChangedEventHandler, Object, String)
+  href: Api/Epos.Utilities.EventExtensions.html#Epos_Utilities_EventExtensions_Raise_PropertyChangedEventHandler_System_Object_System_String_
+  commentId: M:Epos.Utilities.EventExtensions.Raise(PropertyChangedEventHandler,System.Object,System.String)
+  fullName: Epos.Utilities.EventExtensions.Raise(PropertyChangedEventHandler, System.Object, System.String)
+  nameWithType: EventExtensions.Raise(PropertyChangedEventHandler, Object, String)
 - uid: Epos.Utilities.EventExtensions.Raise*
   name: Raise
   href: Api/Epos.Utilities.EventExtensions.html#Epos_Utilities_EventExtensions_Raise_
   commentId: Overload:Epos.Utilities.EventExtensions.Raise
   fullName: Epos.Utilities.EventExtensions.Raise
   nameWithType: EventExtensions.Raise
-- uid: Epos.Utilities.EventExtensions.Raise``1(System.EventHandler{``0},System.Object,``0)
+- uid: Epos.Utilities.EventExtensions.Raise``1(EventHandler{``0},System.Object,``0)
   name: Raise<TEventArgs>(EventHandler<TEventArgs>, Object, TEventArgs)
-  href: Api/Epos.Utilities.EventExtensions.html#Epos_Utilities_EventExtensions_Raise__1_System_EventHandler___0__System_Object___0_
-  commentId: M:Epos.Utilities.EventExtensions.Raise``1(System.EventHandler{``0},System.Object,``0)
+  href: Api/Epos.Utilities.EventExtensions.html#Epos_Utilities_EventExtensions_Raise__1_EventHandler___0__System_Object___0_
+  commentId: M:Epos.Utilities.EventExtensions.Raise``1(EventHandler{``0},System.Object,``0)
   name.vb: Raise(Of TEventArgs)(EventHandler(Of TEventArgs), Object, TEventArgs)
-  fullName: Epos.Utilities.EventExtensions.Raise<TEventArgs>(System.EventHandler<TEventArgs>, System.Object, TEventArgs)
-  fullName.vb: Epos.Utilities.EventExtensions.Raise(Of TEventArgs)(System.EventHandler(Of TEventArgs), System.Object, TEventArgs)
+  fullName: Epos.Utilities.EventExtensions.Raise<TEventArgs>(EventHandler<TEventArgs>, System.Object, TEventArgs)
+  fullName.vb: Epos.Utilities.EventExtensions.Raise(Of TEventArgs)(EventHandler(Of TEventArgs), System.Object, TEventArgs)
   nameWithType: EventExtensions.Raise<TEventArgs>(EventHandler<TEventArgs>, Object, TEventArgs)
   nameWithType.vb: EventExtensions.Raise(Of TEventArgs)(EventHandler(Of TEventArgs), Object, TEventArgs)
 - uid: Epos.Utilities.HighPerfLogger
@@ -1365,13 +1365,13 @@ references:
   commentId: Overload:Epos.Utilities.HighPerfLogger.LogLine
   fullName: Epos.Utilities.HighPerfLogger.LogLine
   nameWithType: HighPerfLogger.LogLine
-- uid: Epos.Utilities.HighPerfLogger.SetLogAction(System.Action{System.String})
+- uid: Epos.Utilities.HighPerfLogger.SetLogAction(Action{System.String})
   name: SetLogAction(Action<String>)
-  href: Api/Epos.Utilities.HighPerfLogger.html#Epos_Utilities_HighPerfLogger_SetLogAction_System_Action_System_String__
-  commentId: M:Epos.Utilities.HighPerfLogger.SetLogAction(System.Action{System.String})
+  href: Api/Epos.Utilities.HighPerfLogger.html#Epos_Utilities_HighPerfLogger_SetLogAction_Action_System_String__
+  commentId: M:Epos.Utilities.HighPerfLogger.SetLogAction(Action{System.String})
   name.vb: SetLogAction(Action(Of String))
-  fullName: Epos.Utilities.HighPerfLogger.SetLogAction(System.Action<System.String>)
-  fullName.vb: Epos.Utilities.HighPerfLogger.SetLogAction(System.Action(Of System.String))
+  fullName: Epos.Utilities.HighPerfLogger.SetLogAction(Action<System.String>)
+  fullName.vb: Epos.Utilities.HighPerfLogger.SetLogAction(Action(Of System.String))
   nameWithType: HighPerfLogger.SetLogAction(Action<String>)
   nameWithType.vb: HighPerfLogger.SetLogAction(Action(Of String))
 - uid: Epos.Utilities.HighPerfLogger.SetLogAction*
@@ -1392,13 +1392,13 @@ references:
   commentId: Overload:Epos.Utilities.ListExtensions.EqualsList
   fullName: Epos.Utilities.ListExtensions.EqualsList
   nameWithType: ListExtensions.EqualsList
-- uid: Epos.Utilities.ListExtensions.EqualsList``1(System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0})
+- uid: Epos.Utilities.ListExtensions.EqualsList``1(IList{``0},IList{``0})
   name: EqualsList<T>(IList<T>, IList<T>)
-  href: Api/Epos.Utilities.ListExtensions.html#Epos_Utilities_ListExtensions_EqualsList__1_System_Collections_Generic_IList___0__System_Collections_Generic_IList___0__
-  commentId: M:Epos.Utilities.ListExtensions.EqualsList``1(System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0})
+  href: Api/Epos.Utilities.ListExtensions.html#Epos_Utilities_ListExtensions_EqualsList__1_IList___0__IList___0__
+  commentId: M:Epos.Utilities.ListExtensions.EqualsList``1(IList{``0},IList{``0})
   name.vb: EqualsList(Of T)(IList(Of T), IList(Of T))
-  fullName: Epos.Utilities.ListExtensions.EqualsList<T>(System.Collections.Generic.IList<T>, System.Collections.Generic.IList<T>)
-  fullName.vb: Epos.Utilities.ListExtensions.EqualsList(Of T)(System.Collections.Generic.IList(Of T), System.Collections.Generic.IList(Of T))
+  fullName: Epos.Utilities.ListExtensions.EqualsList<T>(IList<T>, IList<T>)
+  fullName.vb: Epos.Utilities.ListExtensions.EqualsList(Of T)(IList(Of T), IList(Of T))
   nameWithType: ListExtensions.EqualsList<T>(IList<T>, IList<T>)
   nameWithType.vb: ListExtensions.EqualsList(Of T)(IList(Of T), IList(Of T))
 - uid: Epos.Utilities.ListExtensions.GetListHashCode*
@@ -1407,13 +1407,13 @@ references:
   commentId: Overload:Epos.Utilities.ListExtensions.GetListHashCode
   fullName: Epos.Utilities.ListExtensions.GetListHashCode
   nameWithType: ListExtensions.GetListHashCode
-- uid: Epos.Utilities.ListExtensions.GetListHashCode``1(System.Collections.Generic.IList{``0})
+- uid: Epos.Utilities.ListExtensions.GetListHashCode``1(IList{``0})
   name: GetListHashCode<T>(IList<T>)
-  href: Api/Epos.Utilities.ListExtensions.html#Epos_Utilities_ListExtensions_GetListHashCode__1_System_Collections_Generic_IList___0__
-  commentId: M:Epos.Utilities.ListExtensions.GetListHashCode``1(System.Collections.Generic.IList{``0})
+  href: Api/Epos.Utilities.ListExtensions.html#Epos_Utilities_ListExtensions_GetListHashCode__1_IList___0__
+  commentId: M:Epos.Utilities.ListExtensions.GetListHashCode``1(IList{``0})
   name.vb: GetListHashCode(Of T)(IList(Of T))
-  fullName: Epos.Utilities.ListExtensions.GetListHashCode<T>(System.Collections.Generic.IList<T>)
-  fullName.vb: Epos.Utilities.ListExtensions.GetListHashCode(Of T)(System.Collections.Generic.IList(Of T))
+  fullName: Epos.Utilities.ListExtensions.GetListHashCode<T>(IList<T>)
+  fullName.vb: Epos.Utilities.ListExtensions.GetListHashCode(Of T)(IList(Of T))
   nameWithType: ListExtensions.GetListHashCode<T>(IList<T>)
   nameWithType.vb: ListExtensions.GetListHashCode(Of T)(IList(Of T))
 - uid: Epos.Utilities.ObjectExtensions
@@ -1485,11 +1485,11 @@ references:
   commentId: T:Epos.Utilities.StopwatchHelper
   fullName: Epos.Utilities.StopwatchHelper
   nameWithType: StopwatchHelper
-- uid: Epos.Utilities.StopwatchHelper.GetMilliseconds(System.Action)
+- uid: Epos.Utilities.StopwatchHelper.GetMilliseconds(Action)
   name: GetMilliseconds(Action)
-  href: Api/Epos.Utilities.StopwatchHelper.html#Epos_Utilities_StopwatchHelper_GetMilliseconds_System_Action_
-  commentId: M:Epos.Utilities.StopwatchHelper.GetMilliseconds(System.Action)
-  fullName: Epos.Utilities.StopwatchHelper.GetMilliseconds(System.Action)
+  href: Api/Epos.Utilities.StopwatchHelper.html#Epos_Utilities_StopwatchHelper_GetMilliseconds_Action_
+  commentId: M:Epos.Utilities.StopwatchHelper.GetMilliseconds(Action)
+  fullName: Epos.Utilities.StopwatchHelper.GetMilliseconds(Action)
   nameWithType: StopwatchHelper.GetMilliseconds(Action)
 - uid: Epos.Utilities.StopwatchHelper.GetMilliseconds*
   name: GetMilliseconds
@@ -1539,22 +1539,22 @@ references:
   commentId: Overload:Epos.Utilities.StringExtensions.Matches
   fullName: Epos.Utilities.StringExtensions.Matches
   nameWithType: StringExtensions.Matches
-- uid: Epos.Utilities.StringExtensions.TryConvert(System.String,System.Type,System.Globalization.CultureInfo,System.Object@)
+- uid: Epos.Utilities.StringExtensions.TryConvert(System.String,Type,CultureInfo,System.Object@)
   name: TryConvert(String, Type, CultureInfo, out Object)
-  href: Api/Epos.Utilities.StringExtensions.html#Epos_Utilities_StringExtensions_TryConvert_System_String_System_Type_System_Globalization_CultureInfo_System_Object__
-  commentId: M:Epos.Utilities.StringExtensions.TryConvert(System.String,System.Type,System.Globalization.CultureInfo,System.Object@)
+  href: Api/Epos.Utilities.StringExtensions.html#Epos_Utilities_StringExtensions_TryConvert_System_String_Type_CultureInfo_System_Object__
+  commentId: M:Epos.Utilities.StringExtensions.TryConvert(System.String,Type,CultureInfo,System.Object@)
   name.vb: TryConvert(String, Type, CultureInfo, ByRef Object)
-  fullName: Epos.Utilities.StringExtensions.TryConvert(System.String, System.Type, System.Globalization.CultureInfo, out System.Object)
-  fullName.vb: Epos.Utilities.StringExtensions.TryConvert(System.String, System.Type, System.Globalization.CultureInfo, ByRef System.Object)
+  fullName: Epos.Utilities.StringExtensions.TryConvert(System.String, Type, CultureInfo, out System.Object)
+  fullName.vb: Epos.Utilities.StringExtensions.TryConvert(System.String, Type, CultureInfo, ByRef System.Object)
   nameWithType: StringExtensions.TryConvert(String, Type, CultureInfo, out Object)
   nameWithType.vb: StringExtensions.TryConvert(String, Type, CultureInfo, ByRef Object)
-- uid: Epos.Utilities.StringExtensions.TryConvert(System.String,System.Type,System.Object@)
+- uid: Epos.Utilities.StringExtensions.TryConvert(System.String,Type,System.Object@)
   name: TryConvert(String, Type, out Object)
-  href: Api/Epos.Utilities.StringExtensions.html#Epos_Utilities_StringExtensions_TryConvert_System_String_System_Type_System_Object__
-  commentId: M:Epos.Utilities.StringExtensions.TryConvert(System.String,System.Type,System.Object@)
+  href: Api/Epos.Utilities.StringExtensions.html#Epos_Utilities_StringExtensions_TryConvert_System_String_Type_System_Object__
+  commentId: M:Epos.Utilities.StringExtensions.TryConvert(System.String,Type,System.Object@)
   name.vb: TryConvert(String, Type, ByRef Object)
-  fullName: Epos.Utilities.StringExtensions.TryConvert(System.String, System.Type, out System.Object)
-  fullName.vb: Epos.Utilities.StringExtensions.TryConvert(System.String, System.Type, ByRef System.Object)
+  fullName: Epos.Utilities.StringExtensions.TryConvert(System.String, Type, out System.Object)
+  fullName.vb: Epos.Utilities.StringExtensions.TryConvert(System.String, Type, ByRef System.Object)
   nameWithType: StringExtensions.TryConvert(String, Type, out Object)
   nameWithType.vb: StringExtensions.TryConvert(String, Type, ByRef Object)
 - uid: Epos.Utilities.StringExtensions.TryConvert*
@@ -1572,13 +1572,13 @@ references:
   fullName.vb: Epos.Utilities.StringExtensions.TryConvert(Of TDestinationType)(System.String, ByRef TDestinationType)
   nameWithType: StringExtensions.TryConvert<TDestinationType>(String, out TDestinationType)
   nameWithType.vb: StringExtensions.TryConvert(Of TDestinationType)(String, ByRef TDestinationType)
-- uid: Epos.Utilities.StringExtensions.TryConvert``1(System.String,System.Globalization.CultureInfo,``0@)
+- uid: Epos.Utilities.StringExtensions.TryConvert``1(System.String,CultureInfo,``0@)
   name: TryConvert<TDestinationType>(String, CultureInfo, out TDestinationType)
-  href: Api/Epos.Utilities.StringExtensions.html#Epos_Utilities_StringExtensions_TryConvert__1_System_String_System_Globalization_CultureInfo___0__
-  commentId: M:Epos.Utilities.StringExtensions.TryConvert``1(System.String,System.Globalization.CultureInfo,``0@)
+  href: Api/Epos.Utilities.StringExtensions.html#Epos_Utilities_StringExtensions_TryConvert__1_System_String_CultureInfo___0__
+  commentId: M:Epos.Utilities.StringExtensions.TryConvert``1(System.String,CultureInfo,``0@)
   name.vb: TryConvert(Of TDestinationType)(String, CultureInfo, ByRef TDestinationType)
-  fullName: Epos.Utilities.StringExtensions.TryConvert<TDestinationType>(System.String, System.Globalization.CultureInfo, out TDestinationType)
-  fullName.vb: Epos.Utilities.StringExtensions.TryConvert(Of TDestinationType)(System.String, System.Globalization.CultureInfo, ByRef TDestinationType)
+  fullName: Epos.Utilities.StringExtensions.TryConvert<TDestinationType>(System.String, CultureInfo, out TDestinationType)
+  fullName.vb: Epos.Utilities.StringExtensions.TryConvert(Of TDestinationType)(System.String, CultureInfo, ByRef TDestinationType)
   nameWithType: StringExtensions.TryConvert<TDestinationType>(String, CultureInfo, out TDestinationType)
   nameWithType.vb: StringExtensions.TryConvert(Of TDestinationType)(String, CultureInfo, ByRef TDestinationType)
 - uid: Epos.Utilities.TaskExtensions
@@ -1587,11 +1587,11 @@ references:
   commentId: T:Epos.Utilities.TaskExtensions
   fullName: Epos.Utilities.TaskExtensions
   nameWithType: TaskExtensions
-- uid: Epos.Utilities.TaskExtensions.FireAndForget(System.Threading.Tasks.Task)
+- uid: Epos.Utilities.TaskExtensions.FireAndForget(Task)
   name: FireAndForget(Task)
-  href: Api/Epos.Utilities.TaskExtensions.html#Epos_Utilities_TaskExtensions_FireAndForget_System_Threading_Tasks_Task_
-  commentId: M:Epos.Utilities.TaskExtensions.FireAndForget(System.Threading.Tasks.Task)
-  fullName: Epos.Utilities.TaskExtensions.FireAndForget(System.Threading.Tasks.Task)
+  href: Api/Epos.Utilities.TaskExtensions.html#Epos_Utilities_TaskExtensions_FireAndForget_Task_
+  commentId: M:Epos.Utilities.TaskExtensions.FireAndForget(Task)
+  fullName: Epos.Utilities.TaskExtensions.FireAndForget(Task)
   nameWithType: TaskExtensions.FireAndForget(Task)
 - uid: Epos.Utilities.TaskExtensions.FireAndForget*
   name: FireAndForget
@@ -1611,22 +1611,22 @@ references:
   commentId: Overload:Epos.Utilities.TypeExtensions.GetAttribute
   fullName: Epos.Utilities.TypeExtensions.GetAttribute
   nameWithType: TypeExtensions.GetAttribute
-- uid: Epos.Utilities.TypeExtensions.GetAttribute``1(System.Type)
+- uid: Epos.Utilities.TypeExtensions.GetAttribute``1(Type)
   name: GetAttribute<TAttribute>(Type)
-  href: Api/Epos.Utilities.TypeExtensions.html#Epos_Utilities_TypeExtensions_GetAttribute__1_System_Type_
-  commentId: M:Epos.Utilities.TypeExtensions.GetAttribute``1(System.Type)
+  href: Api/Epos.Utilities.TypeExtensions.html#Epos_Utilities_TypeExtensions_GetAttribute__1_Type_
+  commentId: M:Epos.Utilities.TypeExtensions.GetAttribute``1(Type)
   name.vb: GetAttribute(Of TAttribute)(Type)
-  fullName: Epos.Utilities.TypeExtensions.GetAttribute<TAttribute>(System.Type)
-  fullName.vb: Epos.Utilities.TypeExtensions.GetAttribute(Of TAttribute)(System.Type)
+  fullName: Epos.Utilities.TypeExtensions.GetAttribute<TAttribute>(Type)
+  fullName.vb: Epos.Utilities.TypeExtensions.GetAttribute(Of TAttribute)(Type)
   nameWithType: TypeExtensions.GetAttribute<TAttribute>(Type)
   nameWithType.vb: TypeExtensions.GetAttribute(Of TAttribute)(Type)
-- uid: Epos.Utilities.TypeExtensions.GetGenericMethod(System.Type,System.String,System.Reflection.BindingFlags,System.Type[],System.Type[])
+- uid: Epos.Utilities.TypeExtensions.GetGenericMethod(Type,System.String,BindingFlags,Type[],Type[])
   name: GetGenericMethod(Type, String, BindingFlags, Type[], Type[])
-  href: Api/Epos.Utilities.TypeExtensions.html#Epos_Utilities_TypeExtensions_GetGenericMethod_System_Type_System_String_System_Reflection_BindingFlags_System_Type___System_Type___
-  commentId: M:Epos.Utilities.TypeExtensions.GetGenericMethod(System.Type,System.String,System.Reflection.BindingFlags,System.Type[],System.Type[])
+  href: Api/Epos.Utilities.TypeExtensions.html#Epos_Utilities_TypeExtensions_GetGenericMethod_Type_System_String_BindingFlags_Type___Type___
+  commentId: M:Epos.Utilities.TypeExtensions.GetGenericMethod(Type,System.String,BindingFlags,Type[],Type[])
   name.vb: GetGenericMethod(Type, String, BindingFlags, Type(), Type())
-  fullName: Epos.Utilities.TypeExtensions.GetGenericMethod(System.Type, System.String, System.Reflection.BindingFlags, System.Type[], System.Type[])
-  fullName.vb: Epos.Utilities.TypeExtensions.GetGenericMethod(System.Type, System.String, System.Reflection.BindingFlags, System.Type(), System.Type())
+  fullName: Epos.Utilities.TypeExtensions.GetGenericMethod(Type, System.String, BindingFlags, Type[], Type[])
+  fullName.vb: Epos.Utilities.TypeExtensions.GetGenericMethod(Type, System.String, BindingFlags, Type(), Type())
   nameWithType: TypeExtensions.GetGenericMethod(Type, String, BindingFlags, Type[], Type[])
   nameWithType.vb: TypeExtensions.GetGenericMethod(Type, String, BindingFlags, Type(), Type())
 - uid: Epos.Utilities.TypeExtensions.GetGenericMethod*
@@ -1641,13 +1641,13 @@ references:
   commentId: Overload:Epos.Utilities.TypeExtensions.HasAttribute
   fullName: Epos.Utilities.TypeExtensions.HasAttribute
   nameWithType: TypeExtensions.HasAttribute
-- uid: Epos.Utilities.TypeExtensions.HasAttribute``1(System.Type)
+- uid: Epos.Utilities.TypeExtensions.HasAttribute``1(Type)
   name: HasAttribute<TAttribute>(Type)
-  href: Api/Epos.Utilities.TypeExtensions.html#Epos_Utilities_TypeExtensions_HasAttribute__1_System_Type_
-  commentId: M:Epos.Utilities.TypeExtensions.HasAttribute``1(System.Type)
+  href: Api/Epos.Utilities.TypeExtensions.html#Epos_Utilities_TypeExtensions_HasAttribute__1_Type_
+  commentId: M:Epos.Utilities.TypeExtensions.HasAttribute``1(Type)
   name.vb: HasAttribute(Of TAttribute)(Type)
-  fullName: Epos.Utilities.TypeExtensions.HasAttribute<TAttribute>(System.Type)
-  fullName.vb: Epos.Utilities.TypeExtensions.HasAttribute(Of TAttribute)(System.Type)
+  fullName: Epos.Utilities.TypeExtensions.HasAttribute<TAttribute>(Type)
+  fullName.vb: Epos.Utilities.TypeExtensions.HasAttribute(Of TAttribute)(Type)
   nameWithType: TypeExtensions.HasAttribute<TAttribute>(Type)
   nameWithType.vb: TypeExtensions.HasAttribute(Of TAttribute)(Type)
 - uid: Epos.Utilities.UnaryOperation`1
@@ -1887,13 +1887,13 @@ references:
   commentId: T:Epos.Utilities.Web.PolicyProvider
   fullName: Epos.Utilities.Web.PolicyProvider
   nameWithType: PolicyProvider
-- uid: Epos.Utilities.Web.PolicyProvider.#ctor(Microsoft.Extensions.Logging.ILogger{Epos.Utilities.Web.PolicyProvider})
+- uid: Epos.Utilities.Web.PolicyProvider.#ctor(ILogger{Epos.Utilities.Web.PolicyProvider})
   name: PolicyProvider(ILogger<PolicyProvider>)
-  href: Api/Epos.Utilities.Web.PolicyProvider.html#Epos_Utilities_Web_PolicyProvider__ctor_Microsoft_Extensions_Logging_ILogger_Epos_Utilities_Web_PolicyProvider__
-  commentId: M:Epos.Utilities.Web.PolicyProvider.#ctor(Microsoft.Extensions.Logging.ILogger{Epos.Utilities.Web.PolicyProvider})
+  href: Api/Epos.Utilities.Web.PolicyProvider.html#Epos_Utilities_Web_PolicyProvider__ctor_ILogger_Epos_Utilities_Web_PolicyProvider__
+  commentId: M:Epos.Utilities.Web.PolicyProvider.#ctor(ILogger{Epos.Utilities.Web.PolicyProvider})
   name.vb: PolicyProvider(ILogger(Of PolicyProvider))
-  fullName: Epos.Utilities.Web.PolicyProvider.PolicyProvider(Microsoft.Extensions.Logging.ILogger<Epos.Utilities.Web.PolicyProvider>)
-  fullName.vb: Epos.Utilities.Web.PolicyProvider.PolicyProvider(Microsoft.Extensions.Logging.ILogger(Of Epos.Utilities.Web.PolicyProvider))
+  fullName: Epos.Utilities.Web.PolicyProvider.PolicyProvider(ILogger<Epos.Utilities.Web.PolicyProvider>)
+  fullName.vb: Epos.Utilities.Web.PolicyProvider.PolicyProvider(ILogger(Of Epos.Utilities.Web.PolicyProvider))
   nameWithType: PolicyProvider.PolicyProvider(ILogger<PolicyProvider>)
   nameWithType.vb: PolicyProvider.PolicyProvider(ILogger(Of PolicyProvider))
 - uid: Epos.Utilities.Web.PolicyProvider.#ctor*
@@ -2019,3 +2019,27 @@ references:
   commentId: Overload:Epos.Utilities.Web.ResilientJsonRestClient.RootUri
   fullName: Epos.Utilities.Web.ResilientJsonRestClient.RootUri
   nameWithType: ResilientJsonRestClient.RootUri
+- uid: Microsoft.Extensions.Configuration
+  name: Microsoft.Extensions.Configuration
+  href: Api/Microsoft.Extensions.Configuration.html
+  commentId: N:Microsoft.Extensions.Configuration
+  fullName: Microsoft.Extensions.Configuration
+  nameWithType: Microsoft.Extensions.Configuration
+- uid: Microsoft.Extensions.Configuration.WebHostBuilderExtensions
+  name: WebHostBuilderExtensions
+  href: Api/Microsoft.Extensions.Configuration.WebHostBuilderExtensions.html
+  commentId: T:Microsoft.Extensions.Configuration.WebHostBuilderExtensions
+  fullName: Microsoft.Extensions.Configuration.WebHostBuilderExtensions
+  nameWithType: WebHostBuilderExtensions
+- uid: Microsoft.Extensions.Configuration.WebHostBuilderExtensions.ConfigureGelfLogging(IWebHostBuilder,WebHostBuilderContext,ILoggingBuilder)
+  name: ConfigureGelfLogging(IWebHostBuilder, WebHostBuilderContext, ILoggingBuilder)
+  href: Api/Microsoft.Extensions.Configuration.WebHostBuilderExtensions.html#Microsoft_Extensions_Configuration_WebHostBuilderExtensions_ConfigureGelfLogging_IWebHostBuilder_WebHostBuilderContext_ILoggingBuilder_
+  commentId: M:Microsoft.Extensions.Configuration.WebHostBuilderExtensions.ConfigureGelfLogging(IWebHostBuilder,WebHostBuilderContext,ILoggingBuilder)
+  fullName: Microsoft.Extensions.Configuration.WebHostBuilderExtensions.ConfigureGelfLogging(IWebHostBuilder, WebHostBuilderContext, ILoggingBuilder)
+  nameWithType: WebHostBuilderExtensions.ConfigureGelfLogging(IWebHostBuilder, WebHostBuilderContext, ILoggingBuilder)
+- uid: Microsoft.Extensions.Configuration.WebHostBuilderExtensions.ConfigureGelfLogging*
+  name: ConfigureGelfLogging
+  href: Api/Microsoft.Extensions.Configuration.WebHostBuilderExtensions.html#Microsoft_Extensions_Configuration_WebHostBuilderExtensions_ConfigureGelfLogging_
+  commentId: Overload:Microsoft.Extensions.Configuration.WebHostBuilderExtensions.ConfigureGelfLogging
+  fullName: Microsoft.Extensions.Configuration.WebHostBuilderExtensions.ConfigureGelfLogging
+  nameWithType: WebHostBuilderExtensions.ConfigureGelfLogging

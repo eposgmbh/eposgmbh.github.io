@@ -78,34 +78,10 @@ for an example.</p>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">CmdLineDefinition</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Epos.CmdLine.html">Epos.CmdLine</a></h6>
   <h5 id="Epos_CmdLine_CmdLineDefinition_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class CmdLineDefinition</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class CmdLineDefinition : object</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -252,7 +228,7 @@ subcommands.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="Epos.CmdLine.CmdLineSubcommand.html">CmdLineSubcommand</a>&gt;</td>
+        <td><span class="xref">IList</span>&lt;<a class="xref" href="Epos.CmdLine.CmdLineSubcommand.html">CmdLineSubcommand</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
