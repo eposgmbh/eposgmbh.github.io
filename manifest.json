@@ -609,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Microsoft.Extensions.Configuration.WebHostBuilderExtensions.html",
-          "hash": "8VkFH3H3RhVx2z3XZosHmQ=="
+          "hash": "QvAcifQPk0VUFKXfqXIXMw=="
         }
       },
       "is_incremental": false,
@@ -672,6 +672,10 @@
         "incrementalPhase": "build"
       },
       "processors": {
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build"
@@ -679,10 +683,6 @@
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
           "incrementalPhase": "build"
         }
       }

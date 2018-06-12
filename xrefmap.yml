@@ -2031,12 +2031,12 @@ references:
   commentId: T:Microsoft.Extensions.Configuration.WebHostBuilderExtensions
   fullName: Microsoft.Extensions.Configuration.WebHostBuilderExtensions
   nameWithType: WebHostBuilderExtensions
-- uid: Microsoft.Extensions.Configuration.WebHostBuilderExtensions.ConfigureGelfLogging(IWebHostBuilder,WebHostBuilderContext,ILoggingBuilder)
-  name: ConfigureGelfLogging(IWebHostBuilder, WebHostBuilderContext, ILoggingBuilder)
-  href: Api/Microsoft.Extensions.Configuration.WebHostBuilderExtensions.html#Microsoft_Extensions_Configuration_WebHostBuilderExtensions_ConfigureGelfLogging_IWebHostBuilder_WebHostBuilderContext_ILoggingBuilder_
-  commentId: M:Microsoft.Extensions.Configuration.WebHostBuilderExtensions.ConfigureGelfLogging(IWebHostBuilder,WebHostBuilderContext,ILoggingBuilder)
-  fullName: Microsoft.Extensions.Configuration.WebHostBuilderExtensions.ConfigureGelfLogging(IWebHostBuilder, WebHostBuilderContext, ILoggingBuilder)
-  nameWithType: WebHostBuilderExtensions.ConfigureGelfLogging(IWebHostBuilder, WebHostBuilderContext, ILoggingBuilder)
+- uid: Microsoft.Extensions.Configuration.WebHostBuilderExtensions.ConfigureGelfLogging(IWebHostBuilder,System.String)
+  name: ConfigureGelfLogging(IWebHostBuilder, String)
+  href: Api/Microsoft.Extensions.Configuration.WebHostBuilderExtensions.html#Microsoft_Extensions_Configuration_WebHostBuilderExtensions_ConfigureGelfLogging_IWebHostBuilder_System_String_
+  commentId: M:Microsoft.Extensions.Configuration.WebHostBuilderExtensions.ConfigureGelfLogging(IWebHostBuilder,System.String)
+  fullName: Microsoft.Extensions.Configuration.WebHostBuilderExtensions.ConfigureGelfLogging(IWebHostBuilder, System.String)
+  nameWithType: WebHostBuilderExtensions.ConfigureGelfLogging(IWebHostBuilder, String)
 - uid: Microsoft.Extensions.Configuration.WebHostBuilderExtensions.ConfigureGelfLogging*
   name: ConfigureGelfLogging
   href: Api/Microsoft.Extensions.Configuration.WebHostBuilderExtensions.html#Microsoft_Extensions_Configuration_WebHostBuilderExtensions_ConfigureGelfLogging_
