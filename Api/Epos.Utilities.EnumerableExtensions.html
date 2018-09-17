@@ -70,7 +70,7 @@
   <h1 id="Epos_Utilities_EnumerableExtensions" data-uid="Epos.Utilities.EnumerableExtensions" class="text-break">Class EnumerableExtensions
   </h1>
   <div class="markdown level0 summary"><p>Collection of extension methods for the
-<see cref="!:System.Collections.Generic.IEnumerable&lt;T>"></see> type.</p>
+<span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> type.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -78,22 +78,46 @@
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">EnumerableExtensions</span></div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Epos.Utilities.html">Epos.Utilities</a></h6>
   <h5 id="Epos_Utilities_EnumerableExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class EnumerableExtensions : object</code></pre>
+    <pre><code class="lang-csharp hljs">public static class EnumerableExtensions</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_Utilities_EnumerableExtensions_FlattenRecursiveHierarchy__1_IEnumerable___0__Func___0_IEnumerable___0___.md&amp;value=---%0Auid%3A%20Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy%60%601(IEnumerable%7B%60%600%7D%2CFunc%7B%60%600%2CIEnumerable%7B%60%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_Utilities_EnumerableExtensions_FlattenRecursiveHierarchy__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Collections_Generic_IEnumerable___0___.md&amp;value=---%0Auid%3A%20Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy%60%601(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Func%7B%60%600%2CSystem.Collections.Generic.IEnumerable%7B%60%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/EnumerableExtensions.cs/#L56">View Source</a>
   </span>
   <a id="Epos_Utilities_EnumerableExtensions_FlattenRecursiveHierarchy_" data-uid="Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy*"></a>
-  <h4 id="Epos_Utilities_EnumerableExtensions_FlattenRecursiveHierarchy__1_IEnumerable___0__Func___0_IEnumerable___0___" data-uid="Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy``1(IEnumerable{``0},Func{``0,IEnumerable{``0}})">FlattenRecursiveHierarchy&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, IEnumerable&lt;T&gt;&gt;)</h4>
+  <h4 id="Epos_Utilities_EnumerableExtensions_FlattenRecursiveHierarchy__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Collections_Generic_IEnumerable___0___" data-uid="Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``0}})">FlattenRecursiveHierarchy&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, IEnumerable&lt;T&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Flattens a recursive hierarchy of the specified <code data-dev-comment-type="paramref" class="paramref">source</code>.
 The <code data-dev-comment-type="paramref" class="paramref">recurseFunc</code> is used to access the children of the current
 element.</p>
@@ -114,13 +138,13 @@ element.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;T&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
         <td><span class="parametername">source</span></td>
         <td><p>Sequence</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Func</span>&lt;T, <span class="xref">IEnumerable</span>&lt;T&gt;&gt;</td>
+        <td><span class="xref">System.Func</span>&lt;T, <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;&gt;</td>
         <td><span class="parametername">recurseFunc</span></td>
         <td><p>Used to access the children of the current element</p>
 </td>
@@ -137,7 +161,7 @@ element.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;T&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
         <td><p>Flattened sequence</p>
 </td>
       </tr>
@@ -159,7 +183,7 @@ element.</p>
       </tr>
     </tbody>
   </table>
-  <h5 id="Epos_Utilities_EnumerableExtensions_FlattenRecursiveHierarchy__1_IEnumerable___0__Func___0_IEnumerable___0____examples">Examples</h5>
+  <h5 id="Epos_Utilities_EnumerableExtensions_FlattenRecursiveHierarchy__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Collections_Generic_IEnumerable___0____examples">Examples</h5>
   <pre><code>     var theRoot = new Child(&quot;Father&quot;) {
          Children = {
              new Child(&quot;Son&quot;) {
@@ -174,15 +198,15 @@ element.</p>
      var theFlattenedSeq = theRoot.ToEnumerable().FlattenRecursiveHierarchy(c => c.Children);</code></pre>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_Utilities_EnumerableExtensions_ForEach__1_IEnumerable___0__Action___0__.md&amp;value=---%0Auid%3A%20Epos.Utilities.EnumerableExtensions.ForEach%60%601(IEnumerable%7B%60%600%7D%2CAction%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_Utilities_EnumerableExtensions_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__.md&amp;value=---%0Auid%3A%20Epos.Utilities.EnumerableExtensions.ForEach%60%601(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Action%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/EnumerableExtensions.cs/#L25">View Source</a>
   </span>
   <a id="Epos_Utilities_EnumerableExtensions_ForEach_" data-uid="Epos.Utilities.EnumerableExtensions.ForEach*"></a>
-  <h4 id="Epos_Utilities_EnumerableExtensions_ForEach__1_IEnumerable___0__Action___0__" data-uid="Epos.Utilities.EnumerableExtensions.ForEach``1(IEnumerable{``0},Action{``0})">ForEach&lt;T&gt;(IEnumerable&lt;T&gt;, Action&lt;T&gt;)</h4>
+  <h4 id="Epos_Utilities_EnumerableExtensions_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__" data-uid="Epos.Utilities.EnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})">ForEach&lt;T&gt;(IEnumerable&lt;T&gt;, Action&lt;T&gt;)</h4>
   <div class="markdown level1 summary"><p>Calls an <code data-dev-comment-type="paramref" class="paramref">action</code> for each element of the
-specified <see cref="!:System.Collections.Generic.IEnumerable&lt;T>"></see>.</p>
+specified <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -200,13 +224,13 @@ specified <see cref="!:System.Collections.Generic.IEnumerable&lt;T>"></see>.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;T&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
         <td><span class="parametername">source</span></td>
         <td><p>Sequence</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Action</span>&lt;T&gt;</td>
+        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
         <td><span class="parametername">action</span></td>
         <td><p>Action</p>
 </td>
@@ -238,7 +262,7 @@ specified <see cref="!:System.Collections.Generic.IEnumerable&lt;T>"></see>.</p>
   </span>
   <a id="Epos_Utilities_EnumerableExtensions_ToEnumerable_" data-uid="Epos.Utilities.EnumerableExtensions.ToEnumerable*"></a>
   <h4 id="Epos_Utilities_EnumerableExtensions_ToEnumerable__1___0_" data-uid="Epos.Utilities.EnumerableExtensions.ToEnumerable``1(``0)">ToEnumerable&lt;T&gt;(T)</h4>
-  <div class="markdown level1 summary"><p>Converts a single value into an <see cref="!:System.Collections.Generic.IEnumerable&lt;T>"></see>
+  <div class="markdown level1 summary"><p>Converts a single value into an <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>
 instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -274,8 +298,8 @@ instance.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;T&gt;</td>
-        <td><p><see cref="!:System.Collections.Generic.IEnumerable&lt;T>"></see> instance</p>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+        <td><p><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> instance</p>
 </td>
       </tr>
     </tbody>

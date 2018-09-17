@@ -77,10 +77,34 @@
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">HighPerfLogger</span></div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Epos.Utilities.html">Epos.Utilities</a></h6>
   <h5 id="Epos_Utilities_HighPerfLogger_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class HighPerfLogger : object</code></pre>
+    <pre><code class="lang-csharp hljs">public static class HighPerfLogger</code></pre>
   </div>
   <h5 id="Epos_Utilities_HighPerfLogger_remarks"><strong>Remarks</strong></h5>
   <div class="markdown level0 remarks"><p>Calls to methods of this class are only compiled, if the compilation
@@ -102,7 +126,8 @@ symbol <strong>LOGGING</strong> is defined. </p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Log(string message)</code></pre>
+    <pre><code class="lang-csharp hljs">[Conditional(&quot;LOGGING&quot;)]
+public static void Log(string message)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -136,12 +161,13 @@ symbol <strong>LOGGING</strong> is defined. This method is thread-safe.</p>
   <a id="Epos_Utilities_HighPerfLogger_LogLine_" data-uid="Epos.Utilities.HighPerfLogger.LogLine*"></a>
   <h4 id="Epos_Utilities_HighPerfLogger_LogLine_System_String_" data-uid="Epos.Utilities.HighPerfLogger.LogLine(System.String)">LogLine(String)</h4>
   <div class="markdown level1 summary"><p>Logs the specified <code data-dev-comment-type="paramref" class="paramref">message</code> and appends
-<see cref="!:System.Environment.NewLine"></see>.</p>
+<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.environment.newline#System_Environment_NewLine">NewLine</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void LogLine(string message)</code></pre>
+    <pre><code class="lang-csharp hljs">[Conditional(&quot;LOGGING&quot;)]
+public static void LogLine(string message)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -167,19 +193,20 @@ symbol <strong>LOGGING</strong> is defined. This method is thread-safe.</p>
 </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_Utilities_HighPerfLogger_SetLogAction_Action_System_String__.md&amp;value=---%0Auid%3A%20Epos.Utilities.HighPerfLogger.SetLogAction(Action%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_Utilities_HighPerfLogger_SetLogAction_System_Action_System_String__.md&amp;value=---%0Auid%3A%20Epos.Utilities.HighPerfLogger.SetLogAction(System.Action%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/HighPerfLogger.cs/#L22">View Source</a>
   </span>
   <a id="Epos_Utilities_HighPerfLogger_SetLogAction_" data-uid="Epos.Utilities.HighPerfLogger.SetLogAction*"></a>
-  <h4 id="Epos_Utilities_HighPerfLogger_SetLogAction_Action_System_String__" data-uid="Epos.Utilities.HighPerfLogger.SetLogAction(Action{System.String})">SetLogAction(Action&lt;String&gt;)</h4>
+  <h4 id="Epos_Utilities_HighPerfLogger_SetLogAction_System_Action_System_String__" data-uid="Epos.Utilities.HighPerfLogger.SetLogAction(System.Action{System.String})">SetLogAction(Action&lt;String&gt;)</h4>
   <div class="markdown level1 summary"><p>Sets the log action on the current thread.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SetLogAction(Action&lt;string&gt; logAction)</code></pre>
+    <pre><code class="lang-csharp hljs">[Conditional(&quot;LOGGING&quot;)]
+public static void SetLogAction(Action&lt;string&gt; logAction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -192,14 +219,14 @@ symbol <strong>LOGGING</strong> is defined. This method is thread-safe.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Action</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
         <td><span class="parametername">logAction</span></td>
-        <td><p>Log action, for example <see cref="!:Console.Write(object)"></see></p>
+        <td><p>Log action, for example <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.write#System_Console_Write_System_Object_">Write(Object)</a></p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 id="Epos_Utilities_HighPerfLogger_SetLogAction_Action_System_String___remarks">Remarks</h5>
+  <h5 id="Epos_Utilities_HighPerfLogger_SetLogAction_System_Action_System_String___remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Calls to this method are only compiled, if the compilation
 symbol <strong>LOGGING</strong> is defined. This method is thread-safe.</p>
 </div>

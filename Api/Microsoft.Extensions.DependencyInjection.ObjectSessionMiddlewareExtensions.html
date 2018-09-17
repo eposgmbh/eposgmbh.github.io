@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class DumpExtensions
+    <title>Class ObjectSessionMiddlewareExtensions
    | Epos.Foundation Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class DumpExtensions
+    <meta name="title" content="Class ObjectSessionMiddlewareExtensions
    | Epos.Foundation Docs ">
     <meta name="generator" content="docfx 2.32.2.0">
     
@@ -64,18 +64,19 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Epos.Utilities.DumpExtensions">
+            <article class="content wrap" id="_content" data-uid="Microsoft.Extensions.DependencyInjection.ObjectSessionMiddlewareExtensions">
   
   
-  <h1 id="Epos_Utilities_DumpExtensions" data-uid="Epos.Utilities.DumpExtensions" class="text-break">Class DumpExtensions
+  <h1 id="Microsoft_Extensions_DependencyInjection_ObjectSessionMiddlewareExtensions" data-uid="Microsoft.Extensions.DependencyInjection.ObjectSessionMiddlewareExtensions" class="text-break">Class ObjectSessionMiddlewareExtensions
   </h1>
-  <div class="markdown level0 summary"><p>Provides utility methods for pretty-printing arbitrary object instances.</p>
+  <div class="markdown level0 summary"><p>Provides extensions methods for the <span class="xref">Epos.Utilities.Web.ObjectSession</span>
+class. </p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">DumpExtensions</span></div>
+    <div class="level1"><span class="xref">ObjectSessionMiddlewareExtensions</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -101,29 +102,28 @@
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Epos.Utilities.html">Epos.Utilities</a></h6>
-  <h5 id="Epos_Utilities_DumpExtensions_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Microsoft.Extensions.DependencyInjection.html">Microsoft.Extensions.DependencyInjection</a></h6>
+  <h5 id="Microsoft_Extensions_DependencyInjection_ObjectSessionMiddlewareExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class DumpExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public static class ObjectSessionMiddlewareExtensions</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_Utilities_DumpExtensions_Dump_System_Object_.md&amp;value=---%0Auid%3A%20Epos.Utilities.DumpExtensions.Dump(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Microsoft_Extensions_DependencyInjection_ObjectSessionMiddlewareExtensions_UseObjectSession_Microsoft_AspNetCore_Builder_IApplicationBuilder_.md&amp;value=---%0Auid%3A%20Microsoft.Extensions.DependencyInjection.ObjectSessionMiddlewareExtensions.UseObjectSession(Microsoft.AspNetCore.Builder.IApplicationBuilder)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/DumpExtensions.cs/#L23">View Source</a>
+    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities.Web/ObjectSession/ObjectSessionMiddlewareExtensions.cs/#L18">View Source</a>
   </span>
-  <a id="Epos_Utilities_DumpExtensions_Dump_" data-uid="Epos.Utilities.DumpExtensions.Dump*"></a>
-  <h4 id="Epos_Utilities_DumpExtensions_Dump_System_Object_" data-uid="Epos.Utilities.DumpExtensions.Dump(System.Object)">Dump(Object)</h4>
-  <div class="markdown level1 summary"><p>Returns a pretty-print string representation of the specified
-<code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
+  <a id="Microsoft_Extensions_DependencyInjection_ObjectSessionMiddlewareExtensions_UseObjectSession_" data-uid="Microsoft.Extensions.DependencyInjection.ObjectSessionMiddlewareExtensions.UseObjectSession*"></a>
+  <h4 id="Microsoft_Extensions_DependencyInjection_ObjectSessionMiddlewareExtensions_UseObjectSession_Microsoft_AspNetCore_Builder_IApplicationBuilder_" data-uid="Microsoft.Extensions.DependencyInjection.ObjectSessionMiddlewareExtensions.UseObjectSession(Microsoft.AspNetCore.Builder.IApplicationBuilder)">UseObjectSession(IApplicationBuilder)</h4>
+  <div class="markdown level1 summary"><p>Adds the <span class="xref">Epos.Utilities.Web.ObjectSession</span> middleware.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string Dump(this object value)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IApplicationBuilder UseObjectSession(this IApplicationBuilder app)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -136,9 +136,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>Value</p>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.builder.iapplicationbuilder">IApplicationBuilder</a></td>
+        <td><span class="parametername">app</span></td>
+        <td><p>Application builder</p>
 </td>
       </tr>
     </tbody>
@@ -153,8 +153,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><p>Pretty-print string representation</p>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.builder.iapplicationbuilder">IApplicationBuilder</a></td>
+        <td><p>Application builder</p>
 </td>
       </tr>
     </tbody>
@@ -167,10 +167,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_Utilities_DumpExtensions.md&amp;value=---%0Auid%3A%20Epos.Utilities.DumpExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Microsoft_Extensions_DependencyInjection_ObjectSessionMiddlewareExtensions.md&amp;value=---%0Auid%3A%20Microsoft.Extensions.DependencyInjection.ObjectSessionMiddlewareExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/DumpExtensions.cs/#L11" class="contribution-link">View Source</a>
+                    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities.Web/ObjectSession/ObjectSessionMiddlewareExtensions.cs/#L12" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
