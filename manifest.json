@@ -149,6 +149,54 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "Api/Epos.TestUtilities.Docker.DockerContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Api/Epos.TestUtilities.Docker.DockerContainer.html",
+          "hash": "ho0jkrDaBeDL65hLWmQLFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Api/Epos.TestUtilities.Docker.DockerContainerException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Api/Epos.TestUtilities.Docker.DockerContainerException.html",
+          "hash": "x8JmWbOGMIbd7oqkD94Aog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Api/Epos.TestUtilities.Docker.DockerContainerOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Api/Epos.TestUtilities.Docker.DockerContainerOptions.html",
+          "hash": "XFq+XglOS6B8th78atI6EQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Api/Epos.TestUtilities.Docker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Api/Epos.TestUtilities.Docker.html",
+          "hash": "dm69zjO9kRI5n9vCpancPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "Api/Epos.Utilities.Arithmetics.yml",
       "output": {
         ".html": {
@@ -681,7 +729,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/toc.html",
-          "hash": "dlqXDbN2hSLyfLf/gdBSOA=="
+          "hash": "q1m4WcdqMKtYq/9bUj6IuQ=="
         }
       },
       "is_incremental": false,
