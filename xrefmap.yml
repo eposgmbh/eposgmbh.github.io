@@ -559,18 +559,18 @@ references:
   commentId: T:Epos.TestUtilities.Docker.DockerContainer
   fullName: Epos.TestUtilities.Docker.DockerContainer
   nameWithType: DockerContainer
-- uid: Epos.TestUtilities.Docker.DockerContainer.ContainerPort
-  name: ContainerPort
-  href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_ContainerPort
-  commentId: P:Epos.TestUtilities.Docker.DockerContainer.ContainerPort
-  fullName: Epos.TestUtilities.Docker.DockerContainer.ContainerPort
-  nameWithType: DockerContainer.ContainerPort
-- uid: Epos.TestUtilities.Docker.DockerContainer.ContainerPort*
-  name: ContainerPort
-  href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_ContainerPort_
-  commentId: Overload:Epos.TestUtilities.Docker.DockerContainer.ContainerPort
-  fullName: Epos.TestUtilities.Docker.DockerContainer.ContainerPort
-  nameWithType: DockerContainer.ContainerPort
+- uid: Epos.TestUtilities.Docker.DockerContainer.Finalize
+  name: Finalize()
+  href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_Finalize
+  commentId: M:Epos.TestUtilities.Docker.DockerContainer.Finalize
+  fullName: Epos.TestUtilities.Docker.DockerContainer.Finalize()
+  nameWithType: DockerContainer.Finalize()
+- uid: Epos.TestUtilities.Docker.DockerContainer.Finalize*
+  name: Finalize
+  href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_Finalize_
+  commentId: Overload:Epos.TestUtilities.Docker.DockerContainer.Finalize
+  fullName: Epos.TestUtilities.Docker.DockerContainer.Finalize
+  nameWithType: DockerContainer.Finalize
 - uid: Epos.TestUtilities.Docker.DockerContainer.ForceRemove
   name: ForceRemove()
   href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_ForceRemove
@@ -583,18 +583,6 @@ references:
   commentId: Overload:Epos.TestUtilities.Docker.DockerContainer.ForceRemove
   fullName: Epos.TestUtilities.Docker.DockerContainer.ForceRemove
   nameWithType: DockerContainer.ForceRemove
-- uid: Epos.TestUtilities.Docker.DockerContainer.HostPort
-  name: HostPort
-  href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_HostPort
-  commentId: P:Epos.TestUtilities.Docker.DockerContainer.HostPort
-  fullName: Epos.TestUtilities.Docker.DockerContainer.HostPort
-  nameWithType: DockerContainer.HostPort
-- uid: Epos.TestUtilities.Docker.DockerContainer.HostPort*
-  name: HostPort
-  href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_HostPort_
-  commentId: Overload:Epos.TestUtilities.Docker.DockerContainer.HostPort
-  fullName: Epos.TestUtilities.Docker.DockerContainer.HostPort
-  nameWithType: DockerContainer.HostPort
 - uid: Epos.TestUtilities.Docker.DockerContainer.Id
   name: Id
   href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_Id
@@ -631,18 +619,30 @@ references:
   commentId: Overload:Epos.TestUtilities.Docker.DockerContainer.Name
   fullName: Epos.TestUtilities.Docker.DockerContainer.Name
   nameWithType: DockerContainer.Name
-- uid: Epos.TestUtilities.Docker.DockerContainer.StartAndWaitForOpenPort(Epos.TestUtilities.Docker.DockerContainerOptions)
-  name: StartAndWaitForOpenPort(DockerContainerOptions)
-  href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_StartAndWaitForOpenPort_Epos_TestUtilities_Docker_DockerContainerOptions_
-  commentId: M:Epos.TestUtilities.Docker.DockerContainer.StartAndWaitForOpenPort(Epos.TestUtilities.Docker.DockerContainerOptions)
-  fullName: Epos.TestUtilities.Docker.DockerContainer.StartAndWaitForOpenPort(Epos.TestUtilities.Docker.DockerContainerOptions)
-  nameWithType: DockerContainer.StartAndWaitForOpenPort(DockerContainerOptions)
-- uid: Epos.TestUtilities.Docker.DockerContainer.StartAndWaitForOpenPort*
-  name: StartAndWaitForOpenPort
-  href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_StartAndWaitForOpenPort_
-  commentId: Overload:Epos.TestUtilities.Docker.DockerContainer.StartAndWaitForOpenPort
-  fullName: Epos.TestUtilities.Docker.DockerContainer.StartAndWaitForOpenPort
-  nameWithType: DockerContainer.StartAndWaitForOpenPort
+- uid: Epos.TestUtilities.Docker.DockerContainer.Ports
+  name: Ports
+  href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_Ports
+  commentId: P:Epos.TestUtilities.Docker.DockerContainer.Ports
+  fullName: Epos.TestUtilities.Docker.DockerContainer.Ports
+  nameWithType: DockerContainer.Ports
+- uid: Epos.TestUtilities.Docker.DockerContainer.Ports*
+  name: Ports
+  href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_Ports_
+  commentId: Overload:Epos.TestUtilities.Docker.DockerContainer.Ports
+  fullName: Epos.TestUtilities.Docker.DockerContainer.Ports
+  nameWithType: DockerContainer.Ports
+- uid: Epos.TestUtilities.Docker.DockerContainer.StartAndWaitForReadynessLogPhrase(Epos.TestUtilities.Docker.DockerContainerOptions)
+  name: StartAndWaitForReadynessLogPhrase(DockerContainerOptions)
+  href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_StartAndWaitForReadynessLogPhrase_Epos_TestUtilities_Docker_DockerContainerOptions_
+  commentId: M:Epos.TestUtilities.Docker.DockerContainer.StartAndWaitForReadynessLogPhrase(Epos.TestUtilities.Docker.DockerContainerOptions)
+  fullName: Epos.TestUtilities.Docker.DockerContainer.StartAndWaitForReadynessLogPhrase(Epos.TestUtilities.Docker.DockerContainerOptions)
+  nameWithType: DockerContainer.StartAndWaitForReadynessLogPhrase(DockerContainerOptions)
+- uid: Epos.TestUtilities.Docker.DockerContainer.StartAndWaitForReadynessLogPhrase*
+  name: StartAndWaitForReadynessLogPhrase
+  href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_StartAndWaitForReadynessLogPhrase_
+  commentId: Overload:Epos.TestUtilities.Docker.DockerContainer.StartAndWaitForReadynessLogPhrase
+  fullName: Epos.TestUtilities.Docker.DockerContainer.StartAndWaitForReadynessLogPhrase
+  nameWithType: DockerContainer.StartAndWaitForReadynessLogPhrase
 - uid: Epos.TestUtilities.Docker.DockerContainer.StartOptions
   name: StartOptions
   href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_StartOptions
@@ -667,6 +667,22 @@ references:
   commentId: Overload:Epos.TestUtilities.Docker.DockerContainer.Status
   fullName: Epos.TestUtilities.Docker.DockerContainer.Status
   nameWithType: DockerContainer.Status
+- uid: Epos.TestUtilities.Docker.DockerContainer.System#IDisposable#Dispose
+  name: IDisposable.Dispose()
+  href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_System_IDisposable_Dispose
+  commentId: M:Epos.TestUtilities.Docker.DockerContainer.System#IDisposable#Dispose
+  name.vb: System.IDisposable.Dispose()
+  fullName: Epos.TestUtilities.Docker.DockerContainer.System.IDisposable.Dispose()
+  nameWithType: DockerContainer.IDisposable.Dispose()
+  nameWithType.vb: DockerContainer.System.IDisposable.Dispose()
+- uid: Epos.TestUtilities.Docker.DockerContainer.System#IDisposable#Dispose*
+  name: IDisposable.Dispose
+  href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_System_IDisposable_Dispose_
+  commentId: Overload:Epos.TestUtilities.Docker.DockerContainer.System#IDisposable#Dispose
+  name.vb: System.IDisposable.Dispose
+  fullName: Epos.TestUtilities.Docker.DockerContainer.System.IDisposable.Dispose
+  nameWithType: DockerContainer.IDisposable.Dispose
+  nameWithType.vb: DockerContainer.System.IDisposable.Dispose
 - uid: Epos.TestUtilities.Docker.DockerContainerException
   name: DockerContainerException
   href: Api/Epos.TestUtilities.Docker.DockerContainerException.html
@@ -697,18 +713,6 @@ references:
   commentId: T:Epos.TestUtilities.Docker.DockerContainerOptions
   fullName: Epos.TestUtilities.Docker.DockerContainerOptions
   nameWithType: DockerContainerOptions
-- uid: Epos.TestUtilities.Docker.DockerContainerOptions.ContainerPort
-  name: ContainerPort
-  href: Api/Epos.TestUtilities.Docker.DockerContainerOptions.html#Epos_TestUtilities_Docker_DockerContainerOptions_ContainerPort
-  commentId: P:Epos.TestUtilities.Docker.DockerContainerOptions.ContainerPort
-  fullName: Epos.TestUtilities.Docker.DockerContainerOptions.ContainerPort
-  nameWithType: DockerContainerOptions.ContainerPort
-- uid: Epos.TestUtilities.Docker.DockerContainerOptions.ContainerPort*
-  name: ContainerPort
-  href: Api/Epos.TestUtilities.Docker.DockerContainerOptions.html#Epos_TestUtilities_Docker_DockerContainerOptions_ContainerPort_
-  commentId: Overload:Epos.TestUtilities.Docker.DockerContainerOptions.ContainerPort
-  fullName: Epos.TestUtilities.Docker.DockerContainerOptions.ContainerPort
-  nameWithType: DockerContainerOptions.ContainerPort
 - uid: Epos.TestUtilities.Docker.DockerContainerOptions.EnvironmentVariables
   name: EnvironmentVariables
   href: Api/Epos.TestUtilities.Docker.DockerContainerOptions.html#Epos_TestUtilities_Docker_DockerContainerOptions_EnvironmentVariables
@@ -721,18 +725,18 @@ references:
   commentId: Overload:Epos.TestUtilities.Docker.DockerContainerOptions.EnvironmentVariables
   fullName: Epos.TestUtilities.Docker.DockerContainerOptions.EnvironmentVariables
   nameWithType: DockerContainerOptions.EnvironmentVariables
-- uid: Epos.TestUtilities.Docker.DockerContainerOptions.HostPort
-  name: HostPort
-  href: Api/Epos.TestUtilities.Docker.DockerContainerOptions.html#Epos_TestUtilities_Docker_DockerContainerOptions_HostPort
-  commentId: P:Epos.TestUtilities.Docker.DockerContainerOptions.HostPort
-  fullName: Epos.TestUtilities.Docker.DockerContainerOptions.HostPort
-  nameWithType: DockerContainerOptions.HostPort
-- uid: Epos.TestUtilities.Docker.DockerContainerOptions.HostPort*
-  name: HostPort
-  href: Api/Epos.TestUtilities.Docker.DockerContainerOptions.html#Epos_TestUtilities_Docker_DockerContainerOptions_HostPort_
-  commentId: Overload:Epos.TestUtilities.Docker.DockerContainerOptions.HostPort
-  fullName: Epos.TestUtilities.Docker.DockerContainerOptions.HostPort
-  nameWithType: DockerContainerOptions.HostPort
+- uid: Epos.TestUtilities.Docker.DockerContainerOptions.Hostname
+  name: Hostname
+  href: Api/Epos.TestUtilities.Docker.DockerContainerOptions.html#Epos_TestUtilities_Docker_DockerContainerOptions_Hostname
+  commentId: P:Epos.TestUtilities.Docker.DockerContainerOptions.Hostname
+  fullName: Epos.TestUtilities.Docker.DockerContainerOptions.Hostname
+  nameWithType: DockerContainerOptions.Hostname
+- uid: Epos.TestUtilities.Docker.DockerContainerOptions.Hostname*
+  name: Hostname
+  href: Api/Epos.TestUtilities.Docker.DockerContainerOptions.html#Epos_TestUtilities_Docker_DockerContainerOptions_Hostname_
+  commentId: Overload:Epos.TestUtilities.Docker.DockerContainerOptions.Hostname
+  fullName: Epos.TestUtilities.Docker.DockerContainerOptions.Hostname
+  nameWithType: DockerContainerOptions.Hostname
 - uid: Epos.TestUtilities.Docker.DockerContainerOptions.ImageName
   name: ImageName
   href: Api/Epos.TestUtilities.Docker.DockerContainerOptions.html#Epos_TestUtilities_Docker_DockerContainerOptions_ImageName
@@ -745,6 +749,18 @@ references:
   commentId: Overload:Epos.TestUtilities.Docker.DockerContainerOptions.ImageName
   fullName: Epos.TestUtilities.Docker.DockerContainerOptions.ImageName
   nameWithType: DockerContainerOptions.ImageName
+- uid: Epos.TestUtilities.Docker.DockerContainerOptions.Ports
+  name: Ports
+  href: Api/Epos.TestUtilities.Docker.DockerContainerOptions.html#Epos_TestUtilities_Docker_DockerContainerOptions_Ports
+  commentId: P:Epos.TestUtilities.Docker.DockerContainerOptions.Ports
+  fullName: Epos.TestUtilities.Docker.DockerContainerOptions.Ports
+  nameWithType: DockerContainerOptions.Ports
+- uid: Epos.TestUtilities.Docker.DockerContainerOptions.Ports*
+  name: Ports
+  href: Api/Epos.TestUtilities.Docker.DockerContainerOptions.html#Epos_TestUtilities_Docker_DockerContainerOptions_Ports_
+  commentId: Overload:Epos.TestUtilities.Docker.DockerContainerOptions.Ports
+  fullName: Epos.TestUtilities.Docker.DockerContainerOptions.Ports
+  nameWithType: DockerContainerOptions.Ports
 - uid: Epos.TestUtilities.Docker.DockerContainerOptions.ReadynessLogPhrase
   name: ReadynessLogPhrase
   href: Api/Epos.TestUtilities.Docker.DockerContainerOptions.html#Epos_TestUtilities_Docker_DockerContainerOptions_ReadynessLogPhrase

@@ -77,6 +77,10 @@
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">DockerContainer</span></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -104,78 +108,16 @@
   <h6><strong>Namespace</strong>: <a class="xref" href="Epos.TestUtilities.Docker.html">Epos.TestUtilities.Docker</a></h6>
   <h5 id="Epos_TestUtilities_Docker_DockerContainer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class DockerContainer</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class DockerContainer : IDisposable</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_TestUtilities_Docker_DockerContainer_ContainerPort.md&amp;value=---%0Auid%3A%20Epos.TestUtilities.Docker.DockerContainer.ContainerPort%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.TestUtilities/Docker/DockerContainer.cs/#L68">View Source</a>
-  </span>
-  <a id="Epos_TestUtilities_Docker_DockerContainer_ContainerPort_" data-uid="Epos.TestUtilities.Docker.DockerContainer.ContainerPort*"></a>
-  <h4 id="Epos_TestUtilities_Docker_DockerContainer_ContainerPort" data-uid="Epos.TestUtilities.Docker.DockerContainer.ContainerPort">ContainerPort</h4>
-  <div class="markdown level1 summary"><p>Gets the container port. </p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int ContainerPort { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_TestUtilities_Docker_DockerContainer_HostPort.md&amp;value=---%0Auid%3A%20Epos.TestUtilities.Docker.DockerContainer.HostPort%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.TestUtilities/Docker/DockerContainer.cs/#L65">View Source</a>
-  </span>
-  <a id="Epos_TestUtilities_Docker_DockerContainer_HostPort_" data-uid="Epos.TestUtilities.Docker.DockerContainer.HostPort*"></a>
-  <h4 id="Epos_TestUtilities_Docker_DockerContainer_HostPort" data-uid="Epos.TestUtilities.Docker.DockerContainer.HostPort">HostPort</h4>
-  <div class="markdown level1 summary"><p>Gets the host port. </p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int HostPort { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_TestUtilities_Docker_DockerContainer_Id.md&amp;value=---%0Auid%3A%20Epos.TestUtilities.Docker.DockerContainer.Id%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.TestUtilities/Docker/DockerContainer.cs/#L53">View Source</a>
+    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.TestUtilities/Docker/DockerContainer.cs/#L60">View Source</a>
   </span>
   <a id="Epos_TestUtilities_Docker_DockerContainer_Id_" data-uid="Epos.TestUtilities.Docker.DockerContainer.Id*"></a>
   <h4 id="Epos_TestUtilities_Docker_DockerContainer_Id" data-uid="Epos.TestUtilities.Docker.DockerContainer.Id">Id</h4>
@@ -206,7 +148,7 @@
     <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_TestUtilities_Docker_DockerContainer_ImageName.md&amp;value=---%0Auid%3A%20Epos.TestUtilities.Docker.DockerContainer.ImageName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.TestUtilities/Docker/DockerContainer.cs/#L62">View Source</a>
+    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.TestUtilities/Docker/DockerContainer.cs/#L69">View Source</a>
   </span>
   <a id="Epos_TestUtilities_Docker_DockerContainer_ImageName_" data-uid="Epos.TestUtilities.Docker.DockerContainer.ImageName*"></a>
   <h4 id="Epos_TestUtilities_Docker_DockerContainer_ImageName" data-uid="Epos.TestUtilities.Docker.DockerContainer.ImageName">ImageName</h4>
@@ -237,7 +179,7 @@
     <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_TestUtilities_Docker_DockerContainer_Name.md&amp;value=---%0Auid%3A%20Epos.TestUtilities.Docker.DockerContainer.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.TestUtilities/Docker/DockerContainer.cs/#L56">View Source</a>
+    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.TestUtilities/Docker/DockerContainer.cs/#L63">View Source</a>
   </span>
   <a id="Epos_TestUtilities_Docker_DockerContainer_Name_" data-uid="Epos.TestUtilities.Docker.DockerContainer.Name*"></a>
   <h4 id="Epos_TestUtilities_Docker_DockerContainer_Name" data-uid="Epos.TestUtilities.Docker.DockerContainer.Name">Name</h4>
@@ -265,10 +207,41 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_TestUtilities_Docker_DockerContainer_Ports.md&amp;value=---%0Auid%3A%20Epos.TestUtilities.Docker.DockerContainer.Ports%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.TestUtilities/Docker/DockerContainer.cs/#L72">View Source</a>
+  </span>
+  <a id="Epos_TestUtilities_Docker_DockerContainer_Ports_" data-uid="Epos.TestUtilities.Docker.DockerContainer.Ports*"></a>
+  <h4 id="Epos_TestUtilities_Docker_DockerContainer_Ports" data-uid="Epos.TestUtilities.Docker.DockerContainer.Ports">Ports</h4>
+  <div class="markdown level1 summary"><p>Gets the port list. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;&gt; Ports { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_TestUtilities_Docker_DockerContainer_StartOptions.md&amp;value=---%0Auid%3A%20Epos.TestUtilities.Docker.DockerContainer.StartOptions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.TestUtilities/Docker/DockerContainer.cs/#L50">View Source</a>
+    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.TestUtilities/Docker/DockerContainer.cs/#L57">View Source</a>
   </span>
   <a id="Epos_TestUtilities_Docker_DockerContainer_StartOptions_" data-uid="Epos.TestUtilities.Docker.DockerContainer.StartOptions*"></a>
   <h4 id="Epos_TestUtilities_Docker_DockerContainer_StartOptions" data-uid="Epos.TestUtilities.Docker.DockerContainer.StartOptions">StartOptions</h4>
@@ -299,7 +272,7 @@
     <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_TestUtilities_Docker_DockerContainer_Status.md&amp;value=---%0Auid%3A%20Epos.TestUtilities.Docker.DockerContainer.Status%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.TestUtilities/Docker/DockerContainer.cs/#L59">View Source</a>
+    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.TestUtilities/Docker/DockerContainer.cs/#L66">View Source</a>
   </span>
   <a id="Epos_TestUtilities_Docker_DockerContainer_Status_" data-uid="Epos.TestUtilities.Docker.DockerContainer.Status*"></a>
   <h4 id="Epos_TestUtilities_Docker_DockerContainer_Status" data-uid="Epos.TestUtilities.Docker.DockerContainer.Status">Status</h4>
@@ -329,10 +302,26 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_TestUtilities_Docker_DockerContainer_Finalize.md&amp;value=---%0Auid%3A%20Epos.TestUtilities.Docker.DockerContainer.Finalize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.TestUtilities/Docker/DockerContainer.cs/#L54">View Source</a>
+  </span>
+  <a id="Epos_TestUtilities_Docker_DockerContainer_Finalize_" data-uid="Epos.TestUtilities.Docker.DockerContainer.Finalize*"></a>
+  <h4 id="Epos_TestUtilities_Docker_DockerContainer_Finalize" data-uid="Epos.TestUtilities.Docker.DockerContainer.Finalize">Finalize()</h4>
+  <div class="markdown level1 summary"><p>Destroys (force removes) the container. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_TestUtilities_Docker_DockerContainer_ForceRemove.md&amp;value=---%0Auid%3A%20Epos.TestUtilities.Docker.DockerContainer.ForceRemove%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.TestUtilities/Docker/DockerContainer.cs/#L71">View Source</a>
+    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.TestUtilities/Docker/DockerContainer.cs/#L75">View Source</a>
   </span>
   <a id="Epos_TestUtilities_Docker_DockerContainer_ForceRemove_" data-uid="Epos.TestUtilities.Docker.DockerContainer.ForceRemove*"></a>
   <h4 id="Epos_TestUtilities_Docker_DockerContainer_ForceRemove" data-uid="Epos.TestUtilities.Docker.DockerContainer.ForceRemove">ForceRemove()</h4>
@@ -345,19 +334,19 @@
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_TestUtilities_Docker_DockerContainer_StartAndWaitForOpenPort_Epos_TestUtilities_Docker_DockerContainerOptions_.md&amp;value=---%0Auid%3A%20Epos.TestUtilities.Docker.DockerContainer.StartAndWaitForOpenPort(Epos.TestUtilities.Docker.DockerContainerOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_TestUtilities_Docker_DockerContainer_StartAndWaitForReadynessLogPhrase_Epos_TestUtilities_Docker_DockerContainerOptions_.md&amp;value=---%0Auid%3A%20Epos.TestUtilities.Docker.DockerContainer.StartAndWaitForReadynessLogPhrase(Epos.TestUtilities.Docker.DockerContainerOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.TestUtilities/Docker/DockerContainer.cs/#L13">View Source</a>
+    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.TestUtilities/Docker/DockerContainer.cs/#L14">View Source</a>
   </span>
-  <a id="Epos_TestUtilities_Docker_DockerContainer_StartAndWaitForOpenPort_" data-uid="Epos.TestUtilities.Docker.DockerContainer.StartAndWaitForOpenPort*"></a>
-  <h4 id="Epos_TestUtilities_Docker_DockerContainer_StartAndWaitForOpenPort_Epos_TestUtilities_Docker_DockerContainerOptions_" data-uid="Epos.TestUtilities.Docker.DockerContainer.StartAndWaitForOpenPort(Epos.TestUtilities.Docker.DockerContainerOptions)">StartAndWaitForOpenPort(DockerContainerOptions)</h4>
+  <a id="Epos_TestUtilities_Docker_DockerContainer_StartAndWaitForReadynessLogPhrase_" data-uid="Epos.TestUtilities.Docker.DockerContainer.StartAndWaitForReadynessLogPhrase*"></a>
+  <h4 id="Epos_TestUtilities_Docker_DockerContainer_StartAndWaitForReadynessLogPhrase_Epos_TestUtilities_Docker_DockerContainerOptions_" data-uid="Epos.TestUtilities.Docker.DockerContainer.StartAndWaitForReadynessLogPhrase(Epos.TestUtilities.Docker.DockerContainerOptions)">StartAndWaitForReadynessLogPhrase(DockerContainerOptions)</h4>
   <div class="markdown level1 summary"><p>Starts a container and optionally waits for a readyness log phrase. </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static DockerContainer StartAndWaitForOpenPort(DockerContainerOptions options)</code></pre>
+    <pre><code class="lang-csharp hljs">public static DockerContainer StartAndWaitForReadynessLogPhrase(DockerContainerOptions options)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -393,6 +382,27 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_TestUtilities_Docker_DockerContainer_System_IDisposable_Dispose.md&amp;value=---%0Auid%3A%20Epos.TestUtilities.Docker.DockerContainer.System%23IDisposable%23Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.TestUtilities/Docker/DockerContainer.cs/#L77">View Source</a>
+  </span>
+  <a id="Epos_TestUtilities_Docker_DockerContainer_System_IDisposable_Dispose_" data-uid="Epos.TestUtilities.Docker.DockerContainer.System#IDisposable#Dispose*"></a>
+  <h4 id="Epos_TestUtilities_Docker_DockerContainer_System_IDisposable_Dispose" data-uid="Epos.TestUtilities.Docker.DockerContainer.System#IDisposable#Dispose">IDisposable.Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void IDisposable.Dispose()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="Epos.Utilities.DumpExtensions.html#Epos_Utilities_DumpExtensions_Dump_System_Object_">DumpExtensions.Dump(Object)</a>
@@ -417,7 +427,7 @@
                     <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_TestUtilities_Docker_DockerContainer.md&amp;value=---%0Auid%3A%20Epos.TestUtilities.Docker.DockerContainer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.TestUtilities/Docker/DockerContainer.cs/#L8" class="contribution-link">View Source</a>
+                    <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.TestUtilities/Docker/DockerContainer.cs/#L9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
