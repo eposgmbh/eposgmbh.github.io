@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.CmdLine.CmdLineOption-1.html",
-          "hash": "hwoOdS9rY9lnDtBJ242xlw=="
+          "hash": "dfwdmjJhxKxDIbNJpmlzQQ=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.CmdLine.CmdLineOption.html",
-          "hash": "rCw1uDGd8uORLFPJXctFBw=="
+          "hash": "mRH1ugkl3ynRZH966GAfYw=="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.CmdLine.CmdLineSwitch.html",
-          "hash": "2ImdfjUXc7rrJB8SxrcxXw=="
+          "hash": "a8ftMLK0hqDo7GWDmPokiw=="
         }
       },
       "is_incremental": false,
@@ -250,6 +250,18 @@
         ".html": {
           "relative_path": "Api/Epos.Utilities.Characters.html",
           "hash": "ROD+gbiBZBZc4e4chEfDpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Api/Epos.Utilities.ColorConsole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Api/Epos.Utilities.ColorConsole.html",
+          "hash": "N0fPgG2WzHPDC4gtlgFusQ=="
         }
       },
       "is_incremental": false,
@@ -657,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.html",
-          "hash": "X6pNxlmxrdAE5OXyIRHGLA=="
+          "hash": "DyBFTKUkRS1sh+ONjqZChg=="
         }
       },
       "is_incremental": false,
@@ -729,7 +741,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/toc.html",
-          "hash": "q1m4WcdqMKtYq/9bUj6IuQ=="
+          "hash": "6XR9RJ7cQwRAD5mRTqVPAQ=="
         }
       },
       "is_incremental": false,
@@ -768,17 +780,17 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build"
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }

@@ -178,6 +178,18 @@ references:
   commentId: Overload:Epos.CmdLine.CmdLineOption.Description
   fullName: Epos.CmdLine.CmdLineOption.Description
   nameWithType: CmdLineOption.Description
+- uid: Epos.CmdLine.CmdLineOption.ExclusionGroups
+  name: ExclusionGroups
+  href: Api/Epos.CmdLine.CmdLineOption.html#Epos_CmdLine_CmdLineOption_ExclusionGroups
+  commentId: P:Epos.CmdLine.CmdLineOption.ExclusionGroups
+  fullName: Epos.CmdLine.CmdLineOption.ExclusionGroups
+  nameWithType: CmdLineOption.ExclusionGroups
+- uid: Epos.CmdLine.CmdLineOption.ExclusionGroups*
+  name: ExclusionGroups
+  href: Api/Epos.CmdLine.CmdLineOption.html#Epos_CmdLine_CmdLineOption_ExclusionGroups_
+  commentId: Overload:Epos.CmdLine.CmdLineOption.ExclusionGroups
+  fullName: Epos.CmdLine.CmdLineOption.ExclusionGroups
+  nameWithType: CmdLineOption.ExclusionGroups
 - uid: Epos.CmdLine.CmdLineOption.Letter
   name: Letter
   href: Api/Epos.CmdLine.CmdLineOption.html#Epos_CmdLine_CmdLineOption_Letter
@@ -1139,6 +1151,912 @@ references:
   commentId: F:Epos.Utilities.Characters.Tab
   fullName: Epos.Utilities.Characters.Tab
   nameWithType: Characters.Tab
+- uid: Epos.Utilities.ColorConsole
+  name: ColorConsole
+  href: Api/Epos.Utilities.ColorConsole.html
+  commentId: T:Epos.Utilities.ColorConsole
+  fullName: Epos.Utilities.ColorConsole
+  nameWithType: ColorConsole
+- uid: Epos.Utilities.ColorConsole.WriteBlack(System.Object)
+  name: WriteBlack(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteBlack_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteBlack(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteBlack(System.Object)
+  nameWithType: ColorConsole.WriteBlack(Object)
+- uid: Epos.Utilities.ColorConsole.WriteBlack(System.String)
+  name: WriteBlack(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteBlack_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteBlack(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteBlack(System.String)
+  nameWithType: ColorConsole.WriteBlack(String)
+- uid: Epos.Utilities.ColorConsole.WriteBlack(System.String,System.Object[])
+  name: WriteBlack(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteBlack_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteBlack(System.String,System.Object[])
+  name.vb: WriteBlack(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteBlack(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteBlack(System.String, System.Object())
+  nameWithType: ColorConsole.WriteBlack(String, Object[])
+  nameWithType.vb: ColorConsole.WriteBlack(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteBlack*
+  name: WriteBlack
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteBlack_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteBlack
+  fullName: Epos.Utilities.ColorConsole.WriteBlack
+  nameWithType: ColorConsole.WriteBlack
+- uid: Epos.Utilities.ColorConsole.WriteBlue(System.Object)
+  name: WriteBlue(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteBlue_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteBlue(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteBlue(System.Object)
+  nameWithType: ColorConsole.WriteBlue(Object)
+- uid: Epos.Utilities.ColorConsole.WriteBlue(System.String)
+  name: WriteBlue(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteBlue_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteBlue(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteBlue(System.String)
+  nameWithType: ColorConsole.WriteBlue(String)
+- uid: Epos.Utilities.ColorConsole.WriteBlue(System.String,System.Object[])
+  name: WriteBlue(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteBlue_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteBlue(System.String,System.Object[])
+  name.vb: WriteBlue(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteBlue(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteBlue(System.String, System.Object())
+  nameWithType: ColorConsole.WriteBlue(String, Object[])
+  nameWithType.vb: ColorConsole.WriteBlue(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteBlue*
+  name: WriteBlue
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteBlue_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteBlue
+  fullName: Epos.Utilities.ColorConsole.WriteBlue
+  nameWithType: ColorConsole.WriteBlue
+- uid: Epos.Utilities.ColorConsole.WriteCyan(System.Object)
+  name: WriteCyan(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteCyan_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteCyan(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteCyan(System.Object)
+  nameWithType: ColorConsole.WriteCyan(Object)
+- uid: Epos.Utilities.ColorConsole.WriteCyan(System.String)
+  name: WriteCyan(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteCyan_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteCyan(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteCyan(System.String)
+  nameWithType: ColorConsole.WriteCyan(String)
+- uid: Epos.Utilities.ColorConsole.WriteCyan(System.String,System.Object[])
+  name: WriteCyan(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteCyan_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteCyan(System.String,System.Object[])
+  name.vb: WriteCyan(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteCyan(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteCyan(System.String, System.Object())
+  nameWithType: ColorConsole.WriteCyan(String, Object[])
+  nameWithType.vb: ColorConsole.WriteCyan(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteCyan*
+  name: WriteCyan
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteCyan_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteCyan
+  fullName: Epos.Utilities.ColorConsole.WriteCyan
+  nameWithType: ColorConsole.WriteCyan
+- uid: Epos.Utilities.ColorConsole.WriteDarkBlue(System.Object)
+  name: WriteDarkBlue(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkBlue_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteDarkBlue(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteDarkBlue(System.Object)
+  nameWithType: ColorConsole.WriteDarkBlue(Object)
+- uid: Epos.Utilities.ColorConsole.WriteDarkBlue(System.String)
+  name: WriteDarkBlue(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkBlue_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteDarkBlue(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteDarkBlue(System.String)
+  nameWithType: ColorConsole.WriteDarkBlue(String)
+- uid: Epos.Utilities.ColorConsole.WriteDarkBlue(System.String,System.Object[])
+  name: WriteDarkBlue(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkBlue_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteDarkBlue(System.String,System.Object[])
+  name.vb: WriteDarkBlue(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteDarkBlue(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteDarkBlue(System.String, System.Object())
+  nameWithType: ColorConsole.WriteDarkBlue(String, Object[])
+  nameWithType.vb: ColorConsole.WriteDarkBlue(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteDarkBlue*
+  name: WriteDarkBlue
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkBlue_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteDarkBlue
+  fullName: Epos.Utilities.ColorConsole.WriteDarkBlue
+  nameWithType: ColorConsole.WriteDarkBlue
+- uid: Epos.Utilities.ColorConsole.WriteDarkCyan(System.Object)
+  name: WriteDarkCyan(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkCyan_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteDarkCyan(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteDarkCyan(System.Object)
+  nameWithType: ColorConsole.WriteDarkCyan(Object)
+- uid: Epos.Utilities.ColorConsole.WriteDarkCyan(System.String)
+  name: WriteDarkCyan(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkCyan_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteDarkCyan(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteDarkCyan(System.String)
+  nameWithType: ColorConsole.WriteDarkCyan(String)
+- uid: Epos.Utilities.ColorConsole.WriteDarkCyan(System.String,System.Object[])
+  name: WriteDarkCyan(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkCyan_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteDarkCyan(System.String,System.Object[])
+  name.vb: WriteDarkCyan(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteDarkCyan(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteDarkCyan(System.String, System.Object())
+  nameWithType: ColorConsole.WriteDarkCyan(String, Object[])
+  nameWithType.vb: ColorConsole.WriteDarkCyan(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteDarkCyan*
+  name: WriteDarkCyan
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkCyan_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteDarkCyan
+  fullName: Epos.Utilities.ColorConsole.WriteDarkCyan
+  nameWithType: ColorConsole.WriteDarkCyan
+- uid: Epos.Utilities.ColorConsole.WriteDarkGray(System.Object)
+  name: WriteDarkGray(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkGray_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteDarkGray(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteDarkGray(System.Object)
+  nameWithType: ColorConsole.WriteDarkGray(Object)
+- uid: Epos.Utilities.ColorConsole.WriteDarkGray(System.String)
+  name: WriteDarkGray(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkGray_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteDarkGray(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteDarkGray(System.String)
+  nameWithType: ColorConsole.WriteDarkGray(String)
+- uid: Epos.Utilities.ColorConsole.WriteDarkGray(System.String,System.Object[])
+  name: WriteDarkGray(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkGray_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteDarkGray(System.String,System.Object[])
+  name.vb: WriteDarkGray(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteDarkGray(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteDarkGray(System.String, System.Object())
+  nameWithType: ColorConsole.WriteDarkGray(String, Object[])
+  nameWithType.vb: ColorConsole.WriteDarkGray(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteDarkGray*
+  name: WriteDarkGray
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkGray_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteDarkGray
+  fullName: Epos.Utilities.ColorConsole.WriteDarkGray
+  nameWithType: ColorConsole.WriteDarkGray
+- uid: Epos.Utilities.ColorConsole.WriteDarkGreen(System.Object)
+  name: WriteDarkGreen(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkGreen_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteDarkGreen(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteDarkGreen(System.Object)
+  nameWithType: ColorConsole.WriteDarkGreen(Object)
+- uid: Epos.Utilities.ColorConsole.WriteDarkGreen(System.String)
+  name: WriteDarkGreen(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkGreen_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteDarkGreen(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteDarkGreen(System.String)
+  nameWithType: ColorConsole.WriteDarkGreen(String)
+- uid: Epos.Utilities.ColorConsole.WriteDarkGreen(System.String,System.Object[])
+  name: WriteDarkGreen(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkGreen_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteDarkGreen(System.String,System.Object[])
+  name.vb: WriteDarkGreen(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteDarkGreen(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteDarkGreen(System.String, System.Object())
+  nameWithType: ColorConsole.WriteDarkGreen(String, Object[])
+  nameWithType.vb: ColorConsole.WriteDarkGreen(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteDarkGreen*
+  name: WriteDarkGreen
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkGreen_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteDarkGreen
+  fullName: Epos.Utilities.ColorConsole.WriteDarkGreen
+  nameWithType: ColorConsole.WriteDarkGreen
+- uid: Epos.Utilities.ColorConsole.WriteDarkMagenta(System.Object)
+  name: WriteDarkMagenta(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkMagenta_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteDarkMagenta(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteDarkMagenta(System.Object)
+  nameWithType: ColorConsole.WriteDarkMagenta(Object)
+- uid: Epos.Utilities.ColorConsole.WriteDarkMagenta(System.String)
+  name: WriteDarkMagenta(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkMagenta_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteDarkMagenta(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteDarkMagenta(System.String)
+  nameWithType: ColorConsole.WriteDarkMagenta(String)
+- uid: Epos.Utilities.ColorConsole.WriteDarkMagenta(System.String,System.Object[])
+  name: WriteDarkMagenta(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkMagenta_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteDarkMagenta(System.String,System.Object[])
+  name.vb: WriteDarkMagenta(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteDarkMagenta(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteDarkMagenta(System.String, System.Object())
+  nameWithType: ColorConsole.WriteDarkMagenta(String, Object[])
+  nameWithType.vb: ColorConsole.WriteDarkMagenta(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteDarkMagenta*
+  name: WriteDarkMagenta
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkMagenta_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteDarkMagenta
+  fullName: Epos.Utilities.ColorConsole.WriteDarkMagenta
+  nameWithType: ColorConsole.WriteDarkMagenta
+- uid: Epos.Utilities.ColorConsole.WriteDarkRed(System.Object)
+  name: WriteDarkRed(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkRed_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteDarkRed(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteDarkRed(System.Object)
+  nameWithType: ColorConsole.WriteDarkRed(Object)
+- uid: Epos.Utilities.ColorConsole.WriteDarkRed(System.String)
+  name: WriteDarkRed(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkRed_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteDarkRed(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteDarkRed(System.String)
+  nameWithType: ColorConsole.WriteDarkRed(String)
+- uid: Epos.Utilities.ColorConsole.WriteDarkRed(System.String,System.Object[])
+  name: WriteDarkRed(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkRed_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteDarkRed(System.String,System.Object[])
+  name.vb: WriteDarkRed(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteDarkRed(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteDarkRed(System.String, System.Object())
+  nameWithType: ColorConsole.WriteDarkRed(String, Object[])
+  nameWithType.vb: ColorConsole.WriteDarkRed(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteDarkRed*
+  name: WriteDarkRed
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkRed_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteDarkRed
+  fullName: Epos.Utilities.ColorConsole.WriteDarkRed
+  nameWithType: ColorConsole.WriteDarkRed
+- uid: Epos.Utilities.ColorConsole.WriteDarkYellow(System.Object)
+  name: WriteDarkYellow(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkYellow_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteDarkYellow(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteDarkYellow(System.Object)
+  nameWithType: ColorConsole.WriteDarkYellow(Object)
+- uid: Epos.Utilities.ColorConsole.WriteDarkYellow(System.String)
+  name: WriteDarkYellow(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkYellow_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteDarkYellow(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteDarkYellow(System.String)
+  nameWithType: ColorConsole.WriteDarkYellow(String)
+- uid: Epos.Utilities.ColorConsole.WriteDarkYellow(System.String,System.Object[])
+  name: WriteDarkYellow(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkYellow_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteDarkYellow(System.String,System.Object[])
+  name.vb: WriteDarkYellow(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteDarkYellow(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteDarkYellow(System.String, System.Object())
+  nameWithType: ColorConsole.WriteDarkYellow(String, Object[])
+  nameWithType.vb: ColorConsole.WriteDarkYellow(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteDarkYellow*
+  name: WriteDarkYellow
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkYellow_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteDarkYellow
+  fullName: Epos.Utilities.ColorConsole.WriteDarkYellow
+  nameWithType: ColorConsole.WriteDarkYellow
+- uid: Epos.Utilities.ColorConsole.WriteError(System.String)
+  name: WriteError(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteError_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteError(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteError(System.String)
+  nameWithType: ColorConsole.WriteError(String)
+- uid: Epos.Utilities.ColorConsole.WriteError*
+  name: WriteError
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteError_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteError
+  fullName: Epos.Utilities.ColorConsole.WriteError
+  nameWithType: ColorConsole.WriteError
+- uid: Epos.Utilities.ColorConsole.WriteGray(System.Object)
+  name: WriteGray(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteGray_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteGray(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteGray(System.Object)
+  nameWithType: ColorConsole.WriteGray(Object)
+- uid: Epos.Utilities.ColorConsole.WriteGray(System.String)
+  name: WriteGray(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteGray_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteGray(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteGray(System.String)
+  nameWithType: ColorConsole.WriteGray(String)
+- uid: Epos.Utilities.ColorConsole.WriteGray(System.String,System.Object[])
+  name: WriteGray(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteGray_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteGray(System.String,System.Object[])
+  name.vb: WriteGray(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteGray(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteGray(System.String, System.Object())
+  nameWithType: ColorConsole.WriteGray(String, Object[])
+  nameWithType.vb: ColorConsole.WriteGray(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteGray*
+  name: WriteGray
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteGray_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteGray
+  fullName: Epos.Utilities.ColorConsole.WriteGray
+  nameWithType: ColorConsole.WriteGray
+- uid: Epos.Utilities.ColorConsole.WriteGreen(System.Object)
+  name: WriteGreen(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteGreen_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteGreen(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteGreen(System.Object)
+  nameWithType: ColorConsole.WriteGreen(Object)
+- uid: Epos.Utilities.ColorConsole.WriteGreen(System.String)
+  name: WriteGreen(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteGreen_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteGreen(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteGreen(System.String)
+  nameWithType: ColorConsole.WriteGreen(String)
+- uid: Epos.Utilities.ColorConsole.WriteGreen(System.String,System.Object[])
+  name: WriteGreen(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteGreen_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteGreen(System.String,System.Object[])
+  name.vb: WriteGreen(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteGreen(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteGreen(System.String, System.Object())
+  nameWithType: ColorConsole.WriteGreen(String, Object[])
+  nameWithType.vb: ColorConsole.WriteGreen(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteGreen*
+  name: WriteGreen
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteGreen_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteGreen
+  fullName: Epos.Utilities.ColorConsole.WriteGreen
+  nameWithType: ColorConsole.WriteGreen
+- uid: Epos.Utilities.ColorConsole.WriteHint(System.String)
+  name: WriteHint(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteHint_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteHint(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteHint(System.String)
+  nameWithType: ColorConsole.WriteHint(String)
+- uid: Epos.Utilities.ColorConsole.WriteHint*
+  name: WriteHint
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteHint_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteHint
+  fullName: Epos.Utilities.ColorConsole.WriteHint
+  nameWithType: ColorConsole.WriteHint
+- uid: Epos.Utilities.ColorConsole.WriteLineBlack(System.Object)
+  name: WriteLineBlack(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineBlack_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineBlack(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteLineBlack(System.Object)
+  nameWithType: ColorConsole.WriteLineBlack(Object)
+- uid: Epos.Utilities.ColorConsole.WriteLineBlack(System.String)
+  name: WriteLineBlack(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineBlack_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineBlack(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteLineBlack(System.String)
+  nameWithType: ColorConsole.WriteLineBlack(String)
+- uid: Epos.Utilities.ColorConsole.WriteLineBlack(System.String,System.Object[])
+  name: WriteLineBlack(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineBlack_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineBlack(System.String,System.Object[])
+  name.vb: WriteLineBlack(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteLineBlack(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteLineBlack(System.String, System.Object())
+  nameWithType: ColorConsole.WriteLineBlack(String, Object[])
+  nameWithType.vb: ColorConsole.WriteLineBlack(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteLineBlack*
+  name: WriteLineBlack
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineBlack_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteLineBlack
+  fullName: Epos.Utilities.ColorConsole.WriteLineBlack
+  nameWithType: ColorConsole.WriteLineBlack
+- uid: Epos.Utilities.ColorConsole.WriteLineBlue(System.Object)
+  name: WriteLineBlue(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineBlue_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineBlue(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteLineBlue(System.Object)
+  nameWithType: ColorConsole.WriteLineBlue(Object)
+- uid: Epos.Utilities.ColorConsole.WriteLineBlue(System.String)
+  name: WriteLineBlue(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineBlue_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineBlue(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteLineBlue(System.String)
+  nameWithType: ColorConsole.WriteLineBlue(String)
+- uid: Epos.Utilities.ColorConsole.WriteLineBlue(System.String,System.Object[])
+  name: WriteLineBlue(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineBlue_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineBlue(System.String,System.Object[])
+  name.vb: WriteLineBlue(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteLineBlue(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteLineBlue(System.String, System.Object())
+  nameWithType: ColorConsole.WriteLineBlue(String, Object[])
+  nameWithType.vb: ColorConsole.WriteLineBlue(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteLineBlue*
+  name: WriteLineBlue
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineBlue_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteLineBlue
+  fullName: Epos.Utilities.ColorConsole.WriteLineBlue
+  nameWithType: ColorConsole.WriteLineBlue
+- uid: Epos.Utilities.ColorConsole.WriteLineCyan(System.Object)
+  name: WriteLineCyan(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineCyan_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineCyan(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteLineCyan(System.Object)
+  nameWithType: ColorConsole.WriteLineCyan(Object)
+- uid: Epos.Utilities.ColorConsole.WriteLineCyan(System.String)
+  name: WriteLineCyan(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineCyan_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineCyan(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteLineCyan(System.String)
+  nameWithType: ColorConsole.WriteLineCyan(String)
+- uid: Epos.Utilities.ColorConsole.WriteLineCyan(System.String,System.Object[])
+  name: WriteLineCyan(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineCyan_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineCyan(System.String,System.Object[])
+  name.vb: WriteLineCyan(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteLineCyan(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteLineCyan(System.String, System.Object())
+  nameWithType: ColorConsole.WriteLineCyan(String, Object[])
+  nameWithType.vb: ColorConsole.WriteLineCyan(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteLineCyan*
+  name: WriteLineCyan
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineCyan_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteLineCyan
+  fullName: Epos.Utilities.ColorConsole.WriteLineCyan
+  nameWithType: ColorConsole.WriteLineCyan
+- uid: Epos.Utilities.ColorConsole.WriteLineDarkBlue(System.Object)
+  name: WriteLineDarkBlue(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkBlue_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineDarkBlue(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteLineDarkBlue(System.Object)
+  nameWithType: ColorConsole.WriteLineDarkBlue(Object)
+- uid: Epos.Utilities.ColorConsole.WriteLineDarkBlue(System.String)
+  name: WriteLineDarkBlue(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkBlue_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineDarkBlue(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteLineDarkBlue(System.String)
+  nameWithType: ColorConsole.WriteLineDarkBlue(String)
+- uid: Epos.Utilities.ColorConsole.WriteLineDarkBlue(System.String,System.Object[])
+  name: WriteLineDarkBlue(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkBlue_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineDarkBlue(System.String,System.Object[])
+  name.vb: WriteLineDarkBlue(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteLineDarkBlue(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteLineDarkBlue(System.String, System.Object())
+  nameWithType: ColorConsole.WriteLineDarkBlue(String, Object[])
+  nameWithType.vb: ColorConsole.WriteLineDarkBlue(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteLineDarkBlue*
+  name: WriteLineDarkBlue
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkBlue_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteLineDarkBlue
+  fullName: Epos.Utilities.ColorConsole.WriteLineDarkBlue
+  nameWithType: ColorConsole.WriteLineDarkBlue
+- uid: Epos.Utilities.ColorConsole.WriteLineDarkCyan(System.Object)
+  name: WriteLineDarkCyan(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkCyan_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineDarkCyan(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteLineDarkCyan(System.Object)
+  nameWithType: ColorConsole.WriteLineDarkCyan(Object)
+- uid: Epos.Utilities.ColorConsole.WriteLineDarkCyan(System.String)
+  name: WriteLineDarkCyan(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkCyan_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineDarkCyan(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteLineDarkCyan(System.String)
+  nameWithType: ColorConsole.WriteLineDarkCyan(String)
+- uid: Epos.Utilities.ColorConsole.WriteLineDarkCyan(System.String,System.Object[])
+  name: WriteLineDarkCyan(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkCyan_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineDarkCyan(System.String,System.Object[])
+  name.vb: WriteLineDarkCyan(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteLineDarkCyan(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteLineDarkCyan(System.String, System.Object())
+  nameWithType: ColorConsole.WriteLineDarkCyan(String, Object[])
+  nameWithType.vb: ColorConsole.WriteLineDarkCyan(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteLineDarkCyan*
+  name: WriteLineDarkCyan
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkCyan_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteLineDarkCyan
+  fullName: Epos.Utilities.ColorConsole.WriteLineDarkCyan
+  nameWithType: ColorConsole.WriteLineDarkCyan
+- uid: Epos.Utilities.ColorConsole.WriteLineDarkGray(System.Object)
+  name: WriteLineDarkGray(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkGray_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineDarkGray(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteLineDarkGray(System.Object)
+  nameWithType: ColorConsole.WriteLineDarkGray(Object)
+- uid: Epos.Utilities.ColorConsole.WriteLineDarkGray(System.String)
+  name: WriteLineDarkGray(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkGray_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineDarkGray(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteLineDarkGray(System.String)
+  nameWithType: ColorConsole.WriteLineDarkGray(String)
+- uid: Epos.Utilities.ColorConsole.WriteLineDarkGray(System.String,System.Object[])
+  name: WriteLineDarkGray(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkGray_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineDarkGray(System.String,System.Object[])
+  name.vb: WriteLineDarkGray(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteLineDarkGray(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteLineDarkGray(System.String, System.Object())
+  nameWithType: ColorConsole.WriteLineDarkGray(String, Object[])
+  nameWithType.vb: ColorConsole.WriteLineDarkGray(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteLineDarkGray*
+  name: WriteLineDarkGray
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkGray_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteLineDarkGray
+  fullName: Epos.Utilities.ColorConsole.WriteLineDarkGray
+  nameWithType: ColorConsole.WriteLineDarkGray
+- uid: Epos.Utilities.ColorConsole.WriteLineDarkGreen(System.Object)
+  name: WriteLineDarkGreen(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkGreen_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineDarkGreen(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteLineDarkGreen(System.Object)
+  nameWithType: ColorConsole.WriteLineDarkGreen(Object)
+- uid: Epos.Utilities.ColorConsole.WriteLineDarkGreen(System.String)
+  name: WriteLineDarkGreen(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkGreen_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineDarkGreen(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteLineDarkGreen(System.String)
+  nameWithType: ColorConsole.WriteLineDarkGreen(String)
+- uid: Epos.Utilities.ColorConsole.WriteLineDarkGreen(System.String,System.Object[])
+  name: WriteLineDarkGreen(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkGreen_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineDarkGreen(System.String,System.Object[])
+  name.vb: WriteLineDarkGreen(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteLineDarkGreen(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteLineDarkGreen(System.String, System.Object())
+  nameWithType: ColorConsole.WriteLineDarkGreen(String, Object[])
+  nameWithType.vb: ColorConsole.WriteLineDarkGreen(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteLineDarkGreen*
+  name: WriteLineDarkGreen
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkGreen_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteLineDarkGreen
+  fullName: Epos.Utilities.ColorConsole.WriteLineDarkGreen
+  nameWithType: ColorConsole.WriteLineDarkGreen
+- uid: Epos.Utilities.ColorConsole.WriteLineDarkMagenta(System.Object)
+  name: WriteLineDarkMagenta(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkMagenta_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineDarkMagenta(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteLineDarkMagenta(System.Object)
+  nameWithType: ColorConsole.WriteLineDarkMagenta(Object)
+- uid: Epos.Utilities.ColorConsole.WriteLineDarkMagenta(System.String)
+  name: WriteLineDarkMagenta(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkMagenta_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineDarkMagenta(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteLineDarkMagenta(System.String)
+  nameWithType: ColorConsole.WriteLineDarkMagenta(String)
+- uid: Epos.Utilities.ColorConsole.WriteLineDarkMagenta(System.String,System.Object[])
+  name: WriteLineDarkMagenta(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkMagenta_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineDarkMagenta(System.String,System.Object[])
+  name.vb: WriteLineDarkMagenta(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteLineDarkMagenta(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteLineDarkMagenta(System.String, System.Object())
+  nameWithType: ColorConsole.WriteLineDarkMagenta(String, Object[])
+  nameWithType.vb: ColorConsole.WriteLineDarkMagenta(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteLineDarkMagenta*
+  name: WriteLineDarkMagenta
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkMagenta_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteLineDarkMagenta
+  fullName: Epos.Utilities.ColorConsole.WriteLineDarkMagenta
+  nameWithType: ColorConsole.WriteLineDarkMagenta
+- uid: Epos.Utilities.ColorConsole.WriteLineDarkRed(System.Object)
+  name: WriteLineDarkRed(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkRed_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineDarkRed(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteLineDarkRed(System.Object)
+  nameWithType: ColorConsole.WriteLineDarkRed(Object)
+- uid: Epos.Utilities.ColorConsole.WriteLineDarkRed(System.String)
+  name: WriteLineDarkRed(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkRed_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineDarkRed(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteLineDarkRed(System.String)
+  nameWithType: ColorConsole.WriteLineDarkRed(String)
+- uid: Epos.Utilities.ColorConsole.WriteLineDarkRed(System.String,System.Object[])
+  name: WriteLineDarkRed(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkRed_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineDarkRed(System.String,System.Object[])
+  name.vb: WriteLineDarkRed(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteLineDarkRed(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteLineDarkRed(System.String, System.Object())
+  nameWithType: ColorConsole.WriteLineDarkRed(String, Object[])
+  nameWithType.vb: ColorConsole.WriteLineDarkRed(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteLineDarkRed*
+  name: WriteLineDarkRed
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkRed_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteLineDarkRed
+  fullName: Epos.Utilities.ColorConsole.WriteLineDarkRed
+  nameWithType: ColorConsole.WriteLineDarkRed
+- uid: Epos.Utilities.ColorConsole.WriteLineDarkYellow(System.Object)
+  name: WriteLineDarkYellow(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkYellow_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineDarkYellow(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteLineDarkYellow(System.Object)
+  nameWithType: ColorConsole.WriteLineDarkYellow(Object)
+- uid: Epos.Utilities.ColorConsole.WriteLineDarkYellow(System.String)
+  name: WriteLineDarkYellow(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkYellow_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineDarkYellow(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteLineDarkYellow(System.String)
+  nameWithType: ColorConsole.WriteLineDarkYellow(String)
+- uid: Epos.Utilities.ColorConsole.WriteLineDarkYellow(System.String,System.Object[])
+  name: WriteLineDarkYellow(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkYellow_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineDarkYellow(System.String,System.Object[])
+  name.vb: WriteLineDarkYellow(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteLineDarkYellow(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteLineDarkYellow(System.String, System.Object())
+  nameWithType: ColorConsole.WriteLineDarkYellow(String, Object[])
+  nameWithType.vb: ColorConsole.WriteLineDarkYellow(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteLineDarkYellow*
+  name: WriteLineDarkYellow
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkYellow_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteLineDarkYellow
+  fullName: Epos.Utilities.ColorConsole.WriteLineDarkYellow
+  nameWithType: ColorConsole.WriteLineDarkYellow
+- uid: Epos.Utilities.ColorConsole.WriteLineGray(System.Object)
+  name: WriteLineGray(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineGray_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineGray(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteLineGray(System.Object)
+  nameWithType: ColorConsole.WriteLineGray(Object)
+- uid: Epos.Utilities.ColorConsole.WriteLineGray(System.String)
+  name: WriteLineGray(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineGray_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineGray(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteLineGray(System.String)
+  nameWithType: ColorConsole.WriteLineGray(String)
+- uid: Epos.Utilities.ColorConsole.WriteLineGray(System.String,System.Object[])
+  name: WriteLineGray(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineGray_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineGray(System.String,System.Object[])
+  name.vb: WriteLineGray(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteLineGray(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteLineGray(System.String, System.Object())
+  nameWithType: ColorConsole.WriteLineGray(String, Object[])
+  nameWithType.vb: ColorConsole.WriteLineGray(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteLineGray*
+  name: WriteLineGray
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineGray_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteLineGray
+  fullName: Epos.Utilities.ColorConsole.WriteLineGray
+  nameWithType: ColorConsole.WriteLineGray
+- uid: Epos.Utilities.ColorConsole.WriteLineGreen(System.Object)
+  name: WriteLineGreen(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineGreen_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineGreen(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteLineGreen(System.Object)
+  nameWithType: ColorConsole.WriteLineGreen(Object)
+- uid: Epos.Utilities.ColorConsole.WriteLineGreen(System.String)
+  name: WriteLineGreen(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineGreen_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineGreen(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteLineGreen(System.String)
+  nameWithType: ColorConsole.WriteLineGreen(String)
+- uid: Epos.Utilities.ColorConsole.WriteLineGreen(System.String,System.Object[])
+  name: WriteLineGreen(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineGreen_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineGreen(System.String,System.Object[])
+  name.vb: WriteLineGreen(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteLineGreen(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteLineGreen(System.String, System.Object())
+  nameWithType: ColorConsole.WriteLineGreen(String, Object[])
+  nameWithType.vb: ColorConsole.WriteLineGreen(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteLineGreen*
+  name: WriteLineGreen
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineGreen_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteLineGreen
+  fullName: Epos.Utilities.ColorConsole.WriteLineGreen
+  nameWithType: ColorConsole.WriteLineGreen
+- uid: Epos.Utilities.ColorConsole.WriteLineMagenta(System.Object)
+  name: WriteLineMagenta(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineMagenta_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineMagenta(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteLineMagenta(System.Object)
+  nameWithType: ColorConsole.WriteLineMagenta(Object)
+- uid: Epos.Utilities.ColorConsole.WriteLineMagenta(System.String)
+  name: WriteLineMagenta(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineMagenta_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineMagenta(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteLineMagenta(System.String)
+  nameWithType: ColorConsole.WriteLineMagenta(String)
+- uid: Epos.Utilities.ColorConsole.WriteLineMagenta(System.String,System.Object[])
+  name: WriteLineMagenta(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineMagenta_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineMagenta(System.String,System.Object[])
+  name.vb: WriteLineMagenta(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteLineMagenta(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteLineMagenta(System.String, System.Object())
+  nameWithType: ColorConsole.WriteLineMagenta(String, Object[])
+  nameWithType.vb: ColorConsole.WriteLineMagenta(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteLineMagenta*
+  name: WriteLineMagenta
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineMagenta_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteLineMagenta
+  fullName: Epos.Utilities.ColorConsole.WriteLineMagenta
+  nameWithType: ColorConsole.WriteLineMagenta
+- uid: Epos.Utilities.ColorConsole.WriteLineRed(System.Object)
+  name: WriteLineRed(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineRed_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineRed(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteLineRed(System.Object)
+  nameWithType: ColorConsole.WriteLineRed(Object)
+- uid: Epos.Utilities.ColorConsole.WriteLineRed(System.String)
+  name: WriteLineRed(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineRed_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineRed(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteLineRed(System.String)
+  nameWithType: ColorConsole.WriteLineRed(String)
+- uid: Epos.Utilities.ColorConsole.WriteLineRed(System.String,System.Object[])
+  name: WriteLineRed(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineRed_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineRed(System.String,System.Object[])
+  name.vb: WriteLineRed(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteLineRed(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteLineRed(System.String, System.Object())
+  nameWithType: ColorConsole.WriteLineRed(String, Object[])
+  nameWithType.vb: ColorConsole.WriteLineRed(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteLineRed*
+  name: WriteLineRed
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineRed_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteLineRed
+  fullName: Epos.Utilities.ColorConsole.WriteLineRed
+  nameWithType: ColorConsole.WriteLineRed
+- uid: Epos.Utilities.ColorConsole.WriteLineWhite(System.Object)
+  name: WriteLineWhite(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineWhite_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineWhite(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteLineWhite(System.Object)
+  nameWithType: ColorConsole.WriteLineWhite(Object)
+- uid: Epos.Utilities.ColorConsole.WriteLineWhite(System.String)
+  name: WriteLineWhite(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineWhite_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineWhite(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteLineWhite(System.String)
+  nameWithType: ColorConsole.WriteLineWhite(String)
+- uid: Epos.Utilities.ColorConsole.WriteLineWhite(System.String,System.Object[])
+  name: WriteLineWhite(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineWhite_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineWhite(System.String,System.Object[])
+  name.vb: WriteLineWhite(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteLineWhite(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteLineWhite(System.String, System.Object())
+  nameWithType: ColorConsole.WriteLineWhite(String, Object[])
+  nameWithType.vb: ColorConsole.WriteLineWhite(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteLineWhite*
+  name: WriteLineWhite
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineWhite_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteLineWhite
+  fullName: Epos.Utilities.ColorConsole.WriteLineWhite
+  nameWithType: ColorConsole.WriteLineWhite
+- uid: Epos.Utilities.ColorConsole.WriteLineYellow(System.Object)
+  name: WriteLineYellow(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineYellow_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineYellow(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteLineYellow(System.Object)
+  nameWithType: ColorConsole.WriteLineYellow(Object)
+- uid: Epos.Utilities.ColorConsole.WriteLineYellow(System.String)
+  name: WriteLineYellow(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineYellow_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineYellow(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteLineYellow(System.String)
+  nameWithType: ColorConsole.WriteLineYellow(String)
+- uid: Epos.Utilities.ColorConsole.WriteLineYellow(System.String,System.Object[])
+  name: WriteLineYellow(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineYellow_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteLineYellow(System.String,System.Object[])
+  name.vb: WriteLineYellow(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteLineYellow(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteLineYellow(System.String, System.Object())
+  nameWithType: ColorConsole.WriteLineYellow(String, Object[])
+  nameWithType.vb: ColorConsole.WriteLineYellow(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteLineYellow*
+  name: WriteLineYellow
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineYellow_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteLineYellow
+  fullName: Epos.Utilities.ColorConsole.WriteLineYellow
+  nameWithType: ColorConsole.WriteLineYellow
+- uid: Epos.Utilities.ColorConsole.WriteMagenta(System.Object)
+  name: WriteMagenta(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteMagenta_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteMagenta(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteMagenta(System.Object)
+  nameWithType: ColorConsole.WriteMagenta(Object)
+- uid: Epos.Utilities.ColorConsole.WriteMagenta(System.String)
+  name: WriteMagenta(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteMagenta_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteMagenta(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteMagenta(System.String)
+  nameWithType: ColorConsole.WriteMagenta(String)
+- uid: Epos.Utilities.ColorConsole.WriteMagenta(System.String,System.Object[])
+  name: WriteMagenta(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteMagenta_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteMagenta(System.String,System.Object[])
+  name.vb: WriteMagenta(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteMagenta(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteMagenta(System.String, System.Object())
+  nameWithType: ColorConsole.WriteMagenta(String, Object[])
+  nameWithType.vb: ColorConsole.WriteMagenta(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteMagenta*
+  name: WriteMagenta
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteMagenta_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteMagenta
+  fullName: Epos.Utilities.ColorConsole.WriteMagenta
+  nameWithType: ColorConsole.WriteMagenta
+- uid: Epos.Utilities.ColorConsole.WriteRed(System.Object)
+  name: WriteRed(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteRed_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteRed(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteRed(System.Object)
+  nameWithType: ColorConsole.WriteRed(Object)
+- uid: Epos.Utilities.ColorConsole.WriteRed(System.String)
+  name: WriteRed(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteRed_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteRed(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteRed(System.String)
+  nameWithType: ColorConsole.WriteRed(String)
+- uid: Epos.Utilities.ColorConsole.WriteRed(System.String,System.Object[])
+  name: WriteRed(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteRed_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteRed(System.String,System.Object[])
+  name.vb: WriteRed(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteRed(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteRed(System.String, System.Object())
+  nameWithType: ColorConsole.WriteRed(String, Object[])
+  nameWithType.vb: ColorConsole.WriteRed(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteRed*
+  name: WriteRed
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteRed_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteRed
+  fullName: Epos.Utilities.ColorConsole.WriteRed
+  nameWithType: ColorConsole.WriteRed
+- uid: Epos.Utilities.ColorConsole.WriteWarning(System.String)
+  name: WriteWarning(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteWarning_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteWarning(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteWarning(System.String)
+  nameWithType: ColorConsole.WriteWarning(String)
+- uid: Epos.Utilities.ColorConsole.WriteWarning*
+  name: WriteWarning
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteWarning_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteWarning
+  fullName: Epos.Utilities.ColorConsole.WriteWarning
+  nameWithType: ColorConsole.WriteWarning
+- uid: Epos.Utilities.ColorConsole.WriteWhite(System.Object)
+  name: WriteWhite(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteWhite_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteWhite(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteWhite(System.Object)
+  nameWithType: ColorConsole.WriteWhite(Object)
+- uid: Epos.Utilities.ColorConsole.WriteWhite(System.String)
+  name: WriteWhite(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteWhite_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteWhite(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteWhite(System.String)
+  nameWithType: ColorConsole.WriteWhite(String)
+- uid: Epos.Utilities.ColorConsole.WriteWhite(System.String,System.Object[])
+  name: WriteWhite(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteWhite_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteWhite(System.String,System.Object[])
+  name.vb: WriteWhite(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteWhite(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteWhite(System.String, System.Object())
+  nameWithType: ColorConsole.WriteWhite(String, Object[])
+  nameWithType.vb: ColorConsole.WriteWhite(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteWhite*
+  name: WriteWhite
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteWhite_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteWhite
+  fullName: Epos.Utilities.ColorConsole.WriteWhite
+  nameWithType: ColorConsole.WriteWhite
+- uid: Epos.Utilities.ColorConsole.WriteYellow(System.Object)
+  name: WriteYellow(Object)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteYellow_System_Object_
+  commentId: M:Epos.Utilities.ColorConsole.WriteYellow(System.Object)
+  fullName: Epos.Utilities.ColorConsole.WriteYellow(System.Object)
+  nameWithType: ColorConsole.WriteYellow(Object)
+- uid: Epos.Utilities.ColorConsole.WriteYellow(System.String)
+  name: WriteYellow(String)
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteYellow_System_String_
+  commentId: M:Epos.Utilities.ColorConsole.WriteYellow(System.String)
+  fullName: Epos.Utilities.ColorConsole.WriteYellow(System.String)
+  nameWithType: ColorConsole.WriteYellow(String)
+- uid: Epos.Utilities.ColorConsole.WriteYellow(System.String,System.Object[])
+  name: WriteYellow(String, Object[])
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteYellow_System_String_System_Object___
+  commentId: M:Epos.Utilities.ColorConsole.WriteYellow(System.String,System.Object[])
+  name.vb: WriteYellow(String, Object())
+  fullName: Epos.Utilities.ColorConsole.WriteYellow(System.String, System.Object[])
+  fullName.vb: Epos.Utilities.ColorConsole.WriteYellow(System.String, System.Object())
+  nameWithType: ColorConsole.WriteYellow(String, Object[])
+  nameWithType.vb: ColorConsole.WriteYellow(String, Object())
+- uid: Epos.Utilities.ColorConsole.WriteYellow*
+  name: WriteYellow
+  href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteYellow_
+  commentId: Overload:Epos.Utilities.ColorConsole.WriteYellow
+  fullName: Epos.Utilities.ColorConsole.WriteYellow
+  nameWithType: ColorConsole.WriteYellow
 - uid: Epos.Utilities.Composition
   name: Epos.Utilities.Composition
   href: Api/Epos.Utilities.Composition.html
