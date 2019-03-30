@@ -2317,6 +2317,24 @@ references:
   commentId: Overload:Epos.Utilities.Composition.WithParameterOptions.AndParameter
   fullName: Epos.Utilities.Composition.WithParameterOptions.AndParameter
   nameWithType: WithParameterOptions.AndParameter
+- uid: Epos.Utilities.ConsoleHelper
+  name: ConsoleHelper
+  href: Api/Epos.Utilities.ConsoleHelper.html
+  commentId: T:Epos.Utilities.ConsoleHelper
+  fullName: Epos.Utilities.ConsoleHelper
+  nameWithType: ConsoleHelper
+- uid: Epos.Utilities.ConsoleHelper.ReadPassword
+  name: ReadPassword()
+  href: Api/Epos.Utilities.ConsoleHelper.html#Epos_Utilities_ConsoleHelper_ReadPassword
+  commentId: M:Epos.Utilities.ConsoleHelper.ReadPassword
+  fullName: Epos.Utilities.ConsoleHelper.ReadPassword()
+  nameWithType: ConsoleHelper.ReadPassword()
+- uid: Epos.Utilities.ConsoleHelper.ReadPassword*
+  name: ReadPassword
+  href: Api/Epos.Utilities.ConsoleHelper.html#Epos_Utilities_ConsoleHelper_ReadPassword_
+  commentId: Overload:Epos.Utilities.ConsoleHelper.ReadPassword
+  fullName: Epos.Utilities.ConsoleHelper.ReadPassword
+  nameWithType: ConsoleHelper.ReadPassword
 - uid: Epos.Utilities.DebugThrow
   name: DebugThrow
   href: Api/Epos.Utilities.DebugThrow.html
