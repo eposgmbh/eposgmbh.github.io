@@ -559,6 +559,33 @@ references:
   commentId: Overload:Epos.CmdLine.CmdLineSwitch.#ctor
   fullName: Epos.CmdLine.CmdLineSwitch.CmdLineSwitch
   nameWithType: CmdLineSwitch.CmdLineSwitch
+- uid: Epos.CmdLine.Helpers
+  name: Epos.CmdLine.Helpers
+  href: Api/Epos.CmdLine.Helpers.html
+  commentId: N:Epos.CmdLine.Helpers
+  fullName: Epos.CmdLine.Helpers
+  nameWithType: Epos.CmdLine.Helpers
+- uid: Epos.CmdLine.Helpers.DalSoftRestClientConsoleHelper
+  name: DalSoftRestClientConsoleHelper
+  href: Api/Epos.CmdLine.Helpers.DalSoftRestClientConsoleHelper.html
+  commentId: T:Epos.CmdLine.Helpers.DalSoftRestClientConsoleHelper
+  fullName: Epos.CmdLine.Helpers.DalSoftRestClientConsoleHelper
+  nameWithType: DalSoftRestClientConsoleHelper
+- uid: Epos.CmdLine.Helpers.DalSoftRestClientConsoleHelper.Execute(System.Func{System.Object},System.Func{System.Object,System.Int32})
+  name: Execute(Func<Object>, Func<Object, Int32>)
+  href: Api/Epos.CmdLine.Helpers.DalSoftRestClientConsoleHelper.html#Epos_CmdLine_Helpers_DalSoftRestClientConsoleHelper_Execute_System_Func_System_Object__System_Func_System_Object_System_Int32__
+  commentId: M:Epos.CmdLine.Helpers.DalSoftRestClientConsoleHelper.Execute(System.Func{System.Object},System.Func{System.Object,System.Int32})
+  name.vb: Execute(Func(Of Object), Func(Of Object, Int32))
+  fullName: Epos.CmdLine.Helpers.DalSoftRestClientConsoleHelper.Execute(System.Func<System.Object>, System.Func<System.Object, System.Int32>)
+  fullName.vb: Epos.CmdLine.Helpers.DalSoftRestClientConsoleHelper.Execute(System.Func(Of System.Object), System.Func(Of System.Object, System.Int32))
+  nameWithType: DalSoftRestClientConsoleHelper.Execute(Func<Object>, Func<Object, Int32>)
+  nameWithType.vb: DalSoftRestClientConsoleHelper.Execute(Func(Of Object), Func(Of Object, Int32))
+- uid: Epos.CmdLine.Helpers.DalSoftRestClientConsoleHelper.Execute*
+  name: Execute
+  href: Api/Epos.CmdLine.Helpers.DalSoftRestClientConsoleHelper.html#Epos_CmdLine_Helpers_DalSoftRestClientConsoleHelper_Execute_
+  commentId: Overload:Epos.CmdLine.Helpers.DalSoftRestClientConsoleHelper.Execute
+  fullName: Epos.CmdLine.Helpers.DalSoftRestClientConsoleHelper.Execute
+  nameWithType: DalSoftRestClientConsoleHelper.Execute
 - uid: Epos.TestUtilities.Docker
   name: Epos.TestUtilities.Docker
   href: Api/Epos.TestUtilities.Docker.html

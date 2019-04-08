@@ -137,6 +137,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "Api/Epos.CmdLine.Helpers.DalSoftRestClientConsoleHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Api/Epos.CmdLine.Helpers.DalSoftRestClientConsoleHelper.html",
+          "hash": "ea/QYhzr1mAcsBLkSoLM6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Api/Epos.CmdLine.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Api/Epos.CmdLine.Helpers.html",
+          "hash": "mYzhNK5mBRbPeIJiBpUBJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "Api/Epos.CmdLine.yml",
       "output": {
         ".html": {
@@ -753,7 +777,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/toc.html",
-          "hash": "Z3Wx+5+14Eqm/q6bYDzMDw=="
+          "hash": "skV4zRK417SefBhNro1WNg=="
         }
       },
       "is_incremental": false,
@@ -797,11 +821,11 @@
           "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
-        "ManagedReferenceDocumentProcessor": {
+        "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build"
         },
-        "ConceptualDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build"
         }
