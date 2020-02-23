@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "D:/a/1/s/docs",
+  "source_base_path": "d:/a/1/s/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.CmdLine.CmdLineConfiguration.html",
-          "hash": "NSBEqFDf8LJYmpFiZefKBw=="
+          "hash": "RZSZKCRPMrDIyT+RdeU2yQ=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.CmdLine.CmdLineDefinition.html",
-          "hash": "8IdMdQY8WZxeOp+3XDWxXQ=="
+          "hash": "VO/HO+NPf4tPYysYACLMYg=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.CmdLine.CmdLineOption-1.html",
-          "hash": "dfwdmjJhxKxDIbNJpmlzQQ=="
+          "hash": "lPQfelZ/ynGX4LB136epsA=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.CmdLine.CmdLineOption.html",
-          "hash": "mRH1ugkl3ynRZH966GAfYw=="
+          "hash": "fG2CZtYMAvOZBUUXJblM8Q=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.CmdLine.CmdLineOptionAttribute.html",
-          "hash": "ewoKMDoDrsi44bSki7aUpA=="
+          "hash": "a8OJUSzJXDoCAfxGX6gILA=="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.CmdLine.CmdLineParameter-1.html",
-          "hash": "geme4IGsFhR60qmAyQvgZQ=="
+          "hash": "kCcPeyN87fTZYVr704JQbw=="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.CmdLine.CmdLineParameter.html",
-          "hash": "Be9CszvKnl17Rqac/uyucg=="
+          "hash": "7SQSuJmN/aIcHrMxItm1rA=="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.CmdLine.CmdLineParameterAttribute.html",
-          "hash": "l0sSlTEcvTHSTFqE77XYpQ=="
+          "hash": "ip36UnRIBNu7+RkixsIqCw=="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.CmdLine.CmdLineSubcommand-1.html",
-          "hash": "Fp9kF3XhjwHOShSX55x4tw=="
+          "hash": "t9thOB2IGH9mpkQoRRFEsg=="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.CmdLine.CmdLineSubcommand.html",
-          "hash": "yachtHzkSzOR5+/0AH2s2w=="
+          "hash": "wYsezc5ZXvgaGx4aIkstig=="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.CmdLine.CmdLineSwitch.html",
-          "hash": "a8ftMLK0hqDo7GWDmPokiw=="
+          "hash": "kjyhlso9/Y5teqKCm8nCFg=="
         }
       },
       "is_incremental": false,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.CmdLine.Helpers.DalSoftRestClientConsoleHelper.html",
-          "hash": "ea/QYhzr1mAcsBLkSoLM6w=="
+          "hash": "eRL3Y7UlSS60nETWhTQC3w=="
         }
       },
       "is_incremental": false,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.CmdLine.Helpers.html",
-          "hash": "mYzhNK5mBRbPeIJiBpUBJQ=="
+          "hash": "pzqrppL4SvGlLcXTmcelDw=="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,19 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.CmdLine.html",
-          "hash": "C0Lgrx397xp0vfD561owZg=="
+          "hash": "X7a68TmKjMxNaRbQcbcEVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Api/Epos.TestUtilities.Docker.DockerContainer.Postgres.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Api/Epos.TestUtilities.Docker.DockerContainer.Postgres.html",
+          "hash": "Wo46+L1VlEYArrlYue53Ig=="
         }
       },
       "is_incremental": false,
@@ -177,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.TestUtilities.Docker.DockerContainer.html",
-          "hash": "cq97F5/MHe/MwlAs1MigxQ=="
+          "hash": "FYqBotqEriJZIYafyIJEIg=="
         }
       },
       "is_incremental": false,
@@ -189,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.TestUtilities.Docker.DockerContainerException.html",
-          "hash": "x8JmWbOGMIbd7oqkD94Aog=="
+          "hash": "4ZcZ1kTv9lHMVXoYN+cEOw=="
         }
       },
       "is_incremental": false,
@@ -201,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.TestUtilities.Docker.DockerContainerOptions.html",
-          "hash": "W36gs53oyiVNIJNSruBxLg=="
+          "hash": "V1pNTGcYgDC3GHF6YarGqQ=="
         }
       },
       "is_incremental": false,
@@ -213,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.TestUtilities.Docker.html",
-          "hash": "dm69zjO9kRI5n9vCpancPA=="
+          "hash": "KLGsdKQY8NUwlQthdhkL3w=="
         }
       },
       "is_incremental": false,
@@ -225,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.Arithmetics.html",
-          "hash": "45rb8IfCN5OTKWp6NusChA=="
+          "hash": "TVKD9NpWM2u5RltOrNtDBg=="
         }
       },
       "is_incremental": false,
@@ -237,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.AssemblyExtensions.html",
-          "hash": "EqW+tw/C0b9trPmsQYY+uQ=="
+          "hash": "5qY4W9CgglrYQskldJy+Vg=="
         }
       },
       "is_incremental": false,
@@ -249,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.BinaryOperation-3.html",
-          "hash": "+MDkUv9zi7p9K0rI1S+/6Q=="
+          "hash": "GCFgy6xCwSqzw9K2drHufg=="
         }
       },
       "is_incremental": false,
@@ -261,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.Cache-2.html",
-          "hash": "4VP5lr4TDPxDwr6s81UHjw=="
+          "hash": "U0anQu6ApyFb3vlcT1DZLg=="
         }
       },
       "is_incremental": false,
@@ -273,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.Characters.html",
-          "hash": "ROD+gbiBZBZc4e4chEfDpA=="
+          "hash": "WmgJPEC5QDMGXSuSVvvKLg=="
         }
       },
       "is_incremental": false,
@@ -285,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.ColorConsole.html",
-          "hash": "N0fPgG2WzHPDC4gtlgFusQ=="
+          "hash": "srFcRaZzg0z0v8zJmD0+/w=="
         }
       },
       "is_incremental": false,
@@ -297,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.Composition.ComponentCreationStrategy.html",
-          "hash": "zQEvm7gyGgeQYPxDY1iHKA=="
+          "hash": "MuCQkwdkEqxTiPCCaSfGVQ=="
         }
       },
       "is_incremental": false,
@@ -309,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.Composition.Container.html",
-          "hash": "2Iak4AOympG/s30Eyz+LLw=="
+          "hash": "C8xBZRXq2WSdSN1fXCK6UQ=="
         }
       },
       "is_incremental": false,
@@ -321,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.Composition.ContainerInstaller.html",
-          "hash": "mCAJYVyE+fy6jFFlWSZ8Gw=="
+          "hash": "VuhSO2b9iVz8zh+FCULxCw=="
         }
       },
       "is_incremental": false,
@@ -333,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.Composition.ImplementedByOptions-2.html",
-          "hash": "uxfsJCPSeIAswh8BxZEIIg=="
+          "hash": "M4N8nxccSY3LZscAZuw4Wg=="
         }
       },
       "is_incremental": false,
@@ -345,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.Composition.Lifetime.html",
-          "hash": "VJWFaRcH2HGNZSjHcgdeyg=="
+          "hash": "i3VaViF+uuZ9xUW7ljMemg=="
         }
       },
       "is_incremental": false,
@@ -357,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.Composition.LifetimeOptions.html",
-          "hash": "pY5yoIiNJAajnCqDWAx7cA=="
+          "hash": "f0NdBABAtcx17d2DNlG7ig=="
         }
       },
       "is_incremental": false,
@@ -369,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.Composition.RegisterOptions-1.html",
-          "hash": "j1SFY3doivnIemVx9OztXQ=="
+          "hash": "CF5u4KfB6P9VKyljcCrKTA=="
         }
       },
       "is_incremental": false,
@@ -381,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.Composition.RegistrationStep.html",
-          "hash": "9CCE5s0UvD0FcbBueb9rEQ=="
+          "hash": "hV6vOdDJYtBnD9sy8Fa7eA=="
         }
       },
       "is_incremental": false,
@@ -393,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.Composition.WithFactoryMethodOptions-2.html",
-          "hash": "w04ZtwFvVN19ZhUtT+tHYQ=="
+          "hash": "O9ZIFHb8qiqy9bcvNfK0FQ=="
         }
       },
       "is_incremental": false,
@@ -405,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.Composition.WithParameterOptions.html",
-          "hash": "YAHf0C//SmVHSbsO1FhL/Q=="
+          "hash": "TPcncyDqrMAHFpdlffj+Sg=="
         }
       },
       "is_incremental": false,
@@ -417,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.Composition.html",
-          "hash": "vHFh9G6OWQHW4qYIpzfcCg=="
+          "hash": "MpKwAwEE6zV9/k9/RXuR9w=="
         }
       },
       "is_incremental": false,
@@ -429,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.ConsoleHelper.html",
-          "hash": "rVbSXJpMgZ23hiEBmjLJKg=="
+          "hash": "u6LpD8ZbNn6Q19uDGE98IA=="
         }
       },
       "is_incremental": false,
@@ -441,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.DebugThrow.html",
-          "hash": "LU167l9z4/hu1EYy5pYB9g=="
+          "hash": "ZZI8AuofgBGYBhB9xD1cGA=="
         }
       },
       "is_incremental": false,
@@ -453,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.DictionaryExtensions.html",
-          "hash": "0QjdJ0mTaDO+tZLzuGyc7Q=="
+          "hash": "UhUj8eMXlO5wjJB73YgRgg=="
         }
       },
       "is_incremental": false,
@@ -465,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.DumpExtensions.html",
-          "hash": "xViyDFmN65YhFIALsWfBeQ=="
+          "hash": "TeYmtxihFuKE9wqT9pG4UQ=="
         }
       },
       "is_incremental": false,
@@ -477,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.EnumerableExtensions.html",
-          "hash": "EnA8/Ow+5y/A8SDiR1kfmw=="
+          "hash": "YnOyDjmhyC+CsBw0qwpXxQ=="
         }
       },
       "is_incremental": false,
@@ -489,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.EventExtensions.html",
-          "hash": "MjqYC6GQSqZW234bxkbvIQ=="
+          "hash": "3sWPFlL6AUNpoNy9AQo3QQ=="
         }
       },
       "is_incremental": false,
@@ -501,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.HighPerfLogger.html",
-          "hash": "ZOB5pcLUBPj/vnwAso9SpQ=="
+          "hash": "Ke7izzEGhwR6Jp7+xpVZhw=="
         }
       },
       "is_incremental": false,
@@ -513,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.ListExtensions.html",
-          "hash": "Yajpqv86ICRDbYKD3Fu0Og=="
+          "hash": "Lliq/7Dpd4dbYq83T5TepQ=="
         }
       },
       "is_incremental": false,
@@ -525,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.ObjectExtensions.html",
-          "hash": "QT/+axWiFMaVNZjbifVY5A=="
+          "hash": "eSkXTWRBfeu7gidyWKWUkQ=="
         }
       },
       "is_incremental": false,
@@ -537,7 +549,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.Password.html",
-          "hash": "6GyLm8rag/gBY0XYXFVOwA=="
+          "hash": "6yeL4hQG0PJUXj5zpWkUzw=="
         }
       },
       "is_incremental": false,
@@ -549,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.RoundOperation-1.html",
-          "hash": "MsZDYUtQnJ5pcQ/suHXZpA=="
+          "hash": "sa5G4epv71LcFwHgLliKVQ=="
         }
       },
       "is_incremental": false,
@@ -561,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.StopwatchHelper.html",
-          "hash": "oE3bHaqSPzfvxXJBZEfhUA=="
+          "hash": "7s9B48NSpSIDUDaQOEKfxw=="
         }
       },
       "is_incremental": false,
@@ -573,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.StringExtensions.html",
-          "hash": "QrE9LrkXJAALTgwN78GSrw=="
+          "hash": "MZW5KwBIJEP9Z+49YijVCA=="
         }
       },
       "is_incremental": false,
@@ -585,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.TaskExtensions.html",
-          "hash": "NEnL4j+fDwytRFZw0FkJEg=="
+          "hash": "Y4VN1r/8QqU4injyBWk5eA=="
         }
       },
       "is_incremental": false,
@@ -597,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.TypeExtensions.html",
-          "hash": "SuRUbDeA7o3IgeR/w+iA0Q=="
+          "hash": "99cjbfr7UajiOK660Xmw2A=="
         }
       },
       "is_incremental": false,
@@ -609,19 +621,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.UnaryOperation-1.html",
-          "hash": "UADEHUEBMuaKuvuIJNZKhw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "Api/Epos.Utilities.Web.IJsonRestClient.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Api/Epos.Utilities.Web.IJsonRestClient.html",
-          "hash": "mw1Y+prS4jXwcd4luhFw1g=="
+          "hash": "DxVv4eyQx+XOrswt7XEOrw=="
         }
       },
       "is_incremental": false,
@@ -633,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.Web.IObjectSession.html",
-          "hash": "pW9gDYCmtDkI3E9WeuRm5A=="
+          "hash": "6DenjsBK7QXdj2IsCasxFg=="
         }
       },
       "is_incremental": false,
@@ -645,19 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.Web.IPolicyProvider.html",
-          "hash": "IhtPPvfSCmmoJNW7WZDCTQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "Api/Epos.Utilities.Web.JsonRestClient.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Api/Epos.Utilities.Web.JsonRestClient.html",
-          "hash": "EcDOXwL/xJIoH311qq1v/Q=="
+          "hash": "QBktiFobLlpoGUPxRnEbSg=="
         }
       },
       "is_incremental": false,
@@ -669,19 +657,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.Web.PolicyProvider.html",
-          "hash": "2+faXgXplrbndQwEKEJULQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "Api/Epos.Utilities.Web.ResilientJsonRestClient.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Api/Epos.Utilities.Web.ResilientJsonRestClient.html",
-          "hash": "sNfX3UN5BxC9yUacgLiGsg=="
+          "hash": "m0a7T29+cHUlJJV0Yvdb0w=="
         }
       },
       "is_incremental": false,
@@ -693,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.Web.html",
-          "hash": "a/xTSb84FcEmEao9vVnOSg=="
+          "hash": "hpv3zpUeUU/6yNPU7M+i/Q=="
         }
       },
       "is_incremental": false,
@@ -705,31 +681,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Epos.Utilities.html",
-          "hash": "Nk7zV0nhrwaR9QzP+7KQPg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "Api/Microsoft.Extensions.Configuration.GelfWebHostBuilderExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Api/Microsoft.Extensions.Configuration.GelfWebHostBuilderExtensions.html",
-          "hash": "XBYuxoVkmBC2Pa54bm0xvw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "Api/Microsoft.Extensions.Configuration.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Api/Microsoft.Extensions.Configuration.html",
-          "hash": "EhothyMsrvRc1BGl6AL0HA=="
+          "hash": "KBdczT1vzK3ZrVyt9v2n5g=="
         }
       },
       "is_incremental": false,
@@ -741,7 +693,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Microsoft.Extensions.DependencyInjection.ObjectSessionMiddlewareExtensions.html",
-          "hash": "XQkREHOVy1heScFbemN9GA=="
+          "hash": "92qadNRlkc93UvSdUB+Aqw=="
         }
       },
       "is_incremental": false,
@@ -753,7 +705,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Microsoft.Extensions.DependencyInjection.ObjectSessionServiceCollectionExtensions.html",
-          "hash": "nozTRO+3v7oaYmy1hRv/0w=="
+          "hash": "VAeI/YmIkfwWkVcmyo6F0A=="
         }
       },
       "is_incremental": false,
@@ -765,7 +717,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/Microsoft.Extensions.DependencyInjection.html",
-          "hash": "VuhHLUjUkn0eS5lLu+7rTA=="
+          "hash": "eakG9OujYAkW5C3Y01HAXg=="
         }
       },
       "is_incremental": false,
@@ -777,7 +729,7 @@
       "output": {
         ".html": {
           "relative_path": "Api/toc.html",
-          "hash": "skV4zRK417SefBhNro1WNg=="
+          "hash": "H5nHZjNJxm3O5x1r1rwXvQ=="
         }
       },
       "is_incremental": false,
@@ -789,7 +741,7 @@
       "output": {
         ".html": {
           "relative_path": "getting-started.html",
-          "hash": "dWPJz40BEU4d0O8SlTvs+w=="
+          "hash": "uR7xmfVPeCvkKgbjgwengw=="
         }
       },
       "is_incremental": false,
@@ -813,21 +765,30 @@
       "status": {
         "can_incremental": false,
         "details": "Cannot build incrementally because last build info is missing.",
-        "incrementalPhase": "build"
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
-          "incrementalPhase": "build"
+          "incrementalPhase": "build",
+          "total_file_count": 1,
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
-          "incrementalPhase": "build"
+          "incrementalPhase": "build",
+          "total_file_count": 63,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
         }
       }
     },
@@ -835,7 +796,9 @@
       "status": {
         "can_incremental": false,
         "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
-        "incrementalPhase": "postProcessing"
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
       },
       "processors": {}
     }

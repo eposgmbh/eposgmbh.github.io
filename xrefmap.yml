@@ -23,6 +23,7 @@ references:
   name: ErrorAction
   href: Api/Epos.CmdLine.CmdLineConfiguration.html#Epos_CmdLine_CmdLineConfiguration_ErrorAction_
   commentId: Overload:Epos.CmdLine.CmdLineConfiguration.ErrorAction
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineConfiguration.ErrorAction
   nameWithType: CmdLineConfiguration.ErrorAction
 - uid: Epos.CmdLine.CmdLineConfiguration.UsageTextWriter
@@ -35,6 +36,7 @@ references:
   name: UsageTextWriter
   href: Api/Epos.CmdLine.CmdLineConfiguration.html#Epos_CmdLine_CmdLineConfiguration_UsageTextWriter_
   commentId: Overload:Epos.CmdLine.CmdLineConfiguration.UsageTextWriter
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineConfiguration.UsageTextWriter
   nameWithType: CmdLineConfiguration.UsageTextWriter
 - uid: Epos.CmdLine.CmdLineDefinition
@@ -53,6 +55,7 @@ references:
   name: CmdLineDefinition
   href: Api/Epos.CmdLine.CmdLineDefinition.html#Epos_CmdLine_CmdLineDefinition__ctor_
   commentId: Overload:Epos.CmdLine.CmdLineDefinition.#ctor
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineDefinition.CmdLineDefinition
   nameWithType: CmdLineDefinition.CmdLineDefinition
 - uid: Epos.CmdLine.CmdLineDefinition.Configuration
@@ -65,6 +68,7 @@ references:
   name: Configuration
   href: Api/Epos.CmdLine.CmdLineDefinition.html#Epos_CmdLine_CmdLineDefinition_Configuration_
   commentId: Overload:Epos.CmdLine.CmdLineDefinition.Configuration
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineDefinition.Configuration
   nameWithType: CmdLineDefinition.Configuration
 - uid: Epos.CmdLine.CmdLineDefinition.HasDifferentiatedSubcommands
@@ -77,6 +81,7 @@ references:
   name: HasDifferentiatedSubcommands
   href: Api/Epos.CmdLine.CmdLineDefinition.html#Epos_CmdLine_CmdLineDefinition_HasDifferentiatedSubcommands_
   commentId: Overload:Epos.CmdLine.CmdLineDefinition.HasDifferentiatedSubcommands
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineDefinition.HasDifferentiatedSubcommands
   nameWithType: CmdLineDefinition.HasDifferentiatedSubcommands
 - uid: Epos.CmdLine.CmdLineDefinition.Name
@@ -89,6 +94,7 @@ references:
   name: Name
   href: Api/Epos.CmdLine.CmdLineDefinition.html#Epos_CmdLine_CmdLineDefinition_Name_
   commentId: Overload:Epos.CmdLine.CmdLineDefinition.Name
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineDefinition.Name
   nameWithType: CmdLineDefinition.Name
 - uid: Epos.CmdLine.CmdLineDefinition.ShowHelp
@@ -107,6 +113,7 @@ references:
   name: ShowHelp
   href: Api/Epos.CmdLine.CmdLineDefinition.html#Epos_CmdLine_CmdLineDefinition_ShowHelp_
   commentId: Overload:Epos.CmdLine.CmdLineDefinition.ShowHelp
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineDefinition.ShowHelp
   nameWithType: CmdLineDefinition.ShowHelp
 - uid: Epos.CmdLine.CmdLineDefinition.Subcommands
@@ -119,6 +126,7 @@ references:
   name: Subcommands
   href: Api/Epos.CmdLine.CmdLineDefinition.html#Epos_CmdLine_CmdLineDefinition_Subcommands_
   commentId: Overload:Epos.CmdLine.CmdLineDefinition.Subcommands
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineDefinition.Subcommands
   nameWithType: CmdLineDefinition.Subcommands
 - uid: Epos.CmdLine.CmdLineDefinition.Try(System.String[])
@@ -134,6 +142,7 @@ references:
   name: Try
   href: Api/Epos.CmdLine.CmdLineDefinition.html#Epos_CmdLine_CmdLineDefinition_Try_
   commentId: Overload:Epos.CmdLine.CmdLineDefinition.Try
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineDefinition.Try
   nameWithType: CmdLineDefinition.Try
 - uid: Epos.CmdLine.CmdLineOption
@@ -152,6 +161,7 @@ references:
   name: CmdLineOption
   href: Api/Epos.CmdLine.CmdLineOption.html#Epos_CmdLine_CmdLineOption__ctor_
   commentId: Overload:Epos.CmdLine.CmdLineOption.#ctor
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineOption.CmdLineOption
   nameWithType: CmdLineOption.CmdLineOption
 - uid: Epos.CmdLine.CmdLineOption.DataType
@@ -164,6 +174,7 @@ references:
   name: DataType
   href: Api/Epos.CmdLine.CmdLineOption.html#Epos_CmdLine_CmdLineOption_DataType_
   commentId: Overload:Epos.CmdLine.CmdLineOption.DataType
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineOption.DataType
   nameWithType: CmdLineOption.DataType
 - uid: Epos.CmdLine.CmdLineOption.Description
@@ -176,6 +187,7 @@ references:
   name: Description
   href: Api/Epos.CmdLine.CmdLineOption.html#Epos_CmdLine_CmdLineOption_Description_
   commentId: Overload:Epos.CmdLine.CmdLineOption.Description
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineOption.Description
   nameWithType: CmdLineOption.Description
 - uid: Epos.CmdLine.CmdLineOption.ExclusionGroups
@@ -188,6 +200,7 @@ references:
   name: ExclusionGroups
   href: Api/Epos.CmdLine.CmdLineOption.html#Epos_CmdLine_CmdLineOption_ExclusionGroups_
   commentId: Overload:Epos.CmdLine.CmdLineOption.ExclusionGroups
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineOption.ExclusionGroups
   nameWithType: CmdLineOption.ExclusionGroups
 - uid: Epos.CmdLine.CmdLineOption.Letter
@@ -200,6 +213,7 @@ references:
   name: Letter
   href: Api/Epos.CmdLine.CmdLineOption.html#Epos_CmdLine_CmdLineOption_Letter_
   commentId: Overload:Epos.CmdLine.CmdLineOption.Letter
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineOption.Letter
   nameWithType: CmdLineOption.Letter
 - uid: Epos.CmdLine.CmdLineOption.LongName
@@ -212,6 +226,7 @@ references:
   name: LongName
   href: Api/Epos.CmdLine.CmdLineOption.html#Epos_CmdLine_CmdLineOption_LongName_
   commentId: Overload:Epos.CmdLine.CmdLineOption.LongName
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineOption.LongName
   nameWithType: CmdLineOption.LongName
 - uid: Epos.CmdLine.CmdLineOption`1
@@ -235,6 +250,7 @@ references:
   name: CmdLineOption
   href: Api/Epos.CmdLine.CmdLineOption-1.html#Epos_CmdLine_CmdLineOption_1__ctor_
   commentId: Overload:Epos.CmdLine.CmdLineOption`1.#ctor
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineOption<T>.CmdLineOption
   fullName.vb: Epos.CmdLine.CmdLineOption(Of T).CmdLineOption
   nameWithType: CmdLineOption<T>.CmdLineOption
@@ -251,6 +267,7 @@ references:
   name: DefaultValue
   href: Api/Epos.CmdLine.CmdLineOption-1.html#Epos_CmdLine_CmdLineOption_1_DefaultValue_
   commentId: Overload:Epos.CmdLine.CmdLineOption`1.DefaultValue
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineOption<T>.DefaultValue
   fullName.vb: Epos.CmdLine.CmdLineOption(Of T).DefaultValue
   nameWithType: CmdLineOption<T>.DefaultValue
@@ -271,6 +288,7 @@ references:
   name: CmdLineOptionAttribute
   href: Api/Epos.CmdLine.CmdLineOptionAttribute.html#Epos_CmdLine_CmdLineOptionAttribute__ctor_
   commentId: Overload:Epos.CmdLine.CmdLineOptionAttribute.#ctor
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineOptionAttribute.CmdLineOptionAttribute
   nameWithType: CmdLineOptionAttribute.CmdLineOptionAttribute
 - uid: Epos.CmdLine.CmdLineOptionAttribute.Letter
@@ -283,6 +301,7 @@ references:
   name: Letter
   href: Api/Epos.CmdLine.CmdLineOptionAttribute.html#Epos_CmdLine_CmdLineOptionAttribute_Letter_
   commentId: Overload:Epos.CmdLine.CmdLineOptionAttribute.Letter
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineOptionAttribute.Letter
   nameWithType: CmdLineOptionAttribute.Letter
 - uid: Epos.CmdLine.CmdLineParameter
@@ -301,6 +320,7 @@ references:
   name: CmdLineParameter
   href: Api/Epos.CmdLine.CmdLineParameter.html#Epos_CmdLine_CmdLineParameter__ctor_
   commentId: Overload:Epos.CmdLine.CmdLineParameter.#ctor
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineParameter.CmdLineParameter
   nameWithType: CmdLineParameter.CmdLineParameter
 - uid: Epos.CmdLine.CmdLineParameter.DataType
@@ -313,6 +333,7 @@ references:
   name: DataType
   href: Api/Epos.CmdLine.CmdLineParameter.html#Epos_CmdLine_CmdLineParameter_DataType_
   commentId: Overload:Epos.CmdLine.CmdLineParameter.DataType
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineParameter.DataType
   nameWithType: CmdLineParameter.DataType
 - uid: Epos.CmdLine.CmdLineParameter.Description
@@ -325,6 +346,7 @@ references:
   name: Description
   href: Api/Epos.CmdLine.CmdLineParameter.html#Epos_CmdLine_CmdLineParameter_Description_
   commentId: Overload:Epos.CmdLine.CmdLineParameter.Description
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineParameter.Description
   nameWithType: CmdLineParameter.Description
 - uid: Epos.CmdLine.CmdLineParameter.IsOptional
@@ -337,6 +359,7 @@ references:
   name: IsOptional
   href: Api/Epos.CmdLine.CmdLineParameter.html#Epos_CmdLine_CmdLineParameter_IsOptional_
   commentId: Overload:Epos.CmdLine.CmdLineParameter.IsOptional
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineParameter.IsOptional
   nameWithType: CmdLineParameter.IsOptional
 - uid: Epos.CmdLine.CmdLineParameter.Name
@@ -349,6 +372,7 @@ references:
   name: Name
   href: Api/Epos.CmdLine.CmdLineParameter.html#Epos_CmdLine_CmdLineParameter_Name_
   commentId: Overload:Epos.CmdLine.CmdLineParameter.Name
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineParameter.Name
   nameWithType: CmdLineParameter.Name
 - uid: Epos.CmdLine.CmdLineParameter`1
@@ -372,6 +396,7 @@ references:
   name: CmdLineParameter
   href: Api/Epos.CmdLine.CmdLineParameter-1.html#Epos_CmdLine_CmdLineParameter_1__ctor_
   commentId: Overload:Epos.CmdLine.CmdLineParameter`1.#ctor
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineParameter<T>.CmdLineParameter
   fullName.vb: Epos.CmdLine.CmdLineParameter(Of T).CmdLineParameter
   nameWithType: CmdLineParameter<T>.CmdLineParameter
@@ -388,6 +413,7 @@ references:
   name: DefaultValue
   href: Api/Epos.CmdLine.CmdLineParameter-1.html#Epos_CmdLine_CmdLineParameter_1_DefaultValue_
   commentId: Overload:Epos.CmdLine.CmdLineParameter`1.DefaultValue
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineParameter<T>.DefaultValue
   fullName.vb: Epos.CmdLine.CmdLineParameter(Of T).DefaultValue
   nameWithType: CmdLineParameter<T>.DefaultValue
@@ -398,12 +424,6 @@ references:
   commentId: T:Epos.CmdLine.CmdLineParameterAttribute
   fullName: Epos.CmdLine.CmdLineParameterAttribute
   nameWithType: CmdLineParameterAttribute
-- uid: Epos.CmdLine.CmdLineParameterAttribute.#ctor
-  name: CmdLineParameterAttribute()
-  href: Api/Epos.CmdLine.CmdLineParameterAttribute.html#Epos_CmdLine_CmdLineParameterAttribute__ctor
-  commentId: M:Epos.CmdLine.CmdLineParameterAttribute.#ctor
-  fullName: Epos.CmdLine.CmdLineParameterAttribute.CmdLineParameterAttribute()
-  nameWithType: CmdLineParameterAttribute.CmdLineParameterAttribute()
 - uid: Epos.CmdLine.CmdLineParameterAttribute.#ctor(System.String)
   name: CmdLineParameterAttribute(String)
   href: Api/Epos.CmdLine.CmdLineParameterAttribute.html#Epos_CmdLine_CmdLineParameterAttribute__ctor_System_String_
@@ -414,6 +434,7 @@ references:
   name: CmdLineParameterAttribute
   href: Api/Epos.CmdLine.CmdLineParameterAttribute.html#Epos_CmdLine_CmdLineParameterAttribute__ctor_
   commentId: Overload:Epos.CmdLine.CmdLineParameterAttribute.#ctor
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineParameterAttribute.CmdLineParameterAttribute
   nameWithType: CmdLineParameterAttribute.CmdLineParameterAttribute
 - uid: Epos.CmdLine.CmdLineParameterAttribute.Name
@@ -426,6 +447,7 @@ references:
   name: Name
   href: Api/Epos.CmdLine.CmdLineParameterAttribute.html#Epos_CmdLine_CmdLineParameterAttribute_Name_
   commentId: Overload:Epos.CmdLine.CmdLineParameterAttribute.Name
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineParameterAttribute.Name
   nameWithType: CmdLineParameterAttribute.Name
 - uid: Epos.CmdLine.CmdLineSubcommand
@@ -444,6 +466,7 @@ references:
   name: CmdLineSubcommand
   href: Api/Epos.CmdLine.CmdLineSubcommand.html#Epos_CmdLine_CmdLineSubcommand__ctor_
   commentId: Overload:Epos.CmdLine.CmdLineSubcommand.#ctor
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineSubcommand.CmdLineSubcommand
   nameWithType: CmdLineSubcommand.CmdLineSubcommand
 - uid: Epos.CmdLine.CmdLineSubcommand.DefaultName
@@ -462,6 +485,7 @@ references:
   name: Description
   href: Api/Epos.CmdLine.CmdLineSubcommand.html#Epos_CmdLine_CmdLineSubcommand_Description_
   commentId: Overload:Epos.CmdLine.CmdLineSubcommand.Description
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineSubcommand.Description
   nameWithType: CmdLineSubcommand.Description
 - uid: Epos.CmdLine.CmdLineSubcommand.Name
@@ -474,6 +498,7 @@ references:
   name: Name
   href: Api/Epos.CmdLine.CmdLineSubcommand.html#Epos_CmdLine_CmdLineSubcommand_Name_
   commentId: Overload:Epos.CmdLine.CmdLineSubcommand.Name
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineSubcommand.Name
   nameWithType: CmdLineSubcommand.Name
 - uid: Epos.CmdLine.CmdLineSubcommand.Options
@@ -486,6 +511,7 @@ references:
   name: Options
   href: Api/Epos.CmdLine.CmdLineSubcommand.html#Epos_CmdLine_CmdLineSubcommand_Options_
   commentId: Overload:Epos.CmdLine.CmdLineSubcommand.Options
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineSubcommand.Options
   nameWithType: CmdLineSubcommand.Options
 - uid: Epos.CmdLine.CmdLineSubcommand.Parameters
@@ -498,6 +524,7 @@ references:
   name: Parameters
   href: Api/Epos.CmdLine.CmdLineSubcommand.html#Epos_CmdLine_CmdLineSubcommand_Parameters_
   commentId: Overload:Epos.CmdLine.CmdLineSubcommand.Parameters
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineSubcommand.Parameters
   nameWithType: CmdLineSubcommand.Parameters
 - uid: Epos.CmdLine.CmdLineSubcommand`1
@@ -521,6 +548,7 @@ references:
   name: CmdLineSubcommand
   href: Api/Epos.CmdLine.CmdLineSubcommand-1.html#Epos_CmdLine_CmdLineSubcommand_1__ctor_
   commentId: Overload:Epos.CmdLine.CmdLineSubcommand`1.#ctor
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineSubcommand<TOptions>.CmdLineSubcommand
   fullName.vb: Epos.CmdLine.CmdLineSubcommand(Of TOptions).CmdLineSubcommand
   nameWithType: CmdLineSubcommand<TOptions>.CmdLineSubcommand
@@ -537,6 +565,7 @@ references:
   name: CmdLineFunc
   href: Api/Epos.CmdLine.CmdLineSubcommand-1.html#Epos_CmdLine_CmdLineSubcommand_1_CmdLineFunc_
   commentId: Overload:Epos.CmdLine.CmdLineSubcommand`1.CmdLineFunc
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineSubcommand<TOptions>.CmdLineFunc
   fullName.vb: Epos.CmdLine.CmdLineSubcommand(Of TOptions).CmdLineFunc
   nameWithType: CmdLineSubcommand<TOptions>.CmdLineFunc
@@ -557,6 +586,7 @@ references:
   name: CmdLineSwitch
   href: Api/Epos.CmdLine.CmdLineSwitch.html#Epos_CmdLine_CmdLineSwitch__ctor_
   commentId: Overload:Epos.CmdLine.CmdLineSwitch.#ctor
+  isSpec: "True"
   fullName: Epos.CmdLine.CmdLineSwitch.CmdLineSwitch
   nameWithType: CmdLineSwitch.CmdLineSwitch
 - uid: Epos.CmdLine.Helpers
@@ -584,6 +614,7 @@ references:
   name: Execute
   href: Api/Epos.CmdLine.Helpers.DalSoftRestClientConsoleHelper.html#Epos_CmdLine_Helpers_DalSoftRestClientConsoleHelper_Execute_
   commentId: Overload:Epos.CmdLine.Helpers.DalSoftRestClientConsoleHelper.Execute
+  isSpec: "True"
   fullName: Epos.CmdLine.Helpers.DalSoftRestClientConsoleHelper.Execute
   nameWithType: DalSoftRestClientConsoleHelper.Execute
 - uid: Epos.TestUtilities.Docker
@@ -598,6 +629,19 @@ references:
   commentId: T:Epos.TestUtilities.Docker.DockerContainer
   fullName: Epos.TestUtilities.Docker.DockerContainer
   nameWithType: DockerContainer
+- uid: Epos.TestUtilities.Docker.DockerContainer.ConnectionString
+  name: ConnectionString
+  href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_ConnectionString
+  commentId: P:Epos.TestUtilities.Docker.DockerContainer.ConnectionString
+  fullName: Epos.TestUtilities.Docker.DockerContainer.ConnectionString
+  nameWithType: DockerContainer.ConnectionString
+- uid: Epos.TestUtilities.Docker.DockerContainer.ConnectionString*
+  name: ConnectionString
+  href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_ConnectionString_
+  commentId: Overload:Epos.TestUtilities.Docker.DockerContainer.ConnectionString
+  isSpec: "True"
+  fullName: Epos.TestUtilities.Docker.DockerContainer.ConnectionString
+  nameWithType: DockerContainer.ConnectionString
 - uid: Epos.TestUtilities.Docker.DockerContainer.Finalize
   name: Finalize()
   href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_Finalize
@@ -608,6 +652,7 @@ references:
   name: Finalize
   href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_Finalize_
   commentId: Overload:Epos.TestUtilities.Docker.DockerContainer.Finalize
+  isSpec: "True"
   fullName: Epos.TestUtilities.Docker.DockerContainer.Finalize
   nameWithType: DockerContainer.Finalize
 - uid: Epos.TestUtilities.Docker.DockerContainer.ForceRemove
@@ -620,6 +665,7 @@ references:
   name: ForceRemove
   href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_ForceRemove_
   commentId: Overload:Epos.TestUtilities.Docker.DockerContainer.ForceRemove
+  isSpec: "True"
   fullName: Epos.TestUtilities.Docker.DockerContainer.ForceRemove
   nameWithType: DockerContainer.ForceRemove
 - uid: Epos.TestUtilities.Docker.DockerContainer.Id
@@ -632,6 +678,7 @@ references:
   name: Id
   href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_Id_
   commentId: Overload:Epos.TestUtilities.Docker.DockerContainer.Id
+  isSpec: "True"
   fullName: Epos.TestUtilities.Docker.DockerContainer.Id
   nameWithType: DockerContainer.Id
 - uid: Epos.TestUtilities.Docker.DockerContainer.ImageName
@@ -644,6 +691,7 @@ references:
   name: ImageName
   href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_ImageName_
   commentId: Overload:Epos.TestUtilities.Docker.DockerContainer.ImageName
+  isSpec: "True"
   fullName: Epos.TestUtilities.Docker.DockerContainer.ImageName
   nameWithType: DockerContainer.ImageName
 - uid: Epos.TestUtilities.Docker.DockerContainer.Name
@@ -656,6 +704,7 @@ references:
   name: Name
   href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_Name_
   commentId: Overload:Epos.TestUtilities.Docker.DockerContainer.Name
+  isSpec: "True"
   fullName: Epos.TestUtilities.Docker.DockerContainer.Name
   nameWithType: DockerContainer.Name
 - uid: Epos.TestUtilities.Docker.DockerContainer.Ports
@@ -668,8 +717,28 @@ references:
   name: Ports
   href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_Ports_
   commentId: Overload:Epos.TestUtilities.Docker.DockerContainer.Ports
+  isSpec: "True"
   fullName: Epos.TestUtilities.Docker.DockerContainer.Ports
   nameWithType: DockerContainer.Ports
+- uid: Epos.TestUtilities.Docker.DockerContainer.Postgres
+  name: DockerContainer.Postgres
+  href: Api/Epos.TestUtilities.Docker.DockerContainer.Postgres.html
+  commentId: T:Epos.TestUtilities.Docker.DockerContainer.Postgres
+  fullName: Epos.TestUtilities.Docker.DockerContainer.Postgres
+  nameWithType: DockerContainer.Postgres
+- uid: Epos.TestUtilities.Docker.DockerContainer.Postgres.Start
+  name: Start()
+  href: Api/Epos.TestUtilities.Docker.DockerContainer.Postgres.html#Epos_TestUtilities_Docker_DockerContainer_Postgres_Start
+  commentId: M:Epos.TestUtilities.Docker.DockerContainer.Postgres.Start
+  fullName: Epos.TestUtilities.Docker.DockerContainer.Postgres.Start()
+  nameWithType: DockerContainer.Postgres.Start()
+- uid: Epos.TestUtilities.Docker.DockerContainer.Postgres.Start*
+  name: Start
+  href: Api/Epos.TestUtilities.Docker.DockerContainer.Postgres.html#Epos_TestUtilities_Docker_DockerContainer_Postgres_Start_
+  commentId: Overload:Epos.TestUtilities.Docker.DockerContainer.Postgres.Start
+  isSpec: "True"
+  fullName: Epos.TestUtilities.Docker.DockerContainer.Postgres.Start
+  nameWithType: DockerContainer.Postgres.Start
 - uid: Epos.TestUtilities.Docker.DockerContainer.StartAndWaitForReadynessLogPhrase(Epos.TestUtilities.Docker.DockerContainerOptions)
   name: StartAndWaitForReadynessLogPhrase(DockerContainerOptions)
   href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_StartAndWaitForReadynessLogPhrase_Epos_TestUtilities_Docker_DockerContainerOptions_
@@ -680,6 +749,7 @@ references:
   name: StartAndWaitForReadynessLogPhrase
   href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_StartAndWaitForReadynessLogPhrase_
   commentId: Overload:Epos.TestUtilities.Docker.DockerContainer.StartAndWaitForReadynessLogPhrase
+  isSpec: "True"
   fullName: Epos.TestUtilities.Docker.DockerContainer.StartAndWaitForReadynessLogPhrase
   nameWithType: DockerContainer.StartAndWaitForReadynessLogPhrase
 - uid: Epos.TestUtilities.Docker.DockerContainer.StartOptions
@@ -692,6 +762,7 @@ references:
   name: StartOptions
   href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_StartOptions_
   commentId: Overload:Epos.TestUtilities.Docker.DockerContainer.StartOptions
+  isSpec: "True"
   fullName: Epos.TestUtilities.Docker.DockerContainer.StartOptions
   nameWithType: DockerContainer.StartOptions
 - uid: Epos.TestUtilities.Docker.DockerContainer.Status
@@ -704,6 +775,7 @@ references:
   name: Status
   href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_Status_
   commentId: Overload:Epos.TestUtilities.Docker.DockerContainer.Status
+  isSpec: "True"
   fullName: Epos.TestUtilities.Docker.DockerContainer.Status
   nameWithType: DockerContainer.Status
 - uid: Epos.TestUtilities.Docker.DockerContainer.System#IDisposable#Dispose
@@ -718,6 +790,7 @@ references:
   name: IDisposable.Dispose
   href: Api/Epos.TestUtilities.Docker.DockerContainer.html#Epos_TestUtilities_Docker_DockerContainer_System_IDisposable_Dispose_
   commentId: Overload:Epos.TestUtilities.Docker.DockerContainer.System#IDisposable#Dispose
+  isSpec: "True"
   name.vb: System.IDisposable.Dispose
   fullName: Epos.TestUtilities.Docker.DockerContainer.System.IDisposable.Dispose
   nameWithType: DockerContainer.IDisposable.Dispose
@@ -744,6 +817,7 @@ references:
   name: DockerContainerException
   href: Api/Epos.TestUtilities.Docker.DockerContainerException.html#Epos_TestUtilities_Docker_DockerContainerException__ctor_
   commentId: Overload:Epos.TestUtilities.Docker.DockerContainerException.#ctor
+  isSpec: "True"
   fullName: Epos.TestUtilities.Docker.DockerContainerException.DockerContainerException
   nameWithType: DockerContainerException.DockerContainerException
 - uid: Epos.TestUtilities.Docker.DockerContainerOptions
@@ -762,6 +836,7 @@ references:
   name: EnvironmentVariables
   href: Api/Epos.TestUtilities.Docker.DockerContainerOptions.html#Epos_TestUtilities_Docker_DockerContainerOptions_EnvironmentVariables_
   commentId: Overload:Epos.TestUtilities.Docker.DockerContainerOptions.EnvironmentVariables
+  isSpec: "True"
   fullName: Epos.TestUtilities.Docker.DockerContainerOptions.EnvironmentVariables
   nameWithType: DockerContainerOptions.EnvironmentVariables
 - uid: Epos.TestUtilities.Docker.DockerContainerOptions.Hostname
@@ -774,6 +849,7 @@ references:
   name: Hostname
   href: Api/Epos.TestUtilities.Docker.DockerContainerOptions.html#Epos_TestUtilities_Docker_DockerContainerOptions_Hostname_
   commentId: Overload:Epos.TestUtilities.Docker.DockerContainerOptions.Hostname
+  isSpec: "True"
   fullName: Epos.TestUtilities.Docker.DockerContainerOptions.Hostname
   nameWithType: DockerContainerOptions.Hostname
 - uid: Epos.TestUtilities.Docker.DockerContainerOptions.ImageName
@@ -786,8 +862,22 @@ references:
   name: ImageName
   href: Api/Epos.TestUtilities.Docker.DockerContainerOptions.html#Epos_TestUtilities_Docker_DockerContainerOptions_ImageName_
   commentId: Overload:Epos.TestUtilities.Docker.DockerContainerOptions.ImageName
+  isSpec: "True"
   fullName: Epos.TestUtilities.Docker.DockerContainerOptions.ImageName
   nameWithType: DockerContainerOptions.ImageName
+- uid: Epos.TestUtilities.Docker.DockerContainerOptions.Name
+  name: Name
+  href: Api/Epos.TestUtilities.Docker.DockerContainerOptions.html#Epos_TestUtilities_Docker_DockerContainerOptions_Name
+  commentId: P:Epos.TestUtilities.Docker.DockerContainerOptions.Name
+  fullName: Epos.TestUtilities.Docker.DockerContainerOptions.Name
+  nameWithType: DockerContainerOptions.Name
+- uid: Epos.TestUtilities.Docker.DockerContainerOptions.Name*
+  name: Name
+  href: Api/Epos.TestUtilities.Docker.DockerContainerOptions.html#Epos_TestUtilities_Docker_DockerContainerOptions_Name_
+  commentId: Overload:Epos.TestUtilities.Docker.DockerContainerOptions.Name
+  isSpec: "True"
+  fullName: Epos.TestUtilities.Docker.DockerContainerOptions.Name
+  nameWithType: DockerContainerOptions.Name
 - uid: Epos.TestUtilities.Docker.DockerContainerOptions.Ports
   name: Ports
   href: Api/Epos.TestUtilities.Docker.DockerContainerOptions.html#Epos_TestUtilities_Docker_DockerContainerOptions_Ports
@@ -798,6 +888,7 @@ references:
   name: Ports
   href: Api/Epos.TestUtilities.Docker.DockerContainerOptions.html#Epos_TestUtilities_Docker_DockerContainerOptions_Ports_
   commentId: Overload:Epos.TestUtilities.Docker.DockerContainerOptions.Ports
+  isSpec: "True"
   fullName: Epos.TestUtilities.Docker.DockerContainerOptions.Ports
   nameWithType: DockerContainerOptions.Ports
 - uid: Epos.TestUtilities.Docker.DockerContainerOptions.ReadynessLogPhrase
@@ -810,6 +901,7 @@ references:
   name: ReadynessLogPhrase
   href: Api/Epos.TestUtilities.Docker.DockerContainerOptions.html#Epos_TestUtilities_Docker_DockerContainerOptions_ReadynessLogPhrase_
   commentId: Overload:Epos.TestUtilities.Docker.DockerContainerOptions.ReadynessLogPhrase
+  isSpec: "True"
   fullName: Epos.TestUtilities.Docker.DockerContainerOptions.ReadynessLogPhrase
   nameWithType: DockerContainerOptions.ReadynessLogPhrase
 - uid: Epos.TestUtilities.Docker.DockerContainerOptions.ReadynessLogPhraseTimeout
@@ -822,6 +914,7 @@ references:
   name: ReadynessLogPhraseTimeout
   href: Api/Epos.TestUtilities.Docker.DockerContainerOptions.html#Epos_TestUtilities_Docker_DockerContainerOptions_ReadynessLogPhraseTimeout_
   commentId: Overload:Epos.TestUtilities.Docker.DockerContainerOptions.ReadynessLogPhraseTimeout
+  isSpec: "True"
   fullName: Epos.TestUtilities.Docker.DockerContainerOptions.ReadynessLogPhraseTimeout
   nameWithType: DockerContainerOptions.ReadynessLogPhraseTimeout
 - uid: Epos.Utilities
@@ -840,6 +933,7 @@ references:
   name: CreateAddOperation
   href: Api/Epos.Utilities.Arithmetics.html#Epos_Utilities_Arithmetics_CreateAddOperation_
   commentId: Overload:Epos.Utilities.Arithmetics.CreateAddOperation
+  isSpec: "True"
   fullName: Epos.Utilities.Arithmetics.CreateAddOperation
   nameWithType: Arithmetics.CreateAddOperation
 - uid: Epos.Utilities.Arithmetics.CreateAddOperation``1
@@ -864,6 +958,7 @@ references:
   name: CreateDivideOperation
   href: Api/Epos.Utilities.Arithmetics.html#Epos_Utilities_Arithmetics_CreateDivideOperation_
   commentId: Overload:Epos.Utilities.Arithmetics.CreateDivideOperation
+  isSpec: "True"
   fullName: Epos.Utilities.Arithmetics.CreateDivideOperation
   nameWithType: Arithmetics.CreateDivideOperation
 - uid: Epos.Utilities.Arithmetics.CreateDivideOperation``1
@@ -879,6 +974,7 @@ references:
   name: CreateMultiplyOperation
   href: Api/Epos.Utilities.Arithmetics.html#Epos_Utilities_Arithmetics_CreateMultiplyOperation_
   commentId: Overload:Epos.Utilities.Arithmetics.CreateMultiplyOperation
+  isSpec: "True"
   fullName: Epos.Utilities.Arithmetics.CreateMultiplyOperation
   nameWithType: Arithmetics.CreateMultiplyOperation
 - uid: Epos.Utilities.Arithmetics.CreateMultiplyOperation``1
@@ -894,6 +990,7 @@ references:
   name: CreateNegateOperation
   href: Api/Epos.Utilities.Arithmetics.html#Epos_Utilities_Arithmetics_CreateNegateOperation_
   commentId: Overload:Epos.Utilities.Arithmetics.CreateNegateOperation
+  isSpec: "True"
   fullName: Epos.Utilities.Arithmetics.CreateNegateOperation
   nameWithType: Arithmetics.CreateNegateOperation
 - uid: Epos.Utilities.Arithmetics.CreateNegateOperation``1
@@ -909,6 +1006,7 @@ references:
   name: CreateRoundOperation
   href: Api/Epos.Utilities.Arithmetics.html#Epos_Utilities_Arithmetics_CreateRoundOperation_
   commentId: Overload:Epos.Utilities.Arithmetics.CreateRoundOperation
+  isSpec: "True"
   fullName: Epos.Utilities.Arithmetics.CreateRoundOperation
   nameWithType: Arithmetics.CreateRoundOperation
 - uid: Epos.Utilities.Arithmetics.CreateRoundOperation``1
@@ -924,6 +1022,7 @@ references:
   name: CreateSubtractOperation
   href: Api/Epos.Utilities.Arithmetics.html#Epos_Utilities_Arithmetics_CreateSubtractOperation_
   commentId: Overload:Epos.Utilities.Arithmetics.CreateSubtractOperation
+  isSpec: "True"
   fullName: Epos.Utilities.Arithmetics.CreateSubtractOperation
   nameWithType: Arithmetics.CreateSubtractOperation
 - uid: Epos.Utilities.Arithmetics.CreateSubtractOperation``1
@@ -948,6 +1047,7 @@ references:
   name: GetMaxValue
   href: Api/Epos.Utilities.Arithmetics.html#Epos_Utilities_Arithmetics_GetMaxValue_
   commentId: Overload:Epos.Utilities.Arithmetics.GetMaxValue
+  isSpec: "True"
   fullName: Epos.Utilities.Arithmetics.GetMaxValue
   nameWithType: Arithmetics.GetMaxValue
 - uid: Epos.Utilities.Arithmetics.GetMaxValue``1
@@ -963,6 +1063,7 @@ references:
   name: GetMinValue
   href: Api/Epos.Utilities.Arithmetics.html#Epos_Utilities_Arithmetics_GetMinValue_
   commentId: Overload:Epos.Utilities.Arithmetics.GetMinValue
+  isSpec: "True"
   fullName: Epos.Utilities.Arithmetics.GetMinValue
   nameWithType: Arithmetics.GetMinValue
 - uid: Epos.Utilities.Arithmetics.GetMinValue``1
@@ -978,6 +1079,7 @@ references:
   name: GetOneValue
   href: Api/Epos.Utilities.Arithmetics.html#Epos_Utilities_Arithmetics_GetOneValue_
   commentId: Overload:Epos.Utilities.Arithmetics.GetOneValue
+  isSpec: "True"
   fullName: Epos.Utilities.Arithmetics.GetOneValue
   nameWithType: Arithmetics.GetOneValue
 - uid: Epos.Utilities.Arithmetics.GetOneValue``1
@@ -993,6 +1095,7 @@ references:
   name: GetZeroValue
   href: Api/Epos.Utilities.Arithmetics.html#Epos_Utilities_Arithmetics_GetZeroValue_
   commentId: Overload:Epos.Utilities.Arithmetics.GetZeroValue
+  isSpec: "True"
   fullName: Epos.Utilities.Arithmetics.GetZeroValue
   nameWithType: Arithmetics.GetZeroValue
 - uid: Epos.Utilities.Arithmetics.GetZeroValue``1
@@ -1014,6 +1117,7 @@ references:
   name: GetAttribute
   href: Api/Epos.Utilities.AssemblyExtensions.html#Epos_Utilities_AssemblyExtensions_GetAttribute_
   commentId: Overload:Epos.Utilities.AssemblyExtensions.GetAttribute
+  isSpec: "True"
   fullName: Epos.Utilities.AssemblyExtensions.GetAttribute
   nameWithType: AssemblyExtensions.GetAttribute
 - uid: Epos.Utilities.AssemblyExtensions.GetAttribute``1(System.Reflection.Assembly)
@@ -1029,6 +1133,7 @@ references:
   name: GetAttributes
   href: Api/Epos.Utilities.AssemblyExtensions.html#Epos_Utilities_AssemblyExtensions_GetAttributes_
   commentId: Overload:Epos.Utilities.AssemblyExtensions.GetAttributes
+  isSpec: "True"
   fullName: Epos.Utilities.AssemblyExtensions.GetAttributes
   nameWithType: AssemblyExtensions.GetAttributes
 - uid: Epos.Utilities.AssemblyExtensions.GetAttributes``1(System.Reflection.Assembly)
@@ -1044,6 +1149,7 @@ references:
   name: HasAttribute
   href: Api/Epos.Utilities.AssemblyExtensions.html#Epos_Utilities_AssemblyExtensions_HasAttribute_
   commentId: Overload:Epos.Utilities.AssemblyExtensions.HasAttribute
+  isSpec: "True"
   fullName: Epos.Utilities.AssemblyExtensions.HasAttribute
   nameWithType: AssemblyExtensions.HasAttribute
 - uid: Epos.Utilities.AssemblyExtensions.HasAttribute``1(System.Reflection.Assembly)
@@ -1085,6 +1191,7 @@ references:
   name: Cache
   href: Api/Epos.Utilities.Cache-2.html#Epos_Utilities_Cache_2__ctor_
   commentId: Overload:Epos.Utilities.Cache`2.#ctor
+  isSpec: "True"
   fullName: Epos.Utilities.Cache<TKey, TValue>.Cache
   fullName.vb: Epos.Utilities.Cache(Of TKey, TValue).Cache
   nameWithType: Cache<TKey, TValue>.Cache
@@ -1101,6 +1208,7 @@ references:
   name: Capacity
   href: Api/Epos.Utilities.Cache-2.html#Epos_Utilities_Cache_2_Capacity_
   commentId: Overload:Epos.Utilities.Cache`2.Capacity
+  isSpec: "True"
   fullName: Epos.Utilities.Cache<TKey, TValue>.Capacity
   fullName.vb: Epos.Utilities.Cache(Of TKey, TValue).Capacity
   nameWithType: Cache<TKey, TValue>.Capacity
@@ -1117,6 +1225,7 @@ references:
   name: Count
   href: Api/Epos.Utilities.Cache-2.html#Epos_Utilities_Cache_2_Count_
   commentId: Overload:Epos.Utilities.Cache`2.Count
+  isSpec: "True"
   fullName: Epos.Utilities.Cache<TKey, TValue>.Count
   fullName.vb: Epos.Utilities.Cache(Of TKey, TValue).Count
   nameWithType: Cache<TKey, TValue>.Count
@@ -1134,6 +1243,7 @@ references:
   name: Item
   href: Api/Epos.Utilities.Cache-2.html#Epos_Utilities_Cache_2_Item_
   commentId: Overload:Epos.Utilities.Cache`2.Item
+  isSpec: "True"
   fullName: Epos.Utilities.Cache<TKey, TValue>.Item
   fullName.vb: Epos.Utilities.Cache(Of TKey, TValue).Item
   nameWithType: Cache<TKey, TValue>.Item
@@ -1150,6 +1260,7 @@ references:
   name: ToString
   href: Api/Epos.Utilities.Cache-2.html#Epos_Utilities_Cache_2_ToString_
   commentId: Overload:Epos.Utilities.Cache`2.ToString
+  isSpec: "True"
   fullName: Epos.Utilities.Cache<TKey, TValue>.ToString
   fullName.vb: Epos.Utilities.Cache(Of TKey, TValue).ToString
   nameWithType: Cache<TKey, TValue>.ToString
@@ -1209,6 +1320,7 @@ references:
   name: WriteBlack
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteBlack_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteBlack
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteBlack
   nameWithType: ColorConsole.WriteBlack
 - uid: Epos.Utilities.ColorConsole.WriteBlue(System.Object)
@@ -1236,6 +1348,7 @@ references:
   name: WriteBlue
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteBlue_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteBlue
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteBlue
   nameWithType: ColorConsole.WriteBlue
 - uid: Epos.Utilities.ColorConsole.WriteCyan(System.Object)
@@ -1263,6 +1376,7 @@ references:
   name: WriteCyan
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteCyan_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteCyan
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteCyan
   nameWithType: ColorConsole.WriteCyan
 - uid: Epos.Utilities.ColorConsole.WriteDarkBlue(System.Object)
@@ -1290,6 +1404,7 @@ references:
   name: WriteDarkBlue
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkBlue_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteDarkBlue
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteDarkBlue
   nameWithType: ColorConsole.WriteDarkBlue
 - uid: Epos.Utilities.ColorConsole.WriteDarkCyan(System.Object)
@@ -1317,6 +1432,7 @@ references:
   name: WriteDarkCyan
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkCyan_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteDarkCyan
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteDarkCyan
   nameWithType: ColorConsole.WriteDarkCyan
 - uid: Epos.Utilities.ColorConsole.WriteDarkGray(System.Object)
@@ -1344,6 +1460,7 @@ references:
   name: WriteDarkGray
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkGray_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteDarkGray
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteDarkGray
   nameWithType: ColorConsole.WriteDarkGray
 - uid: Epos.Utilities.ColorConsole.WriteDarkGreen(System.Object)
@@ -1371,6 +1488,7 @@ references:
   name: WriteDarkGreen
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkGreen_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteDarkGreen
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteDarkGreen
   nameWithType: ColorConsole.WriteDarkGreen
 - uid: Epos.Utilities.ColorConsole.WriteDarkMagenta(System.Object)
@@ -1398,6 +1516,7 @@ references:
   name: WriteDarkMagenta
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkMagenta_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteDarkMagenta
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteDarkMagenta
   nameWithType: ColorConsole.WriteDarkMagenta
 - uid: Epos.Utilities.ColorConsole.WriteDarkRed(System.Object)
@@ -1425,6 +1544,7 @@ references:
   name: WriteDarkRed
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkRed_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteDarkRed
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteDarkRed
   nameWithType: ColorConsole.WriteDarkRed
 - uid: Epos.Utilities.ColorConsole.WriteDarkYellow(System.Object)
@@ -1452,6 +1572,7 @@ references:
   name: WriteDarkYellow
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteDarkYellow_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteDarkYellow
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteDarkYellow
   nameWithType: ColorConsole.WriteDarkYellow
 - uid: Epos.Utilities.ColorConsole.WriteError(System.String)
@@ -1464,6 +1585,7 @@ references:
   name: WriteError
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteError_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteError
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteError
   nameWithType: ColorConsole.WriteError
 - uid: Epos.Utilities.ColorConsole.WriteGray(System.Object)
@@ -1491,6 +1613,7 @@ references:
   name: WriteGray
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteGray_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteGray
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteGray
   nameWithType: ColorConsole.WriteGray
 - uid: Epos.Utilities.ColorConsole.WriteGreen(System.Object)
@@ -1518,6 +1641,7 @@ references:
   name: WriteGreen
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteGreen_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteGreen
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteGreen
   nameWithType: ColorConsole.WriteGreen
 - uid: Epos.Utilities.ColorConsole.WriteHint(System.String)
@@ -1530,6 +1654,7 @@ references:
   name: WriteHint
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteHint_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteHint
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteHint
   nameWithType: ColorConsole.WriteHint
 - uid: Epos.Utilities.ColorConsole.WriteLineBlack(System.Object)
@@ -1557,6 +1682,7 @@ references:
   name: WriteLineBlack
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineBlack_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteLineBlack
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteLineBlack
   nameWithType: ColorConsole.WriteLineBlack
 - uid: Epos.Utilities.ColorConsole.WriteLineBlue(System.Object)
@@ -1584,6 +1710,7 @@ references:
   name: WriteLineBlue
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineBlue_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteLineBlue
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteLineBlue
   nameWithType: ColorConsole.WriteLineBlue
 - uid: Epos.Utilities.ColorConsole.WriteLineCyan(System.Object)
@@ -1611,6 +1738,7 @@ references:
   name: WriteLineCyan
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineCyan_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteLineCyan
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteLineCyan
   nameWithType: ColorConsole.WriteLineCyan
 - uid: Epos.Utilities.ColorConsole.WriteLineDarkBlue(System.Object)
@@ -1638,6 +1766,7 @@ references:
   name: WriteLineDarkBlue
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkBlue_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteLineDarkBlue
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteLineDarkBlue
   nameWithType: ColorConsole.WriteLineDarkBlue
 - uid: Epos.Utilities.ColorConsole.WriteLineDarkCyan(System.Object)
@@ -1665,6 +1794,7 @@ references:
   name: WriteLineDarkCyan
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkCyan_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteLineDarkCyan
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteLineDarkCyan
   nameWithType: ColorConsole.WriteLineDarkCyan
 - uid: Epos.Utilities.ColorConsole.WriteLineDarkGray(System.Object)
@@ -1692,6 +1822,7 @@ references:
   name: WriteLineDarkGray
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkGray_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteLineDarkGray
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteLineDarkGray
   nameWithType: ColorConsole.WriteLineDarkGray
 - uid: Epos.Utilities.ColorConsole.WriteLineDarkGreen(System.Object)
@@ -1719,6 +1850,7 @@ references:
   name: WriteLineDarkGreen
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkGreen_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteLineDarkGreen
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteLineDarkGreen
   nameWithType: ColorConsole.WriteLineDarkGreen
 - uid: Epos.Utilities.ColorConsole.WriteLineDarkMagenta(System.Object)
@@ -1746,6 +1878,7 @@ references:
   name: WriteLineDarkMagenta
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkMagenta_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteLineDarkMagenta
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteLineDarkMagenta
   nameWithType: ColorConsole.WriteLineDarkMagenta
 - uid: Epos.Utilities.ColorConsole.WriteLineDarkRed(System.Object)
@@ -1773,6 +1906,7 @@ references:
   name: WriteLineDarkRed
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkRed_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteLineDarkRed
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteLineDarkRed
   nameWithType: ColorConsole.WriteLineDarkRed
 - uid: Epos.Utilities.ColorConsole.WriteLineDarkYellow(System.Object)
@@ -1800,6 +1934,7 @@ references:
   name: WriteLineDarkYellow
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineDarkYellow_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteLineDarkYellow
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteLineDarkYellow
   nameWithType: ColorConsole.WriteLineDarkYellow
 - uid: Epos.Utilities.ColorConsole.WriteLineGray(System.Object)
@@ -1827,6 +1962,7 @@ references:
   name: WriteLineGray
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineGray_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteLineGray
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteLineGray
   nameWithType: ColorConsole.WriteLineGray
 - uid: Epos.Utilities.ColorConsole.WriteLineGreen(System.Object)
@@ -1854,6 +1990,7 @@ references:
   name: WriteLineGreen
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineGreen_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteLineGreen
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteLineGreen
   nameWithType: ColorConsole.WriteLineGreen
 - uid: Epos.Utilities.ColorConsole.WriteLineMagenta(System.Object)
@@ -1881,6 +2018,7 @@ references:
   name: WriteLineMagenta
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineMagenta_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteLineMagenta
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteLineMagenta
   nameWithType: ColorConsole.WriteLineMagenta
 - uid: Epos.Utilities.ColorConsole.WriteLineRed(System.Object)
@@ -1908,6 +2046,7 @@ references:
   name: WriteLineRed
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineRed_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteLineRed
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteLineRed
   nameWithType: ColorConsole.WriteLineRed
 - uid: Epos.Utilities.ColorConsole.WriteLineWhite(System.Object)
@@ -1935,6 +2074,7 @@ references:
   name: WriteLineWhite
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineWhite_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteLineWhite
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteLineWhite
   nameWithType: ColorConsole.WriteLineWhite
 - uid: Epos.Utilities.ColorConsole.WriteLineYellow(System.Object)
@@ -1962,6 +2102,7 @@ references:
   name: WriteLineYellow
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteLineYellow_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteLineYellow
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteLineYellow
   nameWithType: ColorConsole.WriteLineYellow
 - uid: Epos.Utilities.ColorConsole.WriteMagenta(System.Object)
@@ -1989,6 +2130,7 @@ references:
   name: WriteMagenta
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteMagenta_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteMagenta
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteMagenta
   nameWithType: ColorConsole.WriteMagenta
 - uid: Epos.Utilities.ColorConsole.WriteRed(System.Object)
@@ -2016,6 +2158,7 @@ references:
   name: WriteRed
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteRed_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteRed
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteRed
   nameWithType: ColorConsole.WriteRed
 - uid: Epos.Utilities.ColorConsole.WriteWarning(System.String)
@@ -2028,6 +2171,7 @@ references:
   name: WriteWarning
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteWarning_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteWarning
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteWarning
   nameWithType: ColorConsole.WriteWarning
 - uid: Epos.Utilities.ColorConsole.WriteWhite(System.Object)
@@ -2055,6 +2199,7 @@ references:
   name: WriteWhite
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteWhite_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteWhite
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteWhite
   nameWithType: ColorConsole.WriteWhite
 - uid: Epos.Utilities.ColorConsole.WriteYellow(System.Object)
@@ -2082,6 +2227,7 @@ references:
   name: WriteYellow
   href: Api/Epos.Utilities.ColorConsole.html#Epos_Utilities_ColorConsole_WriteYellow_
   commentId: Overload:Epos.Utilities.ColorConsole.WriteYellow
+  isSpec: "True"
   fullName: Epos.Utilities.ColorConsole.WriteYellow
   nameWithType: ColorConsole.WriteYellow
 - uid: Epos.Utilities.Composition
@@ -2115,6 +2261,7 @@ references:
   name: GetInstance
   href: Api/Epos.Utilities.Composition.ComponentCreationStrategy.html#Epos_Utilities_Composition_ComponentCreationStrategy_GetInstance_
   commentId: Overload:Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance
+  isSpec: "True"
   fullName: Epos.Utilities.Composition.ComponentCreationStrategy.GetInstance
   nameWithType: ComponentCreationStrategy.GetInstance
 - uid: Epos.Utilities.Composition.Container
@@ -2139,12 +2286,14 @@ references:
   name: Container
   href: Api/Epos.Utilities.Composition.Container.html#Epos_Utilities_Composition_Container__ctor_
   commentId: Overload:Epos.Utilities.Composition.Container.#ctor
+  isSpec: "True"
   fullName: Epos.Utilities.Composition.Container.Container
   nameWithType: Container.Container
 - uid: Epos.Utilities.Composition.Container.Register*
   name: Register
   href: Api/Epos.Utilities.Composition.Container.html#Epos_Utilities_Composition_Container_Register_
   commentId: Overload:Epos.Utilities.Composition.Container.Register
+  isSpec: "True"
   fullName: Epos.Utilities.Composition.Container.Register
   nameWithType: Container.Register
 - uid: Epos.Utilities.Composition.Container.Register``1
@@ -2166,6 +2315,7 @@ references:
   name: Resolve
   href: Api/Epos.Utilities.Composition.Container.html#Epos_Utilities_Composition_Container_Resolve_
   commentId: Overload:Epos.Utilities.Composition.Container.Resolve
+  isSpec: "True"
   fullName: Epos.Utilities.Composition.Container.Resolve
   nameWithType: Container.Resolve
 - uid: Epos.Utilities.Composition.Container.Resolve``1
@@ -2199,6 +2349,7 @@ references:
   name: Install
   href: Api/Epos.Utilities.Composition.ContainerInstaller.html#Epos_Utilities_Composition_ContainerInstaller_Install_
   commentId: Overload:Epos.Utilities.Composition.ContainerInstaller.Install
+  isSpec: "True"
   fullName: Epos.Utilities.Composition.ContainerInstaller.Install
   nameWithType: ContainerInstaller.Install
 - uid: Epos.Utilities.Composition.ImplementedByOptions`2
@@ -2222,6 +2373,7 @@ references:
   name: WithParameter
   href: Api/Epos.Utilities.Composition.ImplementedByOptions-2.html#Epos_Utilities_Composition_ImplementedByOptions_2_WithParameter_
   commentId: Overload:Epos.Utilities.Composition.ImplementedByOptions`2.WithParameter
+  isSpec: "True"
   fullName: Epos.Utilities.Composition.ImplementedByOptions<TAbstraction, TImplementation>.WithParameter
   fullName.vb: Epos.Utilities.Composition.ImplementedByOptions(Of TAbstraction, TImplementation).WithParameter
   nameWithType: ImplementedByOptions<TAbstraction, TImplementation>.WithParameter
@@ -2266,6 +2418,7 @@ references:
   name: WithLifetime
   href: Api/Epos.Utilities.Composition.LifetimeOptions.html#Epos_Utilities_Composition_LifetimeOptions_WithLifetime_
   commentId: Overload:Epos.Utilities.Composition.LifetimeOptions.WithLifetime
+  isSpec: "True"
   fullName: Epos.Utilities.Composition.LifetimeOptions.WithLifetime
   nameWithType: LifetimeOptions.WithLifetime
 - uid: Epos.Utilities.Composition.RegisterOptions`1
@@ -2281,6 +2434,7 @@ references:
   name: ImplementedBy
   href: Api/Epos.Utilities.Composition.RegisterOptions-1.html#Epos_Utilities_Composition_RegisterOptions_1_ImplementedBy_
   commentId: Overload:Epos.Utilities.Composition.RegisterOptions`1.ImplementedBy
+  isSpec: "True"
   fullName: Epos.Utilities.Composition.RegisterOptions<TAbstraction>.ImplementedBy
   fullName.vb: Epos.Utilities.Composition.RegisterOptions(Of TAbstraction).ImplementedBy
   nameWithType: RegisterOptions<TAbstraction>.ImplementedBy
@@ -2298,6 +2452,7 @@ references:
   name: WithFactoryMethod
   href: Api/Epos.Utilities.Composition.RegisterOptions-1.html#Epos_Utilities_Composition_RegisterOptions_1_WithFactoryMethod_
   commentId: Overload:Epos.Utilities.Composition.RegisterOptions`1.WithFactoryMethod
+  isSpec: "True"
   fullName: Epos.Utilities.Composition.RegisterOptions<TAbstraction>.WithFactoryMethod
   fullName.vb: Epos.Utilities.Composition.RegisterOptions(Of TAbstraction).WithFactoryMethod
   nameWithType: RegisterOptions<TAbstraction>.WithFactoryMethod
@@ -2342,6 +2497,7 @@ references:
   name: AndParameter
   href: Api/Epos.Utilities.Composition.WithParameterOptions.html#Epos_Utilities_Composition_WithParameterOptions_AndParameter_
   commentId: Overload:Epos.Utilities.Composition.WithParameterOptions.AndParameter
+  isSpec: "True"
   fullName: Epos.Utilities.Composition.WithParameterOptions.AndParameter
   nameWithType: WithParameterOptions.AndParameter
 - uid: Epos.Utilities.ConsoleHelper
@@ -2360,6 +2516,7 @@ references:
   name: ReadPassword
   href: Api/Epos.Utilities.ConsoleHelper.html#Epos_Utilities_ConsoleHelper_ReadPassword_
   commentId: Overload:Epos.Utilities.ConsoleHelper.ReadPassword
+  isSpec: "True"
   fullName: Epos.Utilities.ConsoleHelper.ReadPassword
   nameWithType: ConsoleHelper.ReadPassword
 - uid: Epos.Utilities.DebugThrow
@@ -2378,6 +2535,7 @@ references:
   name: If
   href: Api/Epos.Utilities.DebugThrow.html#Epos_Utilities_DebugThrow_If_
   commentId: Overload:Epos.Utilities.DebugThrow.If
+  isSpec: "True"
   fullName: Epos.Utilities.DebugThrow.If
   nameWithType: DebugThrow.If
 - uid: Epos.Utilities.DebugThrow.IfInvalidEnum(System.Enum,System.String)
@@ -2390,23 +2548,25 @@ references:
   name: IfInvalidEnum
   href: Api/Epos.Utilities.DebugThrow.html#Epos_Utilities_DebugThrow_IfInvalidEnum_
   commentId: Overload:Epos.Utilities.DebugThrow.IfInvalidEnum
+  isSpec: "True"
   fullName: Epos.Utilities.DebugThrow.IfInvalidEnum
   nameWithType: DebugThrow.IfInvalidEnum
 - uid: Epos.Utilities.DebugThrow.IfNull*
   name: IfNull
   href: Api/Epos.Utilities.DebugThrow.html#Epos_Utilities_DebugThrow_IfNull_
   commentId: Overload:Epos.Utilities.DebugThrow.IfNull
+  isSpec: "True"
   fullName: Epos.Utilities.DebugThrow.IfNull
   nameWithType: DebugThrow.IfNull
-- uid: Epos.Utilities.DebugThrow.IfNull``1(``0,System.String)
-  name: IfNull<T>(T, String)
-  href: Api/Epos.Utilities.DebugThrow.html#Epos_Utilities_DebugThrow_IfNull__1___0_System_String_
-  commentId: M:Epos.Utilities.DebugThrow.IfNull``1(``0,System.String)
-  name.vb: IfNull(Of T)(T, String)
-  fullName: Epos.Utilities.DebugThrow.IfNull<T>(T, System.String)
-  fullName.vb: Epos.Utilities.DebugThrow.IfNull(Of T)(T, System.String)
-  nameWithType: DebugThrow.IfNull<T>(T, String)
-  nameWithType.vb: DebugThrow.IfNull(Of T)(T, String)
+- uid: Epos.Utilities.DebugThrow.IfNull``1(System.Nullable{``0},System.String)
+  name: IfNull<T>(Nullable<T>, String)
+  href: Api/Epos.Utilities.DebugThrow.html#Epos_Utilities_DebugThrow_IfNull__1_System_Nullable___0__System_String_
+  commentId: M:Epos.Utilities.DebugThrow.IfNull``1(System.Nullable{``0},System.String)
+  name.vb: IfNull(Of T)(Nullable(Of T), String)
+  fullName: Epos.Utilities.DebugThrow.IfNull<T>(System.Nullable<T>, System.String)
+  fullName.vb: Epos.Utilities.DebugThrow.IfNull(Of T)(System.Nullable(Of T), System.String)
+  nameWithType: DebugThrow.IfNull<T>(Nullable<T>, String)
+  nameWithType.vb: DebugThrow.IfNull(Of T)(Nullable(Of T), String)
 - uid: Epos.Utilities.DictionaryExtensions
   name: DictionaryExtensions
   href: Api/Epos.Utilities.DictionaryExtensions.html
@@ -2417,33 +2577,38 @@ references:
   name: Get
   href: Api/Epos.Utilities.DictionaryExtensions.html#Epos_Utilities_DictionaryExtensions_Get_
   commentId: Overload:Epos.Utilities.DictionaryExtensions.Get
+  isSpec: "True"
   fullName: Epos.Utilities.DictionaryExtensions.Get
   nameWithType: DictionaryExtensions.Get
-- uid: Epos.Utilities.DictionaryExtensions.Get``2(System.Collections.Generic.IDictionary{``0,``1},``0)
-  name: Get<TKey, TValue>(IDictionary<TKey, TValue>, TKey)
-  href: Api/Epos.Utilities.DictionaryExtensions.html#Epos_Utilities_DictionaryExtensions_Get__2_System_Collections_Generic_IDictionary___0___1____0_
-  commentId: M:Epos.Utilities.DictionaryExtensions.Get``2(System.Collections.Generic.IDictionary{``0,``1},``0)
-  name.vb: Get(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey)
-  fullName: Epos.Utilities.DictionaryExtensions.Get<TKey, TValue>(System.Collections.Generic.IDictionary<TKey, TValue>, TKey)
-  fullName.vb: Epos.Utilities.DictionaryExtensions.Get(Of TKey, TValue)(System.Collections.Generic.IDictionary(Of TKey, TValue), TKey)
-  nameWithType: DictionaryExtensions.Get<TKey, TValue>(IDictionary<TKey, TValue>, TKey)
-  nameWithType.vb: DictionaryExtensions.Get(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey)
+- uid: Epos.Utilities.DictionaryExtensions.Get``2(System.Collections.Generic.IDictionary{``0,System.Nullable{``1}},``0)
+  name: Get<TKey, TValue>(IDictionary<TKey, Nullable<TValue>>, TKey)
+  href: Api/Epos.Utilities.DictionaryExtensions.html#Epos_Utilities_DictionaryExtensions_Get__2_System_Collections_Generic_IDictionary___0_System_Nullable___1_____0_
+  commentId: M:Epos.Utilities.DictionaryExtensions.Get``2(System.Collections.Generic.IDictionary{``0,System.Nullable{``1}},``0)
+  name.vb: Get(Of TKey, TValue)(IDictionary(Of TKey, Nullable(Of TValue)), TKey)
+  fullName: Epos.Utilities.DictionaryExtensions.Get<TKey, TValue>(System.Collections.Generic.IDictionary<TKey, System.Nullable<TValue>>, TKey)
+  fullName.vb: Epos.Utilities.DictionaryExtensions.Get(Of TKey, TValue)(System.Collections.Generic.IDictionary(Of TKey, System.Nullable(Of TValue)), TKey)
+  nameWithType: DictionaryExtensions.Get<TKey, TValue>(IDictionary<TKey, Nullable<TValue>>, TKey)
+  nameWithType.vb: DictionaryExtensions.Get(Of TKey, TValue)(IDictionary(Of TKey, Nullable(Of TValue)), TKey)
 - uid: Epos.Utilities.DumpExtensions
   name: DumpExtensions
   href: Api/Epos.Utilities.DumpExtensions.html
   commentId: T:Epos.Utilities.DumpExtensions
   fullName: Epos.Utilities.DumpExtensions
   nameWithType: DumpExtensions
-- uid: Epos.Utilities.DumpExtensions.Dump(System.Object)
-  name: Dump(Object)
-  href: Api/Epos.Utilities.DumpExtensions.html#Epos_Utilities_DumpExtensions_Dump_System_Object_
-  commentId: M:Epos.Utilities.DumpExtensions.Dump(System.Object)
-  fullName: Epos.Utilities.DumpExtensions.Dump(System.Object)
-  nameWithType: DumpExtensions.Dump(Object)
+- uid: Epos.Utilities.DumpExtensions.Dump(System.Nullable{System.Object})
+  name: Dump(Nullable<Object>)
+  href: Api/Epos.Utilities.DumpExtensions.html#Epos_Utilities_DumpExtensions_Dump_System_Nullable_System_Object__
+  commentId: M:Epos.Utilities.DumpExtensions.Dump(System.Nullable{System.Object})
+  name.vb: Dump(Nullable(Of Object))
+  fullName: Epos.Utilities.DumpExtensions.Dump(System.Nullable<System.Object>)
+  fullName.vb: Epos.Utilities.DumpExtensions.Dump(System.Nullable(Of System.Object))
+  nameWithType: DumpExtensions.Dump(Nullable<Object>)
+  nameWithType.vb: DumpExtensions.Dump(Nullable(Of Object))
 - uid: Epos.Utilities.DumpExtensions.Dump*
   name: Dump
   href: Api/Epos.Utilities.DumpExtensions.html#Epos_Utilities_DumpExtensions_Dump_
   commentId: Overload:Epos.Utilities.DumpExtensions.Dump
+  isSpec: "True"
   fullName: Epos.Utilities.DumpExtensions.Dump
   nameWithType: DumpExtensions.Dump
 - uid: Epos.Utilities.EnumerableExtensions
@@ -2456,6 +2621,7 @@ references:
   name: FlattenRecursiveHierarchy
   href: Api/Epos.Utilities.EnumerableExtensions.html#Epos_Utilities_EnumerableExtensions_FlattenRecursiveHierarchy_
   commentId: Overload:Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy
+  isSpec: "True"
   fullName: Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy
   nameWithType: EnumerableExtensions.FlattenRecursiveHierarchy
 - uid: Epos.Utilities.EnumerableExtensions.FlattenRecursiveHierarchy``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``0}})
@@ -2471,6 +2637,7 @@ references:
   name: ForEach
   href: Api/Epos.Utilities.EnumerableExtensions.html#Epos_Utilities_EnumerableExtensions_ForEach_
   commentId: Overload:Epos.Utilities.EnumerableExtensions.ForEach
+  isSpec: "True"
   fullName: Epos.Utilities.EnumerableExtensions.ForEach
   nameWithType: EnumerableExtensions.ForEach
 - uid: Epos.Utilities.EnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
@@ -2486,6 +2653,7 @@ references:
   name: ToEnumerable
   href: Api/Epos.Utilities.EnumerableExtensions.html#Epos_Utilities_EnumerableExtensions_ToEnumerable_
   commentId: Overload:Epos.Utilities.EnumerableExtensions.ToEnumerable
+  isSpec: "True"
   fullName: Epos.Utilities.EnumerableExtensions.ToEnumerable
   nameWithType: EnumerableExtensions.ToEnumerable
 - uid: Epos.Utilities.EnumerableExtensions.ToEnumerable``1(``0)
@@ -2525,6 +2693,7 @@ references:
   name: Raise
   href: Api/Epos.Utilities.EventExtensions.html#Epos_Utilities_EventExtensions_Raise_
   commentId: Overload:Epos.Utilities.EventExtensions.Raise
+  isSpec: "True"
   fullName: Epos.Utilities.EventExtensions.Raise
   nameWithType: EventExtensions.Raise
 - uid: Epos.Utilities.EventExtensions.Raise``1(System.EventHandler{``0},System.Object,``0)
@@ -2552,6 +2721,7 @@ references:
   name: Log
   href: Api/Epos.Utilities.HighPerfLogger.html#Epos_Utilities_HighPerfLogger_Log_
   commentId: Overload:Epos.Utilities.HighPerfLogger.Log
+  isSpec: "True"
   fullName: Epos.Utilities.HighPerfLogger.Log
   nameWithType: HighPerfLogger.Log
 - uid: Epos.Utilities.HighPerfLogger.LogLine(System.String)
@@ -2564,6 +2734,7 @@ references:
   name: LogLine
   href: Api/Epos.Utilities.HighPerfLogger.html#Epos_Utilities_HighPerfLogger_LogLine_
   commentId: Overload:Epos.Utilities.HighPerfLogger.LogLine
+  isSpec: "True"
   fullName: Epos.Utilities.HighPerfLogger.LogLine
   nameWithType: HighPerfLogger.LogLine
 - uid: Epos.Utilities.HighPerfLogger.SetLogAction(System.Action{System.String})
@@ -2579,6 +2750,7 @@ references:
   name: SetLogAction
   href: Api/Epos.Utilities.HighPerfLogger.html#Epos_Utilities_HighPerfLogger_SetLogAction_
   commentId: Overload:Epos.Utilities.HighPerfLogger.SetLogAction
+  isSpec: "True"
   fullName: Epos.Utilities.HighPerfLogger.SetLogAction
   nameWithType: HighPerfLogger.SetLogAction
 - uid: Epos.Utilities.ListExtensions
@@ -2591,6 +2763,7 @@ references:
   name: EqualsList
   href: Api/Epos.Utilities.ListExtensions.html#Epos_Utilities_ListExtensions_EqualsList_
   commentId: Overload:Epos.Utilities.ListExtensions.EqualsList
+  isSpec: "True"
   fullName: Epos.Utilities.ListExtensions.EqualsList
   nameWithType: ListExtensions.EqualsList
 - uid: Epos.Utilities.ListExtensions.EqualsList``1(System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0})
@@ -2606,6 +2779,7 @@ references:
   name: GetListHashCode
   href: Api/Epos.Utilities.ListExtensions.html#Epos_Utilities_ListExtensions_GetListHashCode_
   commentId: Overload:Epos.Utilities.ListExtensions.GetListHashCode
+  isSpec: "True"
   fullName: Epos.Utilities.ListExtensions.GetListHashCode
   nameWithType: ListExtensions.GetListHashCode
 - uid: Epos.Utilities.ListExtensions.GetListHashCode``1(System.Collections.Generic.IList{``0})
@@ -2627,6 +2801,7 @@ references:
   name: GetAttribute
   href: Api/Epos.Utilities.ObjectExtensions.html#Epos_Utilities_ObjectExtensions_GetAttribute_
   commentId: Overload:Epos.Utilities.ObjectExtensions.GetAttribute
+  isSpec: "True"
   fullName: Epos.Utilities.ObjectExtensions.GetAttribute
   nameWithType: ObjectExtensions.GetAttribute
 - uid: Epos.Utilities.ObjectExtensions.GetAttribute``1(System.Object)
@@ -2642,6 +2817,7 @@ references:
   name: HasAttribute
   href: Api/Epos.Utilities.ObjectExtensions.html#Epos_Utilities_ObjectExtensions_HasAttribute_
   commentId: Overload:Epos.Utilities.ObjectExtensions.HasAttribute
+  isSpec: "True"
   fullName: Epos.Utilities.ObjectExtensions.HasAttribute
   nameWithType: ObjectExtensions.HasAttribute
 - uid: Epos.Utilities.ObjectExtensions.HasAttribute``1(System.Object)
@@ -2669,6 +2845,7 @@ references:
   name: Hash
   href: Api/Epos.Utilities.Password.html#Epos_Utilities_Password_Hash_
   commentId: Overload:Epos.Utilities.Password.Hash
+  isSpec: "True"
   fullName: Epos.Utilities.Password.Hash
   nameWithType: Password.Hash
 - uid: Epos.Utilities.RoundOperation`1
@@ -2696,6 +2873,7 @@ references:
   name: GetMilliseconds
   href: Api/Epos.Utilities.StopwatchHelper.html#Epos_Utilities_StopwatchHelper_GetMilliseconds_
   commentId: Overload:Epos.Utilities.StopwatchHelper.GetMilliseconds
+  isSpec: "True"
   fullName: Epos.Utilities.StopwatchHelper.GetMilliseconds
   nameWithType: StopwatchHelper.GetMilliseconds
 - uid: Epos.Utilities.StringExtensions
@@ -2714,6 +2892,7 @@ references:
   name: Extract
   href: Api/Epos.Utilities.StringExtensions.html#Epos_Utilities_StringExtensions_Extract_
   commentId: Overload:Epos.Utilities.StringExtensions.Extract
+  isSpec: "True"
   fullName: Epos.Utilities.StringExtensions.Extract
   nameWithType: StringExtensions.Extract
 - uid: Epos.Utilities.StringExtensions.IsValidEmailAddress(System.String)
@@ -2726,6 +2905,7 @@ references:
   name: IsValidEmailAddress
   href: Api/Epos.Utilities.StringExtensions.html#Epos_Utilities_StringExtensions_IsValidEmailAddress_
   commentId: Overload:Epos.Utilities.StringExtensions.IsValidEmailAddress
+  isSpec: "True"
   fullName: Epos.Utilities.StringExtensions.IsValidEmailAddress
   nameWithType: StringExtensions.IsValidEmailAddress
 - uid: Epos.Utilities.StringExtensions.Matches(System.String,System.String)
@@ -2738,30 +2918,32 @@ references:
   name: Matches
   href: Api/Epos.Utilities.StringExtensions.html#Epos_Utilities_StringExtensions_Matches_
   commentId: Overload:Epos.Utilities.StringExtensions.Matches
+  isSpec: "True"
   fullName: Epos.Utilities.StringExtensions.Matches
   nameWithType: StringExtensions.Matches
-- uid: Epos.Utilities.StringExtensions.TryConvert(System.String,System.Type,System.Globalization.CultureInfo,System.Object@)
-  name: TryConvert(String, Type, CultureInfo, out Object)
-  href: Api/Epos.Utilities.StringExtensions.html#Epos_Utilities_StringExtensions_TryConvert_System_String_System_Type_System_Globalization_CultureInfo_System_Object__
-  commentId: M:Epos.Utilities.StringExtensions.TryConvert(System.String,System.Type,System.Globalization.CultureInfo,System.Object@)
-  name.vb: TryConvert(String, Type, CultureInfo, ByRef Object)
-  fullName: Epos.Utilities.StringExtensions.TryConvert(System.String, System.Type, System.Globalization.CultureInfo, out System.Object)
-  fullName.vb: Epos.Utilities.StringExtensions.TryConvert(System.String, System.Type, System.Globalization.CultureInfo, ByRef System.Object)
-  nameWithType: StringExtensions.TryConvert(String, Type, CultureInfo, out Object)
-  nameWithType.vb: StringExtensions.TryConvert(String, Type, CultureInfo, ByRef Object)
-- uid: Epos.Utilities.StringExtensions.TryConvert(System.String,System.Type,System.Object@)
-  name: TryConvert(String, Type, out Object)
-  href: Api/Epos.Utilities.StringExtensions.html#Epos_Utilities_StringExtensions_TryConvert_System_String_System_Type_System_Object__
-  commentId: M:Epos.Utilities.StringExtensions.TryConvert(System.String,System.Type,System.Object@)
-  name.vb: TryConvert(String, Type, ByRef Object)
-  fullName: Epos.Utilities.StringExtensions.TryConvert(System.String, System.Type, out System.Object)
-  fullName.vb: Epos.Utilities.StringExtensions.TryConvert(System.String, System.Type, ByRef System.Object)
-  nameWithType: StringExtensions.TryConvert(String, Type, out Object)
-  nameWithType.vb: StringExtensions.TryConvert(String, Type, ByRef Object)
+- uid: Epos.Utilities.StringExtensions.TryConvert(System.String,System.Type,System.Globalization.CultureInfo,System.Nullable{System.Object}@)
+  name: TryConvert(String, Type, CultureInfo, out Nullable<Object>)
+  href: Api/Epos.Utilities.StringExtensions.html#Epos_Utilities_StringExtensions_TryConvert_System_String_System_Type_System_Globalization_CultureInfo_System_Nullable_System_Object___
+  commentId: M:Epos.Utilities.StringExtensions.TryConvert(System.String,System.Type,System.Globalization.CultureInfo,System.Nullable{System.Object}@)
+  name.vb: TryConvert(String, Type, CultureInfo, ByRef Nullable(Of Object))
+  fullName: Epos.Utilities.StringExtensions.TryConvert(System.String, System.Type, System.Globalization.CultureInfo, out System.Nullable<System.Object>)
+  fullName.vb: Epos.Utilities.StringExtensions.TryConvert(System.String, System.Type, System.Globalization.CultureInfo, ByRef System.Nullable(Of System.Object))
+  nameWithType: StringExtensions.TryConvert(String, Type, CultureInfo, out Nullable<Object>)
+  nameWithType.vb: StringExtensions.TryConvert(String, Type, CultureInfo, ByRef Nullable(Of Object))
+- uid: Epos.Utilities.StringExtensions.TryConvert(System.String,System.Type,System.Nullable{System.Object}@)
+  name: TryConvert(String, Type, out Nullable<Object>)
+  href: Api/Epos.Utilities.StringExtensions.html#Epos_Utilities_StringExtensions_TryConvert_System_String_System_Type_System_Nullable_System_Object___
+  commentId: M:Epos.Utilities.StringExtensions.TryConvert(System.String,System.Type,System.Nullable{System.Object}@)
+  name.vb: TryConvert(String, Type, ByRef Nullable(Of Object))
+  fullName: Epos.Utilities.StringExtensions.TryConvert(System.String, System.Type, out System.Nullable<System.Object>)
+  fullName.vb: Epos.Utilities.StringExtensions.TryConvert(System.String, System.Type, ByRef System.Nullable(Of System.Object))
+  nameWithType: StringExtensions.TryConvert(String, Type, out Nullable<Object>)
+  nameWithType.vb: StringExtensions.TryConvert(String, Type, ByRef Nullable(Of Object))
 - uid: Epos.Utilities.StringExtensions.TryConvert*
   name: TryConvert
   href: Api/Epos.Utilities.StringExtensions.html#Epos_Utilities_StringExtensions_TryConvert_
   commentId: Overload:Epos.Utilities.StringExtensions.TryConvert
+  isSpec: "True"
   fullName: Epos.Utilities.StringExtensions.TryConvert
   nameWithType: StringExtensions.TryConvert
 - uid: Epos.Utilities.StringExtensions.TryConvert``1(System.String,``0@)
@@ -2798,6 +2980,7 @@ references:
   name: FireAndForget
   href: Api/Epos.Utilities.TaskExtensions.html#Epos_Utilities_TaskExtensions_FireAndForget_
   commentId: Overload:Epos.Utilities.TaskExtensions.FireAndForget
+  isSpec: "True"
   fullName: Epos.Utilities.TaskExtensions.FireAndForget
   nameWithType: TaskExtensions.FireAndForget
 - uid: Epos.Utilities.TypeExtensions
@@ -2810,6 +2993,7 @@ references:
   name: GetAttribute
   href: Api/Epos.Utilities.TypeExtensions.html#Epos_Utilities_TypeExtensions_GetAttribute_
   commentId: Overload:Epos.Utilities.TypeExtensions.GetAttribute
+  isSpec: "True"
   fullName: Epos.Utilities.TypeExtensions.GetAttribute
   nameWithType: TypeExtensions.GetAttribute
 - uid: Epos.Utilities.TypeExtensions.GetAttribute``1(System.Type)
@@ -2834,12 +3018,14 @@ references:
   name: GetGenericMethod
   href: Api/Epos.Utilities.TypeExtensions.html#Epos_Utilities_TypeExtensions_GetGenericMethod_
   commentId: Overload:Epos.Utilities.TypeExtensions.GetGenericMethod
+  isSpec: "True"
   fullName: Epos.Utilities.TypeExtensions.GetGenericMethod
   nameWithType: TypeExtensions.GetGenericMethod
 - uid: Epos.Utilities.TypeExtensions.HasAttribute*
   name: HasAttribute
   href: Api/Epos.Utilities.TypeExtensions.html#Epos_Utilities_TypeExtensions_HasAttribute_
   commentId: Overload:Epos.Utilities.TypeExtensions.HasAttribute
+  isSpec: "True"
   fullName: Epos.Utilities.TypeExtensions.HasAttribute
   nameWithType: TypeExtensions.HasAttribute
 - uid: Epos.Utilities.TypeExtensions.HasAttribute``1(System.Type)
@@ -2866,99 +3052,6 @@ references:
   commentId: N:Epos.Utilities.Web
   fullName: Epos.Utilities.Web
   nameWithType: Epos.Utilities.Web
-- uid: Epos.Utilities.Web.IJsonRestClient
-  name: IJsonRestClient
-  href: Api/Epos.Utilities.Web.IJsonRestClient.html
-  commentId: T:Epos.Utilities.Web.IJsonRestClient
-  fullName: Epos.Utilities.Web.IJsonRestClient
-  nameWithType: IJsonRestClient
-- uid: Epos.Utilities.Web.IJsonRestClient.DeleteAsync(System.String,System.ValueTuple{System.String,System.Object}[])
-  name: DeleteAsync(String, [])
-  href: Api/Epos.Utilities.Web.IJsonRestClient.html#Epos_Utilities_Web_IJsonRestClient_DeleteAsync_System_String_System_ValueTuple_System_String_System_Object____
-  commentId: M:Epos.Utilities.Web.IJsonRestClient.DeleteAsync(System.String,System.ValueTuple{System.String,System.Object}[])
-  name.vb: DeleteAsync(String, ())
-  fullName: Epos.Utilities.Web.IJsonRestClient.DeleteAsync(System.String, System.[])
-  fullName.vb: Epos.Utilities.Web.IJsonRestClient.DeleteAsync(System.String, System.())
-  nameWithType: IJsonRestClient.DeleteAsync(String, [])
-  nameWithType.vb: IJsonRestClient.DeleteAsync(String, ())
-- uid: Epos.Utilities.Web.IJsonRestClient.DeleteAsync*
-  name: DeleteAsync
-  href: Api/Epos.Utilities.Web.IJsonRestClient.html#Epos_Utilities_Web_IJsonRestClient_DeleteAsync_
-  commentId: Overload:Epos.Utilities.Web.IJsonRestClient.DeleteAsync
-  fullName: Epos.Utilities.Web.IJsonRestClient.DeleteAsync
-  nameWithType: IJsonRestClient.DeleteAsync
-- uid: Epos.Utilities.Web.IJsonRestClient.GetAsync*
-  name: GetAsync
-  href: Api/Epos.Utilities.Web.IJsonRestClient.html#Epos_Utilities_Web_IJsonRestClient_GetAsync_
-  commentId: Overload:Epos.Utilities.Web.IJsonRestClient.GetAsync
-  fullName: Epos.Utilities.Web.IJsonRestClient.GetAsync
-  nameWithType: IJsonRestClient.GetAsync
-- uid: Epos.Utilities.Web.IJsonRestClient.GetAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
-  name: GetAsync<TResponse>(String, [])
-  href: Api/Epos.Utilities.Web.IJsonRestClient.html#Epos_Utilities_Web_IJsonRestClient_GetAsync__1_System_String_System_ValueTuple_System_String_System_Object____
-  commentId: M:Epos.Utilities.Web.IJsonRestClient.GetAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
-  name.vb: GetAsync(Of TResponse)(String, ())
-  fullName: Epos.Utilities.Web.IJsonRestClient.GetAsync<TResponse>(System.String, System.[])
-  fullName.vb: Epos.Utilities.Web.IJsonRestClient.GetAsync(Of TResponse)(System.String, System.())
-  nameWithType: IJsonRestClient.GetAsync<TResponse>(String, [])
-  nameWithType.vb: IJsonRestClient.GetAsync(Of TResponse)(String, ())
-- uid: Epos.Utilities.Web.IJsonRestClient.GetManyAsync*
-  name: GetManyAsync
-  href: Api/Epos.Utilities.Web.IJsonRestClient.html#Epos_Utilities_Web_IJsonRestClient_GetManyAsync_
-  commentId: Overload:Epos.Utilities.Web.IJsonRestClient.GetManyAsync
-  fullName: Epos.Utilities.Web.IJsonRestClient.GetManyAsync
-  nameWithType: IJsonRestClient.GetManyAsync
-- uid: Epos.Utilities.Web.IJsonRestClient.GetManyAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
-  name: GetManyAsync<TResponse>(String, [])
-  href: Api/Epos.Utilities.Web.IJsonRestClient.html#Epos_Utilities_Web_IJsonRestClient_GetManyAsync__1_System_String_System_ValueTuple_System_String_System_Object____
-  commentId: M:Epos.Utilities.Web.IJsonRestClient.GetManyAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
-  name.vb: GetManyAsync(Of TResponse)(String, ())
-  fullName: Epos.Utilities.Web.IJsonRestClient.GetManyAsync<TResponse>(System.String, System.[])
-  fullName.vb: Epos.Utilities.Web.IJsonRestClient.GetManyAsync(Of TResponse)(System.String, System.())
-  nameWithType: IJsonRestClient.GetManyAsync<TResponse>(String, [])
-  nameWithType.vb: IJsonRestClient.GetManyAsync(Of TResponse)(String, ())
-- uid: Epos.Utilities.Web.IJsonRestClient.PostAsync(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])
-  name: PostAsync(String, Object, [])
-  href: Api/Epos.Utilities.Web.IJsonRestClient.html#Epos_Utilities_Web_IJsonRestClient_PostAsync_System_String_System_Object_System_ValueTuple_System_String_System_Object____
-  commentId: M:Epos.Utilities.Web.IJsonRestClient.PostAsync(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])
-  name.vb: PostAsync(String, Object, ())
-  fullName: Epos.Utilities.Web.IJsonRestClient.PostAsync(System.String, System.Object, System.[])
-  fullName.vb: Epos.Utilities.Web.IJsonRestClient.PostAsync(System.String, System.Object, System.())
-  nameWithType: IJsonRestClient.PostAsync(String, Object, [])
-  nameWithType.vb: IJsonRestClient.PostAsync(String, Object, ())
-- uid: Epos.Utilities.Web.IJsonRestClient.PostAsync*
-  name: PostAsync
-  href: Api/Epos.Utilities.Web.IJsonRestClient.html#Epos_Utilities_Web_IJsonRestClient_PostAsync_
-  commentId: Overload:Epos.Utilities.Web.IJsonRestClient.PostAsync
-  fullName: Epos.Utilities.Web.IJsonRestClient.PostAsync
-  nameWithType: IJsonRestClient.PostAsync
-- uid: Epos.Utilities.Web.IJsonRestClient.PutAsync(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])
-  name: PutAsync(String, Object, [])
-  href: Api/Epos.Utilities.Web.IJsonRestClient.html#Epos_Utilities_Web_IJsonRestClient_PutAsync_System_String_System_Object_System_ValueTuple_System_String_System_Object____
-  commentId: M:Epos.Utilities.Web.IJsonRestClient.PutAsync(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])
-  name.vb: PutAsync(String, Object, ())
-  fullName: Epos.Utilities.Web.IJsonRestClient.PutAsync(System.String, System.Object, System.[])
-  fullName.vb: Epos.Utilities.Web.IJsonRestClient.PutAsync(System.String, System.Object, System.())
-  nameWithType: IJsonRestClient.PutAsync(String, Object, [])
-  nameWithType.vb: IJsonRestClient.PutAsync(String, Object, ())
-- uid: Epos.Utilities.Web.IJsonRestClient.PutAsync*
-  name: PutAsync
-  href: Api/Epos.Utilities.Web.IJsonRestClient.html#Epos_Utilities_Web_IJsonRestClient_PutAsync_
-  commentId: Overload:Epos.Utilities.Web.IJsonRestClient.PutAsync
-  fullName: Epos.Utilities.Web.IJsonRestClient.PutAsync
-  nameWithType: IJsonRestClient.PutAsync
-- uid: Epos.Utilities.Web.IJsonRestClient.RootUri
-  name: RootUri
-  href: Api/Epos.Utilities.Web.IJsonRestClient.html#Epos_Utilities_Web_IJsonRestClient_RootUri
-  commentId: P:Epos.Utilities.Web.IJsonRestClient.RootUri
-  fullName: Epos.Utilities.Web.IJsonRestClient.RootUri
-  nameWithType: IJsonRestClient.RootUri
-- uid: Epos.Utilities.Web.IJsonRestClient.RootUri*
-  name: RootUri
-  href: Api/Epos.Utilities.Web.IJsonRestClient.html#Epos_Utilities_Web_IJsonRestClient_RootUri_
-  commentId: Overload:Epos.Utilities.Web.IJsonRestClient.RootUri
-  fullName: Epos.Utilities.Web.IJsonRestClient.RootUri
-  nameWithType: IJsonRestClient.RootUri
 - uid: Epos.Utilities.Web.IObjectSession
   name: IObjectSession
   href: Api/Epos.Utilities.Web.IObjectSession.html
@@ -2978,6 +3071,7 @@ references:
   name: Item
   href: Api/Epos.Utilities.Web.IObjectSession.html#Epos_Utilities_Web_IObjectSession_Item_
   commentId: Overload:Epos.Utilities.Web.IObjectSession.Item
+  isSpec: "True"
   fullName: Epos.Utilities.Web.IObjectSession.Item
   nameWithType: IObjectSession.Item
 - uid: Epos.Utilities.Web.IPolicyProvider
@@ -2996,132 +3090,29 @@ references:
   name: ProvidePolicy
   href: Api/Epos.Utilities.Web.IPolicyProvider.html#Epos_Utilities_Web_IPolicyProvider_ProvidePolicy_
   commentId: Overload:Epos.Utilities.Web.IPolicyProvider.ProvidePolicy
+  isSpec: "True"
   fullName: Epos.Utilities.Web.IPolicyProvider.ProvidePolicy
   nameWithType: IPolicyProvider.ProvidePolicy
-- uid: Epos.Utilities.Web.JsonRestClient
-  name: JsonRestClient
-  href: Api/Epos.Utilities.Web.JsonRestClient.html
-  commentId: T:Epos.Utilities.Web.JsonRestClient
-  fullName: Epos.Utilities.Web.JsonRestClient
-  nameWithType: JsonRestClient
-- uid: Epos.Utilities.Web.JsonRestClient.#ctor(System.String)
-  name: JsonRestClient(String)
-  href: Api/Epos.Utilities.Web.JsonRestClient.html#Epos_Utilities_Web_JsonRestClient__ctor_System_String_
-  commentId: M:Epos.Utilities.Web.JsonRestClient.#ctor(System.String)
-  fullName: Epos.Utilities.Web.JsonRestClient.JsonRestClient(System.String)
-  nameWithType: JsonRestClient.JsonRestClient(String)
-- uid: Epos.Utilities.Web.JsonRestClient.#ctor*
-  name: JsonRestClient
-  href: Api/Epos.Utilities.Web.JsonRestClient.html#Epos_Utilities_Web_JsonRestClient__ctor_
-  commentId: Overload:Epos.Utilities.Web.JsonRestClient.#ctor
-  fullName: Epos.Utilities.Web.JsonRestClient.JsonRestClient
-  nameWithType: JsonRestClient.JsonRestClient
-- uid: Epos.Utilities.Web.JsonRestClient.DeleteAsync(System.String,System.ValueTuple{System.String,System.Object}[])
-  name: DeleteAsync(String, [])
-  href: Api/Epos.Utilities.Web.JsonRestClient.html#Epos_Utilities_Web_JsonRestClient_DeleteAsync_System_String_System_ValueTuple_System_String_System_Object____
-  commentId: M:Epos.Utilities.Web.JsonRestClient.DeleteAsync(System.String,System.ValueTuple{System.String,System.Object}[])
-  name.vb: DeleteAsync(String, ())
-  fullName: Epos.Utilities.Web.JsonRestClient.DeleteAsync(System.String, System.[])
-  fullName.vb: Epos.Utilities.Web.JsonRestClient.DeleteAsync(System.String, System.())
-  nameWithType: JsonRestClient.DeleteAsync(String, [])
-  nameWithType.vb: JsonRestClient.DeleteAsync(String, ())
-- uid: Epos.Utilities.Web.JsonRestClient.DeleteAsync*
-  name: DeleteAsync
-  href: Api/Epos.Utilities.Web.JsonRestClient.html#Epos_Utilities_Web_JsonRestClient_DeleteAsync_
-  commentId: Overload:Epos.Utilities.Web.JsonRestClient.DeleteAsync
-  fullName: Epos.Utilities.Web.JsonRestClient.DeleteAsync
-  nameWithType: JsonRestClient.DeleteAsync
-- uid: Epos.Utilities.Web.JsonRestClient.GetAsync*
-  name: GetAsync
-  href: Api/Epos.Utilities.Web.JsonRestClient.html#Epos_Utilities_Web_JsonRestClient_GetAsync_
-  commentId: Overload:Epos.Utilities.Web.JsonRestClient.GetAsync
-  fullName: Epos.Utilities.Web.JsonRestClient.GetAsync
-  nameWithType: JsonRestClient.GetAsync
-- uid: Epos.Utilities.Web.JsonRestClient.GetAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
-  name: GetAsync<TResponse>(String, [])
-  href: Api/Epos.Utilities.Web.JsonRestClient.html#Epos_Utilities_Web_JsonRestClient_GetAsync__1_System_String_System_ValueTuple_System_String_System_Object____
-  commentId: M:Epos.Utilities.Web.JsonRestClient.GetAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
-  name.vb: GetAsync(Of TResponse)(String, ())
-  fullName: Epos.Utilities.Web.JsonRestClient.GetAsync<TResponse>(System.String, System.[])
-  fullName.vb: Epos.Utilities.Web.JsonRestClient.GetAsync(Of TResponse)(System.String, System.())
-  nameWithType: JsonRestClient.GetAsync<TResponse>(String, [])
-  nameWithType.vb: JsonRestClient.GetAsync(Of TResponse)(String, ())
-- uid: Epos.Utilities.Web.JsonRestClient.GetManyAsync*
-  name: GetManyAsync
-  href: Api/Epos.Utilities.Web.JsonRestClient.html#Epos_Utilities_Web_JsonRestClient_GetManyAsync_
-  commentId: Overload:Epos.Utilities.Web.JsonRestClient.GetManyAsync
-  fullName: Epos.Utilities.Web.JsonRestClient.GetManyAsync
-  nameWithType: JsonRestClient.GetManyAsync
-- uid: Epos.Utilities.Web.JsonRestClient.GetManyAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
-  name: GetManyAsync<TResponse>(String, [])
-  href: Api/Epos.Utilities.Web.JsonRestClient.html#Epos_Utilities_Web_JsonRestClient_GetManyAsync__1_System_String_System_ValueTuple_System_String_System_Object____
-  commentId: M:Epos.Utilities.Web.JsonRestClient.GetManyAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
-  name.vb: GetManyAsync(Of TResponse)(String, ())
-  fullName: Epos.Utilities.Web.JsonRestClient.GetManyAsync<TResponse>(System.String, System.[])
-  fullName.vb: Epos.Utilities.Web.JsonRestClient.GetManyAsync(Of TResponse)(System.String, System.())
-  nameWithType: JsonRestClient.GetManyAsync<TResponse>(String, [])
-  nameWithType.vb: JsonRestClient.GetManyAsync(Of TResponse)(String, ())
-- uid: Epos.Utilities.Web.JsonRestClient.PostAsync(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])
-  name: PostAsync(String, Object, [])
-  href: Api/Epos.Utilities.Web.JsonRestClient.html#Epos_Utilities_Web_JsonRestClient_PostAsync_System_String_System_Object_System_ValueTuple_System_String_System_Object____
-  commentId: M:Epos.Utilities.Web.JsonRestClient.PostAsync(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])
-  name.vb: PostAsync(String, Object, ())
-  fullName: Epos.Utilities.Web.JsonRestClient.PostAsync(System.String, System.Object, System.[])
-  fullName.vb: Epos.Utilities.Web.JsonRestClient.PostAsync(System.String, System.Object, System.())
-  nameWithType: JsonRestClient.PostAsync(String, Object, [])
-  nameWithType.vb: JsonRestClient.PostAsync(String, Object, ())
-- uid: Epos.Utilities.Web.JsonRestClient.PostAsync*
-  name: PostAsync
-  href: Api/Epos.Utilities.Web.JsonRestClient.html#Epos_Utilities_Web_JsonRestClient_PostAsync_
-  commentId: Overload:Epos.Utilities.Web.JsonRestClient.PostAsync
-  fullName: Epos.Utilities.Web.JsonRestClient.PostAsync
-  nameWithType: JsonRestClient.PostAsync
-- uid: Epos.Utilities.Web.JsonRestClient.PutAsync(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])
-  name: PutAsync(String, Object, [])
-  href: Api/Epos.Utilities.Web.JsonRestClient.html#Epos_Utilities_Web_JsonRestClient_PutAsync_System_String_System_Object_System_ValueTuple_System_String_System_Object____
-  commentId: M:Epos.Utilities.Web.JsonRestClient.PutAsync(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])
-  name.vb: PutAsync(String, Object, ())
-  fullName: Epos.Utilities.Web.JsonRestClient.PutAsync(System.String, System.Object, System.[])
-  fullName.vb: Epos.Utilities.Web.JsonRestClient.PutAsync(System.String, System.Object, System.())
-  nameWithType: JsonRestClient.PutAsync(String, Object, [])
-  nameWithType.vb: JsonRestClient.PutAsync(String, Object, ())
-- uid: Epos.Utilities.Web.JsonRestClient.PutAsync*
-  name: PutAsync
-  href: Api/Epos.Utilities.Web.JsonRestClient.html#Epos_Utilities_Web_JsonRestClient_PutAsync_
-  commentId: Overload:Epos.Utilities.Web.JsonRestClient.PutAsync
-  fullName: Epos.Utilities.Web.JsonRestClient.PutAsync
-  nameWithType: JsonRestClient.PutAsync
-- uid: Epos.Utilities.Web.JsonRestClient.RootUri
-  name: RootUri
-  href: Api/Epos.Utilities.Web.JsonRestClient.html#Epos_Utilities_Web_JsonRestClient_RootUri
-  commentId: P:Epos.Utilities.Web.JsonRestClient.RootUri
-  fullName: Epos.Utilities.Web.JsonRestClient.RootUri
-  nameWithType: JsonRestClient.RootUri
-- uid: Epos.Utilities.Web.JsonRestClient.RootUri*
-  name: RootUri
-  href: Api/Epos.Utilities.Web.JsonRestClient.html#Epos_Utilities_Web_JsonRestClient_RootUri_
-  commentId: Overload:Epos.Utilities.Web.JsonRestClient.RootUri
-  fullName: Epos.Utilities.Web.JsonRestClient.RootUri
-  nameWithType: JsonRestClient.RootUri
 - uid: Epos.Utilities.Web.PolicyProvider
   name: PolicyProvider
   href: Api/Epos.Utilities.Web.PolicyProvider.html
   commentId: T:Epos.Utilities.Web.PolicyProvider
   fullName: Epos.Utilities.Web.PolicyProvider
   nameWithType: PolicyProvider
-- uid: Epos.Utilities.Web.PolicyProvider.#ctor(Microsoft.Extensions.Logging.ILogger{Epos.Utilities.Web.PolicyProvider})
-  name: PolicyProvider(ILogger<PolicyProvider>)
-  href: Api/Epos.Utilities.Web.PolicyProvider.html#Epos_Utilities_Web_PolicyProvider__ctor_Microsoft_Extensions_Logging_ILogger_Epos_Utilities_Web_PolicyProvider__
-  commentId: M:Epos.Utilities.Web.PolicyProvider.#ctor(Microsoft.Extensions.Logging.ILogger{Epos.Utilities.Web.PolicyProvider})
-  name.vb: PolicyProvider(ILogger(Of PolicyProvider))
-  fullName: Epos.Utilities.Web.PolicyProvider.PolicyProvider(Microsoft.Extensions.Logging.ILogger<Epos.Utilities.Web.PolicyProvider>)
-  fullName.vb: Epos.Utilities.Web.PolicyProvider.PolicyProvider(Microsoft.Extensions.Logging.ILogger(Of Epos.Utilities.Web.PolicyProvider))
-  nameWithType: PolicyProvider.PolicyProvider(ILogger<PolicyProvider>)
-  nameWithType.vb: PolicyProvider.PolicyProvider(ILogger(Of PolicyProvider))
+- uid: Epos.Utilities.Web.PolicyProvider.#ctor(System.Nullable{Microsoft.Extensions.Logging.ILogger{Epos.Utilities.Web.PolicyProvider}})
+  name: PolicyProvider(Nullable<ILogger<PolicyProvider>>)
+  href: Api/Epos.Utilities.Web.PolicyProvider.html#Epos_Utilities_Web_PolicyProvider__ctor_System_Nullable_Microsoft_Extensions_Logging_ILogger_Epos_Utilities_Web_PolicyProvider___
+  commentId: M:Epos.Utilities.Web.PolicyProvider.#ctor(System.Nullable{Microsoft.Extensions.Logging.ILogger{Epos.Utilities.Web.PolicyProvider}})
+  name.vb: PolicyProvider(Nullable(Of ILogger(Of PolicyProvider)))
+  fullName: Epos.Utilities.Web.PolicyProvider.PolicyProvider(System.Nullable<Microsoft.Extensions.Logging.ILogger<Epos.Utilities.Web.PolicyProvider>>)
+  fullName.vb: Epos.Utilities.Web.PolicyProvider.PolicyProvider(System.Nullable(Of Microsoft.Extensions.Logging.ILogger(Of Epos.Utilities.Web.PolicyProvider)))
+  nameWithType: PolicyProvider.PolicyProvider(Nullable<ILogger<PolicyProvider>>)
+  nameWithType.vb: PolicyProvider.PolicyProvider(Nullable(Of ILogger(Of PolicyProvider)))
 - uid: Epos.Utilities.Web.PolicyProvider.#ctor*
   name: PolicyProvider
   href: Api/Epos.Utilities.Web.PolicyProvider.html#Epos_Utilities_Web_PolicyProvider__ctor_
   commentId: Overload:Epos.Utilities.Web.PolicyProvider.#ctor
+  isSpec: "True"
   fullName: Epos.Utilities.Web.PolicyProvider.PolicyProvider
   nameWithType: PolicyProvider.PolicyProvider
 - uid: Epos.Utilities.Web.PolicyProvider.ProvidePolicy(System.String)
@@ -3134,137 +3125,9 @@ references:
   name: ProvidePolicy
   href: Api/Epos.Utilities.Web.PolicyProvider.html#Epos_Utilities_Web_PolicyProvider_ProvidePolicy_
   commentId: Overload:Epos.Utilities.Web.PolicyProvider.ProvidePolicy
+  isSpec: "True"
   fullName: Epos.Utilities.Web.PolicyProvider.ProvidePolicy
   nameWithType: PolicyProvider.ProvidePolicy
-- uid: Epos.Utilities.Web.ResilientJsonRestClient
-  name: ResilientJsonRestClient
-  href: Api/Epos.Utilities.Web.ResilientJsonRestClient.html
-  commentId: T:Epos.Utilities.Web.ResilientJsonRestClient
-  fullName: Epos.Utilities.Web.ResilientJsonRestClient
-  nameWithType: ResilientJsonRestClient
-- uid: Epos.Utilities.Web.ResilientJsonRestClient.#ctor(Epos.Utilities.Web.IPolicyProvider,System.String)
-  name: ResilientJsonRestClient(IPolicyProvider, String)
-  href: Api/Epos.Utilities.Web.ResilientJsonRestClient.html#Epos_Utilities_Web_ResilientJsonRestClient__ctor_Epos_Utilities_Web_IPolicyProvider_System_String_
-  commentId: M:Epos.Utilities.Web.ResilientJsonRestClient.#ctor(Epos.Utilities.Web.IPolicyProvider,System.String)
-  fullName: Epos.Utilities.Web.ResilientJsonRestClient.ResilientJsonRestClient(Epos.Utilities.Web.IPolicyProvider, System.String)
-  nameWithType: ResilientJsonRestClient.ResilientJsonRestClient(IPolicyProvider, String)
-- uid: Epos.Utilities.Web.ResilientJsonRestClient.#ctor*
-  name: ResilientJsonRestClient
-  href: Api/Epos.Utilities.Web.ResilientJsonRestClient.html#Epos_Utilities_Web_ResilientJsonRestClient__ctor_
-  commentId: Overload:Epos.Utilities.Web.ResilientJsonRestClient.#ctor
-  fullName: Epos.Utilities.Web.ResilientJsonRestClient.ResilientJsonRestClient
-  nameWithType: ResilientJsonRestClient.ResilientJsonRestClient
-- uid: Epos.Utilities.Web.ResilientJsonRestClient.DeleteAsync(System.String,System.ValueTuple{System.String,System.Object}[])
-  name: DeleteAsync(String, [])
-  href: Api/Epos.Utilities.Web.ResilientJsonRestClient.html#Epos_Utilities_Web_ResilientJsonRestClient_DeleteAsync_System_String_System_ValueTuple_System_String_System_Object____
-  commentId: M:Epos.Utilities.Web.ResilientJsonRestClient.DeleteAsync(System.String,System.ValueTuple{System.String,System.Object}[])
-  name.vb: DeleteAsync(String, ())
-  fullName: Epos.Utilities.Web.ResilientJsonRestClient.DeleteAsync(System.String, System.[])
-  fullName.vb: Epos.Utilities.Web.ResilientJsonRestClient.DeleteAsync(System.String, System.())
-  nameWithType: ResilientJsonRestClient.DeleteAsync(String, [])
-  nameWithType.vb: ResilientJsonRestClient.DeleteAsync(String, ())
-- uid: Epos.Utilities.Web.ResilientJsonRestClient.DeleteAsync*
-  name: DeleteAsync
-  href: Api/Epos.Utilities.Web.ResilientJsonRestClient.html#Epos_Utilities_Web_ResilientJsonRestClient_DeleteAsync_
-  commentId: Overload:Epos.Utilities.Web.ResilientJsonRestClient.DeleteAsync
-  fullName: Epos.Utilities.Web.ResilientJsonRestClient.DeleteAsync
-  nameWithType: ResilientJsonRestClient.DeleteAsync
-- uid: Epos.Utilities.Web.ResilientJsonRestClient.GetAsync*
-  name: GetAsync
-  href: Api/Epos.Utilities.Web.ResilientJsonRestClient.html#Epos_Utilities_Web_ResilientJsonRestClient_GetAsync_
-  commentId: Overload:Epos.Utilities.Web.ResilientJsonRestClient.GetAsync
-  fullName: Epos.Utilities.Web.ResilientJsonRestClient.GetAsync
-  nameWithType: ResilientJsonRestClient.GetAsync
-- uid: Epos.Utilities.Web.ResilientJsonRestClient.GetAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
-  name: GetAsync<TResponse>(String, [])
-  href: Api/Epos.Utilities.Web.ResilientJsonRestClient.html#Epos_Utilities_Web_ResilientJsonRestClient_GetAsync__1_System_String_System_ValueTuple_System_String_System_Object____
-  commentId: M:Epos.Utilities.Web.ResilientJsonRestClient.GetAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
-  name.vb: GetAsync(Of TResponse)(String, ())
-  fullName: Epos.Utilities.Web.ResilientJsonRestClient.GetAsync<TResponse>(System.String, System.[])
-  fullName.vb: Epos.Utilities.Web.ResilientJsonRestClient.GetAsync(Of TResponse)(System.String, System.())
-  nameWithType: ResilientJsonRestClient.GetAsync<TResponse>(String, [])
-  nameWithType.vb: ResilientJsonRestClient.GetAsync(Of TResponse)(String, ())
-- uid: Epos.Utilities.Web.ResilientJsonRestClient.GetManyAsync*
-  name: GetManyAsync
-  href: Api/Epos.Utilities.Web.ResilientJsonRestClient.html#Epos_Utilities_Web_ResilientJsonRestClient_GetManyAsync_
-  commentId: Overload:Epos.Utilities.Web.ResilientJsonRestClient.GetManyAsync
-  fullName: Epos.Utilities.Web.ResilientJsonRestClient.GetManyAsync
-  nameWithType: ResilientJsonRestClient.GetManyAsync
-- uid: Epos.Utilities.Web.ResilientJsonRestClient.GetManyAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
-  name: GetManyAsync<TResponse>(String, [])
-  href: Api/Epos.Utilities.Web.ResilientJsonRestClient.html#Epos_Utilities_Web_ResilientJsonRestClient_GetManyAsync__1_System_String_System_ValueTuple_System_String_System_Object____
-  commentId: M:Epos.Utilities.Web.ResilientJsonRestClient.GetManyAsync``1(System.String,System.ValueTuple{System.String,System.Object}[])
-  name.vb: GetManyAsync(Of TResponse)(String, ())
-  fullName: Epos.Utilities.Web.ResilientJsonRestClient.GetManyAsync<TResponse>(System.String, System.[])
-  fullName.vb: Epos.Utilities.Web.ResilientJsonRestClient.GetManyAsync(Of TResponse)(System.String, System.())
-  nameWithType: ResilientJsonRestClient.GetManyAsync<TResponse>(String, [])
-  nameWithType.vb: ResilientJsonRestClient.GetManyAsync(Of TResponse)(String, ())
-- uid: Epos.Utilities.Web.ResilientJsonRestClient.PostAsync(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])
-  name: PostAsync(String, Object, [])
-  href: Api/Epos.Utilities.Web.ResilientJsonRestClient.html#Epos_Utilities_Web_ResilientJsonRestClient_PostAsync_System_String_System_Object_System_ValueTuple_System_String_System_Object____
-  commentId: M:Epos.Utilities.Web.ResilientJsonRestClient.PostAsync(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])
-  name.vb: PostAsync(String, Object, ())
-  fullName: Epos.Utilities.Web.ResilientJsonRestClient.PostAsync(System.String, System.Object, System.[])
-  fullName.vb: Epos.Utilities.Web.ResilientJsonRestClient.PostAsync(System.String, System.Object, System.())
-  nameWithType: ResilientJsonRestClient.PostAsync(String, Object, [])
-  nameWithType.vb: ResilientJsonRestClient.PostAsync(String, Object, ())
-- uid: Epos.Utilities.Web.ResilientJsonRestClient.PostAsync*
-  name: PostAsync
-  href: Api/Epos.Utilities.Web.ResilientJsonRestClient.html#Epos_Utilities_Web_ResilientJsonRestClient_PostAsync_
-  commentId: Overload:Epos.Utilities.Web.ResilientJsonRestClient.PostAsync
-  fullName: Epos.Utilities.Web.ResilientJsonRestClient.PostAsync
-  nameWithType: ResilientJsonRestClient.PostAsync
-- uid: Epos.Utilities.Web.ResilientJsonRestClient.PutAsync(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])
-  name: PutAsync(String, Object, [])
-  href: Api/Epos.Utilities.Web.ResilientJsonRestClient.html#Epos_Utilities_Web_ResilientJsonRestClient_PutAsync_System_String_System_Object_System_ValueTuple_System_String_System_Object____
-  commentId: M:Epos.Utilities.Web.ResilientJsonRestClient.PutAsync(System.String,System.Object,System.ValueTuple{System.String,System.Object}[])
-  name.vb: PutAsync(String, Object, ())
-  fullName: Epos.Utilities.Web.ResilientJsonRestClient.PutAsync(System.String, System.Object, System.[])
-  fullName.vb: Epos.Utilities.Web.ResilientJsonRestClient.PutAsync(System.String, System.Object, System.())
-  nameWithType: ResilientJsonRestClient.PutAsync(String, Object, [])
-  nameWithType.vb: ResilientJsonRestClient.PutAsync(String, Object, ())
-- uid: Epos.Utilities.Web.ResilientJsonRestClient.PutAsync*
-  name: PutAsync
-  href: Api/Epos.Utilities.Web.ResilientJsonRestClient.html#Epos_Utilities_Web_ResilientJsonRestClient_PutAsync_
-  commentId: Overload:Epos.Utilities.Web.ResilientJsonRestClient.PutAsync
-  fullName: Epos.Utilities.Web.ResilientJsonRestClient.PutAsync
-  nameWithType: ResilientJsonRestClient.PutAsync
-- uid: Epos.Utilities.Web.ResilientJsonRestClient.RootUri
-  name: RootUri
-  href: Api/Epos.Utilities.Web.ResilientJsonRestClient.html#Epos_Utilities_Web_ResilientJsonRestClient_RootUri
-  commentId: P:Epos.Utilities.Web.ResilientJsonRestClient.RootUri
-  fullName: Epos.Utilities.Web.ResilientJsonRestClient.RootUri
-  nameWithType: ResilientJsonRestClient.RootUri
-- uid: Epos.Utilities.Web.ResilientJsonRestClient.RootUri*
-  name: RootUri
-  href: Api/Epos.Utilities.Web.ResilientJsonRestClient.html#Epos_Utilities_Web_ResilientJsonRestClient_RootUri_
-  commentId: Overload:Epos.Utilities.Web.ResilientJsonRestClient.RootUri
-  fullName: Epos.Utilities.Web.ResilientJsonRestClient.RootUri
-  nameWithType: ResilientJsonRestClient.RootUri
-- uid: Microsoft.Extensions.Configuration
-  name: Microsoft.Extensions.Configuration
-  href: Api/Microsoft.Extensions.Configuration.html
-  commentId: N:Microsoft.Extensions.Configuration
-  fullName: Microsoft.Extensions.Configuration
-  nameWithType: Microsoft.Extensions.Configuration
-- uid: Microsoft.Extensions.Configuration.GelfWebHostBuilderExtensions
-  name: GelfWebHostBuilderExtensions
-  href: Api/Microsoft.Extensions.Configuration.GelfWebHostBuilderExtensions.html
-  commentId: T:Microsoft.Extensions.Configuration.GelfWebHostBuilderExtensions
-  fullName: Microsoft.Extensions.Configuration.GelfWebHostBuilderExtensions
-  nameWithType: GelfWebHostBuilderExtensions
-- uid: Microsoft.Extensions.Configuration.GelfWebHostBuilderExtensions.ConfigureGelfLogging(Microsoft.AspNetCore.Hosting.IWebHostBuilder,System.String)
-  name: ConfigureGelfLogging(IWebHostBuilder, String)
-  href: Api/Microsoft.Extensions.Configuration.GelfWebHostBuilderExtensions.html#Microsoft_Extensions_Configuration_GelfWebHostBuilderExtensions_ConfigureGelfLogging_Microsoft_AspNetCore_Hosting_IWebHostBuilder_System_String_
-  commentId: M:Microsoft.Extensions.Configuration.GelfWebHostBuilderExtensions.ConfigureGelfLogging(Microsoft.AspNetCore.Hosting.IWebHostBuilder,System.String)
-  fullName: Microsoft.Extensions.Configuration.GelfWebHostBuilderExtensions.ConfigureGelfLogging(Microsoft.AspNetCore.Hosting.IWebHostBuilder, System.String)
-  nameWithType: GelfWebHostBuilderExtensions.ConfigureGelfLogging(IWebHostBuilder, String)
-- uid: Microsoft.Extensions.Configuration.GelfWebHostBuilderExtensions.ConfigureGelfLogging*
-  name: ConfigureGelfLogging
-  href: Api/Microsoft.Extensions.Configuration.GelfWebHostBuilderExtensions.html#Microsoft_Extensions_Configuration_GelfWebHostBuilderExtensions_ConfigureGelfLogging_
-  commentId: Overload:Microsoft.Extensions.Configuration.GelfWebHostBuilderExtensions.ConfigureGelfLogging
-  fullName: Microsoft.Extensions.Configuration.GelfWebHostBuilderExtensions.ConfigureGelfLogging
-  nameWithType: GelfWebHostBuilderExtensions.ConfigureGelfLogging
 - uid: Microsoft.Extensions.DependencyInjection
   name: Microsoft.Extensions.DependencyInjection
   href: Api/Microsoft.Extensions.DependencyInjection.html
@@ -3287,6 +3150,7 @@ references:
   name: UseObjectSession
   href: Api/Microsoft.Extensions.DependencyInjection.ObjectSessionMiddlewareExtensions.html#Microsoft_Extensions_DependencyInjection_ObjectSessionMiddlewareExtensions_UseObjectSession_
   commentId: Overload:Microsoft.Extensions.DependencyInjection.ObjectSessionMiddlewareExtensions.UseObjectSession
+  isSpec: "True"
   fullName: Microsoft.Extensions.DependencyInjection.ObjectSessionMiddlewareExtensions.UseObjectSession
   nameWithType: ObjectSessionMiddlewareExtensions.UseObjectSession
 - uid: Microsoft.Extensions.DependencyInjection.ObjectSessionServiceCollectionExtensions
@@ -3314,5 +3178,6 @@ references:
   name: AddObjectSession
   href: Api/Microsoft.Extensions.DependencyInjection.ObjectSessionServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ObjectSessionServiceCollectionExtensions_AddObjectSession_
   commentId: Overload:Microsoft.Extensions.DependencyInjection.ObjectSessionServiceCollectionExtensions.AddObjectSession
+  isSpec: "True"
   fullName: Microsoft.Extensions.DependencyInjection.ObjectSessionServiceCollectionExtensions.AddObjectSession
   nameWithType: ObjectSessionServiceCollectionExtensions.AddObjectSession

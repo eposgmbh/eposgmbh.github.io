@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class DebugThrow
    | Epos.Foundation Docs ">
-    <meta name="generator" content="docfx 2.32.2.0">
+    <meta name="generator" content="docfx 2.45.1.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -81,25 +81,25 @@ will not be compiled into release builds for optimal performance.</p>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
     </div>
     <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
     </div>
     <div>
-      <span class="xref">System.Object.GetHashCode()</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
     </div>
     <div>
-      <span class="xref">System.Object.GetType()</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
     </div>
     <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
     </div>
     <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
     </div>
     <div>
-      <span class="xref">System.Object.ToString()</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Epos.Utilities.html">Epos.Utilities</a></h6>
@@ -201,13 +201,13 @@ public static void IfInvalidEnum(Enum value, string paramName)</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_Utilities_DebugThrow_IfNull__1___0_System_String_.md&amp;value=---%0Auid%3A%20Epos.Utilities.DebugThrow.IfNull%60%601(%60%600%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_Utilities_DebugThrow_IfNull__1_System_Nullable___0__System_String_.md&amp;value=---%0Auid%3A%20Epos.Utilities.DebugThrow.IfNull%60%601(System.Nullable%7B%60%600%7D%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/DebugThrow.cs/#L17">View Source</a>
   </span>
   <a id="Epos_Utilities_DebugThrow_IfNull_" data-uid="Epos.Utilities.DebugThrow.IfNull*"></a>
-  <h4 id="Epos_Utilities_DebugThrow_IfNull__1___0_System_String_" data-uid="Epos.Utilities.DebugThrow.IfNull``1(``0,System.String)">IfNull&lt;T&gt;(T, String)</h4>
+  <h4 id="Epos_Utilities_DebugThrow_IfNull__1_System_Nullable___0__System_String_" data-uid="Epos.Utilities.DebugThrow.IfNull``1(System.Nullable{``0},System.String)">IfNull&lt;T&gt;(Nullable&lt;T&gt;, String)</h4>
   <div class="markdown level1 summary"><p>Throws an <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a>, if the specified
 <code data-dev-comment-type="paramref" class="paramref">value</code> is <strong>null</strong>.</p>
 </div>
@@ -215,7 +215,8 @@ public static void IfInvalidEnum(Enum value, string paramName)</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Conditional(&quot;DEBUG&quot;)]
-public static void IfNull&lt;T&gt;(T value, string paramName)where T : class</code></pre>
+public static void IfNull&lt;T&gt;(T? value, string paramName)
+    where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -228,7 +229,7 @@ public static void IfNull&lt;T&gt;(T value, string paramName)where T : class</co
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;T&gt;</td>
         <td><span class="parametername">value</span></td>
         <td><p>Value to check for <strong>null</strong></p>
 </td>
