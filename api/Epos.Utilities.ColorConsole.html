@@ -1,0 +1,3670 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ColorConsole | Epos.Foundation Docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ColorConsole | Epos.Foundation Docs ">
+      
+      <meta name="description" content="Provides helper methods to write values to the standard output stream in colors.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_Utilities_ColorConsole.md&amp;value=---%0Auid%3A%20Epos.Utilities.ColorConsole%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Epos.Utilities.ColorConsole">
+
+
+
+  <h1 id="Epos_Utilities_ColorConsole" data-uid="Epos.Utilities.ColorConsole" class="text-break">
+Class ColorConsole  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Epos.html">Epos</a>.<a class="xref" href="Epos.Utilities.html">Utilities</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Epos.Utilities.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Provides helper methods to write values to the standard output stream in colors.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class ColorConsole</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ColorConsole</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteBlack_" data-uid="Epos.Utilities.ColorConsole.WriteBlack*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteBlack_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteBlack(System.Object)">
+  WriteBlack(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object to the standard output stream
+in the color black.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteBlack(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteBlack_" data-uid="Epos.Utilities.ColorConsole.WriteBlack*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteBlack_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteBlack(System.String)">
+  WriteBlack(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value to the standard output stream
+in the color black.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteBlack(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteBlack_" data-uid="Epos.Utilities.ColorConsole.WriteBlack*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteBlack_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteBlack(System.String,System.Object[])">
+  WriteBlack(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects
+to the standard output stream in the color black using the
+specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteBlack(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteBlue_" data-uid="Epos.Utilities.ColorConsole.WriteBlue*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteBlue_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteBlue(System.Object)">
+  WriteBlue(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L199"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object to the standard output stream
+in the color blue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteBlue(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteBlue_" data-uid="Epos.Utilities.ColorConsole.WriteBlue*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteBlue_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteBlue(System.String)">
+  WriteBlue(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L204"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value to the standard output stream
+in the color blue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteBlue(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteBlue_" data-uid="Epos.Utilities.ColorConsole.WriteBlue*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteBlue_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteBlue(System.String,System.Object[])">
+  WriteBlue(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L211"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects
+to the standard output stream in the color blue using the
+specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteBlue(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteCyan_" data-uid="Epos.Utilities.ColorConsole.WriteCyan*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteCyan_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteCyan(System.Object)">
+  WriteCyan(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L233"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object to the standard output stream
+in the color cyan.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteCyan(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteCyan_" data-uid="Epos.Utilities.ColorConsole.WriteCyan*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteCyan_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteCyan(System.String)">
+  WriteCyan(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L238"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value to the standard output stream
+in the color cyan.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteCyan(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteCyan_" data-uid="Epos.Utilities.ColorConsole.WriteCyan*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteCyan_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteCyan(System.String,System.Object[])">
+  WriteCyan(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L245"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects
+to the standard output stream in the color cyan using the
+specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteCyan(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteDarkBlue_" data-uid="Epos.Utilities.ColorConsole.WriteDarkBlue*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteDarkBlue_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteDarkBlue(System.Object)">
+  WriteDarkBlue(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object to the standard output stream
+in the color dark Blue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteDarkBlue(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteDarkBlue_" data-uid="Epos.Utilities.ColorConsole.WriteDarkBlue*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteDarkBlue_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteDarkBlue(System.String)">
+  WriteDarkBlue(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value to the standard output stream
+in the color dark Blue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteDarkBlue(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteDarkBlue_" data-uid="Epos.Utilities.ColorConsole.WriteDarkBlue*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteDarkBlue_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteDarkBlue(System.String,System.Object[])">
+  WriteDarkBlue(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects
+to the standard output stream in the color dark Blue using the
+specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteDarkBlue(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteDarkCyan_" data-uid="Epos.Utilities.ColorConsole.WriteDarkCyan*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteDarkCyan_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteDarkCyan(System.Object)">
+  WriteDarkCyan(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object to the standard output stream
+in the color dark Cyan.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteDarkCyan(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteDarkCyan_" data-uid="Epos.Utilities.ColorConsole.WriteDarkCyan*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteDarkCyan_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteDarkCyan(System.String)">
+  WriteDarkCyan(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value to the standard output stream
+in the color dark Cyan.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteDarkCyan(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteDarkCyan_" data-uid="Epos.Utilities.ColorConsole.WriteDarkCyan*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteDarkCyan_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteDarkCyan(System.String,System.Object[])">
+  WriteDarkCyan(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects
+to the standard output stream in the color dark Cyan using the
+specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteDarkCyan(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteDarkGray_" data-uid="Epos.Utilities.ColorConsole.WriteDarkGray*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteDarkGray_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteDarkGray(System.Object)">
+  WriteDarkGray(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L182"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object to the standard output stream
+in the color dark Gray.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteDarkGray(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteDarkGray_" data-uid="Epos.Utilities.ColorConsole.WriteDarkGray*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteDarkGray_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteDarkGray(System.String)">
+  WriteDarkGray(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L187"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value to the standard output stream
+in the color dark Gray.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteDarkGray(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteDarkGray_" data-uid="Epos.Utilities.ColorConsole.WriteDarkGray*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteDarkGray_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteDarkGray(System.String,System.Object[])">
+  WriteDarkGray(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L194"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects
+to the standard output stream in the color dark Gray using the
+specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteDarkGray(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteDarkGreen_" data-uid="Epos.Utilities.ColorConsole.WriteDarkGreen*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteDarkGreen_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteDarkGreen(System.Object)">
+  WriteDarkGreen(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object to the standard output stream
+in the color dark Green.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteDarkGreen(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteDarkGreen_" data-uid="Epos.Utilities.ColorConsole.WriteDarkGreen*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteDarkGreen_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteDarkGreen(System.String)">
+  WriteDarkGreen(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value to the standard output stream
+in the color dark Green.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteDarkGreen(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteDarkGreen_" data-uid="Epos.Utilities.ColorConsole.WriteDarkGreen*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteDarkGreen_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteDarkGreen(System.String,System.Object[])">
+  WriteDarkGreen(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects
+to the standard output stream in the color dark Green using the
+specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteDarkGreen(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteDarkMagenta_" data-uid="Epos.Utilities.ColorConsole.WriteDarkMagenta*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteDarkMagenta_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteDarkMagenta(System.Object)">
+  WriteDarkMagenta(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object to the standard output stream
+in the color dark Magenta.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteDarkMagenta(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteDarkMagenta_" data-uid="Epos.Utilities.ColorConsole.WriteDarkMagenta*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteDarkMagenta_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteDarkMagenta(System.String)">
+  WriteDarkMagenta(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value to the standard output stream
+in the color dark Magenta.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteDarkMagenta(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteDarkMagenta_" data-uid="Epos.Utilities.ColorConsole.WriteDarkMagenta*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteDarkMagenta_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteDarkMagenta(System.String,System.Object[])">
+  WriteDarkMagenta(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L143"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects
+to the standard output stream in the color dark Magenta using the
+specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteDarkMagenta(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteDarkRed_" data-uid="Epos.Utilities.ColorConsole.WriteDarkRed*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteDarkRed_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteDarkRed(System.Object)">
+  WriteDarkRed(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object to the standard output stream
+in the color dark Red.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteDarkRed(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteDarkRed_" data-uid="Epos.Utilities.ColorConsole.WriteDarkRed*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteDarkRed_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteDarkRed(System.String)">
+  WriteDarkRed(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value to the standard output stream
+in the color dark Red.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteDarkRed(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteDarkRed_" data-uid="Epos.Utilities.ColorConsole.WriteDarkRed*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteDarkRed_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteDarkRed(System.String,System.Object[])">
+  WriteDarkRed(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects
+to the standard output stream in the color dark Red using the
+specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteDarkRed(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteDarkYellow_" data-uid="Epos.Utilities.ColorConsole.WriteDarkYellow*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteDarkYellow_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteDarkYellow(System.Object)">
+  WriteDarkYellow(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L148"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object to the standard output stream
+in the color dark Yellow.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteDarkYellow(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteDarkYellow_" data-uid="Epos.Utilities.ColorConsole.WriteDarkYellow*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteDarkYellow_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteDarkYellow(System.String)">
+  WriteDarkYellow(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L153"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value to the standard output stream
+in the color dark Yellow.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteDarkYellow(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteDarkYellow_" data-uid="Epos.Utilities.ColorConsole.WriteDarkYellow*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteDarkYellow_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteDarkYellow(System.String,System.Object[])">
+  WriteDarkYellow(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L160"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects
+to the standard output stream in the color dark Yellow using the
+specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteDarkYellow(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteError_" data-uid="Epos.Utilities.ColorConsole.WriteError*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteError_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteError(System.String)">
+  WriteError(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value to the standard output stream
+in error colors.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteError(string error)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>error</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The error to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteGray_" data-uid="Epos.Utilities.ColorConsole.WriteGray*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteGray_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteGray(System.Object)">
+  WriteGray(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L165"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object to the standard output stream
+in the color gray.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteGray(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteGray_" data-uid="Epos.Utilities.ColorConsole.WriteGray*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteGray_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteGray(System.String)">
+  WriteGray(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value to the standard output stream
+in the color gray.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteGray(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteGray_" data-uid="Epos.Utilities.ColorConsole.WriteGray*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteGray_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteGray(System.String,System.Object[])">
+  WriteGray(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L177"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects
+to the standard output stream in the color gray using the
+specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteGray(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteGreen_" data-uid="Epos.Utilities.ColorConsole.WriteGreen*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteGreen_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteGreen(System.Object)">
+  WriteGreen(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L216"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object to the standard output stream
+in the color green.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteGreen(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteGreen_" data-uid="Epos.Utilities.ColorConsole.WriteGreen*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteGreen_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteGreen(System.String)">
+  WriteGreen(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L221"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value to the standard output stream
+in the color green.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteGreen(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteGreen_" data-uid="Epos.Utilities.ColorConsole.WriteGreen*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteGreen_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteGreen(System.String,System.Object[])">
+  WriteGreen(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L228"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects
+to the standard output stream in the color green using the
+specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteGreen(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteHint_" data-uid="Epos.Utilities.ColorConsole.WriteHint*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteHint_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteHint(System.String)">
+  WriteHint(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value to the standard output stream
+in hint colors.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteHint(string hint)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>hint</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The hint to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineBlack_" data-uid="Epos.Utilities.ColorConsole.WriteLineBlack*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineBlack_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteLineBlack(System.Object)">
+  WriteLineBlack(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L318"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object, followed by
+the current line terminator, to the standard output stream in the color black.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineBlack(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineBlack_" data-uid="Epos.Utilities.ColorConsole.WriteLineBlack*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineBlack_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteLineBlack(System.String)">
+  WriteLineBlack(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L323"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value, followed by the current line terminator,
+to the standard output stream in the color black.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineBlack(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineBlack_" data-uid="Epos.Utilities.ColorConsole.WriteLineBlack*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineBlack_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteLineBlack(System.String,System.Object[])">
+  WriteLineBlack(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L330"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects,
+followed by the current line terminator to the standard output stream in the
+color black using the specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineBlack(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineBlue_" data-uid="Epos.Utilities.ColorConsole.WriteLineBlue*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineBlue_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteLineBlue(System.Object)">
+  WriteLineBlue(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L474"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object, followed by
+the current line terminator, to the standard output stream in the color blue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineBlue(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineBlue_" data-uid="Epos.Utilities.ColorConsole.WriteLineBlue*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineBlue_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteLineBlue(System.String)">
+  WriteLineBlue(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L480"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value, followed by the current line terminator,
+to the standard output stream in the color blue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineBlue(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineBlue_" data-uid="Epos.Utilities.ColorConsole.WriteLineBlue*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineBlue_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteLineBlue(System.String,System.Object[])">
+  WriteLineBlue(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L487"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects,
+followed by the current line terminator to the standard output stream in the
+color blue using the specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineBlue(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineCyan_" data-uid="Epos.Utilities.ColorConsole.WriteLineCyan*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineCyan_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteLineCyan(System.Object)">
+  WriteLineCyan(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L512"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object, followed by
+the current line terminator, to the standard output stream in the color cyan.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineCyan(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineCyan_" data-uid="Epos.Utilities.ColorConsole.WriteLineCyan*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineCyan_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteLineCyan(System.String)">
+  WriteLineCyan(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L518"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value, followed by the current line terminator,
+to the standard output stream in the color cyan.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineCyan(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineCyan_" data-uid="Epos.Utilities.ColorConsole.WriteLineCyan*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineCyan_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteLineCyan(System.String,System.Object[])">
+  WriteLineCyan(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L525"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects,
+followed by the current line terminator to the standard output stream in the
+color cyan using the specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineCyan(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineDarkBlue_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkBlue*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineDarkBlue_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkBlue(System.Object)">
+  WriteLineDarkBlue(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L335"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object, followed by
+the current line terminator, to the standard output stream in the color dark Blue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineDarkBlue(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineDarkBlue_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkBlue*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineDarkBlue_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkBlue(System.String)">
+  WriteLineDarkBlue(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L340"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value, followed by the current line terminator,
+to the standard output stream in the color dark Blue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineDarkBlue(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineDarkBlue_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkBlue*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineDarkBlue_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkBlue(System.String,System.Object[])">
+  WriteLineDarkBlue(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L347"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects,
+followed by the current line terminator to the standard output stream in the
+color dark Blue using the specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineDarkBlue(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineDarkCyan_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkCyan*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineDarkCyan_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkCyan(System.Object)">
+  WriteLineDarkCyan(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L369"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object, followed by
+the current line terminator, to the standard output stream in the color dark Cyan.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineDarkCyan(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineDarkCyan_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkCyan*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineDarkCyan_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkCyan(System.String)">
+  WriteLineDarkCyan(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L374"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value, followed by the current line terminator,
+to the standard output stream in the color dark Cyan.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineDarkCyan(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineDarkCyan_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkCyan*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineDarkCyan_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkCyan(System.String,System.Object[])">
+  WriteLineDarkCyan(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L381"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects,
+followed by the current line terminator to the standard output stream in the
+color dark Cyan using the specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineDarkCyan(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineDarkGray_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkGray*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineDarkGray_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkGray(System.Object)">
+  WriteLineDarkGray(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L455"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object, followed by
+the current line terminator, to the standard output stream in the color dark Gray.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineDarkGray(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineDarkGray_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkGray*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineDarkGray_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkGray(System.String)">
+  WriteLineDarkGray(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L461"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value, followed by the current line terminator,
+to the standard output stream in the color dark Gray.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineDarkGray(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineDarkGray_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkGray*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineDarkGray_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkGray(System.String,System.Object[])">
+  WriteLineDarkGray(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L468"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects,
+followed by the current line terminator to the standard output stream in the
+color dark Gray using the specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineDarkGray(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineDarkGreen_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkGreen*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineDarkGreen_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkGreen(System.Object)">
+  WriteLineDarkGreen(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L352"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object, followed by
+the current line terminator, to the standard output stream in the color dark Green.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineDarkGreen(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineDarkGreen_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkGreen*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineDarkGreen_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkGreen(System.String)">
+  WriteLineDarkGreen(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L357"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value, followed by the current line terminator,
+to the standard output stream in the color dark Green.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineDarkGreen(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineDarkGreen_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkGreen*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineDarkGreen_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkGreen(System.String,System.Object[])">
+  WriteLineDarkGreen(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L364"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects,
+followed by the current line terminator to the standard output stream in the
+color dark Green using the specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineDarkGreen(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineDarkMagenta_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkMagenta*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineDarkMagenta_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkMagenta(System.Object)">
+  WriteLineDarkMagenta(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L403"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object, followed by
+the current line terminator, to the standard output stream in the color dark Magenta.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineDarkMagenta(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineDarkMagenta_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkMagenta*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineDarkMagenta_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkMagenta(System.String)">
+  WriteLineDarkMagenta(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L408"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value, followed by the current line terminator,
+to the standard output stream in the color dark Magenta.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineDarkMagenta(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineDarkMagenta_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkMagenta*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineDarkMagenta_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkMagenta(System.String,System.Object[])">
+  WriteLineDarkMagenta(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L415"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects,
+followed by the current line terminator to the standard output stream in the
+color dark Magenta using the specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineDarkMagenta(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineDarkRed_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkRed*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineDarkRed_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkRed(System.Object)">
+  WriteLineDarkRed(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L386"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object, followed by
+the current line terminator, to the standard output stream in the color dark Red.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineDarkRed(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineDarkRed_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkRed*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineDarkRed_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkRed(System.String)">
+  WriteLineDarkRed(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L391"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value, followed by the current line terminator,
+to the standard output stream in the color dark Red.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineDarkRed(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineDarkRed_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkRed*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineDarkRed_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkRed(System.String,System.Object[])">
+  WriteLineDarkRed(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L398"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects,
+followed by the current line terminator to the standard output stream in the
+color dark Red using the specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineDarkRed(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineDarkYellow_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkYellow*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineDarkYellow_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkYellow(System.Object)">
+  WriteLineDarkYellow(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L420"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object, followed by
+the current line terminator, to the standard output stream in the color dark Yellow.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineDarkYellow(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineDarkYellow_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkYellow*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineDarkYellow_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkYellow(System.String)">
+  WriteLineDarkYellow(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L425"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value, followed by the current line terminator,
+to the standard output stream in the color dark Yellow.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineDarkYellow(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineDarkYellow_" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkYellow*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineDarkYellow_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteLineDarkYellow(System.String,System.Object[])">
+  WriteLineDarkYellow(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L432"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects,
+followed by the current line terminator to the standard output stream in the
+color dark Yellow using the specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineDarkYellow(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineGray_" data-uid="Epos.Utilities.ColorConsole.WriteLineGray*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineGray_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteLineGray(System.Object)">
+  WriteLineGray(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L437"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object, followed by
+the current line terminator, to the standard output stream in the color gray.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineGray(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineGray_" data-uid="Epos.Utilities.ColorConsole.WriteLineGray*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineGray_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteLineGray(System.String)">
+  WriteLineGray(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L442"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value, followed by the current line terminator,
+to the standard output stream in the color gray.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineGray(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineGray_" data-uid="Epos.Utilities.ColorConsole.WriteLineGray*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineGray_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteLineGray(System.String,System.Object[])">
+  WriteLineGray(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L449"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects,
+followed by the current line terminator to the standard output stream in the
+color gray using the specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineGray(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineGreen_" data-uid="Epos.Utilities.ColorConsole.WriteLineGreen*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineGreen_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteLineGreen(System.Object)">
+  WriteLineGreen(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L493"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object, followed by
+the current line terminator, to the standard output stream in the color green.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineGreen(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineGreen_" data-uid="Epos.Utilities.ColorConsole.WriteLineGreen*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineGreen_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteLineGreen(System.String)">
+  WriteLineGreen(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L499"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value, followed by the current line terminator,
+to the standard output stream in the color green.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineGreen(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineGreen_" data-uid="Epos.Utilities.ColorConsole.WriteLineGreen*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineGreen_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteLineGreen(System.String,System.Object[])">
+  WriteLineGreen(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L506"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects,
+followed by the current line terminator to the standard output stream in the
+color green using the specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineGreen(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineMagenta_" data-uid="Epos.Utilities.ColorConsole.WriteLineMagenta*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineMagenta_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteLineMagenta(System.Object)">
+  WriteLineMagenta(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L550"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object, followed by
+the current line terminator, to the standard output stream in the color magenta.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineMagenta(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineMagenta_" data-uid="Epos.Utilities.ColorConsole.WriteLineMagenta*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineMagenta_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteLineMagenta(System.String)">
+  WriteLineMagenta(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L556"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value, followed by the current line terminator,
+to the standard output stream in the color magenta.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineMagenta(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineMagenta_" data-uid="Epos.Utilities.ColorConsole.WriteLineMagenta*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineMagenta_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteLineMagenta(System.String,System.Object[])">
+  WriteLineMagenta(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L563"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects,
+followed by the current line terminator to the standard output stream in the
+color magenta using the specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineMagenta(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineRed_" data-uid="Epos.Utilities.ColorConsole.WriteLineRed*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineRed_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteLineRed(System.Object)">
+  WriteLineRed(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L531"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object, followed by
+the current line terminator, to the standard output stream in the color red.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineRed(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineRed_" data-uid="Epos.Utilities.ColorConsole.WriteLineRed*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineRed_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteLineRed(System.String)">
+  WriteLineRed(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L537"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value, followed by the current line terminator,
+to the standard output stream in the color red.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineRed(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineRed_" data-uid="Epos.Utilities.ColorConsole.WriteLineRed*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineRed_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteLineRed(System.String,System.Object[])">
+  WriteLineRed(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L544"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects,
+followed by the current line terminator to the standard output stream in the
+color red using the specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineRed(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineWhite_" data-uid="Epos.Utilities.ColorConsole.WriteLineWhite*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineWhite_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteLineWhite(System.Object)">
+  WriteLineWhite(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L588"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object, followed by
+the current line terminator, to the standard output stream in the color white.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineWhite(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineWhite_" data-uid="Epos.Utilities.ColorConsole.WriteLineWhite*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineWhite_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteLineWhite(System.String)">
+  WriteLineWhite(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L594"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value, followed by the current line terminator,
+to the standard output stream in the color white.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineWhite(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineWhite_" data-uid="Epos.Utilities.ColorConsole.WriteLineWhite*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineWhite_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteLineWhite(System.String,System.Object[])">
+  WriteLineWhite(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L601"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects,
+followed by the current line terminator to the standard output stream in the
+color white using the specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineWhite(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineYellow_" data-uid="Epos.Utilities.ColorConsole.WriteLineYellow*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineYellow_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteLineYellow(System.Object)">
+  WriteLineYellow(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L569"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object, followed by
+the current line terminator, to the standard output stream in the color yellow.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineYellow(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineYellow_" data-uid="Epos.Utilities.ColorConsole.WriteLineYellow*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineYellow_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteLineYellow(System.String)">
+  WriteLineYellow(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L575"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value, followed by the current line terminator,
+to the standard output stream in the color yellow.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineYellow(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteLineYellow_" data-uid="Epos.Utilities.ColorConsole.WriteLineYellow*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteLineYellow_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteLineYellow(System.String,System.Object[])">
+  WriteLineYellow(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L582"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects,
+followed by the current line terminator to the standard output stream in the
+color yellow using the specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteLineYellow(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteMagenta_" data-uid="Epos.Utilities.ColorConsole.WriteMagenta*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteMagenta_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteMagenta(System.Object)">
+  WriteMagenta(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L267"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object to the standard output stream
+in the color magenta.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteMagenta(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteMagenta_" data-uid="Epos.Utilities.ColorConsole.WriteMagenta*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteMagenta_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteMagenta(System.String)">
+  WriteMagenta(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L272"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value to the standard output stream
+in the color magenta.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteMagenta(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteMagenta_" data-uid="Epos.Utilities.ColorConsole.WriteMagenta*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteMagenta_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteMagenta(System.String,System.Object[])">
+  WriteMagenta(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L279"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects
+to the standard output stream in the color magenta using the
+specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteMagenta(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteRed_" data-uid="Epos.Utilities.ColorConsole.WriteRed*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteRed_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteRed(System.Object)">
+  WriteRed(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L250"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object to the standard output stream
+in the color red.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteRed(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteRed_" data-uid="Epos.Utilities.ColorConsole.WriteRed*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteRed_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteRed(System.String)">
+  WriteRed(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L255"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value to the standard output stream
+in the color red.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteRed(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteRed_" data-uid="Epos.Utilities.ColorConsole.WriteRed*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteRed_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteRed(System.String,System.Object[])">
+  WriteRed(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L262"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects
+to the standard output stream in the color red using the
+specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteRed(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteWarning_" data-uid="Epos.Utilities.ColorConsole.WriteWarning*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteWarning_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteWarning(System.String)">
+  WriteWarning(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value to the standard output stream
+in warning colors.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteWarning(string warning)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>warning</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The warning to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteWhite_" data-uid="Epos.Utilities.ColorConsole.WriteWhite*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteWhite_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteWhite(System.Object)">
+  WriteWhite(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L301"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object to the standard output stream
+in the color white.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteWhite(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteWhite_" data-uid="Epos.Utilities.ColorConsole.WriteWhite*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteWhite_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteWhite(System.String)">
+  WriteWhite(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L306"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value to the standard output stream
+in the color white.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteWhite(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteWhite_" data-uid="Epos.Utilities.ColorConsole.WriteWhite*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteWhite_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteWhite(System.String,System.Object[])">
+  WriteWhite(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L313"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects
+to the standard output stream in the color white using the
+specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteWhite(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteYellow_" data-uid="Epos.Utilities.ColorConsole.WriteYellow*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteYellow_System_Object_" data-uid="Epos.Utilities.ColorConsole.WriteYellow(System.Object)">
+  WriteYellow(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L284"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified object to the standard output stream
+in the color yellow.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteYellow(object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteYellow_" data-uid="Epos.Utilities.ColorConsole.WriteYellow*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteYellow_System_String_" data-uid="Epos.Utilities.ColorConsole.WriteYellow(System.String)">
+  WriteYellow(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L289"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the specified string value to the standard output stream
+in the color yellow.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteYellow(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to write, or null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Epos_Utilities_ColorConsole_WriteYellow_" data-uid="Epos.Utilities.ColorConsole.WriteYellow*"></a>
+
+  <h3 id="Epos_Utilities_ColorConsole_WriteYellow_System_String_System_Object___" data-uid="Epos.Utilities.ColorConsole.WriteYellow(System.String,System.Object[])">
+  WriteYellow(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L296"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the text representation of the specified array of objects
+to the standard output stream in the color yellow using the
+specified format information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteYellow(string format, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A composite format string.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>An array of objects to write using format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.Utilities/ColorConsole.cs/#L8" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

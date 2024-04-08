@@ -1,18 +1,728 @@
 {
-  "homepages": [],
   "source_base_path": "D:/a/1/s/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.CommandLine.CommandLineConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.CommandLine.CommandLineConfiguration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.CommandLine.CommandLineDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.CommandLine.CommandLineDefinition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.CommandLine.CommandLineOption-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.CommandLine.CommandLineOption-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.CommandLine.CommandLineOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.CommandLine.CommandLineOption.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.CommandLine.CommandLineOptionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.CommandLine.CommandLineOptionAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.CommandLine.CommandLineParameter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.CommandLine.CommandLineParameter-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.CommandLine.CommandLineParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.CommandLine.CommandLineParameter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.CommandLine.CommandLineParameterAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.CommandLine.CommandLineParameterAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.CommandLine.CommandLineSubcommand-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.CommandLine.CommandLineSubcommand-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.CommandLine.CommandLineSubcommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.CommandLine.CommandLineSubcommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.CommandLine.CommandLineSwitch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.CommandLine.CommandLineSwitch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.CommandLine.Helpers.DalSoftRestClientConsoleHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.CommandLine.Helpers.DalSoftRestClientConsoleHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.CommandLine.Helpers.RefitRestClientConsoleHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.CommandLine.Helpers.RefitRestClientConsoleHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.CommandLine.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.CommandLine.Helpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.CommandLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.CommandLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.TestUtilities.Docker.DockerContainer.MongoDB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.TestUtilities.Docker.DockerContainer.MongoDB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.TestUtilities.Docker.DockerContainer.Postgres.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.TestUtilities.Docker.DockerContainer.Postgres.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.TestUtilities.Docker.DockerContainer.SqlServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.TestUtilities.Docker.DockerContainer.SqlServer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.TestUtilities.Docker.DockerContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.TestUtilities.Docker.DockerContainer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.TestUtilities.Docker.DockerContainerException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.TestUtilities.Docker.DockerContainerException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.TestUtilities.Docker.DockerContainerOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.TestUtilities.Docker.DockerContainerOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.TestUtilities.Docker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.TestUtilities.Docker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.Arithmetics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.Arithmetics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.AssemblyExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.AssemblyExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.BinaryOperation-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.BinaryOperation-3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.Cache-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.Cache-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.Characters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.Characters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.ColorConsole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.ColorConsole.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.ColumnInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.ColumnInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.ColumnSeperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.ColumnSeperator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.Composition.ComponentCreationStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.Composition.ComponentCreationStrategy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.Composition.Container.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.Composition.Container.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.Composition.ContainerInstaller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.Composition.ContainerInstaller.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.Composition.ImplementedByOptions-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.Composition.ImplementedByOptions-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.Composition.Lifetime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.Composition.Lifetime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.Composition.LifetimeOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.Composition.LifetimeOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.Composition.RegisterOptions-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.Composition.RegisterOptions-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.Composition.RegistrationStep.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.Composition.RegistrationStep.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.Composition.WithFactoryMethodOptions-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.Composition.WithFactoryMethodOptions-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.Composition.WithParameterOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.Composition.WithParameterOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.Composition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.Composition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.ConsoleHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.ConsoleHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.DebugThrow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.DebugThrow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.DictionaryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.DictionaryExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.DumpExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.DumpExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.EnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.EnumerableExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.EventExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.EventExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.HighPerfLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.HighPerfLogger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.ListExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.ListExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.ObjectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.ObjectExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.Password.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.Password.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.RoundOperation-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.RoundOperation-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.StopwatchHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.StopwatchHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.StringExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.TableInfoProvider-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.TableInfoProvider-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.TaskExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.TaskExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.TypeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.TypeExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.UnaryOperation-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.UnaryOperation-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.Web.DbContextExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.Web.DbContextExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.Web.HostExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.Web.HostExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.Web.HttpClientBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.Web.HttpClientBuilderExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.Web.IObjectSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.Web.IObjectSession.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.Web.IPolicyProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.Web.IPolicyProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.Web.MiddlewareExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.Web.MiddlewareExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.Web.PolicyProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.Web.PolicyProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.Web.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.Web.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.Utilities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.ObjectSessionMiddlewareExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.DependencyInjection.ObjectSessionMiddlewareExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.ObjectSessionServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.DependencyInjection.ObjectSessionServiceCollectionExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.DependencyInjection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
     {
       "type": "Conceptual",
       "source_relative_path": "getting-started.md",
       "output": {
         ".html": {
-          "relative_path": "getting-started.html",
-          "hash": "uR+MkcXdJAnSuFQOk1EsouRkNQzAnRbRSY6j421+D2Y="
+          "relative_path": "getting-started.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -20,52 +730,15 @@
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
-          "relative_path": "toc.html",
-          "hash": "W7erJuezGLCr0RjPHyrtZ+YgZMl5gAhYcH4lsamsqgI="
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
-      "is_incremental": false,
       "version": ""
     }
   ],
-  "incremental_info": [
-    {
-      "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
-        "incrementalPhase": "build",
-        "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
-      },
-      "processors": {
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 1,
-          "skipped_file_count": 0
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        }
-      }
-    },
-    {
-      "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
-        "incrementalPhase": "postProcessing",
-        "total_file_count": 0,
-        "skipped_file_count": 0
-      },
-      "processors": {}
-    }
-  ],
-  "version_info": {},
   "groups": [
     {
       "xrefmap": "xrefmap.yml"
