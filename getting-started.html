@@ -230,7 +230,9 @@ Parameters
 <hr>
 <p>Alternatively you can use the even simpler and mightier <code>CommandLineApplicationBuilder</code> class. It supports logging (to the console of course, but you can register further loggers or provide your own implementation) and dependency injection (see <code>TestService</code>) for the sub commands.</p>
 <p>The subcommands are registered with the <code>AddSubcommand</code> method, see below for an example with just one <code>default</code> subcommand (which means no subcommand at all).</p>
-<pre><code class="lang-csharp">HostApplicationBuilder theBuilder = CommandLineApplicationBuilder.CreateApplicationBuilder(args);
+<pre><code class="lang-csharp">using Epos.CommandLine.Application;
+
+HostApplicationBuilder theBuilder = CommandLineApplicationBuilder.CreateApplicationBuilder(args);
 
 theBuilder.Configure(x =&gt; {
     x.Name = &quot;test-app&quot;;
