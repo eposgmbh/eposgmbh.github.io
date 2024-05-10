@@ -175,7 +175,9 @@ var theTestService = theContainer.Resolve&lt;ITestService&gt;();
 </code></pre>
 <p>Sample entry point that uses the <code>BuildOptions</code> class for the subcommand <code>build</code>:</p>
 <pre><code class="lang-csharp">var theCommandLineDefinition = new CommandLineDefinition {
-    Name = &quot;sample&quot;, // &lt;- if not specified, .exe-Filename is used
+    Configuration = new CommandLineConfiguration {
+        Name = &quot;sample&quot;, // &lt;- if unset, .exe-Filename is taken
+    },
     Subcommands = {
         new CommandLineSubcommand&lt;BuildOptions&gt;(&quot;build&quot;, &quot;Builds something.&quot;) {
             Options = {
@@ -225,6 +227,58 @@ Parameters
   filename               Sets the filename.
 </code></pre>
 <p>Long option chains and description texts are properly line breaked regarding the console window width.</p>
+<hr>
+<p>Alternatively you can use the even simpler and mightier <code>CommandLineApplicationBuilder</code> class. It supports logging (to the console of course, but you can register further loggers or provide your own implementation) and dependency injection (see <code>TestService</code>) for the sub commands.</p>
+<p>The subcommands are registered with the <code>AddSubcommand</code> method, see below for an example with just one <code>default</code> subcommand (which means no subcommand at all).</p>
+<pre><code class="lang-csharp">HostApplicationBuilder theBuilder = CommandLineApplicationBuilder.CreateApplicationBuilder(args);
+
+theBuilder.Configure(x =&gt; {
+    x.Name = &quot;test-app&quot;;
+});
+
+theBuilder.Services.AddSingleton&lt;TestService&gt;();
+theBuilder.Services.AddSubcommand&lt;MySubcommand&gt;();
+
+await theBuilder
+    .Build()
+    .RunAsync();
+
+// ---------------------------------------------
+
+class TestService
+{
+    public string GetSomeString() =&gt; &quot;Hello, World!&quot;;
+}
+
+class MySubcommand(TestService testService, ILogger&lt;MySubcommand&gt; logger) : ISubcommand
+{
+    public string Name =&gt; &quot;default&quot;;
+
+    public string Description =&gt; &quot;Default command&quot;;
+
+    [Option('t', &quot;Test option&quot;, LongName = &quot;test&quot;)]
+    public string? TestOption { get; set; }
+
+    [Parameter(&quot;test-param&quot;, &quot;Test parameter&quot;, DefaultValue = 123)]
+    public int TestParam { get; set; }
+
+
+    public Task&lt;int&gt; ExecuteAsync() {
+        if (TestOption == &quot;World&quot; &amp;&amp;
+            testService.GetSomeString().StartsWith(&quot;Hello&quot;))
+        {
+            logger.LogInformation(&quot;Successful!&quot;);
+            return Task.FromResult(TestParam);
+        }
+        else
+        {
+            logger.LogError(&quot;Unsuccessful!&quot;);
+            return Task.FromResult(0);
+        }
+    }
+}
+</code></pre>
+<p>If you just need to write text to the console, use the <code>LogInformation</code> method (you may use <code>Console.WriteLine</code> alternatively). Other log levels produce <code>WARNING</code>-, <code>ERROR</code>- etc. banners.</p>
 <h2 id="contributing">Contributing</h2>
 <p>You can enter an issue on Github <a href="https://github.com/eposgmbh/Epos.Foundation/issues">here</a>. I will work on
 your issue when I have time. Pull Requests are possible too.</p>

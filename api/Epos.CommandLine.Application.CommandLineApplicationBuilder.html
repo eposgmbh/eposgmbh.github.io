@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class DalSoftRestClientConsoleHelper | Epos.Foundation Docs </title>
+      <title>Class CommandLineApplicationBuilder | Epos.Foundation Docs </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class DalSoftRestClientConsoleHelper | Epos.Foundation Docs ">
+      <meta name="title" content="Class CommandLineApplicationBuilder | Epos.Foundation Docs ">
       
-      <meta name="description" content="Provides helper methods for the DalSoft dynamic REST Client.">
+      <meta name="description" content="Creates a HostApplicationBuilder that simplifies using Epos.CommandLine in an application host with configuration, logging and dependency injection.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       
       
       
-      <meta name="docfx:docurl" content="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_CommandLine_Helpers_DalSoftRestClientConsoleHelper.md&amp;value=---%0Auid%3A%20Epos.CommandLine.Helpers.DalSoftRestClientConsoleHelper%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/eposgmbh/Epos.Foundation/new/master/apiSpec/new?filename=Epos_CommandLine_Application_CommandLineApplicationBuilder.md&amp;value=---%0Auid%3A%20Epos.CommandLine.Application.CommandLineApplicationBuilder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -80,25 +80,26 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Epos.CommandLine.Helpers.DalSoftRestClientConsoleHelper">
+        <article data-uid="Epos.CommandLine.Application.CommandLineApplicationBuilder">
 
 
 
-  <h1 id="Epos_CommandLine_Helpers_DalSoftRestClientConsoleHelper" data-uid="Epos.CommandLine.Helpers.DalSoftRestClientConsoleHelper" class="text-break">
-Class DalSoftRestClientConsoleHelper  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.CommandLine/Helpers/DalSoftRestClientConsoleHelper.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <h1 id="Epos_CommandLine_Application_CommandLineApplicationBuilder" data-uid="Epos.CommandLine.Application.CommandLineApplicationBuilder" class="text-break">
+Class CommandLineApplicationBuilder  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.CommandLine/Application/CommandLineApplicationBuilder.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Epos.html">Epos</a>.<a class="xref" href="Epos.CommandLine.html">CommandLine</a>.<a class="xref" href="Epos.CommandLine.Helpers.html">Helpers</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Epos.html">Epos</a>.<a class="xref" href="Epos.CommandLine.html">CommandLine</a>.<a class="xref" href="Epos.CommandLine.Application.html">Application</a></dd></dl>
   <dl><dt>Assembly</dt><dd>Epos.CommandLine.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Provides helper methods for the DalSoft dynamic REST Client.</p>
+  <div class="markdown summary"><p>Creates a <b>HostApplicationBuilder</b> that simplifies using Epos.CommandLine
+in an application host with configuration, logging and dependency injection.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class DalSoftRestClientConsoleHelper</code></pre>
+    <pre><code class="lang-csharp hljs">public static class CommandLineApplicationBuilder</code></pre>
   </div>
 
 
@@ -108,7 +109,7 @@ Class DalSoftRestClientConsoleHelper  <a class="header-action link-secondary" ti
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">DalSoftRestClientConsoleHelper</span></div>
+      <div><span class="xref">CommandLineApplicationBuilder</span></div>
     </dd>
   </dl>
 
@@ -149,35 +150,32 @@ Class DalSoftRestClientConsoleHelper  <a class="header-action link-secondary" ti
 </h2>
 
 
-  <a id="Epos_CommandLine_Helpers_DalSoftRestClientConsoleHelper_Execute_" data-uid="Epos.CommandLine.Helpers.DalSoftRestClientConsoleHelper.Execute*"></a>
+  <a id="Epos_CommandLine_Application_CommandLineApplicationBuilder_CreateApplicationBuilder_" data-uid="Epos.CommandLine.Application.CommandLineApplicationBuilder.CreateApplicationBuilder*"></a>
 
-  <h3 id="Epos_CommandLine_Helpers_DalSoftRestClientConsoleHelper_Execute_System_Func_System_Object__System_Func_System_Object_System_Int32__" data-uid="Epos.CommandLine.Helpers.DalSoftRestClientConsoleHelper.Execute(System.Func{System.Object},System.Func{System.Object,System.Int32})">
-  Execute(Func&lt;dynamic&gt;, Func&lt;dynamic, int&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.CommandLine/Helpers/DalSoftRestClientConsoleHelper.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Epos_CommandLine_Application_CommandLineApplicationBuilder_CreateApplicationBuilder_System_String___" data-uid="Epos.CommandLine.Application.CommandLineApplicationBuilder.CreateApplicationBuilder(System.String[])">
+  CreateApplicationBuilder(string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.CommandLine/Application/CommandLineApplicationBuilder.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Executes a provided REST client and a success action, if the REST client succeeds.</p>
+  <div class="markdown level1 summary"><p>Creates the application builder with pre-configured defaults.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int Execute(Func&lt;dynamic&gt; dalSoftRestClientFunc, Func&lt;dynamic, int&gt; successAction)</code></pre>
+    <pre><code class="lang-csharp hljs">public static HostApplicationBuilder CreateApplicationBuilder(string[] args)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>dalSoftRestClientFunc</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<span class="xref">dynamic</span>&gt;</dt>
-    <dd><p>REST client function</p>
-</dd>
-    <dt><code>successAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<span class="xref">dynamic</span>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
-    <dd><p>Success action that gets the reponse from the REST client</p>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>Command line arguments</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>Exit code</p>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting.hostapplicationbuilder">HostApplicationBuilder</a></dt>
+    <dd><p>The initialized <b>HostApplicationBuilder</b></p>
 </dd>
   </dl>
 
@@ -187,9 +185,6 @@ Class DalSoftRestClientConsoleHelper  <a class="header-action link-secondary" ti
 
 
 
-  <h4 class="section" id="Epos_CommandLine_Helpers_DalSoftRestClientConsoleHelper_Execute_System_Func_System_Object__System_Func_System_Object_System_Int32___remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>Pretty-prints error messages for common HTTP status codes.</p>
-</div>
 
 
 

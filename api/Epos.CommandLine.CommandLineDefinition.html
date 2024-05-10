@@ -85,7 +85,7 @@
 
 
   <h1 id="Epos_CommandLine_CommandLineDefinition" data-uid="Epos.CommandLine.CommandLineDefinition" class="text-break">
-Class CommandLineDefinition  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.CommandLine/CommandLineDefinition.cs/#L11"><i class="bi bi-code-slash"></i></a>
+Class CommandLineDefinition  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.CommandLine/CommandLineDefinition.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -170,7 +170,7 @@ for an example.</p>
 
   <h3 id="Epos_CommandLine_CommandLineDefinition__ctor" data-uid="Epos.CommandLine.CommandLineDefinition.#ctor">
   CommandLineDefinition()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.CommandLine/CommandLineDefinition.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.CommandLine/CommandLineDefinition.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Initializes an instance of the <a class="xref" href="Epos.CommandLine.CommandLineDefinition.html">CommandLineDefinition</a> class.</p>
@@ -201,7 +201,7 @@ for an example.</p>
 
   <h3 id="Epos_CommandLine_CommandLineDefinition_Configuration" data-uid="Epos.CommandLine.CommandLineDefinition.Configuration">
   Configuration
-  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.CommandLine/CommandLineDefinition.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.CommandLine/CommandLineDefinition.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets the configuration options. You normally should not
@@ -234,7 +234,7 @@ change this property value.</p>
 
   <h3 id="Epos_CommandLine_CommandLineDefinition_HasDifferentiatedSubcommands" data-uid="Epos.CommandLine.CommandLineDefinition.HasDifferentiatedSubcommands">
   HasDifferentiatedSubcommands
-  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.CommandLine/CommandLineDefinition.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.CommandLine/CommandLineDefinition.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets whether the definition has differentiated subcommands.</p>
@@ -266,44 +266,11 @@ subcommands.</p>
 
 
 
-  <a id="Epos_CommandLine_CommandLineDefinition_Name_" data-uid="Epos.CommandLine.CommandLineDefinition.Name*"></a>
-
-  <h3 id="Epos_CommandLine_CommandLineDefinition_Name" data-uid="Epos.CommandLine.CommandLineDefinition.Name">
-  Name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.CommandLine/CommandLineDefinition.cs/#L22"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Gets or sets the name of the command line tool. If not specified
-(<b>null</b>) the .exe filename is used.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string? Name { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="Epos_CommandLine_CommandLineDefinition_Subcommands_" data-uid="Epos.CommandLine.CommandLineDefinition.Subcommands*"></a>
 
   <h3 id="Epos_CommandLine_CommandLineDefinition_Subcommands" data-uid="Epos.CommandLine.CommandLineDefinition.Subcommands">
   Subcommands
-  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.CommandLine/CommandLineDefinition.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.CommandLine/CommandLineDefinition.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the list of subcommands.</p>
@@ -311,7 +278,7 @@ subcommands.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IList&lt;CommandLineSubcommand&gt; Subcommands { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;CommandLineSubcommand&gt; Subcommands { get; }</code></pre>
   </div>
 
 
@@ -320,7 +287,7 @@ subcommands.</p>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="Epos.CommandLine.CommandLineSubcommand.html">CommandLineSubcommand</a>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Epos.CommandLine.CommandLineSubcommand.html">CommandLineSubcommand</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -343,7 +310,7 @@ subcommands, add one subcommand with the name &quot;default&quot;.</p>
 
   <h3 id="Epos_CommandLine_CommandLineDefinition_ShowHelp" data-uid="Epos.CommandLine.CommandLineDefinition.ShowHelp">
   ShowHelp()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.CommandLine/CommandLineDefinition.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.CommandLine/CommandLineDefinition.cs/#L43"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Writes the usage help to the console.</p>
@@ -370,7 +337,7 @@ subcommands, add one subcommand with the name &quot;default&quot;.</p>
 
   <h3 id="Epos_CommandLine_CommandLineDefinition_ShowHelp_System_String_" data-uid="Epos.CommandLine.CommandLineDefinition.ShowHelp(System.String)">
   ShowHelp(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.CommandLine/CommandLineDefinition.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.CommandLine/CommandLineDefinition.cs/#L51"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Writes the usage help for the specified subcommand to
@@ -404,7 +371,7 @@ the console.</p>
 
   <h3 id="Epos_CommandLine_CommandLineDefinition_Try_System_String___" data-uid="Epos.CommandLine.CommandLineDefinition.Try(System.String[])">
   Try(string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.CommandLine/CommandLineDefinition.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.CommandLine/CommandLineDefinition.cs/#L66"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Tries to parse the command line and execute the specified
@@ -444,7 +411,7 @@ subcommand with the specied options and parameters.</p>
 
   <h3 id="Epos_CommandLine_CommandLineDefinition_TryAsync_System_String___" data-uid="Epos.CommandLine.CommandLineDefinition.TryAsync(System.String[])">
   TryAsync(string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.CommandLine/CommandLineDefinition.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/eposgmbh/Epos.Foundation/blob/master/src/Epos.CommandLine/CommandLineDefinition.cs/#L92"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Tries to parse the command line and execute the specified

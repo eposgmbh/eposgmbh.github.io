@@ -4,6 +4,66 @@
   "files": [
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Epos.CommandLine.Application.CommandLineApplicationBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.CommandLine.Application.CommandLineApplicationBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.CommandLine.Application.ISubcommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.CommandLine.Application.ISubcommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.CommandLine.Application.OptionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.CommandLine.Application.OptionAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.CommandLine.Application.ParameterAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.CommandLine.Application.ParameterAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.CommandLine.Application.ServiceCollectionSubcommandExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.CommandLine.Application.ServiceCollectionSubcommandExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Epos.CommandLine.Application.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Epos.CommandLine.Application.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Epos.CommandLine.CommandLineConfiguration.yml",
       "output": {
         ".html": {
@@ -108,16 +168,6 @@
       "output": {
         ".html": {
           "relative_path": "api/Epos.CommandLine.CommandLineSwitch.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Epos.CommandLine.Helpers.DalSoftRestClientConsoleHelper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Epos.CommandLine.Helpers.DalSoftRestClientConsoleHelper.html"
         }
       },
       "version": ""

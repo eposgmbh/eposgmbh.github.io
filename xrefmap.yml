@@ -7,6 +7,264 @@ references:
   commentId: N:Epos.CommandLine
   fullName: Epos.CommandLine
   nameWithType: Epos.CommandLine
+- uid: Epos.CommandLine.Application
+  name: Epos.CommandLine.Application
+  href: api/Epos.CommandLine.Application.html
+  commentId: N:Epos.CommandLine.Application
+  fullName: Epos.CommandLine.Application
+  nameWithType: Epos.CommandLine.Application
+- uid: Epos.CommandLine.Application.CommandLineApplicationBuilder
+  name: CommandLineApplicationBuilder
+  href: api/Epos.CommandLine.Application.CommandLineApplicationBuilder.html
+  commentId: T:Epos.CommandLine.Application.CommandLineApplicationBuilder
+  fullName: Epos.CommandLine.Application.CommandLineApplicationBuilder
+  nameWithType: CommandLineApplicationBuilder
+- uid: Epos.CommandLine.Application.CommandLineApplicationBuilder.CreateApplicationBuilder(System.String[])
+  name: CreateApplicationBuilder(string[])
+  href: api/Epos.CommandLine.Application.CommandLineApplicationBuilder.html#Epos_CommandLine_Application_CommandLineApplicationBuilder_CreateApplicationBuilder_System_String___
+  commentId: M:Epos.CommandLine.Application.CommandLineApplicationBuilder.CreateApplicationBuilder(System.String[])
+  name.vb: CreateApplicationBuilder(String())
+  fullName: Epos.CommandLine.Application.CommandLineApplicationBuilder.CreateApplicationBuilder(string[])
+  fullName.vb: Epos.CommandLine.Application.CommandLineApplicationBuilder.CreateApplicationBuilder(String())
+  nameWithType: CommandLineApplicationBuilder.CreateApplicationBuilder(string[])
+  nameWithType.vb: CommandLineApplicationBuilder.CreateApplicationBuilder(String())
+- uid: Epos.CommandLine.Application.CommandLineApplicationBuilder.CreateApplicationBuilder*
+  name: CreateApplicationBuilder
+  href: api/Epos.CommandLine.Application.CommandLineApplicationBuilder.html#Epos_CommandLine_Application_CommandLineApplicationBuilder_CreateApplicationBuilder_
+  commentId: Overload:Epos.CommandLine.Application.CommandLineApplicationBuilder.CreateApplicationBuilder
+  isSpec: "True"
+  fullName: Epos.CommandLine.Application.CommandLineApplicationBuilder.CreateApplicationBuilder
+  nameWithType: CommandLineApplicationBuilder.CreateApplicationBuilder
+- uid: Epos.CommandLine.Application.ISubcommand
+  name: ISubcommand
+  href: api/Epos.CommandLine.Application.ISubcommand.html
+  commentId: T:Epos.CommandLine.Application.ISubcommand
+  fullName: Epos.CommandLine.Application.ISubcommand
+  nameWithType: ISubcommand
+- uid: Epos.CommandLine.Application.ISubcommand.DefaultName
+  name: DefaultName
+  href: api/Epos.CommandLine.Application.ISubcommand.html#Epos_CommandLine_Application_ISubcommand_DefaultName
+  commentId: F:Epos.CommandLine.Application.ISubcommand.DefaultName
+  fullName: Epos.CommandLine.Application.ISubcommand.DefaultName
+  nameWithType: ISubcommand.DefaultName
+- uid: Epos.CommandLine.Application.ISubcommand.Description
+  name: Description
+  href: api/Epos.CommandLine.Application.ISubcommand.html#Epos_CommandLine_Application_ISubcommand_Description
+  commentId: P:Epos.CommandLine.Application.ISubcommand.Description
+  fullName: Epos.CommandLine.Application.ISubcommand.Description
+  nameWithType: ISubcommand.Description
+- uid: Epos.CommandLine.Application.ISubcommand.Description*
+  name: Description
+  href: api/Epos.CommandLine.Application.ISubcommand.html#Epos_CommandLine_Application_ISubcommand_Description_
+  commentId: Overload:Epos.CommandLine.Application.ISubcommand.Description
+  isSpec: "True"
+  fullName: Epos.CommandLine.Application.ISubcommand.Description
+  nameWithType: ISubcommand.Description
+- uid: Epos.CommandLine.Application.ISubcommand.ExecuteAsync
+  name: ExecuteAsync()
+  href: api/Epos.CommandLine.Application.ISubcommand.html#Epos_CommandLine_Application_ISubcommand_ExecuteAsync
+  commentId: M:Epos.CommandLine.Application.ISubcommand.ExecuteAsync
+  fullName: Epos.CommandLine.Application.ISubcommand.ExecuteAsync()
+  nameWithType: ISubcommand.ExecuteAsync()
+- uid: Epos.CommandLine.Application.ISubcommand.ExecuteAsync*
+  name: ExecuteAsync
+  href: api/Epos.CommandLine.Application.ISubcommand.html#Epos_CommandLine_Application_ISubcommand_ExecuteAsync_
+  commentId: Overload:Epos.CommandLine.Application.ISubcommand.ExecuteAsync
+  isSpec: "True"
+  fullName: Epos.CommandLine.Application.ISubcommand.ExecuteAsync
+  nameWithType: ISubcommand.ExecuteAsync
+- uid: Epos.CommandLine.Application.ISubcommand.Name
+  name: Name
+  href: api/Epos.CommandLine.Application.ISubcommand.html#Epos_CommandLine_Application_ISubcommand_Name
+  commentId: P:Epos.CommandLine.Application.ISubcommand.Name
+  fullName: Epos.CommandLine.Application.ISubcommand.Name
+  nameWithType: ISubcommand.Name
+- uid: Epos.CommandLine.Application.ISubcommand.Name*
+  name: Name
+  href: api/Epos.CommandLine.Application.ISubcommand.html#Epos_CommandLine_Application_ISubcommand_Name_
+  commentId: Overload:Epos.CommandLine.Application.ISubcommand.Name
+  isSpec: "True"
+  fullName: Epos.CommandLine.Application.ISubcommand.Name
+  nameWithType: ISubcommand.Name
+- uid: Epos.CommandLine.Application.OptionAttribute
+  name: OptionAttribute
+  href: api/Epos.CommandLine.Application.OptionAttribute.html
+  commentId: T:Epos.CommandLine.Application.OptionAttribute
+  fullName: Epos.CommandLine.Application.OptionAttribute
+  nameWithType: OptionAttribute
+- uid: Epos.CommandLine.Application.OptionAttribute.#ctor(System.Char,System.String)
+  name: OptionAttribute(char, string)
+  href: api/Epos.CommandLine.Application.OptionAttribute.html#Epos_CommandLine_Application_OptionAttribute__ctor_System_Char_System_String_
+  commentId: M:Epos.CommandLine.Application.OptionAttribute.#ctor(System.Char,System.String)
+  name.vb: New(Char, String)
+  fullName: Epos.CommandLine.Application.OptionAttribute.OptionAttribute(char, string)
+  fullName.vb: Epos.CommandLine.Application.OptionAttribute.New(Char, String)
+  nameWithType: OptionAttribute.OptionAttribute(char, string)
+  nameWithType.vb: OptionAttribute.New(Char, String)
+- uid: Epos.CommandLine.Application.OptionAttribute.#ctor*
+  name: OptionAttribute
+  href: api/Epos.CommandLine.Application.OptionAttribute.html#Epos_CommandLine_Application_OptionAttribute__ctor_
+  commentId: Overload:Epos.CommandLine.Application.OptionAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Epos.CommandLine.Application.OptionAttribute.OptionAttribute
+  fullName.vb: Epos.CommandLine.Application.OptionAttribute.New
+  nameWithType: OptionAttribute.OptionAttribute
+  nameWithType.vb: OptionAttribute.New
+- uid: Epos.CommandLine.Application.OptionAttribute.DefaultValue
+  name: DefaultValue
+  href: api/Epos.CommandLine.Application.OptionAttribute.html#Epos_CommandLine_Application_OptionAttribute_DefaultValue
+  commentId: P:Epos.CommandLine.Application.OptionAttribute.DefaultValue
+  fullName: Epos.CommandLine.Application.OptionAttribute.DefaultValue
+  nameWithType: OptionAttribute.DefaultValue
+- uid: Epos.CommandLine.Application.OptionAttribute.DefaultValue*
+  name: DefaultValue
+  href: api/Epos.CommandLine.Application.OptionAttribute.html#Epos_CommandLine_Application_OptionAttribute_DefaultValue_
+  commentId: Overload:Epos.CommandLine.Application.OptionAttribute.DefaultValue
+  isSpec: "True"
+  fullName: Epos.CommandLine.Application.OptionAttribute.DefaultValue
+  nameWithType: OptionAttribute.DefaultValue
+- uid: Epos.CommandLine.Application.OptionAttribute.Description
+  name: Description
+  href: api/Epos.CommandLine.Application.OptionAttribute.html#Epos_CommandLine_Application_OptionAttribute_Description
+  commentId: P:Epos.CommandLine.Application.OptionAttribute.Description
+  fullName: Epos.CommandLine.Application.OptionAttribute.Description
+  nameWithType: OptionAttribute.Description
+- uid: Epos.CommandLine.Application.OptionAttribute.Description*
+  name: Description
+  href: api/Epos.CommandLine.Application.OptionAttribute.html#Epos_CommandLine_Application_OptionAttribute_Description_
+  commentId: Overload:Epos.CommandLine.Application.OptionAttribute.Description
+  isSpec: "True"
+  fullName: Epos.CommandLine.Application.OptionAttribute.Description
+  nameWithType: OptionAttribute.Description
+- uid: Epos.CommandLine.Application.OptionAttribute.Letter
+  name: Letter
+  href: api/Epos.CommandLine.Application.OptionAttribute.html#Epos_CommandLine_Application_OptionAttribute_Letter
+  commentId: P:Epos.CommandLine.Application.OptionAttribute.Letter
+  fullName: Epos.CommandLine.Application.OptionAttribute.Letter
+  nameWithType: OptionAttribute.Letter
+- uid: Epos.CommandLine.Application.OptionAttribute.Letter*
+  name: Letter
+  href: api/Epos.CommandLine.Application.OptionAttribute.html#Epos_CommandLine_Application_OptionAttribute_Letter_
+  commentId: Overload:Epos.CommandLine.Application.OptionAttribute.Letter
+  isSpec: "True"
+  fullName: Epos.CommandLine.Application.OptionAttribute.Letter
+  nameWithType: OptionAttribute.Letter
+- uid: Epos.CommandLine.Application.OptionAttribute.LongName
+  name: LongName
+  href: api/Epos.CommandLine.Application.OptionAttribute.html#Epos_CommandLine_Application_OptionAttribute_LongName
+  commentId: P:Epos.CommandLine.Application.OptionAttribute.LongName
+  fullName: Epos.CommandLine.Application.OptionAttribute.LongName
+  nameWithType: OptionAttribute.LongName
+- uid: Epos.CommandLine.Application.OptionAttribute.LongName*
+  name: LongName
+  href: api/Epos.CommandLine.Application.OptionAttribute.html#Epos_CommandLine_Application_OptionAttribute_LongName_
+  commentId: Overload:Epos.CommandLine.Application.OptionAttribute.LongName
+  isSpec: "True"
+  fullName: Epos.CommandLine.Application.OptionAttribute.LongName
+  nameWithType: OptionAttribute.LongName
+- uid: Epos.CommandLine.Application.ParameterAttribute
+  name: ParameterAttribute
+  href: api/Epos.CommandLine.Application.ParameterAttribute.html
+  commentId: T:Epos.CommandLine.Application.ParameterAttribute
+  fullName: Epos.CommandLine.Application.ParameterAttribute
+  nameWithType: ParameterAttribute
+- uid: Epos.CommandLine.Application.ParameterAttribute.#ctor(System.String,System.String)
+  name: ParameterAttribute(string, string)
+  href: api/Epos.CommandLine.Application.ParameterAttribute.html#Epos_CommandLine_Application_ParameterAttribute__ctor_System_String_System_String_
+  commentId: M:Epos.CommandLine.Application.ParameterAttribute.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: Epos.CommandLine.Application.ParameterAttribute.ParameterAttribute(string, string)
+  fullName.vb: Epos.CommandLine.Application.ParameterAttribute.New(String, String)
+  nameWithType: ParameterAttribute.ParameterAttribute(string, string)
+  nameWithType.vb: ParameterAttribute.New(String, String)
+- uid: Epos.CommandLine.Application.ParameterAttribute.#ctor*
+  name: ParameterAttribute
+  href: api/Epos.CommandLine.Application.ParameterAttribute.html#Epos_CommandLine_Application_ParameterAttribute__ctor_
+  commentId: Overload:Epos.CommandLine.Application.ParameterAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Epos.CommandLine.Application.ParameterAttribute.ParameterAttribute
+  fullName.vb: Epos.CommandLine.Application.ParameterAttribute.New
+  nameWithType: ParameterAttribute.ParameterAttribute
+  nameWithType.vb: ParameterAttribute.New
+- uid: Epos.CommandLine.Application.ParameterAttribute.DefaultValue
+  name: DefaultValue
+  href: api/Epos.CommandLine.Application.ParameterAttribute.html#Epos_CommandLine_Application_ParameterAttribute_DefaultValue
+  commentId: P:Epos.CommandLine.Application.ParameterAttribute.DefaultValue
+  fullName: Epos.CommandLine.Application.ParameterAttribute.DefaultValue
+  nameWithType: ParameterAttribute.DefaultValue
+- uid: Epos.CommandLine.Application.ParameterAttribute.DefaultValue*
+  name: DefaultValue
+  href: api/Epos.CommandLine.Application.ParameterAttribute.html#Epos_CommandLine_Application_ParameterAttribute_DefaultValue_
+  commentId: Overload:Epos.CommandLine.Application.ParameterAttribute.DefaultValue
+  isSpec: "True"
+  fullName: Epos.CommandLine.Application.ParameterAttribute.DefaultValue
+  nameWithType: ParameterAttribute.DefaultValue
+- uid: Epos.CommandLine.Application.ParameterAttribute.Description
+  name: Description
+  href: api/Epos.CommandLine.Application.ParameterAttribute.html#Epos_CommandLine_Application_ParameterAttribute_Description
+  commentId: P:Epos.CommandLine.Application.ParameterAttribute.Description
+  fullName: Epos.CommandLine.Application.ParameterAttribute.Description
+  nameWithType: ParameterAttribute.Description
+- uid: Epos.CommandLine.Application.ParameterAttribute.Description*
+  name: Description
+  href: api/Epos.CommandLine.Application.ParameterAttribute.html#Epos_CommandLine_Application_ParameterAttribute_Description_
+  commentId: Overload:Epos.CommandLine.Application.ParameterAttribute.Description
+  isSpec: "True"
+  fullName: Epos.CommandLine.Application.ParameterAttribute.Description
+  nameWithType: ParameterAttribute.Description
+- uid: Epos.CommandLine.Application.ParameterAttribute.Name
+  name: Name
+  href: api/Epos.CommandLine.Application.ParameterAttribute.html#Epos_CommandLine_Application_ParameterAttribute_Name
+  commentId: P:Epos.CommandLine.Application.ParameterAttribute.Name
+  fullName: Epos.CommandLine.Application.ParameterAttribute.Name
+  nameWithType: ParameterAttribute.Name
+- uid: Epos.CommandLine.Application.ParameterAttribute.Name*
+  name: Name
+  href: api/Epos.CommandLine.Application.ParameterAttribute.html#Epos_CommandLine_Application_ParameterAttribute_Name_
+  commentId: Overload:Epos.CommandLine.Application.ParameterAttribute.Name
+  isSpec: "True"
+  fullName: Epos.CommandLine.Application.ParameterAttribute.Name
+  nameWithType: ParameterAttribute.Name
+- uid: Epos.CommandLine.Application.ServiceCollectionSubcommandExtensions
+  name: ServiceCollectionSubcommandExtensions
+  href: api/Epos.CommandLine.Application.ServiceCollectionSubcommandExtensions.html
+  commentId: T:Epos.CommandLine.Application.ServiceCollectionSubcommandExtensions
+  fullName: Epos.CommandLine.Application.ServiceCollectionSubcommandExtensions
+  nameWithType: ServiceCollectionSubcommandExtensions
+- uid: Epos.CommandLine.Application.ServiceCollectionSubcommandExtensions.AddSubcommand*
+  name: AddSubcommand
+  href: api/Epos.CommandLine.Application.ServiceCollectionSubcommandExtensions.html#Epos_CommandLine_Application_ServiceCollectionSubcommandExtensions_AddSubcommand_
+  commentId: Overload:Epos.CommandLine.Application.ServiceCollectionSubcommandExtensions.AddSubcommand
+  isSpec: "True"
+  fullName: Epos.CommandLine.Application.ServiceCollectionSubcommandExtensions.AddSubcommand
+  nameWithType: ServiceCollectionSubcommandExtensions.AddSubcommand
+- uid: Epos.CommandLine.Application.ServiceCollectionSubcommandExtensions.AddSubcommand``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name: AddSubcommand<TSubcommand>(IServiceCollection)
+  href: api/Epos.CommandLine.Application.ServiceCollectionSubcommandExtensions.html#Epos_CommandLine_Application_ServiceCollectionSubcommandExtensions_AddSubcommand__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  commentId: M:Epos.CommandLine.Application.ServiceCollectionSubcommandExtensions.AddSubcommand``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name.vb: AddSubcommand(Of TSubcommand)(IServiceCollection)
+  fullName: Epos.CommandLine.Application.ServiceCollectionSubcommandExtensions.AddSubcommand<TSubcommand>(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  fullName.vb: Epos.CommandLine.Application.ServiceCollectionSubcommandExtensions.AddSubcommand(Of TSubcommand)(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  nameWithType: ServiceCollectionSubcommandExtensions.AddSubcommand<TSubcommand>(IServiceCollection)
+  nameWithType.vb: ServiceCollectionSubcommandExtensions.AddSubcommand(Of TSubcommand)(IServiceCollection)
+- uid: Epos.CommandLine.Application.ServiceCollectionSubcommandExtensions.Configure(Microsoft.Extensions.Hosting.HostApplicationBuilder,System.Action{Epos.CommandLine.CommandLineConfiguration})
+  name: Configure(HostApplicationBuilder, Action<CommandLineConfiguration>)
+  href: api/Epos.CommandLine.Application.ServiceCollectionSubcommandExtensions.html#Epos_CommandLine_Application_ServiceCollectionSubcommandExtensions_Configure_Microsoft_Extensions_Hosting_HostApplicationBuilder_System_Action_Epos_CommandLine_CommandLineConfiguration__
+  commentId: M:Epos.CommandLine.Application.ServiceCollectionSubcommandExtensions.Configure(Microsoft.Extensions.Hosting.HostApplicationBuilder,System.Action{Epos.CommandLine.CommandLineConfiguration})
+  name.vb: Configure(HostApplicationBuilder, Action(Of CommandLineConfiguration))
+  fullName: Epos.CommandLine.Application.ServiceCollectionSubcommandExtensions.Configure(Microsoft.Extensions.Hosting.HostApplicationBuilder, System.Action<Epos.CommandLine.CommandLineConfiguration>)
+  fullName.vb: Epos.CommandLine.Application.ServiceCollectionSubcommandExtensions.Configure(Microsoft.Extensions.Hosting.HostApplicationBuilder, System.Action(Of Epos.CommandLine.CommandLineConfiguration))
+  nameWithType: ServiceCollectionSubcommandExtensions.Configure(HostApplicationBuilder, Action<CommandLineConfiguration>)
+  nameWithType.vb: ServiceCollectionSubcommandExtensions.Configure(HostApplicationBuilder, Action(Of CommandLineConfiguration))
+- uid: Epos.CommandLine.Application.ServiceCollectionSubcommandExtensions.Configure*
+  name: Configure
+  href: api/Epos.CommandLine.Application.ServiceCollectionSubcommandExtensions.html#Epos_CommandLine_Application_ServiceCollectionSubcommandExtensions_Configure_
+  commentId: Overload:Epos.CommandLine.Application.ServiceCollectionSubcommandExtensions.Configure
+  isSpec: "True"
+  fullName: Epos.CommandLine.Application.ServiceCollectionSubcommandExtensions.Configure
+  nameWithType: ServiceCollectionSubcommandExtensions.Configure
 - uid: Epos.CommandLine.CommandLineConfiguration
   name: CommandLineConfiguration
   href: api/Epos.CommandLine.CommandLineConfiguration.html
@@ -26,6 +284,19 @@ references:
   isSpec: "True"
   fullName: Epos.CommandLine.CommandLineConfiguration.ErrorAction
   nameWithType: CommandLineConfiguration.ErrorAction
+- uid: Epos.CommandLine.CommandLineConfiguration.Name
+  name: Name
+  href: api/Epos.CommandLine.CommandLineConfiguration.html#Epos_CommandLine_CommandLineConfiguration_Name
+  commentId: P:Epos.CommandLine.CommandLineConfiguration.Name
+  fullName: Epos.CommandLine.CommandLineConfiguration.Name
+  nameWithType: CommandLineConfiguration.Name
+- uid: Epos.CommandLine.CommandLineConfiguration.Name*
+  name: Name
+  href: api/Epos.CommandLine.CommandLineConfiguration.html#Epos_CommandLine_CommandLineConfiguration_Name_
+  commentId: Overload:Epos.CommandLine.CommandLineConfiguration.Name
+  isSpec: "True"
+  fullName: Epos.CommandLine.CommandLineConfiguration.Name
+  nameWithType: CommandLineConfiguration.Name
 - uid: Epos.CommandLine.CommandLineConfiguration.UsageTextWriter
   name: UsageTextWriter
   href: api/Epos.CommandLine.CommandLineConfiguration.html#Epos_CommandLine_CommandLineConfiguration_UsageTextWriter
@@ -90,19 +361,6 @@ references:
   isSpec: "True"
   fullName: Epos.CommandLine.CommandLineDefinition.HasDifferentiatedSubcommands
   nameWithType: CommandLineDefinition.HasDifferentiatedSubcommands
-- uid: Epos.CommandLine.CommandLineDefinition.Name
-  name: Name
-  href: api/Epos.CommandLine.CommandLineDefinition.html#Epos_CommandLine_CommandLineDefinition_Name
-  commentId: P:Epos.CommandLine.CommandLineDefinition.Name
-  fullName: Epos.CommandLine.CommandLineDefinition.Name
-  nameWithType: CommandLineDefinition.Name
-- uid: Epos.CommandLine.CommandLineDefinition.Name*
-  name: Name
-  href: api/Epos.CommandLine.CommandLineDefinition.html#Epos_CommandLine_CommandLineDefinition_Name_
-  commentId: Overload:Epos.CommandLine.CommandLineDefinition.Name
-  isSpec: "True"
-  fullName: Epos.CommandLine.CommandLineDefinition.Name
-  nameWithType: CommandLineDefinition.Name
 - uid: Epos.CommandLine.CommandLineDefinition.ShowHelp
   name: ShowHelp()
   href: api/Epos.CommandLine.CommandLineDefinition.html#Epos_CommandLine_CommandLineDefinition_ShowHelp
@@ -679,28 +937,6 @@ references:
   commentId: N:Epos.CommandLine.Helpers
   fullName: Epos.CommandLine.Helpers
   nameWithType: Epos.CommandLine.Helpers
-- uid: Epos.CommandLine.Helpers.DalSoftRestClientConsoleHelper
-  name: DalSoftRestClientConsoleHelper
-  href: api/Epos.CommandLine.Helpers.DalSoftRestClientConsoleHelper.html
-  commentId: T:Epos.CommandLine.Helpers.DalSoftRestClientConsoleHelper
-  fullName: Epos.CommandLine.Helpers.DalSoftRestClientConsoleHelper
-  nameWithType: DalSoftRestClientConsoleHelper
-- uid: Epos.CommandLine.Helpers.DalSoftRestClientConsoleHelper.Execute(System.Func{System.Object},System.Func{System.Object,System.Int32})
-  name: Execute(Func<dynamic>, Func<dynamic, int>)
-  href: api/Epos.CommandLine.Helpers.DalSoftRestClientConsoleHelper.html#Epos_CommandLine_Helpers_DalSoftRestClientConsoleHelper_Execute_System_Func_System_Object__System_Func_System_Object_System_Int32__
-  commentId: M:Epos.CommandLine.Helpers.DalSoftRestClientConsoleHelper.Execute(System.Func{System.Object},System.Func{System.Object,System.Int32})
-  name.vb: Execute(Func(Of Object), Func(Of Object, Integer))
-  fullName: Epos.CommandLine.Helpers.DalSoftRestClientConsoleHelper.Execute(System.Func<dynamic>, System.Func<dynamic, int>)
-  fullName.vb: Epos.CommandLine.Helpers.DalSoftRestClientConsoleHelper.Execute(System.Func(Of Object), System.Func(Of Object, Integer))
-  nameWithType: DalSoftRestClientConsoleHelper.Execute(Func<dynamic>, Func<dynamic, int>)
-  nameWithType.vb: DalSoftRestClientConsoleHelper.Execute(Func(Of Object), Func(Of Object, Integer))
-- uid: Epos.CommandLine.Helpers.DalSoftRestClientConsoleHelper.Execute*
-  name: Execute
-  href: api/Epos.CommandLine.Helpers.DalSoftRestClientConsoleHelper.html#Epos_CommandLine_Helpers_DalSoftRestClientConsoleHelper_Execute_
-  commentId: Overload:Epos.CommandLine.Helpers.DalSoftRestClientConsoleHelper.Execute
-  isSpec: "True"
-  fullName: Epos.CommandLine.Helpers.DalSoftRestClientConsoleHelper.Execute
-  nameWithType: DalSoftRestClientConsoleHelper.Execute
 - uid: Epos.CommandLine.Helpers.RefitRestClientConsoleHelper
   name: RefitRestClientConsoleHelper
   href: api/Epos.CommandLine.Helpers.RefitRestClientConsoleHelper.html
